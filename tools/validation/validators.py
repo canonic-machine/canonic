@@ -1,3 +1,29 @@
+class FSMSpecNamingValidator(Validator):
+    """Validates that the FSM specification file is named MACHINE.md in the root of the machine repo."""
+    def validate(self) -> List[Dict[str, Any]]:
+        machine_root = self.root
+        # Only run if this is the machine repo (contains CANON.md and AGENTS.md)
+        canon = machine_root / "CANON.md"
+        agents = machine_root / "AGENTS.md"
+        if not (canon.exists() and agents.exists()):
+            return self.violations
+        # Check for MACHINE.md
+        machine_spec = machine_root / "MACHINE.md"
+        if not machine_spec.exists():
+            self.add_violation(
+                artifact=self.format_artifact_path(machine_root),
+                requirement="CANON.md: Required FSM spec file must be named MACHINE.md (matches repo name)",
+                details="FSM specification file is missing or not named MACHINE.md."
+            )
+        # Check for legacy/misnamed FSM_SPECIFICATION.md
+        legacy = machine_root / "FSM_SPECIFICATION.md"
+        if legacy.exists():
+            self.add_violation(
+                artifact=self.format_artifact_path(legacy),
+                requirement="CANON.md: FSM spec file must be named MACHINE.md",
+                details="Legacy FSM_SPECIFICATION.md exists; must be renamed to MACHINE.md."
+            )
+        return self.violations
 #!/usr/bin/env python3
 """Modular validators for CANONIC programming artifacts."""
 

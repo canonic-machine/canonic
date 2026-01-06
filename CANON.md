@@ -1,4 +1,25 @@
+
 # CANON (canonic-programming/)
+---
+
+## Formatting and Structure
+
+### Lean canonbase
+
+**All CANON.md files must be kept as lean, modular, and performant as possible:**
+- Redundant or duplicate lines, sections, or violation statements should be merged or removed.
+- Canonification logs should be placed at the end for clarity and minimalism.
+- No empty, orphaned, or placeholder section headers are allowed.
+
+**Violation:** CANON.md contains unnecessary duplication, bloat, non-modular structure, or empty/orphaned headers.
+
+### Specification file naming
+
+**All repositories must name their primary specification file after the repository:**
+- The main FSM or system specification file must be named <REPO>.md (uppercase, matches repo name).
+- Example: In the machine repo, the file must be MACHINE.md; in writing, WRITING.md, etc.
+
+**Violation:** Specification file does not match repository name
 
 **Governance for the CANONIC programming paradigm repository.**
 

@@ -12,6 +12,7 @@ from validators import (
     RequiredArtifactsValidator,
     TerminologyValidator,
     FSMValidator,
+    FSMSpecNamingValidator,
 )
 
 
@@ -155,6 +156,7 @@ def main() -> None:
         RequiredArtifactsValidator(root),
         TriadValidator(root),
         TerminologyValidator(root),
+        FSMSpecNamingValidator(root),
         FSMValidator(root),
     ]
     
