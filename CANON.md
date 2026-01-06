@@ -37,6 +37,16 @@
 
 **Violation:** Broken reference to non-existent artifact
 
+### Artifact naming
+**Repository and artifact names use lowercase with hyphens for multi-word names.**
+
+**Naming conventions:**
+- Repositories: lowercase (e.g., `canonic`, `machine`)
+- Artifacts: lowercase with hyphens (e.g., `hello-world`, `user-guide`)
+- Triad files: exact case (CANON.md, VOCABULARY.md, README.md)
+
+**Violation:** Artifact uses uppercase, underscores, or incorrect case
+
 ## Introspective Properties
 
 ### Self-validating
