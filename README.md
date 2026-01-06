@@ -90,6 +90,21 @@ structure of a CANONIC system.
 
 ---
 
+## Minimal Triad Pattern
+
+For any new governed directory, start with:
+
+```
+your-directory/
+├── CANON.md      # Constraints (reference root protocols/patterns)
+├── VOCABULARY.md # Term definitions (reference/inherit root terms)
+└── README.md     # Human guidance
+```
+
+Reference root CANON protocols and patterns whenever possible. Only specialize defaults; never restate or override invariants.
+
+---
+
 ## Why This Matters
 
 **CANONIC programming is a hedge against AI drift.**

@@ -185,3 +185,28 @@ Specific applications (Writing Machine, validation systems, FSM implementations)
 ---
 
 End of root CANON.
+
+---
+
+## Canonbase Optimization
+
+### Protocol/Pattern Reuse
+
+**Constraint:**
+All new constraints that are reusable across directories or domains must be encoded as protocols or patterns in the root CANON or referenced from a shared PROTOCOLS.md or PATTERNS.md.
+
+**Violation:** Duplicating constraint logic in multiple CANONs without protocol/pattern abstraction.
+
+### Override Discipline
+
+**Constraint:**
+Only defaults may be overridden by downstream CANONs, and only via explicit CANON statements. Invariants must never be restated or contradicted downstream.
+
+**Violation:** Overriding or restating invariants in downstream CANONs.
+
+### Minimal Triad Canonification
+
+**Constraint:**
+The minimal triad (CANON.md, VOCABULARY.md, README.md) must be the canonical starting point for all new governed directories. Downstream CANONs should reference root protocols and patterns rather than duplicating logic.
+
+**Violation:** Creating governed directories without the triad or with redundant constraint logic.
