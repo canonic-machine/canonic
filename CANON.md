@@ -38,14 +38,14 @@
 **Violation:** Broken reference to non-existent artifact
 
 ### Artifact naming
-**Repository and artifact names use lowercase with hyphens for multi-word names.**
+**CANONIC files use UPPERCASE base names with lowercase .md extensions to indicate human-readable plain English artifacts.**
 
 **Naming conventions:**
-- Repositories: lowercase (e.g., `canonic`, `machine`)
-- Artifacts: lowercase with hyphens (e.g., `hello-world`, `user-guide`)
-- Triad files: exact case (CANON.md, VOCABULARY.md, README.md)
+- Base filename: UPPERCASE (indicates CANON artifact in plain English)
+- Extension: lowercase (.md)
+- Examples: `CANON.md`, `CANONIC.md`, `README.md`, `MACHINE.md`
 
-**Violation:** Artifact uses uppercase, underscores, or incorrect case
+**Violation:** File uses lowercase base name or uppercase extension in CANONIC repository
 
 ## Introspective Properties
 
