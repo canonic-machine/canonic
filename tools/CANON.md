@@ -1,86 +1,34 @@
 # CANON (canonic-programming/tools/)
 
-**Governance for validation tooling.**
-
-Inherits: canonic-programming/ → tools/
-
----
-
-## Purpose
-
-This directory contains core validation tools that enforce CANONIC programming paradigm constraints.
-
-These tools implement syntactic validation: checking structural compliance, file existence, naming conventions, and reference resolution.
-
----
-
-## Required Artifacts
-
-### validation/
-Core syntactic validation engine that checks artifacts against CANON constraints.
-
-Must contain:
-- Triad (CANON.md, VOCABULARY.md, README.md)
-- Implementation files (Python scripts)
-- Test files
-
----
-
-## Tool Constraints
-
-### Implementation requirements
-
-- Language: Python 3.7+
-- Dependencies: Minimal (avoid heavy frameworks)
-- Output: Machine-readable (for CI/CD integration)
-- Exit codes: 0 (success), 1 (failure), 130 (user interrupt)
-
-### Validation behavior
-
-- Accept `--root` parameter to override auto-detection
-- Report violations with: artifact path, line number, requirement reference, details
-- Support both single-file and directory validation
-- Fail fast on critical errors, collect all violations otherwise
-
-### Output format
-
-```
-COMPLIANCE REPORT
-Status: [compliant|invalid]
-Violations: N
-
-1. Artifact: path/to/file
-   Line: N
-   Requirement: CANON.md:X-Y (description)
-   Details: Specific violation description
-```
-
----
+**Inherits from:** canonic-programming/
 
 ## Invariants
 
-### Tool stability
+### Required artifacts
+**Directory must contain validation/ with:**
+- CANON.md, VOCABULARY.md, README.md
+- Python implementation files
+- Test files
 
-- Tools must not modify artifacts (read-only)
-- Tools must be deterministic (same input → same output)
-- Tools must handle missing files gracefully
-- Tools must validate themselves (dogfooding)
+**Violation:** Missing required validation components
 
-### Portability
+### Tool constraints
+**Tools must:**
+- Use Python 3.7+ with minimal dependencies
+- Be read-only (not modify artifacts)
+- Be deterministic (same input → same output)
+- Work across platforms without installation
+- Accept `--root` parameter for path override
 
-- Tools work across platforms (macOS, Linux, Windows)
-- Tools require no installation beyond Python stdlib (for core features)
-- Tools provide clear error messages
-- Tools document their own CANON constraints
+**Violation:** Tool violates implementation or behavior requirements
 
----
+### Validation output
+**Tools must report:**
+- Status: compliant or invalid
+- Violation count
+- Artifact path, line number, requirement reference, details
 
-## Forbidden
-
-- Tools that modify artifacts during validation
-- Tools that require external services for basic checks
-- Tools with hidden side effects
-- Tools that bypass CANON constraints
+**Violation:** Tool output does not match required format
 
 ---
 

@@ -125,6 +125,21 @@ Property of systems that remain stable and valid across time, edits, and collabo
 ### traceability
 Ability to trace every artifact back to its source material or requirement. Prevents drift and hallucination.
 
+### self-optimizing
+System that automatically maintains optimal performance and efficiency. Prevents bloat and enforces lean operation.
+
+### self-healing
+System that automatically detects and corrects violations of its own constraints. Invalid states are rejected and must be fixed.
+
+### self-documenting
+System that contains all necessary documentation within its governance structure. Triad files provide complete self-description.
+
+### self-validating
+System that validates itself against its own constraints. Tools and agents check their own compliance.
+
+### self-sustaining governance
+Governance that maintains and improves itself through canonification. Every fix strengthens the system by encoding lessons learned.
+
 ---
 
 End of VOCABULARY.

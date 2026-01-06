@@ -1,37 +1,68 @@
-# CANON: Hello World Library
+# CANON (examples/canonical-readme/project/)
 
-## Purpose
-Governance constraints for the "Hello World" library README.
+**Inherits from:** examples/canonical-readme/
 
-## Inherits From
-- `../../../CANON.md` (Root canonical constraints)
-- `../../CANON.md` (Examples governance)
-- `../CANON.md` (Canonical README example governance)
+## Invariants
 
-## Required Artifacts
+### README engagement
+**README must hook readers in the first 30 seconds:**
+- Compelling title that clearly communicates value
+- One-sentence description that addresses a specific pain point
+- Clear value proposition that makes readers want to continue
 
-1. **CANON.md** (this file)
-2. **VOCABULARY.md**
-3. **README.md** - The project README
+**Violation:** README fails to engage or hook readers immediately
 
-## Constraints
+### README structure
+**README.md must contain sections in order:**
+- Title (H1 with compelling hook)
+- Description (1-2 paragraphs solving a problem)
+- Installation (clear, copy-paste commands)
+- Quick Start (working example in < 5 minutes)
+- Usage (practical examples with explanations)
+- API/Reference (if applicable)
+- Contributing (how others can help)
+- License (explicit license declaration)
 
-### C1: Required Sections
-README.md must contain these sections in order:
-1. Title (# Hello World Library)
-2. Description
-3. Installation
-4. Usage
-5. License
+**Violation:** README missing required sections or wrong order
 
-### C2: Code Examples
-All code examples must be in fenced code blocks with language specified.
+### Code quality
+**All code examples must:**
+- Be in fenced code blocks with language specified
+- Work immediately when copy-pasted
+- Include comments explaining key parts
+- Show realistic, practical usage
+- Handle errors gracefully where applicable
 
-### C3: Installation Instructions
-Must provide at least one installation method (npm, pip, or manual).
+**Violation:** Code examples are incomplete, broken, or unprofessional
 
-### C4: License Declaration
-Must explicitly state the license type.
+### Installation excellence
+**README must provide:**
+- Multiple installation methods (npm, pip, manual, Docker)
+- Clear prerequisites and system requirements
+- Troubleshooting section for common issues
+- Version compatibility information
 
-## Validation
-The README.md artifact must satisfy all constraints C1-C4 to pass validation.
+**Violation:** Installation is unclear, incomplete, or likely to fail
+
+### Social proof
+**README should include:**
+- Badges showing build status, coverage, downloads
+- Testimonials or quotes from users
+- Links to live demos or deployments
+- Community metrics (stars, contributors, issues)
+
+**Violation:** README lacks credibility indicators
+
+### HN-worthy hooks
+**README must include at least one of:**
+- Surprising insight or counterintuitive benefit
+- Quantified improvement ("10x faster", "90% less code")
+- Compelling story or use case
+- Visual element (diagram, screenshot, demo)
+- Strong opinion or unique perspective
+
+**Violation:** README is bland and forgettable
+
+---
+
+End of project CANON.
