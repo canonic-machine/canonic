@@ -21,7 +21,11 @@
 **Violation:** Invented content without documented origin
 
 ### Governance purity
-**Pure governance repositories contain only: CANON.md, VOCABULARY.md, README.md, and examples.**
+**Pure governance repositories contain only: repository specification file, CANON.md, VOCABULARY.md, README.md, and examples.**
+
+**Repository specification files:**
+- Named after repository: `<REPO>.md` (e.g., `CANONIC.md` for canonic repository)
+- Define the paradigm/specification being governed
 
 **Violation:** Repository contains executable code, tools, or implementation-specific references
 
