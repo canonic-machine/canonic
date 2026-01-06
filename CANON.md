@@ -65,8 +65,6 @@
 
 ## Protocol References
 
-**All protocols defined in:** ../machine/PROTOCOLS.md
-
 ### Documentation protocol
 **README.md automatically generated from CANON.md + VOCABULARY.md constraints.**
 
