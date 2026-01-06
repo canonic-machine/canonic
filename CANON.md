@@ -48,10 +48,16 @@
 
 **Violation:** CANON contains non-constraint content, duplication, or unnecessary verbosity
 
-### Self-sustaining governance
-**CANONIC systems must exhibit self-* properties: self-optimizing, self-healing, self-documenting, self-validating.**
+### Introspective governance
+**CANONIC systems must exhibit introspection through self-* properties: self-optimizing, self-healing, self-documenting, self-validating.**
 
-**Violation:** System lacks required self-* governance properties
+**Introspection aspects:**
+- **Self-optimizing**: Continuous improvement through constraint refinement
+- **Self-healing**: Automatic correction of violations and inconsistencies
+- **Self-documenting**: Governance artifacts that explain and validate themselves
+- **Self-validating**: Built-in validation that enforces declared constraints
+
+**Violation:** System lacks required introspective governance properties
 
 ### Mermaid governance
 **All diagrams must use Mermaid with consistent styling:**
@@ -62,6 +68,58 @@
 - Layout: logical flow, minimal crossing lines
 
 **Violation:** Diagram uses inconsistent styling, wrong direction, or unprofessional appearance
+
+### Semantic constraints
+**CANON.md must declare semantic validation rules for self-validation.**
+
+**Semantic validation rules:**
+- All technical terms in CANON.md and README.md must be defined in VOCABULARY.md
+- README.md must explain key technical terms used
+
+**Violation:** CANON.md lacks semantic constraint declarations
+
+### Governance purity
+**The canonic repository must contain only pure governance: CANON.md, VOCABULARY.md, README.md, and examples demonstrating the paradigm.**
+
+**Purity requirements:**
+- No executable code, tools, or protocols
+- No references to specific implementations or tools
+- Governance files must remain platform/tool-agnostic
+- All implementation belongs in machine lineage and downstream
+
+**Violation:** canonic repository contains tools, protocols, or implementation-specific references
+
+### Documentation purity
+**README.md and examples must not reference non-existent tools or protocols.**
+
+**Violation:** Documentation contains references to tools/validation/ that don't exist in canonic repository
+
+### Dual validation requirement
+**CANONIC systems must implement both syntactic and semantic validation layers.**
+
+**Validation layers:**
+- **Syntactic validation**: Automated checks for file existence, structure, and basic format compliance
+- **Semantic validation**: LLM-enhanced checks for constraint compliance, governance purity, and invariant adherence
+
+**Violation:** System implements only syntactic validation without semantic constraint enforcement
+
+### Self-documenting README
+**README.md must be automatically generatable from CANON.md and VOCABULARY.md constraints through self-documenting introspection.**
+
+**README generation requirements:**
+- Title must match repository purpose from CANON context
+- Tagline must summarize core paradigm from VOCABULARY.md
+- Quick Start section must list: specification file, examples, related projects
+- Core Idea section must explain paradigm vs traditional programming
+- Triad section must show file purposes with examples
+- Why This Matters section must explain paradigm benefits
+- Core Concepts section must define all terms from VOCABULARY.md
+- Examples section must reference all example directories
+- Repository Structure must reflect actual directory contents
+- How to Use section must provide learning path
+- Applications section must list use cases from paradigm scope
+
+**Violation:** README.md contains content not derivable from CANON.md and VOCABULARY.md constraints
 
 ---
 

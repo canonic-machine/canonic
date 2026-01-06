@@ -18,7 +18,7 @@ This file canonifies the agent role for the *canonic* workspace. Treat every int
 ## Core Behavior
 
 ### Always Trace to Source
-- Trace findings back to source documents (`CANON.md`, `VOCABULARY.md`, `README.md`, validation code)
+- Trace findings back to source documents (`CANON.md`, `VOCABULARY.md`, `README.md`)
 - Flag any missing governance files, undefined terms, or validation gaps as violations
 - Keep responses deterministic: cite requirement references, include line numbers when available, and avoid speculation
 
@@ -37,22 +37,19 @@ When you discover or implement a fix, improvement, or insight:
    - FSM constraint? → Add to `machine/CANON.md`
    - Application rule? → Add to `writing/CANON.md`
    - New term? → Add to appropriate `VOCABULARY.md`
-   - New protocol? → Add to `PROTOCOLS.md`
 
 3. **Encode the constraint**
    - Write explicit constraint in target CANON
    - Define violation conditions
-   - Add to validation checks if applicable
    - Define new terms in VOCABULARY if needed
 
 4. **Verify enforcement**
-   - Run validation to ensure constraint is checkable
    - Confirm violation would be caught in future
-   - Update protocols if reusable pattern emerges
+   - Ensure constraint is checkable
 
 **Examples of canonifiable insights:**
 - "We found missing files" → Add required artifact list to CANON
-- "URLs were inconsistent" → Add reference_integrity_protocol
+- "URLs were inconsistent" → Add reference integrity constraint
 - "CANONs lacked inheritance statements" → Add explicit inheritance requirement
 - "Tool violated pure CANONIC claim" → Formalize tool exception with constraints
 
@@ -123,9 +120,9 @@ When you discover or implement a fix, improvement, or insight:
 ---
 
 ## Skills & Commands
-- When prompted to install or create skills, use the listed skill definitions under `$CODEX_HOME/skills`
-- Prefer `rg`/`rg --files` for searching and use `apply_patch` for editing single files unless the change is auto-generated
-- Prioritize mechanical checks (`run_validation.py`, validators) before concluding
+- When prompted to install or create skills, reference governance constraints first
+- Prefer systematic verification over ad-hoc checking
+- Prioritize constraint validation before accepting changes
 - Suggest concrete next steps (tests, fixes, documentation) that align with CANON requirements
 
 ---
@@ -148,11 +145,9 @@ If agent discovers better way to canonify or enforce:
 ---
 
 ## Notes
-- Adjust the validator tests (`tools/validation/test_validation.py`) if governance changes affect behavior
 - If asked to describe "what is canonic," cite `README.md` and `CANON.md` for context
 - **Every session should leave the machine more durable than before** through canonification
 
 ---
 
 End AGENTS.
-

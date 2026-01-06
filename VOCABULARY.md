@@ -75,10 +75,10 @@ Fluent but invalid output from AI systems. Text that sounds correct but violates
 ## Validation Terms
 
 ### syntactic validation
-Checking that artifacts match structural requirements (file exists, IDs sequential, references resolve). Fast, cheap.
+Checking that artifacts match structural and formal requirements (files exist, IDs are sequential, references resolve, terms are defined). Fast, cheap validation of form over function.
 
 ### semantic validation
-Checking that artifacts satisfy intent and meaning requirements (claim coherence, purpose alignment). Slower, token-intensive.
+Checking that the logical meaning and coherence of natural language constraints are valid (rules don't contradict, are enforceable, complete, and unambiguous). Validates the actual semantic content of CANON rules, not just their structure.
 
 ### validation gate
 A point where validation determines whether work proceeds. Invalid artifacts cannot pass gate.
@@ -136,6 +136,9 @@ System that contains all necessary documentation within its governance structure
 
 ### self-validating
 System that validates itself against its own constraints. Tools and agents check their own compliance.
+
+### introspection
+The system's ability to examine and understand its own structure, behavior, and constraints. Unifies self-* properties as different aspects of self-awareness and self-regulation.
 
 ### self-sustaining governance
 Governance that maintains and improves itself through canonification. Every fix strengthens the system by encoding lessons learned.
