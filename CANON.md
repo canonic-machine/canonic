@@ -185,6 +185,18 @@ Specific applications (Writing Machine, validation systems, FSM implementations)
 ---
 
 End of root CANON.
+---
+
+## Agent Governance Constraint
+
+**Constraint:**
+Any downstream workspace or application that implements agent-driven automation, validation, or enforcement must include an AGENTS.md at its root. This file defines agent protocols, governance, and behavior for that workspace.
+
+**Violation:**
+Missing AGENTS.md in any agent-driven workspace root (e.g., machine/, writing/).
+
+**Principle:**
+Protocol root (canonic/) remains agent-agnostic; agent governance is required and centralized in each downstream agent-driven workspace.
 
 ---
 
