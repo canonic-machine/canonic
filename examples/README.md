@@ -62,7 +62,7 @@ example-name/
 **Then:** canonical-readme/ — Document governance  
 **Finally:** simple-fsm/ — State machines
 
-For complex applications, see [Writing Machine](https://github.com/iDrDex/writing-machine)
+For complex applications, see [Writing Machine](https://github.com/canonic-machine/writing)
 
 ---
 

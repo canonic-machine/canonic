@@ -8,6 +8,8 @@ This CANON defines the root invariants for all CANONIC programming implementatio
 
 ## Inheritance
 
+**Inherits from:** None (this is the root CANON)
+
 **This is the root CANON.**
 
 All downstream implementations (repositories, directories, systems) inherit these invariants.
@@ -25,9 +27,11 @@ Downstream CANONs must not:
 **Cross-repository inheritance:**
 - Uses markdown links to GitHub repositories only
 - Format: `**Inherits from:** [repo-name](https://github.com/org/repo)`
+- Root CANON must state: `**Inherits from:** None (this is the root CANON)`
 - No git submodules, no scripts, no package managers, no tooling
 - LLM follows links to load CANON chain
 - Violation: Adding executable code or tooling for inheritance
+- Violation: Missing explicit inheritance statement (must be present in every CANON)
 
 ---
 
@@ -75,6 +79,17 @@ Downstream CANONs must not:
 - Structure traces to requirements
 
 **Violation:** Invented content without documented origin
+
+### Reference integrity
+
+**All references must resolve:**
+- File references must point to existing files
+- Protocol references must resolve to defined protocols
+- Pattern references must resolve to defined patterns
+- Repository URLs must be consistent and correct
+
+**Violation:** Broken reference to non-existent artifact
+**Violation:** Inconsistent repository URLs across documentation
 
 ---
 
@@ -137,8 +152,25 @@ Reusable validation patterns referenced by downstream CANONs.
 2. Traverse up to repository root
 3. Collect all CANON.md files in order
 4. Verify no contradictions between child and parent invariants
+5. Verify every CANON has explicit inheritance statement
 
 **Violation:** Child CANON contradicts parent invariant
+**Violation:** CANON missing inheritance statement
+
+### reference_integrity_protocol
+
+**Purpose:** Verify all references resolve correctly.
+
+**Check:**
+1. Extract all file references (PROTOCOLS.md, PATTERNS.md, etc.)
+2. Extract all protocol/pattern references
+3. Extract all repository URLs
+4. Verify each reference resolves to existing artifact
+5. Verify repository URLs are consistent
+
+**Violation:** Reference to non-existent file
+**Violation:** Reference to undefined protocol or pattern
+**Violation:** Inconsistent repository URL (different org/repo names for same entity)
 
 ---
 

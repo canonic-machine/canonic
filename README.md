@@ -16,12 +16,12 @@ A programming paradigm that uses plain-English constraints + validation gates in
 
 1. Read [CANONIC_PROGRAMMING.md](CANONIC_PROGRAMMING.md) — The paradigm specification
 2. Explore [examples/hello-world/](examples/hello-world/) — Simplest canonic system
-3. Check out [Writing Machine](https://github.com/iDrDex/writing-machine) — Complex FSM built on this paradigm
+3. Check out [Writing Machine](https://github.com/canonic-machine/writing) — Complex FSM built on this paradigm
 
 **Try it:**
 ```bash
-git clone https://github.com/iDrDex/canonic-programming
-cd canonic-programming
+git clone https://github.com/canonic-machine/canonic
+cd canonic
 python3 tools/validation/run_validation.py examples/hello-world/
 ```
 
@@ -99,7 +99,7 @@ structure of a CANONIC system.
 - Same governance works across models and teams
 - Outputs remain stable as systems scale
 
-**Real example:** The [Writing Machine](https://github.com/iDrDex/writing-machine) uses CANONIC programming to enforce traceability across a 50-page user guide. Every claim traces to source episodes. Zero hallucinated references.
+**Real example:** The [Writing Machine](https://github.com/canonic-machine/writing) uses CANONIC programming to enforce traceability across a 50-page user guide. Every claim traces to source episodes. Zero hallucinated references.
 
 ---
 
@@ -154,7 +154,7 @@ A basic finite state machine with validation gates.
 - [examples/simple-fsm/](examples/simple-fsm/)
 
 ### Complex Application
-See [Writing Machine](https://github.com/iDrDex/writing-machine) for a complete FSM (episodes → assets → prose → output) built on this paradigm.
+See [Writing Machine](https://github.com/canonic-machine/writing) for a complete FSM (episodes → assets → prose → output) built on this paradigm.
 
 ---
 
@@ -215,7 +215,7 @@ CANONIC programming works for any system where consistency matters:
 - **Documentation** — READMEs, technical specs, API docs
 - **Knowledge systems** — Wikis, knowledge bases, structured content
 - **Research** — Papers, citations, reproducible claims
-- **Complex writing** — Books, proposals, multi-author projects (see [Writing Machine](https://github.com/iDrDex/writing-machine))
+- **Complex writing** — Books, proposals, multi-author projects (see [Writing Machine](https://github.com/canonic-machine/writing))
 - **Configuration** — System configs, deployment specs, infrastructure as code
 
 Anywhere AI might generate slop, CANONIC programming blocks it.
@@ -233,7 +233,7 @@ Anywhere AI might generate slop, CANONIC programming blocks it.
 
 ## Related Projects
 
-**[Writing Machine](https://github.com/iDrDex/writing-machine)** — Complete FSM for durable writing built on CANONIC programming
+**[Writing Machine](https://github.com/canonic-machine/writing)** — Complete FSM for durable writing built on CANONIC programming
 
 ---
 

@@ -54,6 +54,9 @@ A failure to satisfy a canon constraint. Must be fixed before artifacts can be a
 ### compliance
 State of satisfying all applicable canon constraints. Required for artifact acceptance.
 
+### reference integrity
+The property that all references (file, protocol, pattern, URL) resolve to existing, valid targets. Prevents broken links and inconsistent documentation.
+
 ---
 
 ## Agent Terms
