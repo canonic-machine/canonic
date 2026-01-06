@@ -99,8 +99,14 @@
 ### Documentation protocol
 **README.md automatically generated from CANON.md + VOCABULARY.md constraints.**
 
+**Violation:** README generated without incorporating CANON.md + VOCABULARY.md content
+
 ### Mermaid governance protocol
 **Diagrams use consistent Mermaid styling for professional appearance.**
 
+**Violation:** Diagrams violate Mermaid governance standards
+
 ### Validation protocol
 **Systems implement dual validation: syntactic (structure) + semantic (constraints).**
+
+**Violation:** Validation missing either syntactic or semantic layer
