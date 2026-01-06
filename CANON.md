@@ -48,6 +48,16 @@
 
 **Violation:** System lacks required self-* governance properties
 
+### Mermaid governance
+**All diagrams must use Mermaid with consistent styling:**
+- Direction: LR (left-to-right) for flowcharts, TB (top-bottom) for hierarchies
+- Node shapes: rectangles for processes, diamonds for decisions
+- Colors: professional grays/blues, avoid bright colors
+- Labels: concise, actionable verbs
+- Layout: logical flow, minimal crossing lines
+
+**Violation:** Diagram uses inconsistent styling, wrong direction, or unprofessional appearance
+
 ---
 
 End of root CANON.

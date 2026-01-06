@@ -140,6 +140,15 @@ System that validates itself against its own constraints. Tools and agents check
 ### self-sustaining governance
 Governance that maintains and improves itself through canonification. Every fix strengthens the system by encoding lessons learned.
 
+### Mermaid governance
+Consistent styling standards for all Mermaid diagrams in CANONIC systems. Ensures professional, readable visualizations that follow paradigm conventions.
+
+### diagram direction
+The flow orientation of Mermaid diagrams. LR (left-to-right) for process flows, TB (top-bottom) for hierarchical structures.
+
+### node shapes
+Standardized shapes used in diagrams: rectangles for processes, diamonds for decisions, circles for states.
+
 ---
 
 End of VOCABULARY.
