@@ -14,10 +14,11 @@ A programming paradigm that uses plain-English constraints + validation gates in
 
 **See it in action:**
 
-1. Read [CANON.md](CANON.md) — Core governance constraints
-2. Read [VOCABULARY.md](VOCABULARY.md) — Paradigm terminology
-3. Explore [examples/](examples/) — Demonstrations
-4. Check out [Writing Machine](https://github.com/canonic-machine/writing) — Complex FSM built on this paradigm
+1. Read [canonic.md](canonic.md) — CANONIC programming specification
+2. Read [CANON.md](CANON.md) — Core governance constraints
+3. Read [VOCABULARY.md](VOCABULARY.md) — Paradigm terminology
+4. Explore [examples/](examples/) — Demonstrations
+5. Check out [Writing Machine](https://github.com/canonic-machine/writing) — Complex FSM built on this paradigm
 
 ---
 
@@ -163,6 +164,7 @@ See [Writing Machine](https://github.com/canonic-machine/writing) for a complete
 
 ```
 canonic/
+├── canonic.md                  # CANONIC programming specification
 ├── CANON.md                    # Core governance constraints
 ├── VOCABULARY.md               # Paradigm terminology
 ├── README.md                   # This documentation
