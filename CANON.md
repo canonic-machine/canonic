@@ -18,6 +18,11 @@
 
 **Violation:** Using undefined terms in governed artifacts
 
+### README vocabulary accessibility
+**All key technical terms used in README.md must be explained or linked to definitions.**
+
+**Violation:** README uses technical terms without providing accessible explanations
+
 ### Validation gates
 **All artifacts must pass validation before acceptance.**
 

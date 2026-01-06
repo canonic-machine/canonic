@@ -149,6 +149,9 @@ The flow orientation of Mermaid diagrams. LR (left-to-right) for process flows, 
 ### node shapes
 Standardized shapes used in diagrams: rectangles for processes, diamonds for decisions, circles for states.
 
+### README vocabulary accessibility
+Requirement that README files make key technical terms understandable to readers, either by direct explanation or clear links to definitions.
+
 ---
 
 End of VOCABULARY.
