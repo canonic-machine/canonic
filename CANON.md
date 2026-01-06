@@ -51,24 +51,13 @@
 
 ## Protocol References
 
+**All protocols defined in:** ../machine/PROTOCOLS.md
+
 ### Documentation protocol
 **README.md automatically generated from CANON.md + VOCABULARY.md constraints.**
-
-**Reference:** ../machine/documentation_protocol.md
 
 ### Mermaid governance protocol
 **Diagrams use consistent Mermaid styling for professional appearance.**
 
-**Reference:** ../machine/mermaid_governance_protocol.md
-
 ### Validation protocol
 **Systems implement dual validation: syntactic (structure) + semantic (constraints).**
-
-**Reference:** ../machine/validation_protocol.md
-
----
-
-**Protocols extracted for reusability (located in machine lineage):**
-- documentation_protocol.md (README generation requirements)
-- mermaid_governance_protocol.md (diagram styling standards)
-- validation_protocol.md (dual validation implementation)
