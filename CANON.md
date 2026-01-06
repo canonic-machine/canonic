@@ -22,6 +22,13 @@ Downstream CANONs must not:
 - Override triad requirements
 - Bypass validation gates
 
+**Cross-repository inheritance:**
+- Uses markdown links to GitHub repositories only
+- Format: `**Inherits from:** [repo-name](https://github.com/org/repo)`
+- No git submodules, no scripts, no package managers, no tooling
+- LLM follows links to load CANON chain
+- Violation: Adding executable code or tooling for inheritance
+
 ---
 
 ## Invariants
