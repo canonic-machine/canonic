@@ -3,7 +3,7 @@
 ## Inherits From
 - `../../../VOCABULARY.md` (Root vocabulary)
 - `../../VOCABULARY.md` (Examples vocabulary)
-- `../VOCABULARY.md` (Canonical README example vocabulary)
+- `../VOCABULARY.md` (Canonic README example vocabulary)
 
 ## Terms Defined in This Scope
 

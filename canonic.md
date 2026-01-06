@@ -399,7 +399,7 @@ No extra metadata is required for the MVP. Filesystem location defines scope.
 
 ---
 
-## Canonical Hello World
+## Canonic Hello World
 
 The smallest CANONIC program is a canon that constrains one artifact.
 
@@ -428,11 +428,11 @@ Validation is straightforward:
 - does the file exist?
 - does its content match exactly?
 
-### From Hello World to Canonical README
+### From Hello World to Canonic README
 
-A canonical `README.md` can be governed as a structured artifact rather than narrative text.
+A canonic `README.md` can be governed as a structured artifact rather than narrative text.
 
-Example constraints for a canonical README:
+Example constraints for a canonic README:
 
 - The README must exist.
 - It must contain exactly one top-level heading (H1) with the project name.
@@ -510,7 +510,8 @@ It makes work durable.
 
 ## Related documents
 
-- `WRITING_MACHINE.md` — Application of CANONIC programming to structured authorship
+- `../machine/` — Implementation framework (validation tools, protocols, FSM engine)
+- `../writing/` — Application of CANONIC programming to structured authorship
 - Individual `CANON.md` files in each directory — Local governance specifications
 
 ---

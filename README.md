@@ -38,6 +38,10 @@ flowchart LR
 
 **Key insight:** The canon IS the program. It defines what valid outputs look like. Validation is the execution.
 
+**Git integration:** Each commit proposes a state transition. Pre-commit validation acts as a gate. Git history records the FSM execution trace. Failed transitions (reverts) trigger human review.
+
+**Atomic commits:** Each commit addresses one logical change. Multiple unrelated changes require separate commits. This ensures clean history and independent revertibility.
+
 ---
 
 ## What Gets Validated
@@ -145,15 +149,21 @@ Constraint that cannot be overridden. Must hold across entire system.
 ### Protocol
 Reusable validation pattern. Define once, reference many times.
 
+### Git Commit as FSM Transition
+Each git commit proposes a state transition. Pre-commit validation gates accept valid changes and reject invalid ones, triggering backflow to the source state.
+
+### Git History as FSM Log
+Git commit history serves as the complete execution trace of the CANONIC FSM. Revert patterns signal failed validation attempts.
+
 See [VOCABULARY.md](VOCABULARY.md) for complete definitions.
 
 ---
 
 ## Examples
 
-### Canonical README
+### Canonic README
 A governed README with structural requirements.
-- [examples/canonical-readme/](examples/canonical-readme/)
+- [examples/canonic-readme/](examples/canonic-readme/)
 
 ### Complex Application
 See [Writing Machine](https://github.com/canonic-machine/writing) for a complete FSM (episodes → assets → prose → output) built on this paradigm.
@@ -185,7 +195,7 @@ Every governed directory contains the triad: CANON.md, VOCABULARY.md, README.md.
 3. Explore [examples/](examples/) — See implementations
 
 ### For Building
-1. Start with [examples/canonical-readme/](examples/canonical-readme/) as template
+1. Start with [examples/canonic-readme/](examples/canonic-readme/) as template
 2. Create directories with the triad: CANON.md, VOCABULARY.md, README.md
 3. Write constraints in CANON.md
 4. Generate artifacts that satisfy constraints

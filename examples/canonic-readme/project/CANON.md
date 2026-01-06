@@ -1,6 +1,6 @@
-# CANON (examples/canonical-readme/project/)
+# CANON (examples/canonic-readme/project/)
 
-**Inherits from:** examples/canonical-readme/
+**Inherits from:** examples/canonic-readme/
 
 ## Invariants
 

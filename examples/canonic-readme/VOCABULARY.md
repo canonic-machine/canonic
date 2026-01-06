@@ -1,4 +1,4 @@
-# VOCABULARY: Canonical README Example
+# VOCABULARY: Canonic README Example
 
 ## Inherits From
 - `../../VOCABULARY.md` (Root vocabulary)

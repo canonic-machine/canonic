@@ -1,4 +1,4 @@
-# CANON (examples/canonical-readme/)
+# CANON (examples/canonic-readme/)
 
 **Inherits from:** canonic-programming/examples/
 
@@ -25,4 +25,4 @@
 
 ---
 
-End of canonical-readme CANON.
+End of canonic-readme CANON.

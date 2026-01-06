@@ -63,6 +63,37 @@
 
 **Violation:** CANON contains non-constraint content, duplication, or unnecessary verbosity
 
+### Self-healing
+**Systems must detect violations through git history patterns and trigger validation.**
+
+**Git commits ARE FSM state transitions:**
+- Each commit proposes a state transition
+- Pre-commit validation acts as gate (accept/reject)
+- Rejected commits trigger backflow to source state
+- Git history records the complete FSM transition log
+- Commits must be atomic: one logical change, one constraint addressed
+- Multiple unrelated changes must be separate commits
+
+**Git violation signals:**
+- Commit → Revert → Reapply pattern indicates failed validation attempt
+- Rapid commit cycles on CANON files indicate drift
+- Fix/violation keywords in commit messages indicate constraint failures
+
+**Response:** Trigger comprehensive validation and require human approval before allowing transition
+
+**Violation:** Git history shows violation patterns but validation was not triggered
+
+### Atomic commits
+**Each commit must address exactly one logical change or constraint.**
+
+**Atomic commit requirements:**
+- Single concern: One fix, one feature, one constraint update
+- Self-contained: Includes all necessary changes for that concern
+- Independently revertible: Can be undone without breaking other changes
+- Clear commit message: Describes the single logical change
+
+**Violation:** Commit mixes multiple unrelated changes (e.g., fixing CANON.md + updating README.md + adding new constraint)
+
 ## Protocol References
 
 ### Documentation protocol

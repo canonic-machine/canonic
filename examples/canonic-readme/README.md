@@ -1,4 +1,4 @@
-# Canonical README Example
+# Canonic README Example
 
 ## What This Example Demonstrates
 
@@ -12,7 +12,7 @@ This example shows how to use CANONIC programming to govern a simple project REA
 ## Example Structure
 
 ```
-canonical-readme/
+canonic-readme/
 ├── CANON.md           # Governance for this example
 ├── VOCABULARY.md      # Terms (inherits from parent)
 ├── README.md          # This file

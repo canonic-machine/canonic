@@ -9,7 +9,7 @@ All terms defined here are inherited by downstream implementations.
 ## Core Paradigm Terms
 
 ### CANONIC programming
-Programming paradigm that uses plain-English constraints + validation gates instead of executable code to govern system behavior. Named for "canon" (body of rules).
+Programming paradigm that uses plain-English constraints + validation gates instead of executable code to govern system behavior. Named for "canon" (body of rules). Also referred to as "canonic programming" (lowercase when used as adjective). The term "canonical" is an acceptable alias but "canonic" is primary.
 
 ### canon
 A written set of constraints that define what must be true and what must not occur in a system. The governance layer.
@@ -86,6 +86,18 @@ A point where validation determines whether work proceeds. Invalid artifacts can
 ### backflow
 Returning to an earlier state when validation fails. Ensures fixes happen upstream, not through downstream polish.
 
+### git commit as FSM transition
+Each git commit proposes a state transition in the CANONIC FSM. Pre-commit validation gates act as transition guards, accepting valid changes and rejecting invalid ones, triggering backflow.
+
+### git history as FSM log
+Git commit history serves as the complete execution trace of the CANONIC FSM. Each commit records an accepted state transition, each revert records a failed transition requiring backflow.
+
+### git violation signal
+Patterns in git history that indicate CANON violations: commit→revert→reapply sequences (failed validation), rapid commits to CANON files (constraint drift), or violation keywords in commit messages (acknowledged failures).
+
+### atomic commit
+A commit that addresses exactly one logical change or constraint. Must be single-concern, self-contained, independently revertible, with clear message. Opposite: mixing multiple unrelated changes in one commit.
+
 ---
 
 ## Structural Terms
@@ -129,7 +141,7 @@ Ability to trace every artifact back to its source material or requirement. Prev
 System that automatically maintains optimal performance and efficiency. Prevents bloat and enforces lean operation.
 
 ### self-healing
-System that automatically detects and corrects violations of its own constraints. Invalid states are rejected and must be fixed.
+System that automatically detects and corrects violations of its own constraints through git history analysis. Invalid states are rejected and must be fixed. Git patterns trigger human review when violations recur.
 
 ### self-documenting
 System that contains all necessary documentation within its governance structure. Triad files provide complete self-description.
