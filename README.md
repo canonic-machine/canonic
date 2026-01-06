@@ -14,16 +14,10 @@ A programming paradigm that uses plain-English constraints + validation gates in
 
 **See it in action:**
 
-1. Read [CANONIC_PROGRAMMING.md](CANONIC_PROGRAMMING.md) — The paradigm specification
-2. Explore [examples/hello-world/](examples/hello-world/) — Simplest canonic system
-3. Check out [Writing Machine](https://github.com/canonic-machine/writing) — Complex FSM built on this paradigm
-
-**Try it:**
-```bash
-git clone https://github.com/canonic-machine/canonic
-cd canonic
-python3 tools/validation/run_validation.py examples/hello-world/
-```
+1. Read [CANON.md](CANON.md) — Core governance constraints
+2. Read [VOCABULARY.md](VOCABULARY.md) — Paradigm terminology
+3. Explore [examples/](examples/) — Demonstrations
+4. Check out [Writing Machine](https://github.com/canonic-machine/writing) — Complex FSM built on this paradigm
 
 ---
 
@@ -156,17 +150,9 @@ See [VOCABULARY.md](VOCABULARY.md) for complete definitions.
 
 ## Examples
 
-### Hello World
-The simplest canonic system. One file, one constraint.
-- [examples/hello-world/](examples/hello-world/)
-
 ### Canonical README
 A governed README with structural requirements.
 - [examples/canonical-readme/](examples/canonical-readme/)
-
-### Simple FSM
-A basic finite state machine with validation gates.
-- [examples/simple-fsm/](examples/simple-fsm/)
 
 ### Complex Application
 See [Writing Machine](https://github.com/canonic-machine/writing) for a complete FSM (episodes → assets → prose → output) built on this paradigm.
@@ -176,38 +162,32 @@ See [Writing Machine](https://github.com/canonic-machine/writing) for a complete
 ## Repository Structure
 
 ```
-canonic-programming/
-├── CANON.md                    # Root governance
-├── VOCABULARY.md               # Paradigm terms
-├── README.md                   # This file
-├── CANONIC_PROGRAMMING.md      # Full specification
+canonic/
+├── CANON.md                    # Core governance constraints
+├── VOCABULARY.md               # Paradigm terminology
+├── README.md                   # This documentation
 ├── examples/                   # Demonstrations
-│   ├── hello-world/
 │   ├── canonical-readme/
-│   └── simple-fsm/
-├── tools/                      # Validation tooling
-│   └── validation/
-├── LICENSE                     # MIT
-└── .gitignore
+└── .gitignore                  # Git configuration
 ```
 
-Every directory has the triad (CANON, VOCABULARY, README).
+Every governed directory contains the triad: CANON.md, VOCABULARY.md, README.md.
 
 ---
 
 ## How to Use This Repository
 
 ### For Understanding
-1. Read [CANONIC_PROGRAMMING.md](CANONIC_PROGRAMMING.md) — Learn the paradigm
-2. Study [VOCABULARY.md](VOCABULARY.md) — Understand the terms
-3. Explore [examples/](examples/) — See it in action
+1. Read [CANON.md](CANON.md) — Core governance constraints
+2. Study [VOCABULARY.md](VOCABULARY.md) — Understand terminology
+3. Explore [examples/](examples/) — See implementations
 
 ### For Building
-1. Start with [examples/hello-world/](examples/hello-world/) as template
-2. Create your own directories with the triad
-3. Write canon (constraints)
-4. Create artifacts (outputs)
-5. Validate → only compliant artifacts accepted
+1. Start with [examples/canonical-readme/](examples/canonical-readme/) as template
+2. Create directories with the triad: CANON.md, VOCABULARY.md, README.md
+3. Write constraints in CANON.md
+4. Generate artifacts that satisfy constraints
+5. Validate outputs against constraints
 
 ---
 
@@ -260,17 +240,11 @@ The paradigm is simple: constraints + validation. Keep it that way.
 
 ---
 
-## License
-
-MIT — See [LICENSE](LICENSE)
-
----
-
 ## Meta
 
 This repository practices what it preaches.
 
-Every directory has the triad. Every artifact is validated. The paradigm documents itself.
+Every governed directory contains the triad. Every artifact is validated. The paradigm documents itself.
 
 ---
 
