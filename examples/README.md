@@ -8,21 +8,24 @@ This directory contains self-contained examples showing the paradigm from simple
 
 ## Available Examples
 
-### hello-world/ (Coming Soon)
+### hello-world/
 The simplest CANONIC system.
 - One file: `hello.txt`
 - One constraint: Content must be exactly "Hello, world."
 - Demonstrates: Core validation loop
+- **Status:** Complete and runnable
 
-### canonical-readme/ (Coming Soon)
+### canonic-readme/
 A governed README with structural requirements.
-- Demonstrates: Document structure validation
+- Demonstrates: Document structure validation, inheritance chains
 - Shows: Required sections, heading hierarchy, format rules
+- **Status:** Complete and runnable
 
-### simple-fsm/ (Coming Soon)
+### simple-fsm/
 Basic finite state machine with validation gates.
 - Demonstrates: State transitions, validation gates, backflow
-- Shows: How CANONIC FSMs work
+- Shows: How CANONIC FSMs work in practice
+- **Status:** Complete and runnable
 
 ---
 
@@ -35,10 +38,13 @@ Each example is self-contained:
 3. **Run validation** — Execute the example
 4. **Modify and re-validate** — Learn by experimenting
 
-**General validation command:**
+**Example-specific validation:**
 ```bash
-python3 ../tools/validation/run_validation.py example-name/
+cd hello-world/ && python3 validate.py
+cd simple-fsm/ && python3 transition.py review
 ```
+
+See each example's README for detailed usage instructions.
 
 ---
 
@@ -58,9 +64,9 @@ example-name/
 
 ## Learning Path
 
-**Start here:** hello-world/ — Core concepts  
-**Then:** canonical-readme/ — Document governance  
-**Finally:** simple-fsm/ — State machines
+**Start here:** hello-world/ — Core concepts
+**Then:** simple-fsm/ — State machines and validation gates
+**Finally:** canonic-readme/ — Document governance with inheritance
 
 For complex applications, see [Writing Machine](https://github.com/canonic-machine/writing)
 
