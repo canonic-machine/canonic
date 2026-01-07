@@ -209,4 +209,19 @@
 3. Future violations caught syntactically (free)
 4. System becomes cheaper and faster over time
 
-**Violation:** Validation missing either syntactic or semantic layer
+**Validation completeness:**
+Constraints requiring exhaustive checking must use allowlist validation.
+
+**Allowlist pattern:**
+- Define complete set of permitted items
+- Reject anything not explicitly allowed
+- Ensures no gaps in coverage
+- Use for: purity, completeness, exhaustive requirements
+
+**Blocklist pattern:**
+- Define set of prohibited items
+- Only catches explicitly forbidden items
+- New violation types pass silently
+- Use for: negative constraints only
+
+**Violation:** Validation missing either syntactic or semantic layer, or purity/completeness constraint implemented with blocklist instead of allowlist
