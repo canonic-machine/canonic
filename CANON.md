@@ -35,11 +35,12 @@
 **Naming pattern:**
 - Repository specification: `<REPO>.md` (e.g., CANONIC.md, MACHINE.md)
 - Core governance files: CANON.md, VOCABULARY.md, README.md
-- Domain files: AGENTS.md, PROTOCOLS.md, SOLUTIONS.md, LEARNINGS.md
+- Domain files: AGENTS.md, PROTOCOLS.md, WORKFLOWS.md, LEARNINGS.md
 - Use single words, not compound names with underscores or hyphens
 - UPPERCASE for consistency and discoverability
-- Use plural nouns (lists of things): AGENTS, PROTOCOLS, SOLUTIONS, LEARNINGS
-- Avoid semantic conflicts: "patterns" are discovered (LEARNINGS), not prescribed (SOLUTIONS)
+- Use plural nouns (lists of things): AGENTS, PROTOCOLS, WORKFLOWS, LEARNINGS
+- Names must clearly communicate contents: WORKFLOWS (orchestrated sequences), LEARNINGS (discoveries)
+- Avoid semantic conflicts and ambiguity: "solution to what?" → WORKFLOWS is clear
 
 **Compositional nomenclature:**
 - Pattern composes naturally: `canonic [domain] [engine] [output] [component]`
@@ -52,9 +53,17 @@
 
 **Examples:**
 - Flat: `machine/04-PROTOCOLS.md` → "canonic writing protocols"
-- Hierarchical: `canonic/writing/machine/books/PROTOCOLS.md` → "canonic writing machine books protocols"
+- Flat: `machine/05-WORKFLOWS.md` → "canonic writing workflows"
+- Hierarchical: `canonic/writing/machine/books/WORKFLOWS.md` → "canonic writing machine books workflows"
 - Instance: "canonic writing machine grants" vs "canonic writing machine books"
 - Nomenclature reads naturally at any level of composition
+
+**Clarity meta-pattern:**
+- File names must clearly communicate what's inside
+- Reader should know contents without opening file
+- Avoid names that raise questions ("solution to what?")
+- Prefer descriptive over abstract (WORKFLOWS over SOLUTIONS)
+- Test: Can someone unfamiliar immediately understand what the file contains?
 
 **Stack ordering for implementation repositories:**
 - Implementation repositories MAY use numeric prefixes to show architectural stack
