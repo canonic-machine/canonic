@@ -164,6 +164,12 @@ System that validates itself against its own constraints. Tools and agents check
 ### introspection
 The system's ability to examine and understand its own structure, behavior, and constraints. Unifies self-* properties as different aspects of self-awareness and self-regulation.
 
+### introspection cycle
+The repeating pattern where work reveals gaps, introspection captures why, learnings are documented, and learnings are canonified into constraints. Core mechanism for system improvement through producer commits.
+
+### session learnings
+Artifacts that capture discoveries, gaps, and patterns observed during work sessions. Act as interrupt mechanism triggering canonification. Enable the introspection cycle.
+
 ### self-sustaining governance
 Governance that maintains and improves itself through canonification. Every fix strengthens the system by encoding lessons learned.
 

@@ -80,7 +80,12 @@
 ### Self-validating
 **Systems must implement dual validation: syntactic (structure) + semantic (constraints).**
 
-**Violation:** Missing validation layer
+**Validator requirement:**
+- Validation tools must validate themselves before validating other artifacts
+- If validator violates CANON, it must fail with error before running checks
+- Self-validation proves validator complies with governance it enforces
+
+**Violation:** Missing validation layer or validator doesn't self-validate
 
 ### Self-optimizing
 **CANON.md files must be kept lean: no explanatory content, redundant constraints, or bloat.**
@@ -106,6 +111,20 @@
 **Response:** Trigger comprehensive validation and require human approval before allowing transition
 
 **Violation:** Git history shows violation patterns but validation was not triggered
+
+### Introspection requirement
+**Sessions must capture learnings that trigger producer commits.**
+
+**Introspection cycle:**
+- Work reveals gaps in validation or constraints
+- Introspection asks: "Why wasn't this caught?"
+- Learning captured in session artifacts
+- Learning canonified into constraints (producer commit)
+- System becomes stronger each cycle
+
+**Pattern:** Introspection → Learning → Canonification → Stronger System
+
+**Violation:** System operates without capturing learnings for canonification
 
 ### Atomic commits
 **Each commit must address exactly one logical change or constraint.**
@@ -140,6 +159,11 @@
 - Consumer commits → system enforced existing rules
 - Git history shows learning curve (producer → consumer ratio decreases over time)
 - Mature systems have few producers, many consumers
+
+**Maturity thresholds:**
+- New system: >40% producer commits (rapid learning phase)
+- Maturing system: 10-30% producer commits (refinement phase)
+- Mature system: <10% producer commits (stable enforcement)
 
 **Violation:** Commit message doesn't indicate producer vs consumer action
 

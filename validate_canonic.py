@@ -124,6 +124,46 @@ class CanonicValidator:
             "Repository specification missing: CANONIC.md required"
         )
 
+    def validate_file_termination(self):
+        """Check that CANON.md and VOCABULARY.md files terminate cleanly."""
+        # Pattern: "End of [name] CANON." or "End of [name] VOCABULARY."
+        termination_patterns = [
+            (r'End of .+ CANON\.', 'CANON'),
+            (r'End of .+ VOCABULARY\.', 'VOCABULARY'),
+        ]
+
+        for md_file in self.root.rglob('*.md'):
+            rel_path = md_file.relative_to(self.root)
+
+            # Skip hidden directories
+            if any(part.startswith('.') for part in rel_path.parts):
+                continue
+
+            # Only check CANON.md and VOCABULARY.md files
+            if md_file.name not in ['CANON.md', 'VOCABULARY.md']:
+                continue
+
+            with open(md_file, 'r', encoding='utf-8') as f:
+                content = f.read()
+
+            # Find which pattern applies
+            for pattern, file_type in termination_patterns:
+                if md_file.name == f'{file_type}.md':
+                    match = re.search(pattern, content)
+                    if match:
+                        # Check if there's content after the termination marker
+                        end_pos = match.end()
+                        after_marker = content[end_pos:].strip()
+
+                        if after_marker:
+                            self.violations.append(
+                                f"✗ File termination: {rel_path} has content after termination marker"
+                            )
+                        else:
+                            self.checks_passed += 1
+                            # Don't print individual passes for termination to reduce noise
+                    break
+
     def validate_governance_purity(self):
         """Check that no executable code exists (pure governance)."""
         # Allow .py files (validation tools per examples)
@@ -181,6 +221,10 @@ class CanonicValidator:
 
         print("=== Reference Integrity ===")
         self.validate_reference_integrity()
+        print()
+
+        print("=== File Termination ===")
+        self.validate_file_termination()
         print()
 
         print("=== Governance Purity ===")
