@@ -119,12 +119,11 @@
 **Violation:** Invented content without documented origin
 
 ### Governance purity
-**Pure governance repositories contain only: the triad, repository specification file, protocols, and examples.**
+**Pure governance repositories contain only: the triad, repository specification file, and examples.**
 
 **The framework (governance repos):**
 - The triad: CANON.md, VOCABULARY.md, README.md
 - Repository specification: CANONIC.md (defines the paradigm)
-- Protocols: PROTOCOLS.md (specifications for implementation)
 - Examples: Paradigm demonstrations (teaching how it works)
 
 **Examples requirement:**
@@ -135,8 +134,8 @@
 - All governed repositories should include examples directory
 
 **Artifact placement:**
-- Governance repositories: Framework only (triad + specification + protocols + examples)
-- Implementation repositories: Framework + operational files (WORKFLOWS.md, AGENTS.md, LEARNINGS.md, tools)
+- Governance repositories: Framework only (triad + specification + examples)
+- Implementation repositories: Framework + operational files (PROTOCOLS.md, WORKFLOWS.md, AGENTS.md, LEARNINGS.md, tools)
 - Consumer repositories: May implement own tools that consume governance
 
 **Example vs Tool distinction:**
@@ -144,7 +143,7 @@
 - Tool: pre-commit hook for THIS repository (operational automation)
 - Examples teach the paradigm; tools operate the repository
 
-**Violation:** Governance repository contains operational tools, session state, or repository-specific automation (pre-commit hooks, CI scripts for this repo)
+**Violation:** Governance repository contains protocols file (PROTOCOLS.md), operational tools, session state, or repository-specific automation (pre-commit hooks, CI scripts for this repo)
 
 ### Implementation inheritance
 **Implementation repositories inherit from protocol specifications (CANONIC.md, CANON.md), not from non-existent implementation files in governance repositories.**

@@ -42,6 +42,8 @@ flowchart LR
 
 **Atomic commits:** Each commit addresses one logical change. Multiple unrelated changes require separate commits. This ensures clean history and independent revertibility.
 
+**Human-in-the-loop:** Humans define governance (constraints, protocols, patterns). AI generates artifacts under governance. Validation gates acceptance. Humans drive governance evolution through introspection. AI accelerates work; governance blocks slop.
+
 ---
 
 ## What Gets Validated
@@ -167,6 +169,11 @@ The triad generates complete documentation automatically.
 - Staleness validation blocks commits with outdated README
 - No external documentation required
 
+**Primary outputs by repository type:**
+- **canonic/** (governance): Paradigm definition + examples
+- **machine/** (implementation): Learnings and patterns discovered
+- **writing/** (domain application): Writing artifacts and traceable prose
+
 **Question it asks:** *"Can someone understand me without external help?"*
 
 ### 4. Self-Healing
@@ -255,29 +262,45 @@ See [VOCABULARY.md](VOCABULARY.md) for complete definitions.
 
 ## Documentation Generation (Self-Documenting in Action)
 
-This README is generated according to the **documentation protocol** defined in [CANON.md](CANON.md#L353-L387).
+This README is generated according to the **documentation protocol** defined in [CANON.md](CANON.md#L367-L401).
 
 **Generation mechanism:**
-- Input sources: [CANON.md](CANON.md) + [VOCABULARY.md](VOCABULARY.md) + git history
+- Input sources: [CANON.md](CANON.md) + [VOCABULARY.md](VOCABULARY.md) + primary outputs (examples/)
 - Trigger: When CANON.md or VOCABULARY.md changes
 - Generator: LLM agent following documentation protocol
 - Validation: README staleness check via timestamps
 
 **To regenerate this README:**
 1. Edit [CANON.md](CANON.md) or [VOCABULARY.md](VOCABULARY.md)
-2. Run documentation generation (LLM agent with protocol from [PROTOCOLS.md](PROTOCOLS.md))
+2. Run documentation generation (LLM agent following documentation protocol from [CANON.md](CANON.md#L367-L401))
 3. Stage both source changes and updated README
 4. Commit atomically: `git add CANON.md VOCABULARY.md README.md`
 
-**Implementation:** See [PROTOCOLS.md](PROTOCOLS.md) for complete documentation generation protocol specification.
+**Implementation:** See documentation protocol in [CANON.md](CANON.md#L367-L401) for complete specification.
 
 ---
 
 ## Examples
 
-### Canonic README
-A governed README with structural requirements.
-- [examples/canonic-readme/](examples/canonic-readme/)
+The [examples/](examples/) directory contains three demonstrations of the paradigm:
+
+### 1. Hello World ([examples/hello-world/](examples/hello-world/))
+The simplest possible canonic system. Shows:
+- Minimal triad structure
+- Basic validation with Python
+- Single artifact under governance
+
+### 2. Simple FSM ([examples/simple-fsm/](examples/simple-fsm/))
+A basic finite state machine. Demonstrates:
+- State transitions as git commits
+- Validation gates at transition boundaries
+- Git history as execution trace
+
+### 3. Canonic README ([examples/canonic-readme/](examples/canonic-readme/))
+A governed README with structural requirements. Shows:
+- Documentation under governance
+- Triad applied to documentation artifacts
+- Self-documenting pattern in practice
 
 ### Complex Application
 See [Writing Machine](https://github.com/canonic-machine/writing) for a complete FSM (episodes → assets → prose → output) built on this paradigm.
@@ -292,12 +315,20 @@ canonic/
 ├── CANON.md                    # Core governance constraints
 ├── VOCABULARY.md               # Paradigm terminology
 ├── README.md                   # This documentation (generated)
-├── PROTOCOLS.md                # Reusable validation/generation patterns
 └── examples/                   # Demonstrations
-    └── canonic-readme/
+    ├── hello-world/            # Simplest canonic system
+    ├── simple-fsm/             # Basic state machine
+    └── canonic-readme/         # Governed documentation
 ```
 
 Every governed directory contains the triad: CANON.md, VOCABULARY.md, README.md.
+
+**Governance purity:** This repository contains ONLY:
+- The triad (CANON.md, VOCABULARY.md, README.md)
+- Repository specification (CANONIC.md)
+- Examples (paradigm demonstrations)
+
+Implementation repositories (like machine/) add: PROTOCOLS.md, WORKFLOWS.md, AGENTS.md, LEARNINGS.md, operational tools.
 
 ---
 
@@ -333,10 +364,10 @@ This governance repository is in **rapid learning phase** (50% producer ratio).
 1. Read [CANON.md](CANON.md) — Core governance constraints
 2. Study [VOCABULARY.md](VOCABULARY.md) — Understand terminology
 3. Explore [examples/](examples/) — See implementations
-4. Review [PROTOCOLS.md](PROTOCOLS.md) — Reusable patterns
+4. Review [CANONIC.md](CANONIC.md) — Paradigm specification
 
 ### For Building
-1. Start with [examples/canonic-readme/](examples/canonic-readme/) as template
+1. Start with [examples/](examples/) as templates
 2. Create directories with the triad: CANON.md, VOCABULARY.md, README.md
 3. Write constraints in CANON.md
 4. Generate artifacts that satisfy constraints
@@ -347,7 +378,7 @@ This governance repository is in **rapid learning phase** (50% producer ratio).
 2. Use commit patterns: "Canonify [pattern]" (producer) or "Apply/Fix [constraint]" (consumer)
 3. Regenerate README when CANON or VOCABULARY changes
 4. Maintain triad coherence in all governed directories
-5. Implement automation per [PROTOCOLS.md](PROTOCOLS.md) in your own repositories
+5. Maintain governance purity (triad + CANONIC.md + examples only)
 
 ---
 
@@ -387,6 +418,7 @@ Anywhere AI might generate slop, CANONIC programming blocks it.
 - Fluency never substitutes for validity
 - Humans govern; AI produces; validation enforces
 - README must reflect current CANON and VOCABULARY state
+- Governance purity: canonic/ contains only triad + CANONIC.md + examples
 
 ---
 
@@ -406,7 +438,7 @@ The paradigm is simple: constraints + validation. Keep it that way.
 - Follow atomic commit discipline
 - Regenerate README if CANON or VOCABULARY changes
 - Use producer/consumer commit message patterns
-- Install pre-commit hook for validation
+- Maintain governance purity (no PROTOCOLS.md, no operational tools)
 
 ---
 
@@ -416,7 +448,7 @@ This repository practices what it preaches.
 
 Every governed directory contains the triad. Every artifact is validated. The paradigm documents itself.
 
-**This README was generated following the documentation protocol.** It synthesizes constraints from [CANON.md](CANON.md), terminology from [VOCABULARY.md](VOCABULARY.md), and maturity metrics from git history.
+**This README was generated following the documentation protocol.** It synthesizes constraints from [CANON.md](CANON.md), terminology from [VOCABULARY.md](VOCABULARY.md), and primary outputs from [examples/](examples/).
 
 When CANON or VOCABULARY changes, this README must regenerate to maintain self-documenting property.
 
