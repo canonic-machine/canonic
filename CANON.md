@@ -298,9 +298,22 @@
 - Apply existing CANON constraints
 - Fix violations detected by validation
 - Generate artifacts per CANON rules
+- Capture learnings in LEARNINGS files
 - Must happen AFTER producer commits that canonify the pattern
-- Message pattern: "Apply [constraint]" or "Fix [violation]"
+- Message patterns:
+  - "Apply [constraint/pattern/protocol]"
+  - "Fix [violation]"
+  - "Consume CANON: [capture learnings]"
 - These commits follow governance
+
+**Prohibited commit patterns:**
+- "Add..." (ambiguous - use "Canonify" or "Apply")
+- "Update..." (ambiguous - use "Apply" or "Fix")
+- "Implement..." (ambiguous - use "Apply")
+- "Complete..." (ambiguous - use "Apply")
+- "Enforce..." (ambiguous - use "Apply")
+- "Streamline..." (ambiguous - use "Apply self-optimizing")
+- "Standardize..." (ambiguous - use "Apply" or "Fix")
 
 **Producer-before-consumer ordering:**
 - Always canonify pattern FIRST (producer commit in governance repo)
@@ -320,7 +333,7 @@
 - Maturing system: 10-30% producer commits (refinement phase)
 - Mature system: <10% producer commits (stable enforcement)
 
-**Violation:** Commit message doesn't indicate producer vs consumer action, or consumer commit precedes producer commit (applying non-canonical pattern)
+**Violation:** Commit message doesn't indicate producer vs consumer action, uses prohibited ambiguous patterns (Add/Update/Implement/Complete/Enforce/Streamline/Standardize), or consumer commit precedes producer commit (applying non-canonical pattern)
 
 ## Protocol References
 
