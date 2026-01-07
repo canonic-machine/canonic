@@ -46,7 +46,12 @@
 - Named after repository: `<REPO>.md` (e.g., `CANONIC.md` for canonic repository)
 - Define the paradigm/specification being governed
 
-**Violation:** Repository contains executable code, tools, or implementation-specific references
+**Tool placement:**
+- Governance repositories: No executable tools (pure governance)
+- Implementation repositories: Canonical tool implementations
+- Consumer repositories: May implement own tools that consume governance
+
+**Violation:** Repository contains executable code, tools, session state, or implementation-specific references
 
 ### Implementation inheritance
 **Implementation repositories inherit from protocol specifications (CANONIC.md, CANON.md), not from non-existent implementation files in governance repositories.**
