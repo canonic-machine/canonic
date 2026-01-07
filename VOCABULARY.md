@@ -170,6 +170,24 @@ The repeating pattern where work reveals gaps, introspection captures why, learn
 ### session learnings
 Artifacts that capture discoveries, gaps, and patterns observed during work sessions. Act as interrupt mechanism triggering canonification. Enable the introspection cycle.
 
+### meta-pattern
+A pattern about patterns. Higher-order observation about how the system itself behaves, learns, or evolves. Meta-patterns must themselves be canonified to enable recursive strengthening.
+
+### pattern discovery
+The practice of analyzing git history, session artifacts, and system behavior to identify recurring structures, rhythms, and meta-patterns. Required part of introspection cycle.
+
+### session boundary
+The transition points between work sessions (start, end). Canonification commits cluster at boundaries, especially end-of-session when introspection naturally occurs.
+
+### burst enforcement
+Rapid sequence of consumer commits triggered by discovering a new constraint. System self-corrects in concentrated effort to achieve compliance across all artifacts.
+
+### backflow pattern
+Git commit sequence (commit → revert → reapply) indicating failed validation attempt. Signals self-healing event where system detected violation and corrected itself.
+
+### recursive strengthening
+Process where meta-patterns about system improvement are themselves canonified, creating self-referential governance that mandates its own evolution.
+
 ### self-sustaining governance
 Governance that maintains and improves itself through canonification. Every fix strengthens the system by encoding lessons learned.
 

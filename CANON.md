@@ -122,9 +122,17 @@
 - Learning canonified into constraints (producer commit)
 - System becomes stronger each cycle
 
-**Pattern:** Introspection → Learning → Canonification → Stronger System
+**Pattern discovery requirement:**
+- Git history analysis must identify meta-patterns
+- Session boundaries reveal canonification clusters
+- Backflow patterns indicate self-healing events
+- Terminology drift triggers convergence opportunities
+- Burst enforcement patterns signal constraint adoption
+- Meta-patterns themselves must be canonified
 
-**Violation:** System operates without capturing learnings for canonification
+**Pattern:** Introspection → Learning → Canonification → Meta-Pattern Discovery → Recursive Strengthening
+
+**Violation:** System operates without capturing learnings for canonification, or fails to identify and canonify meta-patterns from git history
 
 ### Atomic commits
 **Each commit must address exactly one logical change or constraint.**
