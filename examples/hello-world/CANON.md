@@ -1,35 +1,16 @@
-# CANON (examples/hello-world/)
 
-**Inherits from:** canonic-programming/examples/
+# CANON (canonic-programming/examples/hello-world/)
 
-## Invariants
+**Inherits from:** ../CANON.md
 
-### Required artifacts
-**Directory must contain:**
-- CANON.md
-- VOCABULARY.md
-- README.md
-- hello.txt
+## Minimal constraint demonstration
 
-**Violation:** Missing any required artifact
+**hello.txt must contain exactly: "Hello, world."**
 
-### Content constraints
-**hello.txt must:**
-- Contain exactly the text "Hello, world."
-- Include the period at the end
-- Contain no additional whitespace or newlines before or after
-- Use UTF-8 encoding
+**Validation:**
+- File must exist
+- Content must match exactly (including punctuation and capitalization)
+- No leading or trailing whitespace
+- No additional content
 
-**Violation:** hello.txt content does not match exactly "Hello, world."
-
-### Example constraints
-**Example must:**
-- Be understandable in < 5 minutes
-- Run without external dependencies
-- Demonstrate core validation loop: canon → artifact → validation → acceptance
-
-**Violation:** Example violates simplicity or demonstration requirements
-
----
-
-End of hello-world CANON.
+**Violation:** hello.txt missing, content mismatch, or extra whitespace

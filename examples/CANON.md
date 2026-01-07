@@ -1,26 +1,20 @@
+
 # CANON (canonic-programming/examples/)
 
-**Inherits from:** canonic-programming/
+**Inherits from:** ../CANON.md
 
-## Invariants
+## Examples requirement
 
-### Example requirements
-**Each example must:**
-- Contain complete triad (CANON.md, VOCABULARY.md, README.md)
-- Be runnable without external dependencies
-- Demonstrate specific CANONIC concept
-- Include executable validation
+**Examples must demonstrate paradigm concepts through progressive complexity.**
 
-**Violation:** Example missing required triad or validation
+**Progression:**
+- hello-world: minimal single-file constraint demonstration
+- simple-fsm: state machine with validation gates
+- canonic-readme: nested triad structure with inheritance
 
-### Example constraints
-**Examples must:**
-- Be understandable in < 5 minutes
-- Focus on one concept per example
-- Be independent with no cross-example dependencies
+**Each example must include:**
+- Complete triad (CANON.md, DICTIONARY.md, README.md)
+- Runnable validation code demonstrating constraint checking
+- Clear demonstration of specific paradigm concept
 
-**Violation:** Example violates simplicity or self-containment requirements
-
----
-
-End of examples CANON.
+**Violation:** Example missing triad, non-functional validation code, or unclear pedagogical purpose

@@ -1,68 +1,20 @@
-# CANON (examples/canonic-readme/project/)
 
-**Inherits from:** examples/canonic-readme/
+# CANON (canonic-programming/examples/canonic-readme/project/)
 
-## Invariants
+**Inherits from:** ../CANON.md
 
-### README engagement
-**README must hook readers in the first 30 seconds:**
-- Compelling title that clearly communicates value
-- One-sentence description that addresses a specific pain point
-- Clear value proposition that makes readers want to continue
+## Project-specific constraints
 
-**Violation:** README fails to engage or hook readers immediately
+**Inherits document governance from parent (engagement, accuracy, references).**
 
-### README structure
-**README.md must contain sections in order:**
-- Title (H1 with compelling hook)
-- Description (1-2 paragraphs solving a problem)
-- Installation (clear, copy-paste commands)
-- Quick Start (working example in < 5 minutes)
-- Usage (practical examples with explanations)
-- API/Reference (if applicable)
-- Contributing (how others can help)
-- License (explicit license declaration)
+**Python code requirements:**
+- All Python code must pass type checking (mypy)
+- Functions must have docstrings
+- Example code must run without errors
 
-**Violation:** README missing required sections or wrong order
+**Documentation structure:**
+- README must explain what the code does
+- README must show how to run the code
+- README must demonstrate the inheritance concept
 
-### Code quality
-**All code examples must:**
-- Be in fenced code blocks with language specified
-- Work immediately when copy-pasted
-- Include comments explaining key parts
-- Show realistic, practical usage
-- Handle errors gracefully where applicable
-
-**Violation:** Code examples are incomplete, broken, or unprofessional
-
-### Installation excellence
-**README must provide:**
-- Multiple installation methods (npm, pip, manual, Docker)
-- Clear prerequisites and system requirements
-- Troubleshooting section for common issues
-- Version compatibility information
-
-**Violation:** Installation is unclear, incomplete, or likely to fail
-
-### Social proof
-**README should include:**
-- Badges showing build status, coverage, downloads
-- Testimonials or quotes from users
-- Links to live demos or deployments
-- Community metrics (stars, contributors, issues)
-
-**Violation:** README lacks credibility indicators
-
-### HN-worthy hooks
-**README must include at least one of:**
-- Surprising insight or counterintuitive benefit
-- Quantified improvement ("10x faster", "90% less code")
-- Compelling story or use case
-- Visual element (diagram, screenshot, demo)
-- Strong opinion or unique perspective
-
-**Violation:** README is bland and forgettable
-
----
-
-End of project CANON.
+**Violation:** Code fails type checking, missing docstrings, or README incomplete

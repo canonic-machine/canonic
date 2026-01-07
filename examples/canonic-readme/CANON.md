@@ -1,28 +1,24 @@
-# CANON (examples/canonic-readme/)
 
-**Inherits from:** canonic-programming/examples/
+# CANON (canonic-programming/examples/canonic-readme/)
 
-## Invariants
+**Inherits from:** ../CANON.md
 
-### Required artifacts
-**Directory must contain:**
-- CANON.md
-- VOCABULARY.md
-- README.md
-- project/CANON.md
-- project/VOCABULARY.md
-- project/README.md
+## Document governance
 
-**Violation:** Missing any required artifact
+**Nested triad structure demonstrating inheritance.**
 
-### Example constraints
-**Example must:**
-- Be understandable in < 5 minutes
-- Run without external dependencies
-- Demonstrate triad requirement, constraints, and validation
+**Root constraints:**
+- All documentation must be engaging and technically accurate
+- Code examples must be runnable and tested
+- References must resolve to existing files
 
-**Violation:** Example violates simplicity or demonstration requirements
+## Inheritance demonstration
 
----
+**project/ subdirectory inherits these constraints and adds project-specific rules.**
 
-End of canonic-readme CANON.
+**Pattern:**
+- Root CANON defines document-wide constraints
+- Nested CANON specializes for subdirectory
+- Constraints compose via inheritance chain
+
+**Violation:** Nested CANON contradicts parent constraints or references non-existent parent

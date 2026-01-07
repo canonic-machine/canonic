@@ -1,64 +1,45 @@
-# CANON (examples/simple-fsm/)
 
-**Inherits from:** canonic-programming/examples/
+# CANON (canonic-programming/examples/simple-fsm/)
 
-## Invariants
+**Inherits from:** ../CANON.md
 
-### Required artifacts
-**Directory must contain:**
-- CANON.md
-- VOCABULARY.md
-- README.md
-- draft.txt
-- state.txt
+## FSM structure
 
-**Violation:** Missing any required artifact
+**Three states: draft → review → published**
 
-### State constraints
-**state.txt must:**
-- Contain exactly one of: "draft", "review", or "published"
-- Contain no additional whitespace or characters
-- Use UTF-8 encoding
+**State definitions:**
+- draft: Content exists in draft.txt, may be incomplete
+- review: Content in review.txt, must be complete and properly formatted
+- published: Content in published.txt, must satisfy all quality gates
 
-**Violation:** state.txt contains invalid state value
+## Transition constraints
 
-### State transition constraints
-**Transitions must:**
-- Start from current state in state.txt
-- Follow valid FSM transitions only
-- Update state.txt atomically with content changes
+### draft → review
 
-**Valid transitions:**
-- draft → review (when draft.txt is not empty)
-- review → published (when draft.txt passes validation)
-- review → draft (on validation failure, backflow)
+**Content requirements:**
+- Must contain at least one complete sentence
+- Must start with capital letter
+- Must end with period
 
-**Invalid transitions:**
-- draft → published (must pass through review)
-- published → any state (published is terminal)
+**Violation:** Content incomplete, no capitalization, or missing period
 
-**Violation:** Attempted invalid state transition
+### review → published
 
-### Content validation constraints
-**Transition draft → review requires:**
-- draft.txt is not empty
-- draft.txt contains at least 10 characters
+**Content requirements:**
+- Must satisfy all draft → review constraints
+- Must contain no spelling errors (basic check)
+- Line count must be ≥ 3
 
-**Transition review → published requires:**
-- draft.txt starts with capital letter
-- draft.txt ends with period
-- draft.txt contains no profanity (basic check)
+**Violation:** Failed draft constraints, spelling errors detected, or insufficient content
 
-**Violation:** Content fails validation requirements for requested transition
+### Backflow on failure
 
-### Example constraints
-**Example must:**
-- Be understandable in < 5 minutes
-- Run without external dependencies
-- Demonstrate state transitions, validation gates, and backflow
+**Invalid transitions return to source state.**
 
-**Violation:** Example violates simplicity or demonstration requirements
+**Pattern:**
+- Attempt review → published
+- Validation fails
+- Content returns to review.txt
+- Fix violations before retry
 
----
-
-End of simple-fsm CANON.
+**Violation:** Failed validation proceeds to next state instead of backflow
