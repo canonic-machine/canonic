@@ -120,6 +120,9 @@ A point where validation determines whether work proceeds. Invalid artifacts can
 
 ## Structural Terms
 
+### domain application layer
+The top abstraction layer where domain-specific patterns are defined. Inherits from validation engine layer. Examples: WRITING, DOCUMENTATION, RESEARCH. Adds domain-specific state structures, asset types, and composition patterns.
+
 ### downstream CANON
 A CANON that inherits from an upstream CANON. May specialize defaults but not contradict invariants.
 
@@ -128,6 +131,9 @@ The top-level CANON in a repository or system. Defines invariants all other CANO
 
 ### scope
 The portion of a system governed by a specific CANON. Usually defined by directory boundaries.
+
+### validation engine layer
+The middle abstraction layer implementing constraint checking, git-FSM transitions, and self-* properties. Implemented in machine/ repository. Domain-agnostic validation framework.
 
 ---
 
@@ -184,6 +190,9 @@ Executable code that automates repository operations (pre-commit hooks, CI scrip
 
 ### paradigm
 The foundational approach or model. CANONIC programming is a paradigm for governance without executable code.
+
+### paradigm layer
+The root abstraction layer defining core concepts (constraints, validation, inheritance, triad). Implemented in canonic/ repository. No operational code, only governance definitions.
 
 ### paradigm example
 Code or artifacts in examples/ directory that demonstrate how the paradigm works. Pedagogical in nature, teaching concepts like validation, FSM transitions, or constraint checking. Distinguished from operational tools.

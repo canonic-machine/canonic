@@ -21,3 +21,13 @@
 **Governance repositories must include examples directory demonstrating the paradigm.**
 
 **Violation:** Governance repository missing examples directory
+
+### Abstraction layers
+**CANONIC implementations must separate paradigm, validation engine, and domain applications.**
+
+**Three-layer architecture:**
+- **CANONIC** (paradigm layer): Defines constraints, validation, inheritance, triad
+- **MACHINE** (validation engine layer): Implements constraint checking, git-FSM, self-* properties
+- **Domain applications** (application layer): Inherit from MACHINE, add domain-specific patterns
+
+**Violation:** Validation engine contains domain-specific patterns, or domain application reimplements validation logic
