@@ -56,11 +56,13 @@ Each layer is consumer of the layer above, producer for the layer below.
 ## Core Invariants
 
 ### Triad requirement
-**All governed directories must contain the minimal triad: CANON.md, DICTIONARY.md, README.md.**
+**All governed directories must contain the minimal triad: CANON.md, VOCAB.md, README.md.**
 
-**DICTIONARY.md must contain alphabetically ordered term definitions.**
+**VOCAB.md must contain alphabetically ordered term definitions.**
 
-**Violation:** Directory missing any triad file, or DICTIONARY.md terms not alphabetically ordered
+**VOCAB is temporal - evolves with the machine.**
+
+**Violation:** Directory missing any triad file, or VOCAB.md terms not alphabetically ordered
 
 ### Implementation inheritance
 **Implementation repositories inherit from protocol specifications via markdown links.**

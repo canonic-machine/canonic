@@ -16,11 +16,12 @@ The root CANON is the **constitution** of CANONIC programming.
 - Enables composition (all implementations inherit these principles)
 - Must be stable (constitutional law does not churn after maturity)
 
-**The root CANON is the dictionary:**
+**The root CANON is the vocabulary:**
 - Defines what governance terms mean (definitive source of truth)
 - Provides canonical definitions used by all implementations
-- Mandates DICTIONARY.md in triad (dictionaries all the way down)
+- Mandates VOCAB.md in triad (vocabularies all the way down)
 - Serves as lexicon for the paradigm
+- VOCAB is temporal - evolves with the machine (not static dictionary)
 
 **Producer/consumer as legislative process:**
 
@@ -131,14 +132,14 @@ Domain names immediately signal which layer you're in.
 All governed directories must contain the minimal triad:
 
 - **CANON.md** - Constraints (LLM-generated, LLM-consumed, token-optimized)
-- **DICTIONARY.md** - Term definitions (LLM-generated, alphabetically ordered)
+- **VOCAB.md** - Term definitions (LLM-generated, alphabetically ordered, temporal)
 - **README.md** - Human guidance (LLM-generated, human-consumed)
 
 **Generation and consumption flows:**
 
 ```
 CANON.md: LLM generates → LLM consumes (validators enforce constraints)
-DICTIONARY.md: LLM generates (alphabetically ordered terms)
+VOCAB.md: LLM generates (alphabetically ordered terms, evolves with machine)
 README.md: LLM generates → Human consumes (synthesized documentation)
 ```
 
