@@ -167,19 +167,28 @@
 **The triad (CANON, VOCABULARY, README) forms the complete self-describing foundation.**
 
 **README.md requirements:**
-- Generated from CANON.md + VOCABULARY.md + LEARNINGS (if present)
+- Generated from CANON.md + VOCABULARY.md + primary outputs
 - Human-readable entry point explaining purpose, structure, and usage
 - Must incorporate key constraints and terminology
 - Updates when CANON or VOCABULARY change
 - Reflects current system state and maturity
+- Summarizes primary outputs produced by the system
+
+**Primary outputs by repository type:**
+- Governance repos (canonic/): Paradigm definition and constraints
+- FSM implementation (machine/): Learnings and patterns discovered
+- Domain applications (writing/): Writing artifacts and traceable prose
+- Documentation systems: API docs and validated references
+- Research pipelines: Papers and traceable claims
 
 **Documentation completeness:**
 - Every constraint in CANON.md should be understandable via VOCABULARY.md terms
 - README.md should guide humans to understand the system without external documentation
 - Examples should demonstrate canonical patterns
 - No external documentation required for system comprehension
+- Primary outputs must be visible in README
 
-**Violation:** README doesn't reflect CANON/VOCABULARY content, uses undefined terms, or requires external documentation for comprehension
+**Violation:** README doesn't reflect CANON/VOCABULARY content, uses undefined terms, requires external documentation for comprehension, or fails to document primary system outputs
 
 ### Self-healing
 **Systems must detect violations through git history patterns and trigger validation.**
@@ -316,22 +325,25 @@
 ## Protocol References
 
 ### Documentation protocol
-**README.md must be generated from CANON.md + VOCABULARY.md + LEARNINGS (if present).**
+**README.md must be generated from CANON.md + VOCABULARY.md + primary outputs.**
 
 **Requirements:**
 - README synthesizes governance constraints into human-readable documentation
 - Incorporates key terminology from VOCABULARY.md
-- Reflects system maturity and learning history from LEARNINGS (implementation repos)
+- Summarizes primary outputs produced by the system
 - Updates when source materials change
 - Provides complete self-describing foundation with CANON and VOCABULARY
 
-**Pattern:**
+**Primary outputs by repository type:**
 - Governance repos (canonic/): README from CANON + VOCABULARY
-- Implementation repos (machine/): README from inherited CANON + VOCABULARY + LEARNINGS
+- FSM implementation (machine/): README from CANON + VOCABULARY + LEARNINGS
+- Domain applications (writing/): README from CANON + VOCABULARY + output artifacts
+- Documentation systems: README from CANON + VOCABULARY + API docs
+- Research pipelines: README from CANON + VOCABULARY + papers/claims
 
 **See:** Self-documenting property for complete requirements
 
-**Violation:** README doesn't reflect CANON/VOCABULARY/LEARNINGS content, or uses undefined terms
+**Violation:** README doesn't reflect CANON/VOCABULARY/outputs content, uses undefined terms, or fails to document primary system outputs
 
 ### Mermaid governance protocol
 **Diagrams use consistent Mermaid styling for professional appearance.**
