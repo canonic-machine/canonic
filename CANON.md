@@ -29,6 +29,18 @@
 
 **Violation:** Directory missing any triad file
 
+### File naming convention
+**Governance markdown files use single-word UPPERCASE names.**
+
+**Naming pattern:**
+- Repository specification: `<REPO>.md` (e.g., CANONIC.md, MACHINE.md)
+- Core governance files: CANON.md, VOCABULARY.md, README.md
+- Domain files: AGENTS.md, PATTERNS.md, PROTOCOLS.md, LEARNINGS.md
+- Use single words, not compound names with underscores or hyphens
+- UPPERCASE for consistency and discoverability
+
+**Violation:** Governance file uses multi-word name (e.g., SESSION_LEARNINGS.md instead of LEARNINGS.md) or non-uppercase name
+
 ### Validation gates
 **All artifacts must pass validation before acceptance.**
 
