@@ -1,176 +1,148 @@
 #!/usr/bin/env python3
 """
-Simple FSM Transition Tool
+Simple FSM Transition Validator
 
-Demonstrates state transitions with validation gates and backflow.
+Demonstrates CANONIC FSM pattern:
+- State transitions with validation gates
+- Backflow on validation failure
+- Clear constraint checking
 """
 
 import sys
-import os
+from pathlib import Path
+from typing import Tuple
 
-# FSM Definition
-VALID_STATES = {'draft', 'review', 'published'}
 
-TRANSITIONS = {
-    'draft': {'review'},
-    'review': {'published', 'draft'},  # draft is backflow
-    'published': set()  # terminal state
-}
+def validate_draft_to_review(content: str) -> Tuple[bool, str]:
+    """
+    Validate draft → review transition.
 
-def read_state():
-    """Read current state from state.txt."""
-    if not os.path.exists('state.txt'):
-        print("Error: state.txt not found")
-        sys.exit(1)
+    Constraints:
+    - Must contain at least one complete sentence
+    - Must start with capital letter
+    - Must end with period
 
-    with open('state.txt', 'r') as f:
-        state = f.read().strip()
+    Args:
+        content: Content to validate
 
-    if state not in VALID_STATES:
-        print(f"Error: Invalid state '{state}' in state.txt")
-        sys.exit(1)
-
-    return state
-
-def write_state(state):
-    """Write new state to state.txt."""
-    with open('state.txt', 'w') as f:
-        f.write(state)
-
-def read_content():
-    """Read draft.txt content."""
-    if not os.path.exists('draft.txt'):
-        return ""
-
-    with open('draft.txt', 'r') as f:
-        return f.read()
-
-def validate_draft_to_review(content):
-    """Validate transition from draft to review."""
-    violations = []
-
+    Returns:
+        (valid, error_message) tuple
+    """
     if not content:
-        violations.append("✗ draft.txt is empty")
-    else:
-        print("✓ draft.txt is not empty")
+        return False, "Content is empty"
 
-    if len(content) < 10:
-        violations.append(f"✗ Content too short (need >= 10 characters, got {len(content)})")
-    else:
-        print(f"✓ Content length >= 10 characters")
-
-    return violations
-
-def validate_review_to_published(content):
-    """Validate transition from review to published."""
-    violations = []
-
-    if not content:
-        violations.append("✗ draft.txt is empty")
-        return violations
-
-    # Check capitalization
     if not content[0].isupper():
-        violations.append("✗ Content must start with capital letter")
-    else:
-        print("✓ Content starts with capital letter")
+        return False, "Must start with capital letter"
 
-    # Check period
     if not content.rstrip().endswith('.'):
-        violations.append("✗ Content must end with period")
-    else:
-        print("✓ Content ends with period")
+        return False, "Must end with period"
 
-    # Basic profanity check (simple demonstration)
-    profanity_words = {'damn', 'hell', 'crap'}
-    content_lower = content.lower()
-    found_profanity = [word for word in profanity_words if word in content_lower]
+    return True, ""
 
-    if found_profanity:
-        violations.append(f"✗ Profanity detected: {', '.join(found_profanity)}")
-    else:
-        print("✓ No profanity detected")
 
-    return violations
+def validate_review_to_published(content: str) -> Tuple[bool, str]:
+    """
+    Validate review → published transition.
 
-def transition(current_state, target_state):
-    """Attempt state transition."""
+    Constraints:
+    - Must satisfy draft → review constraints
+    - Must contain no obvious spelling errors (simplified)
+    - Line count must be ≥ 3
 
-    print(f"Current state: {current_state}")
-    print(f"Validating transition: {current_state} → {target_state}")
-    print()
+    Args:
+        content: Content to validate
 
-    # Check if transition is valid
-    if target_state not in TRANSITIONS[current_state]:
-        if current_state == 'published':
-            print(f"Error: No transitions allowed from terminal state '{current_state}'")
-        else:
-            print(f"Error: Invalid transition {current_state} → {target_state}")
-            print(f"Valid transitions from {current_state}: {', '.join(TRANSITIONS[current_state])}")
+    Returns:
+        (valid, error_message) tuple
+    """
+    # First check draft → review constraints
+    valid, error = validate_draft_to_review(content)
+    if not valid:
+        return False, f"Failed draft constraint: {error}"
+
+    # Check line count
+    lines = [line for line in content.strip().split('\n') if line.strip()]
+    if len(lines) < 3:
+        return False, f"Must have at least 3 lines (got {len(lines)})"
+
+    # Simplified spelling check: ensure common words
+    # In real implementation, use proper spell checker
+    words = content.lower().split()
+    suspicious = [w for w in words if len(w) > 15]  # Very long words might be typos
+    if suspicious:
+        return False, f"Suspicious words detected: {suspicious}"
+
+    return True, ""
+
+
+def transition(from_state: str, to_state: str) -> bool:
+    """
+    Attempt state transition with validation.
+
+    Args:
+        from_state: Source state name (draft/review)
+        to_state: Target state name (review/published)
+
+    Returns:
+        True if transition succeeded, False otherwise
+    """
+    source_file = Path(f"{from_state}.txt")
+    target_file = Path(f"{to_state}.txt")
+
+    # Check source file exists
+    if not source_file.exists():
+        print(f"✗ Transition failed: {source_file} does not exist")
         return False
 
     # Read content
-    content = read_content()
+    content = source_file.read_text()
 
-    # Validate based on transition
-    violations = []
-
-    if current_state == 'draft' and target_state == 'review':
-        violations = validate_draft_to_review(content)
-    elif current_state == 'review' and target_state == 'published':
-        violations = validate_review_to_published(content)
-    elif current_state == 'review' and target_state == 'draft':
-        # Backflow - no validation needed
-        print("Backflow: Returning to draft state")
-
-    # Report results
-    print()
-
-    if violations:
-        print("Validation: FAIL")
-        print()
-        print("Violations:")
-        for v in violations:
-            print(v)
-        print()
-
-        # Backflow if failed from review
-        if current_state == 'review':
-            print("Backflow triggered: review → draft")
-            write_state('draft')
-            print("Fix violations and retry.")
-        else:
-            print(f"Transition blocked. Violations must be fixed.")
-            print(f"State remains: {current_state}")
-
-        return False
+    # Validate based on transition type
+    if from_state == "draft" and to_state == "review":
+        valid, error = validate_draft_to_review(content)
+    elif from_state == "review" and to_state == "published":
+        valid, error = validate_review_to_published(content)
     else:
-        print("Validation: PASS")
-        print(f"Transition successful: {current_state} → {target_state}")
-        write_state(target_state)
-        return True
+        print(f"✗ Invalid transition: {from_state} → {to_state}")
+        return False
 
-def main():
-    if len(sys.argv) != 2:
-        print("Usage: python3 transition.py <target_state>")
-        print(f"Valid states: {', '.join(VALID_STATES)}")
-        sys.exit(1)
+    # Check validation result
+    if not valid:
+        print(f"✗ Validation failed: {error}")
+        print(f"  Content remains in {from_state}.txt (backflow)")
+        return False
 
-    target_state = sys.argv[1]
+    # Validation passed - perform transition
+    target_file.write_text(content)
+    source_file.unlink()  # Remove source file
 
-    if target_state not in VALID_STATES:
-        print(f"Error: Invalid target state '{target_state}'")
-        print(f"Valid states: {', '.join(VALID_STATES)}")
-        sys.exit(1)
+    print(f"✓ Transition succeeded: {from_state} → {to_state}")
+    print(f"  Content moved to {target_file}")
+    return True
 
-    current_state = read_state()
 
-    if current_state == target_state:
-        print(f"Already in state: {current_state}")
-        sys.exit(0)
+def main() -> int:
+    """
+    Run state transition from command line.
 
-    success = transition(current_state, target_state)
-    sys.exit(0 if success else 1)
+    Usage: python transition.py <from_state> <to_state>
 
-if __name__ == '__main__':
-    main()
+    Returns:
+        0 if valid, 1 if invalid
+    """
+    if len(sys.argv) != 3:
+        print("Usage: python transition.py <from_state> <to_state>")
+        print("Valid transitions:")
+        print("  draft → review")
+        print("  review → published")
+        return 1
+
+    from_state = sys.argv[1]
+    to_state = sys.argv[2]
+
+    success = transition(from_state, to_state)
+    return 0 if success else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

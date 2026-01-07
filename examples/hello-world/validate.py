@@ -2,54 +2,54 @@
 """
 Hello World Validator
 
-Demonstrates syntactic validation: exact match check.
-This is the simplest possible CANONIC validator.
+Demonstrates minimal CANONIC validation:
+- Single file check
+- Exact content match
+- Binary pass/fail outcome
 """
 
-import os
 import sys
+from pathlib import Path
 
-def validate():
-    """Validate hello.txt against CANON constraints."""
 
-    print("Validating hello-world example...")
-    print()
+def validate_hello() -> bool:
+    """
+    Validate hello.txt against CANON constraints.
 
-    violations = []
+    Returns:
+        True if valid, False otherwise
+    """
+    hello_file = Path("hello.txt")
 
-    # Check 1: File exists
-    if not os.path.exists('hello.txt'):
-        violations.append("✗ hello.txt does not exist")
-    else:
-        print("✓ hello.txt exists")
+    # Constraint: File must exist
+    if not hello_file.exists():
+        print("✗ Validation failed: hello.txt does not exist")
+        return False
 
-        # Check 2: Content matches exactly
-        with open('hello.txt', 'r', encoding='utf-8') as f:
-            content = f.read()
+    # Constraint: Content must match exactly
+    content = hello_file.read_text()
+    expected = "Hello, world."
 
-        expected = "Hello, world."
+    if content != expected:
+        print(f"✗ Validation failed: Content must be exactly \"{expected}\"")
+        print(f"  Got: \"{content}\"")
+        return False
 
-        if content == expected:
-            print("✓ Content matches exactly")
-        else:
-            violations.append(f"✗ Content mismatch")
-            violations.append(f"  Expected: {repr(expected)}")
-            violations.append(f"  Got:      {repr(content)}")
+    # All constraints satisfied
+    print("✓ hello.txt validates successfully")
+    return True
 
-    print()
 
-    # Report results
-    if violations:
-        print("Validation: FAIL")
-        print()
-        print("Violations:")
-        for v in violations:
-            print(v)
-        return 1
-    else:
-        print("Validation: PASS")
-        return 0
+def main() -> int:
+    """
+    Run validation and return exit code.
 
-if __name__ == '__main__':
-    exit_code = validate()
-    sys.exit(exit_code)
+    Returns:
+        0 if valid, 1 if invalid
+    """
+    valid = validate_hello()
+    return 0 if valid else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())
