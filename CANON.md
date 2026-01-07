@@ -353,12 +353,21 @@
 ### Documentation protocol
 **README.md must be generated from CANON.md + VOCABULARY.md + primary outputs.**
 
-**Requirements:**
-- README synthesizes governance constraints into human-readable documentation
-- Incorporates key terminology from VOCABULARY.md
-- Summarizes primary outputs produced by the system
-- Updates when source materials change
-- Provides complete self-describing foundation with CANON and VOCABULARY
+**Generation mechanism:**
+- Input sources: CANON.md + VOCABULARY.md + primary outputs + git history
+- Generation trigger: When CANON.md or VOCABULARY.md changes
+- Generator: LLM agent with documentation protocol
+- Output: README.md (human-readable synthesis)
+- Validation: README completeness check against sources
+
+**Generation requirements:**
+- Synthesize governance constraints into human-readable documentation
+- Incorporate and explain key terminology from VOCABULARY.md
+- Summarize primary outputs produced by the system
+- Include current maturity metrics (producer/consumer ratio)
+- Reflect introspective properties status
+- Maintain narrative structure optimized for human comprehension
+- Use markdown links for file references to enable navigation
 
 **Primary outputs by repository type:**
 - Governance repos (canonic/): README from CANON + VOCABULARY
@@ -367,9 +376,15 @@
 - Documentation systems: README from CANON + VOCABULARY + API docs
 - Research pipelines: README from CANON + VOCABULARY + papers/claims
 
+**Automation integration:**
+- Pre-commit hook: Detect CANON/VOCABULARY changes, trigger regeneration
+- Validation check: Verify README timestamp ≥ source file timestamps
+- Staleness detection: Flag README older than sources as violation
+- Git workflow: README generation commits follow producer commits
+
 **See:** Self-documenting property for complete requirements
 
-**Violation:** README doesn't reflect CANON/VOCABULARY/outputs content, uses undefined terms, or fails to document primary system outputs
+**Violation:** README doesn't reflect CANON/VOCABULARY/outputs content, uses undefined terms, fails to document primary system outputs, or is stale (older than source files)
 
 ### Mermaid governance protocol
 **Diagrams use consistent Mermaid styling for professional appearance.**

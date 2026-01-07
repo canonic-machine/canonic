@@ -156,7 +156,7 @@ System that automatically maintains optimal performance and efficiency. Prevents
 System that automatically detects and corrects violations of its own constraints through git history analysis. Invalid states are rejected and must be fixed. Git patterns trigger human review when violations recur.
 
 ### self-documenting
-System that contains all necessary documentation within its governance structure. Triad files provide complete self-description.
+System that automatically generates its own documentation from governance artifacts. README.md is generated from CANON.md + VOCABULARY.md + primary outputs when sources change. Triad files provide complete self-description without external documentation.
 
 ### self-validating
 System that validates itself against its own constraints. Tools and agents check their own compliance.
@@ -203,6 +203,31 @@ Standardized shapes used in diagrams: rectangles for processes, diamonds for dec
 ### README vocabulary accessibility
 Requirement that README files make key technical terms understandable to readers, either by direct explanation or clear links to definitions.
 
+### documentation generation
+Automated process of synthesizing README.md from CANON.md, VOCABULARY.md, and primary outputs. Triggered when source files change, executed by LLM agent following documentation protocol.
+
+### documentation protocol
+Specification defining how README.md is generated from governance sources. Includes input requirements, generation process, validation checks, and trigger conditions.
+
+### primary outputs
+The main artifacts produced by a repository. Varies by type: paradigm definitions (governance), LEARNINGS (implementation), output artifacts (domain applications), API docs (documentation systems), papers (research).
+
+### README staleness
+Condition where README.md modification timestamp is older than CANON.md or VOCABULARY.md timestamps. Indicates documentation out of sync with governance. Detected by syntactic validation.
+
+### README freshness
+Condition where README.md timestamp is equal to or newer than source file timestamps. Indicates documentation reflects current governance state.
+
+### generation trigger
+Event that initiates automatic README regeneration. Primary trigger: changes to CANON.md or VOCABULARY.md detected by pre-commit hook.
+
+### self-measuring
+System that analyzes its own git history to determine maturity metrics. Calculates producer/consumer commit ratio to identify learning phase: new (>40%), maturing (10-30%), or mature (<10%).
+
+### self-strengthening
+System that improves through introspection cycles. Discovered patterns are canonified into constraints, including meta-patterns about improvement itself. Enables recursive strengthening where governance mandates its own evolution.
+
 ---
 
 End of VOCABULARY.
+
