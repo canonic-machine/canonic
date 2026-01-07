@@ -190,6 +190,49 @@ This enables:
 
 ---
 
+## AI-Driven, Human-Governed
+
+**CANONIC programming enables AI-driven execution under human governance.**
+
+**Human role (governance):**
+- Set constitutional constraints (CANON)
+- Catch violations and enforce compliance
+- Approve or reject AI proposals
+- Canonify discovered patterns
+- Evolve the constitution through CANONIC.md iteration
+
+**AI role (execution):**
+- Generate artifacts at scale (triads, validators, examples)
+- Apply canonical constraints
+- Self-validate against governance
+- Self-correct when violations detected
+- Propose patterns for canonification
+
+**The governance model:**
+
+Humans are governors general of AI execution. They do not micromanage implementation—they set constitutional boundaries and enforce compliance.
+
+AI executes within governed constraints. It determines HOW to satisfy requirements, but not WHAT the requirements are.
+
+CANON is the constitution. It defines validity. Neither human nor AI can violate it.
+
+**Division of authority:**
+- Human: Strategic decisions, governance evolution, violation detection
+- AI: Tactical execution, pattern application, artifact generation
+- CANON: Constitutional enforcement, validity gates, compliance boundaries
+
+**This is not:**
+- Human-directed (too prescriptive, micromanagement)
+- AI-autonomous (ungoverned, drift-prone)
+- Collaborative editing (humans never edit triad files)
+
+**This is:**
+- Constitutional programming
+- Governed execution at scale
+- Durable AI outputs through human oversight
+
+---
+
 ## Agent Programming
 
 **CANONs are the sole source of truth.**
