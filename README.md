@@ -129,6 +129,30 @@ Using CANONIC programming makes it possible to:
 
 ---
 
+## Introspective Properties
+
+CANONIC systems exhibit six self-* properties that enable autonomous governance:
+
+### 1. Self-Validating
+Systems implement dual validation (syntactic + semantic). Validators validate themselves before validating other artifacts.
+
+### 2. Self-Optimizing
+CANONs stay lean. Validation cost decreases over time as semantic violations converge to syntactic constraints.
+
+### 3. Self-Documenting
+The triad (CANON, VOCABULARY, README) forms a complete self-describing foundation. No external documentation required.
+
+### 4. Self-Healing
+Git history patterns trigger validation. Commit → Revert → Reapply signals failed validation and triggers response.
+
+### 5. Self-Measuring
+Producer/consumer commit ratios measure system maturity. Git history reveals learning phases and stability.
+
+### 6. Self-Strengthening
+Introspection cycles canonify discovered patterns. Meta-patterns about improvement are themselves canonified. System learns how to learn better.
+
+---
+
 ## Core Concepts
 
 ### Canon
