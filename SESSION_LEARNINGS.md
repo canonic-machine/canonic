@@ -249,21 +249,37 @@ if not self.validate_self():
 ## Summary
 
 **Total Learnings:** 12 distinct patterns discovered
-**Already Canonified:** 3 (validation convergence, producer/consumer, atomic commits)
-**Need Canonification:** 9 insights for future sessions
 
-**Next Steps:**
-1. Add file termination check to validators
-2. Specify LEDGER format in CANON
-3. Add example progression order to examples/CANON.md
-4. Add producer/consumer ratio thresholds
-5. Add self-validation requirement to tools/CANON.md
-6. Document introspection phase in workflow
+**Canonified 2026-01-06 session:**
+- Learning #3: Validation convergence (CANON.md validation protocol)
+- Learning #10: Atomic commits (CANON.md introspective properties)
+- Producer/consumer pattern (CANON.md CANON production vs consumption)
+
+**Canonified 2026-01-07 session:**
+- Learning #1: File termination check (validate_canonic.py + validator)
+- Learning #8: Producer/consumer ratio thresholds (CANON.md maturity thresholds)
+- Learning #9: Self-validation requirement (CANON.md validator requirement)
+- Learning #11: Introspection requirement (CANON.md introspection cycle) ← **Meta-pattern canonified**
+
+**Still Need Canonification:**
+- Learning #2: Reference integrity patterns (examples needed)
+- Learning #4: Violation statement completeness (already practice, needs constraint)
+- Learning #5: FSM tool requirements (tools CANON needed)
+- Learning #6: LEDGER format flexibility (specify format or handle both)
+- Learning #7: Example progression order (examples/CANON.md)
+- Learning #12: Todo list management (already practice, no constraint needed)
 
 ---
 
-**Session Date:** 2026-01-06  
-**Session Focus:** Examples, validators, FSM tools  
-**Producer/Consumer Ratio:** 17% producer (healthy for refinement phase)  
+**Session Date:** 2026-01-06
+**Session Focus:** Examples, validators, FSM tools
+**Producer/Consumer Ratio:** 17% producer (healthy for refinement phase)
 **Violations Reduced:** 23 → 3 (87%)
+
+---
+
+**Update 2026-01-07:**
+**Canonification Progress:** 7/12 learnings now canonified (58%)
+**Key Achievement:** Meta-pattern canonified - introspection cycle itself is now enforceable
+**Status:** Introspection requirement (Learning #11) makes session learnings interrupt mechanism mandatory
 
