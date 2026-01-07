@@ -41,12 +41,20 @@
 - Use plural nouns (lists of things): AGENTS, PROTOCOLS, SOLUTIONS, LEARNINGS
 - Avoid semantic conflicts: "patterns" are discovered (LEARNINGS), not prescribed (SOLUTIONS)
 
-**Domain nomenclature:**
-- Pattern: `canonic <domain> <component>`
-- Example: "canonic writing machine", "canonic writing protocols", "canonic writing solutions"
-- Domain-agnostic: same components (AGENTS, PROTOCOLS, SOLUTIONS, LEARNINGS) apply to any domain
-- Machine type is the domain: writing machine, grants machine, books machine
-- Component names remain constant, domain varies
+**Compositional nomenclature:**
+- Pattern composes naturally: `canonic [domain] [engine] [output] [component]`
+- Base: "canonic writing machine" (paradigm + domain + engine)
+- Extended: "canonic writing machine books" (+ output type)
+- Further: "canonic writing machine books protocols" (+ component)
+- Works at any composition level: directories, repositories, or conceptual hierarchy
+- Components (AGENTS, PROTOCOLS, SOLUTIONS, LEARNINGS) apply universally
+- Each level adds specificity while maintaining readable composition
+
+**Examples:**
+- Flat: `machine/04-PROTOCOLS.md` → "canonic writing protocols"
+- Hierarchical: `canonic/writing/machine/books/PROTOCOLS.md` → "canonic writing machine books protocols"
+- Instance: "canonic writing machine grants" vs "canonic writing machine books"
+- Nomenclature reads naturally at any level of composition
 
 **Stack ordering for implementation repositories:**
 - Implementation repositories MAY use numeric prefixes to show architectural stack
