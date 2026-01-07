@@ -135,9 +135,15 @@
 - Burst enforcement patterns signal constraint adoption
 - Meta-patterns themselves must be canonified
 
+**Introspection depth levels:**
+- Level 1: Fix violations in work artifacts
+- Level 2: Fix gaps in validation tools
+- Level 3: Fix architectural violations in validators themselves
+- Continue introspection until root cause found and canonified
+
 **Pattern:** Introspection → Learning → Canonification → Meta-Pattern Discovery → Recursive Strengthening
 
-**Violation:** System operates without capturing learnings for canonification, or fails to identify and canonify meta-patterns from git history
+**Violation:** System operates without capturing learnings for canonification, fails to identify and canonify meta-patterns from git history, or stops introspection before reaching root cause
 
 ### Atomic commits
 **Each commit must address exactly one logical change or constraint.**
