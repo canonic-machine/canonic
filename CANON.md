@@ -35,9 +35,10 @@
 **Naming pattern:**
 - Repository specification: `<REPO>.md` (e.g., CANONIC.md, MACHINE.md)
 - Core governance files: CANON.md, VOCABULARY.md, README.md
-- Domain files: AGENTS.md, PATTERNS.md, PROTOCOLS.md, LEARNINGS.md
+- Domain files: AGENTS.md, PROTOCOLS.md, SOLUTIONS.md, LEARNINGS.md
 - Use single words, not compound names with underscores or hyphens
 - UPPERCASE for consistency and discoverability
+- Avoid semantic conflicts: "patterns" are discovered (LEARNINGS), not prescribed (SOLUTIONS)
 
 **Stack ordering for implementation repositories:**
 - Implementation repositories MAY use numeric prefixes to show architectural stack
