@@ -1,122 +1,223 @@
-# canonic
+# CANONIC
 
-This document defines **CANONIC programming**: a way to program systems using **plain-English governance** (constraints + validation) instead of executable code.
+**Constitutional programming: governance as source code.**
 
-It is the foundational spec for this repository. Other docs may reference it, but must not redefine it.
+This is the specification. CANONIC.md is human-iterated, explains the paradigm, and defines what CANONIC programming IS.
 
 ---
 
-## Traditional programming and the toolchain
+## Constitutional Nature
 
-Traditional software relies on **instructions** written in a programming language and enforced by a toolchain.
+The root CANON is the **constitution** of CANONIC programming.
 
-- An **interpreter** executes instructions directly at runtime.
-- A **compiler** translates instructions into a runnable form and rejects programs that violate the language rules.
+**Constitutional properties:**
+- Defines fundamental governance principles (not domain-specific rules)
+- Is the deduplication point (define once, inherit everywhere)
+- Enables composition (all implementations inherit these principles)
+- Must be stable (constitutional law does not churn after maturity)
 
-The toolchain is the enforcement layer. It defines what counts as a valid program and blocks what does not.
+**The root CANON is the dictionary:**
+- Defines what governance terms mean (definitive source of truth)
+- Provides canonical definitions used by all implementations
+- Mandates DICTIONARY.md in triad (dictionaries all the way down)
+- Serves as lexicon for the paradigm
 
-```mermaid
-flowchart LR
-  SRC[Source code] --> TOOL[Interpreter or compiler]
-  TOOL --> RUN[Program runs]
-  TOOL --> ERR[Program rejected]
+**Producer/consumer as legislative process:**
+
+Producer commits canonify new patterns (legislative).
+Consumer commits apply canonical constraints (executive).
+
+```
+CANONIC produces → MACHINE consumes
+MACHINE produces → Domain applications consume
+Domain applications produce → Artifacts consume
 ```
 
-*Figure CP-1 — Traditional programming: source code is accepted or rejected by an interpreter/compiler toolchain.*
+Each layer is consumer of the layer above, producer for the layer below.
 
-The important idea is not the syntax. It is the pattern:
+**Maturity signals:**
+- High producer ratio → Constitutional language forming
+- Low producer ratio → Constitutional language stabilized
+- Static root CANON → Constitution complete
 
-- **Write instructions** → **enforce rules** → **accept or reject**.
-
----
-
-## What changed with LLMs and agents
-
-LLMs and agent workflows changed the surface area of "execution." Many tasks that previously required code can now be carried out through **language-driven transformation**:
-
-- drafting text and structure,
-- refactoring documents,
-- rewriting content to match constraints,
-- assembling artifacts from inputs.
-
-But the new toolchain is unstable by default.
-
-- Outputs drift over time.
-- Definitions blur.
-- Structure becomes inconsistent.
-- The prose can sound correct while violating requirements.
-
-That failure mode is widely described as **AI slop** (fluent output that is cheap, repetitive, or wrong).
-
-The result: the old enforcement layer (compiler/interpreter) no longer reliably exists for many knowledge-work outputs.
-
-CANONIC programming restores enforcement — without requiring executable code.
+This is the foundation. Everything else is application.
 
 ---
 
-## Core definition
+## The Problem
 
-CANONIC programming replaces step-by-step instructions with two things:
+LLMs execute through language transformation:
+- Drafting structure
+- Refactoring content
+- Assembling artifacts
+- Rewriting to match patterns
 
-- **Canon**: the constraints that define what is valid.
-- **Validation**: pass/fail checks that decide what can be accepted.
+But the enforcement layer disappeared.
 
-A CANONIC system behaves like a governed state machine: work can propose changes, but **only validated states are accepted**.
+Traditional programming has compilers that reject invalid programs.
+LLM outputs have no compiler. They drift. They hallucinate. They produce fluent violations.
+
+**AI slop:** Fluent, persuasive, wrong.
+
+CANONIC programming restores enforcement without requiring executable code.
+
+---
+
+## Core Definition
+
+CANONIC programming replaces instructions with constraints.
+
+**Two components:**
+- **CANON** - Constraints that define validity
+- **Validation** - Pass/fail gates that enforce constraints
+
+Work proposes changes. Validation decides what exists.
 
 ```mermaid
 stateDiagram-v2
   direction LR
 
-  state "Canon" as C
-  state "Work" as W
-  state "Validation" as V
-  state "Accepted" as A
-
-  [*] --> C
-  C --> W: constrains
-  W --> V: submits
-  V --> A: accepts
-  V --> W: rejects
-  A --> [*]
+  [*] --> CANON
+  CANON --> Work: constrains
+  Work --> Validation: proposes
+  Validation --> Accepted: passes
+  Validation --> Work: fails
+  Accepted --> [*]
 ```
 
-*Figure CP-2 — CANONIC programming loop: canon constrains work; validation gates acceptance.*
-
-Narrative:
-- **Canon** is written once and refined deliberately.
-- **Work** may be done by a human, an LLM, or both.
-- **Validation** is non-negotiable. Fluency never substitutes for validity.
+**The pattern:**
+- CANON written once, refined deliberately
+- Work done by human, LLM, or both
+- Validation non-negotiable (fluency never substitutes for validity)
 
 ---
 
-## Agent programming paradigm
+## Three-Layer Architecture
+
+CANONIC implementations separate concerns across three layers:
+
+**1. CANONIC (paradigm layer)**
+- Defines: constraints, validation, inheritance, triad
+- Is: The constitution (governance repository)
+- Produces: Constitutional amendments (canonifications)
+
+**2. MACHINE (validation engine layer)**
+- Defines: Constraint checking, git-FSM, self-properties
+- Is: Domain-agnostic validation infrastructure
+- Consumes: CANONIC constitution
+- Produces: Validation framework for domain applications
+
+**3. Domain applications (application layer)**
+- Define: Domain-specific FSMs with named states
+- Are: Specific implementations (WRITING, DOCUMENTATION, RESEARCH)
+- Consume: MACHINE validation framework
+- Produce: Validated artifacts
+
+**Maximal separation of concerns:**
+
+State names reveal the layer:
+- CANONIC: triad, inheritance, producer/consumer
+- MACHINE: validation, git-FSM, self-properties
+- WRITING: Episode, Asset, Prose, Output (writing-specific)
+
+Domain names immediately signal which layer you're in.
+
+**Violation:** Validation engine contains domain-specific patterns, or domain application reimplements validation logic.
+
+---
+
+## The Triad
+
+All governed directories must contain the minimal triad:
+
+- **CANON.md** - Constraints (LLM-generated, LLM-consumed, token-optimized)
+- **DICTIONARY.md** - Term definitions (LLM-generated, alphabetically ordered)
+- **README.md** - Human guidance (LLM-generated, human-consumed)
+
+**Generation and consumption flows:**
+
+```
+CANON.md: LLM generates → LLM consumes (validators enforce constraints)
+DICTIONARY.md: LLM generates (alphabetically ordered terms)
+README.md: LLM generates → Human consumes (synthesized documentation)
+```
+
+**Human interaction points:**
+1. Iterate CANONIC.md (the specification) - Only human entry point
+2. Consume README.md (documentation) - Only human output point
+
+**The triad is never iterated:**
+
+CANON.md, DICTIONARY.md, and README.md are generated fresh by LLM.
+Humans never directly edit these files.
+All changes flow through CANONIC.md iteration.
+
+**CANON.md generation:**
+- LLM generates constraints via producer commits
+- Pattern: "Canonify [what was learned]"
+- Token-optimized (minimal, declarative)
+- LLM to LLM (never human-edited)
+
+**DICTIONARY.md generation:**
+- LLM maintains term definitions
+- Always alphabetically ordered within sections
+- Terms added as governance evolves
+- LLM-generated (never human-edited)
+
+**README.md generation:**
+- Input: CANON.md + DICTIONARY.md + primary outputs
+- Process: LLM synthesizes sources into human-readable guide
+- Output: README.md (replaces completely)
+- Trigger: When CANON.md or DICTIONARY.md changes
+- Human-consumed (for understanding)
+
+**The triad is recursive:**
+
+The constitution mandates DICTIONARY.md in the triad, which is itself a dictionary pattern - dictionaries all the way down.
+
+Each layer has its own triad. Each triad defines its layer.
+
+**Alphabetical ordering requirement:**
+
+DICTIONARY.md must contain alphabetically ordered term definitions within each section.
+
+This enables:
+- Deduplication (find existing terms quickly)
+- Consistency (one canonical definition per term)
+- Findability (predictable location)
+
+**Violation:** Directory missing any triad file, DICTIONARY.md terms not alphabetically ordered, or any triad file human-edited instead of LLM-generated.
+
+---
+
+## Agent Programming
 
 **CANONs are the sole source of truth.**
 
-In CANONIC systems, agents and LLMs program by editing CANONs, not artifacts.
+Agents program by generating CANONs, not artifacts.
 
 **The pattern:**
-1. Agent edits CANON to add/modify constraints
-2. CANON constrains what artifacts must contain
-3. Machine validates artifacts against CANON
+1. LLM generates CANON.md (adds constraints via producer commits)
+2. CANON constrains artifacts
+3. Validation enforces constraints against artifacts
 4. Artifacts update to satisfy CANON
 5. Validation gates acceptance
 
 **Violations:**
-- Agent directly edits prose/output (bypasses governance)
+- Human directly edits CANON/DICTIONARY/README (bypasses LLM generation)
 - Agent adds content without CANON constraint (ungoverned)
-- Agent explains in artifact instead of constraining in CANON (wrong layer)
+- Agent explains in README instead of constraining in CANON (wrong layer)
 
 **Rationale:**
 
 CANONs are declarative governance. They state what must be true.
 Artifacts are derived outputs. They satisfy constraints.
 
-Direct artifact editing creates drift. CANON editing creates stability.
+LLM-generated CANONs create stability. Human iteration of CANONIC.md creates evolution.
 
 ---
 
-## Declarative governance model
+## Declarative Governance
 
 **CANONs declare constraints. LLMs implement enforcement.**
 
@@ -129,21 +230,21 @@ Direct artifact editing creates drift. CANON editing creates stability.
 **NOT in CANONs:**
 - How to implement (LLM interprets)
 - Step-by-step procedures (extract to protocols)
-- Explanations of rationale (README)
+- Explanations (README)
 - Examples (README)
 
-**Distinction from imperative:**
+**Distinction:**
 
-Imperative: "Run validation on save. Check each asset reference. Report violations."
-Declarative: "Asset references must resolve to LEDGER.md. Violations block output."
+Imperative: "Run validation. Check each reference. Report violations."
+Declarative: "References must resolve. Violations block output."
 
 LLM determines implementation. CANON states requirement.
 
 ---
 
-## Token economics as execution cost
+## Token Economics
 
-**In CANONIC programming, tokens are the computational unit.**
+**Tokens are the computational unit in CANONIC programming.**
 
 Every validation loads CANONs. Inheritance chains compound cost.
 
@@ -152,12 +253,11 @@ Every validation loads CANONs. Inheritance chains compound cost.
 Validation cost = root CANON + parent CANON(s) + local CANON
 ```
 
-For deep hierarchies:
+Deep hierarchies multiply cost:
 ```
-root (500 tokens) + parent (300 tokens) + child (200 tokens) = 1000 tokens/validation
+root (500) + parent (300) + child (200) = 1000 tokens/validation
+10 validations/hour = 10,000 tokens/hour for CANON loading
 ```
-
-Active development: 10 validations/hour = 10,000 tokens/hour just for CANON loading.
 
 **Optimization imperative:**
 
@@ -165,7 +265,7 @@ CANONs must be minimal. Verbose CANONs increase every operation cost.
 
 **Principles:**
 - Atomic: state constraints, not implementations
-- Minimal: zero prose, zero examples, zero explanations  
+- Minimal: zero prose, zero examples, zero explanations
 - Declarative: what must be true (LLM determines how)
 - Protocol references: don't duplicate patterns
 
@@ -175,44 +275,152 @@ CANONs must be minimal. Verbose CANONs increase every operation cost.
 - Prose explanations → move to README
 - Length divergence → extraction opportunity
 
-**Measurement:**
-
-Token cost directly impacts:
-- Development velocity (faster validation = faster iteration)
-- API costs (cumulative token usage)
-- Context window usage (smaller CANONs leave room for artifacts)
+Token cost impacts development velocity, API costs, and context window usage.
 
 Optimizing CANONs optimizes the entire system.
 
 ---
 
-## Executable code integration
+## Producer/Consumer Legislative Process
 
-**CANONIC programming does not eliminate traditional code.**
+**Producer commits canonify new patterns. Consumer commits apply canonical constraints.**
+
+**Producer commits (legislative):**
+- Add definitions to constitutional dictionary
+- Expand governance language
+- Pattern: `Canonify [what was learned]`
+- Occur in governance repository (CANONIC)
+
+**Consumer commits (executive):**
+- Apply constitutional requirements
+- Speak governance language correctly
+- Patterns: `Apply [constraint]` or `Fix [violation]`
+- Occur in implementation repositories (MACHINE, domain applications)
+
+**Legislative flow:**
+```
+CANONIC produces → MACHINE consumes
+MACHINE produces → Domain applications consume
+Domain applications produce → Artifacts consume
+```
+
+Each layer consumes from above, produces for below.
+
+**Prohibited commit patterns:**
+- "Add..." (ambiguous - use "Canonify" or "Apply")
+- "Update..." (ambiguous - use "Apply" or "Fix")
+- "Implement..." (ambiguous - use "Apply")
+- "Complete..." (ambiguous - use "Apply")
+
+**Producer-before-consumer ordering:**
+- Canonify constraint FIRST (producer commit in governance repo)
+- Apply constraint SECOND (consumer commit in implementation repo)
+- Cannot apply non-canonical patterns
+
+**Production triggers consumption:**
+- Every producer commit must trigger consumer commits across affected repositories
+- Implementations must be compliant before session ends
+- Validation gates ensure compliance
+
+**Maturity measurement:**
+- Producer ratio = Producer / (Producer + Consumer) percentage
+- New system: >40% producer (rapid learning)
+- Maturing: 10-30% producer (refinement)
+- Mature: <10% producer (stable enforcement)
+
+**Violation:** Consumer commit precedes producer commit, implementation produces without consuming upstream constraints, or root CANON shows continuous churn after paradigm stabilization.
+
+---
+
+## Inheritance Without Contradiction
+
+**Implementation repositories inherit from protocol specifications via markdown links.**
+
+Inheritance is declarative:
+- Markdown links only
+- No git submodules
+- No scripts
+- No tooling
+
+**Inheritance rules:**
+- Downstream may specialize defaults
+- Downstream may add constraints
+- Downstream cannot contradict upstream invariants
+- Downstream cannot loosen upstream constraints
+
+**Examples requirement:**
+
+Governance repositories must include examples directory demonstrating the paradigm.
+
+**Violation:** Governance repository missing examples directory, or implementation claims to inherit from non-existent files.
+
+---
+
+## Git-FSM Implementation
+
+**Git commits ARE FSM state transitions.**
+
+Every commit proposes a state transition:
+- Pre-commit validation acts as gate (accept/reject)
+- Rejected commits trigger backflow to source state
+- Git history records complete FSM transition log
+- Commits must be atomic: one logical change
+
+**Commit structure:**
+- Atomic (single logical change, one constraint addressed)
+- Validated (passes pre-commit gates)
+- Traceable (clear producer vs consumer action)
+
+**Git violation signals:**
+- Commit → Revert → Reapply indicates failed validation
+- Rapid commit cycles on CANON files indicate drift
+- Fix/violation keywords indicate constraint failures
+
+---
+
+## Self-Properties
+
+MACHINE implements three self-properties via git introspection:
+
+### Self-Healing
+
+System detects violations through git history patterns and triggers recovery.
+
+### Self-Measuring
+
+System measures maturity through git commit analysis (producer ratio).
+
+### Self-Strengthening
+
+System improves through git-based introspection cycles.
+
+**Pattern:** Work → Introspection → Learning → Canonification → Meta-Pattern Discovery → Recursive Strengthening
+
+Each canonification makes future violations easier to catch.
+Meta-patterns about improvement are themselves canonified.
+System learns how to learn better.
+
+---
+
+## Executable Code Integration
+
+CANONIC programming does not eliminate traditional code.
 
 It establishes the relationship: CANONs govern, code implements.
 
 **Division of labor:**
 
-*CANONs (declarative):*
+CANONs (declarative):
 - What must be true
 - What constitutes validity
 - What artifacts must exist
 - What constraints apply
 
-*Code (imperative):*
+Code (imperative):
 - How to automate checks
 - How to transform data
 - How to extract/generate
 - How to integrate systems
-
-**Example:**
-
-CANON declares: "All asset IDs must be unique and sequential."
-
-Script implements: Validation runner that checks LEDGER.md and reports violations.
-
-The CANON is truth. The script is a tool.
 
 **Key principle:**
 
@@ -220,300 +428,111 @@ If you're writing procedural logic to enforce governance → that logic belongs 
 
 If you're writing complex computation that CANONs reference → that's appropriate script territory.
 
-**Scripts are ephemeral.** They can be replaced, rewritten, or eliminated as tooling evolves.
-
-**CANONs are durable.** They define the invariants that persist across implementations.
+Scripts are ephemeral (can be replaced/rewritten).
+CANONs are durable (invariants persist across implementations).
 
 ---
 
-## The canon is the program
+## The CANON is the Program
 
-In traditional programming, the "program" is the instruction sequence.
+In traditional programming, the program is instruction sequence.
 
-In CANONIC programming, the "program" is the **definition of valid states and artifacts**.
+In CANONIC programming, the program is the **definition of valid states**.
 
 ```mermaid
 flowchart TB
-  CAN[Canon<br/>Constraints + required artifacts] --> VAL[Validation<br/>Checks: pass/fail]
-  VAL --> OUT[Accepted outputs<br/>Only what passes]
+  CANON[CANON<br/>Constraints + artifacts] --> VAL[Validation<br/>Pass/fail checks]
+  VAL --> OUT[Accepted output<br/>Only what passes]
 ```
 
-*Figure CP-3 — Canon contract: constraints define checks; checks define what may exist as accepted output.*
-
 This makes CANONIC programming **accelerant-agnostic**:
-- The work can be produced by a person, a model, an agent loop, or a future toolchain.
-- The canon and validation rules remain stable.
+- Work produced by person, model, agent loop, or future toolchain
+- CANON and validation rules remain stable
 
 ---
 
-## Key terms
+## Canonic FSMs
 
-**Canon**
-- A written set of constraints that define what *must* be true and what *must not* occur.
+Domain applications define their own finite state machines.
 
-**Constraint**
-- A rule that narrows outcomes to a checkable set (e.g., "must contain exactly one H1").
-
-**Validation**
-- A pass/fail decision procedure. If it cannot be checked, it is guidance, not canon.
-
-**Artifact**
-- Any output under governance (docs, diagrams, indices, references, ledgers).
-
-**State**
-- A stable condition defined by which artifacts exist and which constraints they satisfy.
-
-**Protocol** (optional term)
-- A named operation that attempts a state transition (often useful in larger systems).
-
----
-
-## Canonic Finite State Machines
-
-Many CANONIC systems benefit from explicit state modeling.
-
-A **Canonic FSM** is a finite state machine where:
-- States are defined by which artifacts exist and what constraints they satisfy
-- Transitions are work operations (human, LLM, or tool-driven)
-- Canon defines which transitions are allowed
-- Validation gates every transition
-
-### Structure
-
-A Canonic FSM requires:
-
-1. **Named states** — explicit phases with defined artifacts
-2. **Allowed transitions** — which states can flow to which others
-3. **Transition canon** — what must be true for each transition to succeed
-4. **Backflow rules** — where to return on validation failure
+**A Canonic FSM has:**
+- Named states (domain-specific, reveal the domain)
+- Allowed transitions (which states flow to which)
+- Transition canon (what must be true to transition)
+- Backflow rules (where to return on failure)
 
 ```mermaid
 stateDiagram-v2
-    direction LR
-    
-    [*] --> StateA
-    StateA --> StateB: work proposes
-    StateB --> Validation: canon checks
-    Validation --> StateB: accept
-    Validation --> StateA: reject + backflow
-    StateB --> [*]
+  direction LR
+
+  [*] --> StateA
+  StateA --> StateB: work proposes
+  StateB --> Validation: canon checks
+  Validation --> StateB: accept
+  Validation --> StateA: reject + backflow
+  StateB --> [*]
 ```
 
-*Figure CP-4 — Canonic FSM: work proposes transitions; validation enforces canon; failed transitions backflow to source state.*
-
-### Example: Three-state document system
-
-Consider a simple documentation workflow:
-
-**States:**
-- **Draft** — content exists but ungoverned
-- **Reviewed** — content satisfies structural canon
-- **Published** — content is frozen and versioned
-
-**Transitions:**
-- Draft → Reviewed (requires: all required sections present, no broken links)
-- Reviewed → Published (requires: approval signature, version tag)
-- Published → Draft (backflow: fix content, increment version)
-
-**Canon enforces:**
-- Draft may contain incomplete sections
-- Reviewed must have: title, author, date, all required H2 sections
-- Published must be immutable (edits require new version)
-
-**Validation:**
-Each transition has a compliance check. If the check fails, the system returns to the source state with specific violations listed.
-
-### Why FSMs fit CANONIC programming
+**Why FSMs fit CANONIC:**
 
 Traditional FSMs encode transitions as executable functions.
+Canonic FSMs encode transitions as validation conditions.
 
-Canonic FSMs encode transitions as **validation conditions**.
+Work proposes state changes. CANON decides what's accepted.
 
-The work (human or LLM) proposes state changes.
-The canon decides which changes are accepted.
+This makes FSMs:
+- Inspectable (states and rules are readable)
+- Portable (same rules work across tools/models)
+- Auditable (every transition has compliance record)
+- Backflow-capable (failed transitions return to fixable states)
 
-This makes the FSM:
-- **Inspectable** — states and rules are readable
-- **Portable** — same rules work across tools/models
-- **Auditable** — every transition has a compliance record
-- **Backflow-capable** — failed transitions return to fixable states
+**State names reveal domain:**
 
-### Minimal Canonic FSM
+WRITING: Episode → Asset → Prose → Output (writing domain)
+MCODE: Spec → Code → Tests → Binary (translation domain)
+DOCUMENTATION: Requirements → Structure → Content → Publish (docs domain)
 
-The smallest useful Canonic FSM has:
-- Two states (input and output)
-- One forward transition (with validation)
-- One backflow transition (to fix violations)
-
-This is sufficient for many single-artifact systems like READMEs, configurations, or simple ledgers.
-
-Complex systems (like writing machines for papers or books) use multi-state FSMs with branching and parallel paths, but the same principles apply.
+MACHINE does not define state names. Domain applications do.
 
 ---
 
-## Writing a good canon
+## What CANONIC Programming Enables
 
-A canon is only useful if it prevents drift without creating bureaucracy.
-
-A strong canon is:
-
-1. **Explicit**
-   - Prefer "must / must not / exactly one / at least one."
-   - Avoid "should / nice / better."
-
-2. **Checkable**
-   - Every rule implies a test.
-   - If the test cannot be described, the rule is not ready.
-
-3. **Minimal**
-   - Start small.
-   - Add constraints only when a real failure mode appears.
-
-4. **Portable**
-   - Written in plain language.
-   - Enforceable by different humans and different LLMs.
-
----
-
-## Canon layering (inheritance without contradiction)
-
-Large systems usually require multiple canons.
-
-- Upstream canon defines **invariants**.
-- Downstream canon may **specialize defaults** for its scope.
-- Downstream canon must not contradict upstream invariants.
-
-```mermaid
-flowchart TB
-  U[Upstream canon<br/>Invariants + defaults] --> D[Downstream canon<br/>Specialized defaults]
-  D --> A[Artifacts<br/>Validated outputs]
-```
-
-*Figure CP-5 — Layering: downstream may specialize defaults while preserving upstream invariants.*
-
-This is the minimal inheritance rule:
-- **Invariant vs anything** → invariant wins.
-- **Default vs local specialization** → local specialization wins.
-
-No extra metadata is required for the MVP. Filesystem location defines scope.
-
----
-
-## Canonic Hello World
-
-The smallest CANONIC program is a canon that constrains one artifact.
-
-```mermaid
-flowchart TB
-  DIR[Directory] --> CANON[CANON.md]
-  DIR --> README[README.md]
-  DIR --> HELLO[hello.txt]
-  CANON --> HELLO
-```
-
-*Figure CP-6 — Hello World: CANON.md constrains a single required artifact.*
-
-Example canon (plain English):
-
-```text
-Required artifacts:
-  - hello.txt
-
-Rules:
-  - hello.txt must exist
-  - hello.txt content must be exactly: Hello, world.
-```
-
-Validation is straightforward:
-- does the file exist?
-- does its content match exactly?
-
-### From Hello World to Canonic README
-
-A canonic `README.md` can be governed as a structured artifact rather than narrative text.
-
-Example constraints for a canonic README:
-
-- The README must exist.
-- It must contain exactly one top-level heading (H1) with the project name.
-- It must include at least two sections with second-level headings (H2): "Overview" and "Usage".
-- Diagrams are allowed only as Mermaid code blocks and must be properly fenced.
-- File naming must be exact: `README.md` (case-sensitive).
-- No raw HTML or unsupported markdown extensions are permitted.
-
-Validation checks include:
-
-- Confirming the file exists.
-- Verifying the presence and uniqueness of the H1 heading.
-- Checking required H2 sections are present.
-- Ensuring diagrams use correct Mermaid fences.
-- Confirming file name matches exactly.
-- Rejecting any unsupported content.
-
-Pass/fail decisions are binary: the README is either valid or rejected.
-
-### Scaling the Same Canon
-
-The same CANONIC programming model applies to larger documentation systems without modification.
-
-For example, the canon can govern:
-
-- A README document with structural and naming constraints.
-- A protocol document defining specific operations and expected formats.
-- A system architecture document requiring diagrams, references, and section order.
-
-Each artifact has defined existence and content rules.
-
-Validation remains a pass/fail gate on each artifact's compliance.
-
-The programming model is stable: canon defines constraints, work produces artifacts, validation enforces acceptance.
-
-No executable code is required; governance is expressed in plain English rules.
-
----
-
-## Why this matters
-
-CANONIC programming is a hedge against LLM drift and AI slop.
-
-- The canon defines validity before generation.
-- Validation blocks persuasive-but-invalid output.
-- The same governance can be executed by different models and different teams.
-
-This repository uses CANONIC programming to make complex writing systems reproducible.
-
----
-
-## What CANONIC programming enables
-
-Using CANONIC programming makes it possible to:
-
-- Build systems that remain stable across model upgrades
+- Build systems stable across model upgrades
 - Collaborate without stylistic or structural drift
 - Audit outputs back to source constraints
 - Regenerate artifacts reproducibly from governed inputs
 - Avoid AI slop without banning AI tools
 
-The system does not try to make work easier.
+The system does not make work easier.
 
 It makes work durable.
 
 ---
 
-## Non-negotiables
+## Non-Negotiables
 
-- The canon defines validity.
-- Validation gates acceptance.
-- If an output fails, fix the inputs or the canon before polishing sentences.
+- CANON defines validity
+- Validation gates acceptance
+- If output fails, fix inputs or CANON (never polish downstream)
+- Root CANON is constitution (must be stable)
+- Producer commits precede consumer commits
+- Each layer consumes from above, produces for below
+- State names reveal domain layer
+- Triad is entirely LLM-generated (humans never edit CANON/DICTIONARY/README)
+- Humans iterate CANONIC.md only
+- Humans consume README only
 
 ---
 
-## Related documents
+## Related Documents
 
-- `../machine/` — Implementation framework (validation tools, protocols, FSM engine)
-- `../writing/` — Application of CANONIC programming to structured authorship
-- Individual `CANON.md` files in each directory — Local governance specifications
+- `CANON.md` — The constitution (LLM-generated governance)
+- `DICTIONARY.md` — Term definitions (LLM-generated, alphabetically ordered)
+- `README.md` — Human guidance (LLM-generated from CANON + DICTIONARY + examples)
+- `../machine/` — Validation engine (constraint checking, git-FSM)
+- `../writing/` — Domain application (4-state FSM for writing)
 
 ---
 
-End of `CANONIC_PROGRAMMING`.
+End of CANONIC specification.
