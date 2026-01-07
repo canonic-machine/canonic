@@ -163,6 +163,24 @@
 
 **Violation:** CANON contains non-constraint content, duplication, or unnecessary verbosity
 
+### Self-documenting
+**The triad (CANON, VOCABULARY, README) forms the complete self-describing foundation.**
+
+**README.md requirements:**
+- Generated from CANON.md + VOCABULARY.md + LEARNINGS (if present)
+- Human-readable entry point explaining purpose, structure, and usage
+- Must incorporate key constraints and terminology
+- Updates when CANON or VOCABULARY change
+- Reflects current system state and maturity
+
+**Documentation completeness:**
+- Every constraint in CANON.md should be understandable via VOCABULARY.md terms
+- README.md should guide humans to understand the system without external documentation
+- Examples should demonstrate canonical patterns
+- No external documentation required for system comprehension
+
+**Violation:** README doesn't reflect CANON/VOCABULARY content, uses undefined terms, or requires external documentation for comprehension
+
 ### Self-healing
 **Systems must detect violations through git history patterns and trigger validation.**
 
@@ -264,9 +282,22 @@
 ## Protocol References
 
 ### Documentation protocol
-**README.md automatically generated from CANON.md + VOCABULARY.md constraints.**
+**README.md must be generated from CANON.md + VOCABULARY.md + LEARNINGS (if present).**
 
-**Violation:** README generated without incorporating CANON.md + VOCABULARY.md content
+**Requirements:**
+- README synthesizes governance constraints into human-readable documentation
+- Incorporates key terminology from VOCABULARY.md
+- Reflects system maturity and learning history from LEARNINGS (implementation repos)
+- Updates when source materials change
+- Provides complete self-describing foundation with CANON and VOCABULARY
+
+**Pattern:**
+- Governance repos (canonic/): README from CANON + VOCABULARY
+- Implementation repos (machine/): README from inherited CANON + VOCABULARY + LEARNINGS
+
+**See:** Self-documenting property for complete requirements
+
+**Violation:** README doesn't reflect CANON/VOCABULARY/LEARNINGS content, or uses undefined terms
 
 ### Mermaid governance protocol
 **Diagrams use consistent Mermaid styling for professional appearance.**
