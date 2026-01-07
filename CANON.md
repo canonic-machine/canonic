@@ -14,13 +14,26 @@
 - You program what must be true, not how to make it true
 - CANONs are the program; artifacts are the output
 
+**Human-in-the-loop requirement:**
+- Humans define governance (constraints, protocols, patterns)
+- AI generates artifacts under governance
+- Validation gates acceptance (pass/fail)
+- Humans drive governance evolution through introspection
+- AI accelerates work; governance blocks slop
+
+**Roles:**
+- Human: Governs (defines what must be true)
+- AI: Produces (generates artifacts per constraints)
+- System: Validates (enforces governance automatically)
+
 **Power of CANONIC:**
 - Governance is declarative and portable across LLMs/tools
 - Validation cost decreases over time (convergence to syntactic)
 - System becomes more durable as constraints accumulate
 - AI focuses on genuinely complex tasks, not repetitive validation
+- Human focus shifts from production to governance
 
-**Violation:** Treating CANONIC as documentation instead of executable governance
+**Violation:** Treating CANONIC as documentation instead of executable governance, or attempting fully autonomous governance without human direction
 
 ## Core Invariants
 
