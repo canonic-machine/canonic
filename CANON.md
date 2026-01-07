@@ -42,9 +42,12 @@
 **Stack ordering for implementation repositories:**
 - Implementation repositories MAY use numeric prefixes to show architectural stack
 - Prefix format: `NN-FILENAME.md` where NN is zero-padded (00, 01, 02, etc.)
-- Canonical stack order: 00-CANON (truth) → 01-VOCABULARY (language) → 02-<SPEC> (architecture) → subsequent layers defined by spec
+- Universal stack foundation: 00-CANON (truth) → 01-VOCABULARY (language) → 02-SPEC (architecture)
+- Root CANON defines CANON, VOCABULARY, and SPEC (CANONIC)
+- SPEC defines all subsequent layers (03+)
+- Implementation repositories inherit this pattern: 00-CANON → 01-VOCABULARY → 02-<REPO-SPEC> → layers defined by that spec
 - Pure governance repositories (canonic/) use unprefixed names
-- Stack ordering makes dependency layers immediately visible in directory listings
+- Stack ordering makes dependency layers and inheritance immediately visible in directory listings
 
 **Violation:** Governance file uses multi-word name (e.g., SESSION_LEARNINGS.md instead of LEARNINGS.md), non-uppercase name, or violates spec-defined stack ordering
 
