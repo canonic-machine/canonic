@@ -75,6 +75,12 @@
 - Pure governance repositories (canonic/) use unprefixed names
 - Stack ordering makes dependency layers and inheritance immediately visible in directory listings
 
+**Exemptions from numbering:**
+- README.md: Human entry point, not part of technical stack
+- LICENSE: Legal requirement, not governance artifact
+- .gitignore: Git configuration, not governed content
+- Files outside governance structure remain unprefixed
+
 **Violation:** Governance file uses multi-word name (e.g., SESSION_LEARNINGS.md instead of LEARNINGS.md), non-uppercase name, or violates spec-defined stack ordering
 
 ### Validation gates
@@ -211,6 +217,7 @@
 - Add new constraints to CANON.md
 - Extract patterns into protocols
 - Capture discovered violations
+- Must happen BEFORE consumer commits that apply the pattern
 - Message pattern: "Canonify [what was learned]"
 - These commits strengthen governance
 
@@ -218,8 +225,16 @@
 - Apply existing CANON constraints
 - Fix violations detected by validation
 - Generate artifacts per CANON rules
+- Must happen AFTER producer commits that canonify the pattern
 - Message pattern: "Apply [constraint]" or "Fix [violation]"
 - These commits follow governance
+
+**Producer-before-consumer ordering:**
+- Always canonify pattern FIRST (producer commit in governance repo)
+- Then apply pattern SECOND (consumer commit in implementation repo)
+- Prevents applying non-canonical patterns
+- Ensures governance leads implementation
+- Example: Canonify "WORKFLOWS nomenclature" → Apply "WORKFLOWS rename"
 
 **Feedback signal:**
 - Producer commits → system learned something new
@@ -232,7 +247,7 @@
 - Maturing system: 10-30% producer commits (refinement phase)
 - Mature system: <10% producer commits (stable enforcement)
 
-**Violation:** Commit message doesn't indicate producer vs consumer action
+**Violation:** Commit message doesn't indicate producer vs consumer action, or consumer commit precedes producer commit (applying non-canonical pattern)
 
 ## Protocol References
 
