@@ -227,6 +227,15 @@ System that analyzes its own git history to determine maturity metrics. Calculat
 ### self-strengthening
 System that improves through introspection cycles. Discovered patterns are canonified into constraints, including meta-patterns about improvement itself. Enables recursive strengthening where governance mandates its own evolution.
 
+### paradigm example
+Code or artifacts in examples/ directory that demonstrate how the paradigm works. Pedagogical in nature, teaching concepts like validation, FSM transitions, or constraint checking. Distinguished from operational tools.
+
+### operational tool
+Executable code that automates repository operations (pre-commit hooks, CI scripts, deployment automation). Not allowed in governance repositories. Belongs in implementation repositories.
+
+### governance purity
+Property of repositories containing only governance artifacts (specifications, constraints, protocols, examples) without operational tooling. Examples demonstrate paradigm concepts; tools would automate repository operations.
+
 ---
 
 End of VOCABULARY.

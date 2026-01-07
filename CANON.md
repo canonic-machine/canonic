@@ -119,18 +119,32 @@
 **Violation:** Invented content without documented origin
 
 ### Governance purity
-**Pure governance repositories contain only: repository specification file, CANON.md, VOCABULARY.md, README.md, and examples.**
+**Pure governance repositories contain only: the triad, repository specification file, protocols, and examples.**
 
-**Repository specification files:**
-- Named after repository: `<REPO>.md` (e.g., `CANONIC.md` for canonic repository)
-- Define the paradigm/specification being governed
+**The framework (governance repos):**
+- The triad: CANON.md, VOCABULARY.md, README.md
+- Repository specification: CANONIC.md (defines the paradigm)
+- Protocols: PROTOCOLS.md (specifications for implementation)
+- Examples: Paradigm demonstrations (teaching how it works)
 
-**Tool placement:**
-- Governance repositories: No executable tools (pure governance)
-- Implementation repositories: Canonical tool implementations
+**Examples requirement:**
+- Examples demonstrate the paradigm itself
+- Examples may contain code that illustrates paradigm concepts
+- Example code teaches HOW the paradigm works (validation, FSMs, constraints)
+- Examples are pedagogical, not operational tools for the repository
+- All governed repositories should include examples directory
+
+**Artifact placement:**
+- Governance repositories: Framework only (triad + specification + protocols + examples)
+- Implementation repositories: Framework + operational files (WORKFLOWS.md, AGENTS.md, LEARNINGS.md, tools)
 - Consumer repositories: May implement own tools that consume governance
 
-**Violation:** Repository contains executable code, tools, session state, or implementation-specific references
+**Example vs Tool distinction:**
+- Example: hello-world/validate.py demonstrates validation concept (paradigm teaching)
+- Tool: pre-commit hook for THIS repository (operational automation)
+- Examples teach the paradigm; tools operate the repository
+
+**Violation:** Governance repository contains operational tools, session state, or repository-specific automation (pre-commit hooks, CI scripts for this repo)
 
 ### Implementation inheritance
 **Implementation repositories inherit from protocol specifications (CANONIC.md, CANON.md), not from non-existent implementation files in governance repositories.**
