@@ -98,6 +98,18 @@ Patterns in git history that indicate CANON violations: commit→revert→reappl
 ### atomic commit
 A commit that addresses exactly one logical change or constraint. Must be single-concern, self-contained, independently revertible, with clear message. Opposite: mixing multiple unrelated changes in one commit.
 
+### producer commit (canonification)
+A git commit that adds new constraints to CANON.md, extracts patterns into protocols, or captures discovered violations. Strengthens governance by encoding new learning. Message pattern: "Canonify [what was learned]". Signals system discovered something new.
+
+### consumer commit (implementation)
+A git commit that applies existing CANON constraints, fixes detected violations, or generates artifacts per CANON rules. Follows existing governance. Message pattern: "Apply [constraint]" or "Fix [violation]". Signals system enforced existing rules.
+
+### producer/consumer ratio
+The proportion of producer commits to consumer commits in git history. High ratio early (learning phase), decreasing over time as system matures. Measures governance stability: mature systems need fewer new constraints, more enforcement of existing ones.
+
+### validation convergence
+The process by which semantic violations become syntactic constraints over time. Expensive LLM checks get canonified into free structural checks. System becomes faster and cheaper as it learns. Producer commits enable this convergence.
+
 ---
 
 ## Structural Terms

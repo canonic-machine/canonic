@@ -3,6 +3,25 @@
 
 **Inherits from:** None
 
+## Paradigm Definition
+
+### Programming governance
+**CANONIC programming is programming governance itself, not artifacts.**
+
+**The paradigm:**
+- Traditional programming: write instructions → toolchain executes
+- CANONIC programming: write constraints → validation enforces
+- You program what must be true, not how to make it true
+- CANONs are the program; artifacts are the output
+
+**Power of CANONIC:**
+- Governance is declarative and portable across LLMs/tools
+- Validation cost decreases over time (convergence to syntactic)
+- System becomes more durable as constraints accumulate
+- AI focuses on genuinely complex tasks, not repetitive validation
+
+**Violation:** Treating CANONIC as documentation instead of executable governance
+
 ## Core Invariants
 
 ### Triad requirement
@@ -28,6 +47,11 @@
 - Define the paradigm/specification being governed
 
 **Violation:** Repository contains executable code, tools, or implementation-specific references
+
+### Implementation inheritance
+**Implementation repositories inherit from protocol specifications (CANONIC.md, CANON.md), not from non-existent implementation files in governance repositories.**
+
+**Violation:** Implementation claims to inherit from non-existent files in governance repository (e.g., `canonic/AGENTS.md`)
 
 ## Semantic Constraints
 
@@ -94,6 +118,31 @@
 
 **Violation:** Commit mixes multiple unrelated changes (e.g., fixing CANON.md + updating README.md + adding new constraint)
 
+### CANON production vs consumption
+**Git commits signal whether work produces or consumes CANON.**
+
+**Producer commits (canonification):**
+- Add new constraints to CANON.md
+- Extract patterns into protocols
+- Capture discovered violations
+- Message pattern: "Canonify [what was learned]"
+- These commits strengthen governance
+
+**Consumer commits (implementation):**
+- Apply existing CANON constraints
+- Fix violations detected by validation
+- Generate artifacts per CANON rules
+- Message pattern: "Apply [constraint]" or "Fix [violation]"
+- These commits follow governance
+
+**Feedback signal:**
+- Producer commits → system learned something new
+- Consumer commits → system enforced existing rules
+- Git history shows learning curve (producer → consumer ratio decreases over time)
+- Mature systems have few producers, many consumers
+
+**Violation:** Commit message doesn't indicate producer vs consumer action
+
 ## Protocol References
 
 ### Documentation protocol
@@ -108,5 +157,19 @@
 
 ### Validation protocol
 **Systems implement dual validation: syntactic (structure) + semantic (constraints).**
+
+**Validation precedence:**
+- Syntactic validation is preferred over semantic validation
+- Syntactic validation is free (structural checks)
+- Semantic validation is expensive (LLM token cost)
+- CANONs must converge: semantic violations become syntactic constraints over time
+- This shifts validation cost from expensive LLM to free syntax checking
+- This fine-tunes AI focus to genuinely complex tasks
+
+**Convergence pattern:**
+1. Semantic validator detects violation (expensive)
+2. Violation gets canonified as syntactic constraint (one-time cost)
+3. Future violations caught syntactically (free)
+4. System becomes cheaper and faster over time
 
 **Violation:** Validation missing either syntactic or semantic layer
