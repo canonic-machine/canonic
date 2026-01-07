@@ -38,7 +38,15 @@
 - Domain files: AGENTS.md, PROTOCOLS.md, SOLUTIONS.md, LEARNINGS.md
 - Use single words, not compound names with underscores or hyphens
 - UPPERCASE for consistency and discoverability
+- Use plural nouns (lists of things): AGENTS, PROTOCOLS, SOLUTIONS, LEARNINGS
 - Avoid semantic conflicts: "patterns" are discovered (LEARNINGS), not prescribed (SOLUTIONS)
+
+**Domain nomenclature:**
+- Pattern: `canonic <domain> <component>`
+- Example: "canonic writing machine", "canonic writing protocols", "canonic writing solutions"
+- Domain-agnostic: same components (AGENTS, PROTOCOLS, SOLUTIONS, LEARNINGS) apply to any domain
+- Machine type is the domain: writing machine, grants machine, books machine
+- Component names remain constant, domain varies
 
 **Stack ordering for implementation repositories:**
 - Implementation repositories MAY use numeric prefixes to show architectural stack
