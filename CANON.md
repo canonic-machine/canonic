@@ -201,8 +201,36 @@
 
 **Violation:** Git history shows violation patterns but validation was not triggered
 
-### Introspection requirement
-**Sessions must capture learnings that trigger producer commits.**
+### Self-measuring
+**Systems measure their own maturity through git commit analysis.**
+
+**Maturity metrics:**
+- Producer commits: Canonifications (discovering new patterns)
+- Consumer commits: Applications and fixes (enforcing patterns)
+- Producer ratio: Producer / (Producer + Consumer) percentage
+- Ratio indicates system learning phase
+
+**Maturity thresholds:**
+- New system: >40% producer commits (rapid learning phase)
+- Maturing system: 10-30% producer commits (refinement phase)
+- Mature system: <10% producer commits (stable enforcement)
+
+**Self-assessment signals:**
+- High producer ratio → system discovering governance patterns
+- Decreasing producer ratio → system maturing, constraints stabilizing
+- Sudden producer spike → new domain or architectural shift
+- Commit message patterns reveal producer vs consumer work
+
+**Measurement enables:**
+- Visibility into system evolution
+- Prediction of stability
+- Recognition of learning phases
+- Validation of governance completeness
+
+**Violation:** System cannot determine its maturity phase from git history, or producer/consumer commits are not distinguishable
+
+### Self-strengthening
+**Systems improve through introspection cycles that canonify discovered patterns.**
 
 **Introspection cycle:**
 - Work reveals gaps in validation or constraints
@@ -225,7 +253,13 @@
 - Level 3: Fix architectural violations in validators themselves
 - Continue introspection until root cause found and canonified
 
-**Pattern:** Introspection → Learning → Canonification → Meta-Pattern Discovery → Recursive Strengthening
+**Recursive strengthening:**
+- Each canonification makes future violations easier to catch
+- Meta-patterns about improvement are themselves canonified
+- System learns how to learn better
+- Self-measurement tracks progress
+
+**Pattern:** Work → Introspection → Learning → Canonification → Meta-Pattern Discovery → Recursive Strengthening
 
 **Violation:** System operates without capturing learnings for canonification, fails to identify and canonify meta-patterns from git history, or stops introspection before reaching root cause
 
