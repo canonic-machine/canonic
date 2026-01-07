@@ -1,12 +1,12 @@
 # CANONIC Programming
 
-**Stop AI slop. Enforce durability.**
+**Constitutional programming: governance as source code.**
 
-A programming paradigm that uses plain-English constraints + validation gates instead of executable code.
+A programming paradigm that uses plain-English constraints + validation gates to enforce system behavior without executable code.
 
-> **The Problem:** AI can generate anything. But can it maintain consistency? Prevent hallucinations? Ensure traceability?
+> **The Problem:** AI can generate anything. But can it maintain consistency? Prevent hallucinations? Ensure durability?
 >
-> **The Solution:** Define constraints in plain English (CANONs). Validate every output. Accept only what passes. Like a compiler, but for meaning.
+> **The Solution:** Define constraints (CANONs). Validate every output. Accept only what passes. The CANON IS the program.
 
 ---
 
@@ -14,296 +14,281 @@ A programming paradigm that uses plain-English constraints + validation gates in
 
 **See it in action:**
 
-1. Read [CANONIC.md](CANONIC.md) — CANONIC programming specification
-2. Read [CANON.md](CANON.md) — Core governance constraints
-3. Read [VOCABULARY.md](VOCABULARY.md) — Paradigm terminology
-4. Explore [examples/](examples/) — Demonstrations
+1. Read [CANONIC.md](CANONIC.md) — The paradigm specification (human-iterated)
+2. Read [CANON.md](CANON.md) — The constitution (root governance constraints)
+3. Read [DICTIONARY.md](DICTIONARY.md) — Canonical term definitions
+4. Explore [examples/](examples/) — Progressive demonstrations
 5. Check out [Writing Machine](https://github.com/canonic-machine/writing) — Complex FSM built on this paradigm
 
 ---
 
-## The Core Idea
+## Constitutional Nature
 
-**Traditional programming:** Write instructions → compiler enforces syntax → program runs
+The root CANON is the **constitution** of CANONIC programming.
 
-**CANONIC programming:** Write constraints → validation enforces semantics → outputs accepted
+**Constitutional properties:**
+- Defines fundamental governance principles (not domain-specific rules)
+- Is the deduplication point (define once, inherit everywhere)
+- Enables composition (all implementations inherit these principles)
+- Must be stable (constitutional law does not churn after maturity)
 
-```mermaid
-flowchart LR
-  CANON[Canon<br/>Constraints] --> WORK[Work<br/>Human or AI]
-  WORK --> VAL[Validation<br/>Pass/Fail]
-  VAL --> ACC[Accepted<br/>Valid output]
-  VAL --> REJ[Rejected<br/>Fix and retry]
+**The root CANON is the dictionary:**
+- Defines what governance terms mean (definitive source of truth)
+- Provides canonical definitions used by all implementations
+- Mandates DICTIONARY.md in triad (dictionaries all the way down)
+- Serves as lexicon for the paradigm
+
+**Producer/consumer as legislative process:**
+
+Producer commits canonify new patterns (legislative).
+Consumer commits apply canonical constraints (executive).
+
+```
+CANONIC produces → MACHINE consumes
+MACHINE produces → Domain applications consume
+Domain applications produce → Artifacts consume
 ```
 
-**Key insight:** The canon IS the program. It defines what valid outputs look like. Validation is the execution.
-
-**Git integration:** Each commit proposes a state transition. Pre-commit validation acts as a gate. Git history records the FSM execution trace. Failed transitions (reverts) trigger human review.
-
-**Atomic commits:** Each commit addresses one logical change. Multiple unrelated changes require separate commits. This ensures clean history and independent revertibility.
-
-**Human-in-the-loop:** Humans define governance (constraints, protocols, patterns). AI generates artifacts under governance. Validation gates acceptance. Humans drive governance evolution through introspection. AI accelerates work; governance blocks slop.
+Each layer is consumer of the layer above, producer for the layer below.
 
 ---
 
-## What Gets Validated
+## The Core Pattern
 
-**Structure:**
-- Required files exist
-- Naming conventions followed
-- Format rules satisfied
+**Traditional programming:** Write instructions → compiler enforces syntax → program runs
 
-**Semantics:**
-- Claims trace to sources
-- Entities are registered before use
-- Definitions exist for all terms
+**CANONIC programming:** Write constraints → validation enforces constraints → outputs accepted
 
-**Coherence:**
-- No contradictions
-- Inheritance rules respected
-- Intent satisfied
+```mermaid
+stateDiagram-v2
+  direction LR
+
+  [*] --> CANON
+  CANON --> Work: constrains
+  Work --> Validation: proposes
+  Validation --> Accepted: passes
+  Validation --> Work: fails
+  Accepted --> [*]
+```
+
+**Key insight:** The CANON IS the program. It defines what valid states look like. Validation gates what exists.
 
 ---
 
 ## The Triad
 
-Every governed directory must contain three files that form the self-describing foundation:
+All governed directories must contain the minimal triad:
 
-**[CANON.md](CANON.md)** — Constraints the LLM enforces
-```markdown
-Required artifacts: hello.txt
-Rules:
-  - hello.txt must exist
-  - Content must be exactly: Hello, world.
-```
+- **CANON.md** - Constraints (LLM-generated, LLM-consumed, token-optimized)
+- **DICTIONARY.md** - Term definitions (LLM-generated, alphabetically ordered)
+- **README.md** - Human guidance (LLM-generated, human-consumed)
 
-**[VOCABULARY.md](VOCABULARY.md)** — Term definitions
-```markdown
-### hello world
-The simplest canonic system. One file, one constraint.
-```
-
-**README.md** — Human-readable guide (this file)
-- Generated from CANON.md + VOCABULARY.md + primary outputs
-- Updates when source materials change
-- Synthesizes governance into narrative documentation
-
----
-
-## Minimal Triad Pattern
-
-For any new governed directory, start with:
+**Generation and consumption flows:**
 
 ```
-your-directory/
-├── CANON.md      # Constraints (reference root protocols/patterns)
-├── VOCABULARY.md # Term definitions (reference/inherit root terms)
-└── README.md     # Human guidance (generated from sources)
+CANON.md: LLM generates → LLM consumes (validators enforce constraints)
+DICTIONARY.md: LLM generates (alphabetically ordered terms)
+README.md: LLM generates → Human consumes (synthesized documentation)
 ```
 
-Reference root CANON protocols and patterns whenever possible. Only specialize defaults; never restate or override invariants.
+**Human interaction points:**
+1. Iterate CANONIC.md (the specification) - Only human entry point
+2. Consume README.md (documentation) - Only human output point
+
+**The triad is never directly edited:**
+
+CANON.md, DICTIONARY.md, and README.md are generated fresh by LLM.
+Humans never directly edit these files.
+All changes flow through CANONIC.md iteration.
+
+**Alphabetical ordering requirement:**
+
+DICTIONARY.md must contain alphabetically ordered term definitions within each section.
+
+This enables:
+- Deduplication (find existing terms quickly)
+- Consistency (one canonical definition per term)
+- Findability (predictable location)
 
 ---
 
-## Why This Matters
+## Three-Layer Architecture
 
-**CANONIC programming is a hedge against AI drift.**
+CANONIC implementations separate concerns across three layers:
 
-- Canon defines validity **before** generation
-- Validation blocks fluent-but-wrong output
-- Same governance works across models and teams
-- Outputs remain stable as systems scale
+**1. CANONIC (paradigm layer)**
+- Defines: constraints, validation, inheritance, triad
+- Is: The constitution (this governance repository)
+- Produces: Constitutional amendments (canonifications)
 
-**Real example:** The [Writing Machine](https://github.com/canonic-machine/writing) uses CANONIC programming to enforce traceability across a 50-page user guide. Every claim traces to source episodes. Zero hallucinated references.
+**2. MACHINE (validation engine layer)**
+- Defines: Constraint checking, git-FSM, self-properties
+- Is: Domain-agnostic validation infrastructure
+- Consumes: CANONIC constitution
+- Produces: Validation framework for domain applications
 
----
+**3. Domain applications (application layer)**
+- Define: Domain-specific FSMs with named states
+- Are: Specific implementations (WRITING, DOCUMENTATION, RESEARCH)
+- Consume: MACHINE validation framework
+- Produce: Validated artifacts
 
-## What This Enables
+**Maximal separation of concerns:**
 
-Using CANONIC programming makes it possible to:
-
-- **Build systems that survive model upgrades** — Canon is stable, models are swappable
-- **Collaborate without drift** — Shared constraints, not just shared files
-- **Audit outputs to requirements** — Every artifact traces to canon
-- **Avoid AI slop** — Fluency doesn't override validity
-- **Make work durable** — Outputs stay consistent over time
-- **Self-document systems** — README regenerates from governance sources
-
----
-
-## Introspective Properties
-
-CANONIC systems exhibit six self-* properties that enable autonomous governance through **introspection** — the system's ability to examine and understand its own structure, behavior, and constraints.
-
-### 1. Self-Validating
-
-Systems implement dual validation: syntactic (structure) + semantic (constraints).
-
-**Mechanism:**
-- Syntactic validation checks structure (free, fast)
-- Semantic validation checks meaning (expensive, LLM-based)
-- Validators validate themselves before validating artifacts
-- Validation convergence: semantic violations → canonified as syntactic constraints
-
-**Question it asks:** *"Am I following my own rules?"*
-
-### 2. Self-Optimizing
-
-CANONs stay lean to minimize token cost across all operations.
-
-**Mechanism:**
-- Token cost = root CANON + parent CANONs + local CANON
-- Verbose CANONs increase every validation cost
-- No explanations, redundancy, or bloat in CANON.md
-- Semantic violations converge to syntactic constraints (free checks)
-
-**Question it asks:** *"Am I being as efficient as possible?"*
-
-### 3. Self-Documenting
-
-The triad generates complete documentation automatically.
-
-**Mechanism:**
-- README.md generated from CANON.md + VOCABULARY.md + primary outputs
-- Pre-commit hook triggers regeneration when sources change
-- Staleness validation blocks commits with outdated README
-- No external documentation required
-
-**Primary outputs by repository type:**
-- **canonic/** (governance): Paradigm definition + examples
-- **machine/** (implementation): Learnings and patterns discovered
-- **writing/** (domain application): Writing artifacts and traceable prose
-
-**Question it asks:** *"Can someone understand me without external help?"*
-
-### 4. Self-Healing
-
-Git history patterns trigger validation and corrective action.
-
-**Mechanism:**
-- Commit → Revert → Reapply signals failed validation
-- Rapid CANON commits indicate drift
-- Fix/violation keywords trigger comprehensive validation
-- Atomic commits enable clean rollback
-
-**Question it asks:** *"What violations am I exhibiting over time?"*
-
-### 5. Self-Measuring
-
-Git commit analysis reveals system maturity.
-
-**Mechanism:**
-- Producer commits: "Canonify [pattern]" (learning)
-- Consumer commits: "Apply [constraint]" or "Fix [violation]" (enforcing)
-- Producer ratio = Producer / (Producer + Consumer)
-
-**Maturity thresholds:**
-- New system: >40% producer (rapid learning)
-- Maturing: 10-30% producer (refinement)
-- Mature: <10% producer (stable enforcement)
-
-**Question it asks:** *"How mature am I? Still learning or enforcing?"*
-
-### 6. Self-Strengthening
-
-Introspection cycles canonify discovered patterns.
-
-**Mechanism:**
-- Work → Introspection → Learning → Canonification → Meta-Pattern Discovery
-- Three depth levels: fix violations, fix validators, fix architecture
-- Meta-patterns about improvement are themselves canonified
-- System learns how to learn better (recursive strengthening)
-
-**Question it asks:** *"What can I learn? Why wasn't this caught?"*
-
----
-
-## Core Concepts
-
-### Canon
-A written set of constraints. Defines what must be true and what must not occur.
-
-### Constraint
-A rule that narrows outcomes to a checkable set. Must be verifiable through validation.
-
-### Validation
-Pass/fail check. Does the artifact satisfy canon constraints? Not subjective—binary compliance.
-
-### Artifact
-Any output under governance. Documents, diagrams, indices, ledgers, code files.
-
-### State
-Defined by which artifacts exist and which constraints they satisfy.
-
-### Invariant
-Constraint that cannot be overridden. Must hold across entire inheritance chain.
-
-### Protocol
-Reusable validation or generation pattern. Define once, reference many times.
-
-### Git Commit as FSM Transition
-Each git commit proposes a state transition. Pre-commit validation gates accept valid changes and reject invalid ones, triggering backflow to the source state.
-
-### Git History as FSM Log
-Git commit history serves as the complete execution trace of the CANONIC FSM. Revert patterns signal failed validation attempts.
-
-### Producer Commit
-Git commit that adds new constraints to CANON.md or extracts patterns into protocols. Message pattern: "Canonify [what was learned]". Signals system discovered something new.
-
-### Consumer Commit
-Git commit that applies existing CANON constraints or fixes detected violations. Message patterns: "Apply [constraint]" or "Fix [violation]". Signals system enforced existing rules.
-
-### Introspection
-The system's ability to examine and understand its own structure, behavior, and constraints. Unifies all self-* properties as different aspects of self-awareness and self-regulation.
-
-See [VOCABULARY.md](VOCABULARY.md) for complete definitions.
-
----
-
-## Documentation Generation (Self-Documenting in Action)
-
-This README is generated according to the **documentation protocol** defined in [CANON.md](CANON.md#L367-L401).
-
-**Generation mechanism:**
-- Input sources: [CANON.md](CANON.md) + [VOCABULARY.md](VOCABULARY.md) + primary outputs (examples/)
-- Trigger: When CANON.md or VOCABULARY.md changes
-- Generator: LLM agent following documentation protocol
-- Validation: README staleness check via timestamps
-
-**To regenerate this README:**
-1. Edit [CANON.md](CANON.md) or [VOCABULARY.md](VOCABULARY.md)
-2. Run documentation generation (LLM agent following documentation protocol from [CANON.md](CANON.md#L367-L401))
-3. Stage both source changes and updated README
-4. Commit atomically: `git add CANON.md VOCABULARY.md README.md`
-
-**Implementation:** See documentation protocol in [CANON.md](CANON.md#L367-L401) for complete specification.
+State names reveal the layer:
+- CANONIC: triad, inheritance, producer/consumer
+- MACHINE: validation, git-FSM, self-properties
+- WRITING: Episode, Asset, Prose, Output (writing-specific)
 
 ---
 
 ## Examples
 
-The [examples/](examples/) directory contains three demonstrations of the paradigm:
+The [examples/](examples/) directory demonstrates CANONIC programming through progressive complexity.
 
-### 1. Hello World ([examples/hello-world/](examples/hello-world/))
-The simplest possible canonic system. Shows:
-- Minimal triad structure
-- Basic validation with Python
-- Single artifact under governance
+### 1. [hello-world/](examples/hello-world/)
+**Simplest possible CANONIC system**
 
-### 2. Simple FSM ([examples/simple-fsm/](examples/simple-fsm/))
-A basic finite state machine. Demonstrates:
-- State transitions as git commits
-- Validation gates at transition boundaries
-- Git history as execution trace
+- One file (`hello.txt`)
+- One constraint ("Hello, world.")
+- Minimal Python validator
+- Demonstrates: Basic constraint + validation pattern
 
-### 3. Canonic README ([examples/canonic-readme/](examples/canonic-readme/))
-A governed README with structural requirements. Shows:
-- Documentation under governance
-- Triad applied to documentation artifacts
-- Self-documenting pattern in practice
+**Use this to understand:** How constraints define validity, how validation enforces constraints.
+
+### 2. [simple-fsm/](examples/simple-fsm/)
+**State machine with validation gates**
+
+- Three states: draft → review → published
+- Transition validation at each gate
+- Backflow on validation failure
+- Demonstrates: Git-FSM pattern, self-healing through backflow
+
+**Use this to understand:** How commits are state transitions, how validation gates work, how backflow corrects violations.
+
+### 3. [canonic-readme/](examples/canonic-readme/)
+**Document governance with nested triads**
+
+- Nested triad structure (project/ subdirectory)
+- Inheritance demonstration
+- Rich constraints (engagement, structure, code quality)
+- Demonstrates: Triad composition, inheritance chains, governance layers
+
+**Use this to understand:** How triads nest, how inheritance works, how constraints compose.
 
 ### Complex Application
-See [Writing Machine](https://github.com/canonic-machine/writing) for a complete FSM (episodes → assets → prose → output) built on this paradigm.
+
+See [Writing Machine](https://github.com/canonic-machine/writing) for a complete 4-state FSM built on CANONIC programming.
+
+---
+
+## Introspective Properties
+
+CANONIC systems exhibit six self-* properties through **introspection** — the system's ability to examine its own structure, behavior, and constraints.
+
+### Self-Validating
+Systems implement dual validation (syntactic + semantic) and validate themselves against their own constraints.
+
+### Self-Optimizing
+CANONs stay minimal to minimize token cost across all operations. Semantic violations converge to syntactic constraints.
+
+### Self-Documenting
+The triad generates complete documentation automatically. README.md synthesizes from CANON.md + DICTIONARY.md + primary outputs.
+
+### Self-Healing
+Git history patterns trigger validation and correction. Backflow returns to source state on failure.
+
+### Self-Measuring
+Git commit analysis reveals maturity through producer/consumer ratio.
+
+### Self-Strengthening
+Introspection cycles canonify discovered patterns. System learns how to learn better.
+
+---
+
+## Git-FSM Implementation
+
+**Git commits ARE FSM state transitions.**
+
+Every commit proposes a state transition:
+- Pre-commit validation acts as gate (accept/reject)
+- Rejected commits trigger backflow to source state
+- Git history records complete FSM transition log
+- Commits must be atomic: one logical change
+
+**Git violation signals:**
+- Commit → Revert → Reapply indicates failed validation
+- Rapid commit cycles on CANON files indicate drift
+- Fix/violation keywords indicate constraint failures
+
+---
+
+## Producer/Consumer Commit Patterns
+
+**Producer commits (legislative):**
+- Pattern: `Canonify [what was learned]`
+- Add definitions to constitutional dictionary
+- Expand governance language
+- Occur in governance repository (CANONIC)
+
+**Consumer commits (executive):**
+- Patterns: `Apply [constraint]` or `Fix [violation]`
+- Apply constitutional requirements
+- Speak governance language correctly
+- Occur in implementation repositories (MACHINE, domain applications)
+
+**Maturity measurement:**
+- Producer ratio = Producer / (Producer + Consumer) percentage
+- New system: >40% producer (rapid learning)
+- Maturing: 10-30% producer (refinement)
+- Mature: <10% producer (stable enforcement)
+
+---
+
+## Core Concepts
+
+### canon
+A written set of constraints that define what must be true and what must not occur. The governance layer.
+
+### constraint
+A rule that narrows outcomes to a checkable set. Must be verifiable through validation.
+
+### validation
+A pass/fail decision procedure that checks artifacts against canon constraints. Binary compliance check.
+
+### artifact
+Any output under governance. Examples: documents, diagrams, indices, references, ledgers, code files.
+
+### triad
+The three required files in every directory: CANON.md (constraints), DICTIONARY.md (definitions), README.md (human guide).
+
+### invariant
+A constraint that cannot be overridden by downstream CANONs. Must hold true across entire inheritance chain.
+
+### inheritance
+The mechanism by which downstream CANONs acquire constraints from upstream CANONs. Forms a chain from root to target.
+
+### producer commit (canonification)
+A git commit that adds new constraints to CANON.md. Message pattern: "Canonify [what was learned]". Signals discovery.
+
+### consumer commit (implementation)
+A git commit that applies existing CANON constraints. Patterns: "Apply [constraint]" or "Fix [violation]". Signals enforcement.
+
+See [DICTIONARY.md](DICTIONARY.md) for complete alphabetically-ordered definitions.
+
+---
+
+## What CANONIC Programming Enables
+
+- Build systems stable across model upgrades
+- Collaborate without stylistic or structural drift
+- Audit outputs back to source constraints
+- Regenerate artifacts reproducibly from governed inputs
+- Avoid AI slop without banning AI tools
+
+**The system does not make work easier.**
+
+**It makes work durable.**
 
 ---
 
@@ -311,64 +296,53 @@ See [Writing Machine](https://github.com/canonic-machine/writing) for a complete
 
 ```
 canonic/
-├── CANONIC.md                  # CANONIC programming specification
-├── CANON.md                    # Core governance constraints
-├── VOCABULARY.md               # Paradigm terminology
-├── README.md                   # This documentation (generated)
-└── examples/                   # Demonstrations
-    ├── hello-world/            # Simplest canonic system
-    ├── simple-fsm/             # Basic state machine
-    └── canonic-readme/         # Governed documentation
+├── CANONIC.md         # Paradigm specification (human-iterated)
+├── CANON.md           # Root constitution (LLM-generated)
+├── DICTIONARY.md      # Canonical term definitions (LLM-generated)
+├── README.md          # This documentation (LLM-generated)
+└── examples/          # Progressive demonstrations
+    ├── hello-world/       # Minimal constraint + validation
+    ├── simple-fsm/        # State machine with gates
+    └── canonic-readme/    # Nested triads + inheritance
 ```
 
-Every governed directory contains the triad: CANON.md, VOCABULARY.md, README.md.
-
 **Governance purity:** This repository contains ONLY:
-- The triad (CANON.md, VOCABULARY.md, README.md)
-- Repository specification (CANONIC.md)
-- Examples (paradigm demonstrations)
+- The triad (CANON.md, DICTIONARY.md, README.md)
+- Paradigm specification (CANONIC.md)
+- Examples (pedagogical demonstrations)
 
-Implementation repositories (like machine/) add: PROTOCOLS.md, WORKFLOWS.md, AGENTS.md, LEARNINGS.md, operational tools.
+No operational tools, no PROTOCOLS.md, no implementation code.
+
+Implementation repositories (MACHINE, domain applications) add operational tooling.
 
 ---
 
-## System Maturity
+## Non-Negotiables
 
-This governance repository is in **rapid learning phase** (50% producer ratio).
-
-**Current metrics (as of latest analysis):**
-- Total commits: 52
-- Producer commits: 26 ("Canonify" pattern)
-- Consumer commits: 5 ("Apply" or "Fix" pattern)
-- Producer ratio: **50%**
-
-**Maturity thresholds (from [CANON.md](CANON.md)):**
-- **New system**: >40% producer commits (rapid learning phase) ← **We are here**
-- **Maturing system**: 10-30% producer commits (refinement phase)
-- **Mature system**: <10% producer commits (stable enforcement)
-
-**Recent canonifications:**
-- Human-in-the-loop governance requirement
-- Commit message patterns for measurability
-- Primary outputs documentation requirement
-- README generation protocol (self-documenting)
-- Self-measuring and self-strengthening properties
-
-**Interpretation:** High producer ratio indicates active discovery of governance patterns. System is still learning what constraints it needs. As patterns stabilize, producer ratio will decrease and consumer ratio will increase (more enforcement, less discovery).
+- CANON defines validity
+- Validation gates acceptance
+- If output fails, fix inputs or CANON (never polish downstream)
+- Root CANON is constitution (must be stable)
+- Producer commits precede consumer commits
+- Each layer consumes from above, produces for below
+- State names reveal domain layer
+- Triad is entirely LLM-generated (humans never edit CANON/DICTIONARY/README)
+- Humans iterate CANONIC.md only
+- Humans consume README only
 
 ---
 
 ## How to Use This Repository
 
 ### For Understanding
-1. Read [CANON.md](CANON.md) — Core governance constraints
-2. Study [VOCABULARY.md](VOCABULARY.md) — Understand terminology
-3. Explore [examples/](examples/) — See implementations
-4. Review [CANONIC.md](CANONIC.md) — Paradigm specification
+1. Read [CANONIC.md](CANONIC.md) — Paradigm specification
+2. Study [CANON.md](CANON.md) — Root constitution
+3. Review [DICTIONARY.md](DICTIONARY.md) — Term definitions
+4. Explore [examples/](examples/) — Hands-on demonstrations
 
 ### For Building
 1. Start with [examples/](examples/) as templates
-2. Create directories with the triad: CANON.md, VOCABULARY.md, README.md
+2. Create directories with the triad
 3. Write constraints in CANON.md
 4. Generate artifacts that satisfy constraints
 5. Validate outputs against constraints
@@ -376,69 +350,18 @@ This governance repository is in **rapid learning phase** (50% producer ratio).
 ### For Contributing
 1. Follow atomic commit discipline (one logical change per commit)
 2. Use commit patterns: "Canonify [pattern]" (producer) or "Apply/Fix [constraint]" (consumer)
-3. Regenerate README when CANON or VOCABULARY changes
-4. Maintain triad coherence in all governed directories
-5. Maintain governance purity (triad + CANONIC.md + examples only)
+3. Maintain triad coherence in all governed directories
+4. Maintain governance purity (triad + CANONIC.md + examples only)
 
 ---
 
-## What Makes This Different
+## Related Documents
 
-| Traditional Programming | CANONIC Programming |
-|------------------------|---------------------|
-| Imperative (how to do) | Declarative (what must be true) |
-| Compiler enforces syntax | Validation enforces semantics |
-| Code drifts over time | Canon enforces stability |
-| Hard to audit | Every artifact traces to canon |
-| AI generates slop | AI generates, validation blocks slop |
-| Static documentation | Self-documenting (README auto-generated) |
-| Manual governance | Introspective (self-measuring, self-strengthening) |
-
----
-
-## Applications
-
-CANONIC programming works for any system where consistency matters:
-
-- **Documentation** — READMEs, technical specs, API docs
-- **Knowledge systems** — Wikis, knowledge bases, structured content
-- **Research** — Papers, citations, reproducible claims
-- **Complex writing** — Books, proposals, multi-author projects (see [Writing Machine](https://github.com/canonic-machine/writing))
-- **Configuration** — System configs, deployment specs, infrastructure as code
-
-Anywhere AI might generate slop, CANONIC programming blocks it.
-
----
-
-## Non-Negotiables
-
-- Canon defines validity
-- Validation gates acceptance
-- If output fails, fix inputs or canon—never polish downstream
-- Fluency never substitutes for validity
-- Humans govern; AI produces; validation enforces
-- README must reflect current CANON and VOCABULARY state
-- Governance purity: canonic/ contains only triad + CANONIC.md + examples
-
----
-
-## Related Projects
-
-**[Writing Machine](https://github.com/canonic-machine/writing)** — Complete FSM for durable writing built on CANONIC programming
-
----
-
-## Contributing
-
-Issues and PRs welcome. When adding directories, maintain the triad.
-
-The paradigm is simple: constraints + validation. Keep it that way.
-
-**When submitting PRs:**
-- Follow atomic commit discipline
-- Regenerate README if CANON or VOCABULARY changes
-- Use producer/consumer commit message patterns
-- Maintain governance purity (no PROTOCOLS.md, no operational tools)
+- [CANONIC.md](CANONIC.md) — The paradigm specification (human-iterated)
+- [CANON.md](CANON.md) — The constitution (LLM-generated governance)
+- [DICTIONARY.md](DICTIONARY.md) — Term definitions (LLM-generated, alphabetically ordered)
+- [examples/](examples/) — Progressive demonstrations
+- [Writing Machine](https://github.com/canonic-machine/writing) — Complex domain application
 
 ---
 
@@ -448,10 +371,10 @@ This repository practices what it preaches.
 
 Every governed directory contains the triad. Every artifact is validated. The paradigm documents itself.
 
-**This README was generated following the documentation protocol.** It synthesizes constraints from [CANON.md](CANON.md), terminology from [VOCABULARY.md](VOCABULARY.md), and primary outputs from [examples/](examples/).
+**This README was generated from CANON.md + DICTIONARY.md + examples/** following the self-documenting protocol.
 
-When CANON or VOCABULARY changes, this README must regenerate to maintain self-documenting property.
+When CANON or DICTIONARY changes, this README must regenerate to maintain the self-documenting property.
 
 ---
 
-**Ready to stop AI slop?** Clone the repo and try the examples.
+**Ready to build durable systems?** Clone the repo and try the examples.

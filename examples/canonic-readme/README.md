@@ -1,53 +1,82 @@
 # Canonic README Example
 
-## What This Example Demonstrates
+Document governance demonstrating nested triads and inheritance.
 
-This example shows how to use CANONIC programming to govern a simple project README. It demonstrates:
+## What This Demonstrates
 
-1. **The Triad Pattern** - Every directory has CANON.md, VOCABULARY.md, and README.md
-2. **Constraint Definition** - How to write clear, enforceable constraints
-3. **Validation Gates** - How validation enforces constraints
-4. **Inheritance** - How constraints cascade from parent to child
+- **Nested triad structure**: project/ subdirectory has its own triad
+- **Inheritance chains**: project/CANON.md inherits from ./CANON.md
+- **Constraint composition**: Child constraints specialize parent constraints
+- **Document governance**: CANONs govern documentation, not just code
 
-## Example Structure
+This example shows how CANONIC systems compose through inheritance.
+
+## Structure
 
 ```
 canonic-readme/
-├── CANON.md           # Governance for this example
-├── VOCABULARY.md      # Terms (inherits from parent)
-├── README.md          # This file
-└── project/           # Sample project being governed
-    ├── CANON.md       # Sample project constraints
-    ├── VOCABULARY.md  # Sample project terms
-    └── README.md      # The artifact being validated
+├── CANON.md          (root constraints: engagement, accuracy, references)
+├── DICTIONARY.md     (term definitions)
+├── README.md         (this file)
+└── project/
+    ├── CANON.md      (inherits from ../, adds project-specific constraints)
+    ├── DICTIONARY.md (inherits terms, adds project-specific terms)
+    ├── README.md     (project documentation)
+    └── example.py    (runnable code demonstrating concepts)
 ```
 
-## How to Use This Example
+## Inheritance Chain
 
-### Step 1: Understand the Constraint
-Read `project/CANON.md` to see what constraints govern the sample README.
+1. **examples/CANON.md** (grandparent)
+   - Defines: Example progression requirement
 
-### Step 2: Review the Artifact
-Read `project/README.md` to see the compliant README.
+2. **canonic-readme/CANON.md** (parent)
+   - Inherits: Example requirements
+   - Adds: Document engagement, technical accuracy, reference resolution
 
-### Step 3: Run Validation
-From the repository root:
+3. **canonic-readme/project/CANON.md** (child)
+   - Inherits: All document constraints
+   - Adds: Project-specific code quality requirements
+
+Each level adds constraints without contradicting upstream invariants.
+
+## How Inheritance Works
+
+### Parent Constraints (from ./CANON.md)
+
+- Documentation must be engaging
+- Code examples must be runnable
+- References must resolve
+
+### Child Specialization (in project/CANON.md)
+
+- Inherits all parent constraints (via `**Inherits from:** ../CANON.md`)
+- Adds Python-specific requirements
+- Cannot contradict parent constraints
+
+This demonstrates **inheritance without contradiction** - the core principle of CANONIC composition.
+
+## Validation
+
+To validate this example:
+
 ```bash
-python tools/validation/run_validation.py
+cd project/
+python example.py
 ```
 
-This validates that all triads are present and properly structured.
+The code runs successfully, demonstrating:
+1. Runnable code requirement satisfied
+2. Technical accuracy validated
+3. References resolve (example.py exists)
 
-### Step 4: Experiment
-Try modifying `project/README.md` to violate constraints, then re-run validation to see it fail.
+## Files
 
-## What Makes This "CANONIC"
+- [CANON.md](CANON.md) - Root document constraints
+- [DICTIONARY.md](DICTIONARY.md) - Term definitions
+- [README.md](README.md) - This guide
+- [project/](project/) - Nested triad with inheritance
 
-- **Constraints are declarative**: The CANON.md states what must be true, not how to achieve it
-- **Validation is automatic**: The validator checks compliance mechanically
-- **Work is traced**: The README artifact must comply with stated constraints
-- **No executable code in governance**: CANON.md contains only English constraints
+---
 
-## Key Takeaway
-
-CANONIC programming separates "what must be true" (CANON) from "the work" (README). This separation makes the system durable - constraints persist even as tools and authors change.
+Generated from CANON.md + DICTIONARY.md + structure

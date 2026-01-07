@@ -1,85 +1,59 @@
-# Hello World
+# Hello World Example
 
-**The simplest CANONIC system.**
-
-This example demonstrates the core validation loop with minimal complexity.
-
----
+The simplest possible CANONIC system.
 
 ## What This Demonstrates
 
-**Core Concept:** Binary validation (pass/fail)
+- **One file**: `hello.txt`
+- **One constraint**: Content must be exactly "Hello, world."
+- **One validator**: Python script checking exact match
 
-The system has:
-- **One file:** `hello.txt`
-- **One constraint:** Content must be exactly "Hello, world."
-- **One validation:** Check if content matches
+This example shows the fundamental CANONIC pattern: constraint + validation.
 
-This is CANONIC programming at its simplest:
+## The Constraint
 
+From [CANON.md](CANON.md):
+
+> hello.txt must contain exactly: "Hello, world."
+
+This is declarative governance. The CANON states what must be true.
+
+## How to Run
+
+1. Create `hello.txt` with content:
+   ```
+   Hello, world.
+   ```
+
+2. Run validation:
+   ```bash
+   python validate.py
+   ```
+
+3. Expected output:
+   ```
+   ✓ hello.txt validates successfully
+   ```
+
+## What Happens on Failure
+
+Try modifying `hello.txt` to contain `Hello, World!` (capital W) and run validation again.
+
+The validator will reject the change:
 ```
-CANON.md defines: "hello.txt must contain exactly 'Hello, world.'"
-↓
-hello.txt exists with content
-↓
-Validation checks: Does content match exactly?
-↓
-Pass → Accept | Fail → Reject
+✗ Validation failed: Content must be exactly "Hello, world."
 ```
+
+This demonstrates the enforcement layer: constraints define validity, validation gates acceptance.
+
+## Files
+
+- [CANON.md](CANON.md) - The constraint specification
+- [DICTIONARY.md](DICTIONARY.md) - Term definitions
+- [README.md](README.md) - This guide
+- `validate.py` - Validation implementation
+- `hello.txt` - The artifact under governance
 
 ---
 
-## How to Use
-
-### 1. Read the CANON
-Open [CANON.md](CANON.md) to see the constraints.
-
-### 2. Check the artifact
-Look at [hello.txt](hello.txt) to see the governed content.
-
-### 3. Run validation
-```bash
-python3 validate.py
-```
-
-Expected output:
-```
-✓ hello.txt exists
-✓ Content matches exactly
-Validation: PASS
-```
-
-### 4. Experiment
-Try modifying `hello.txt`:
-- Add a space: "Hello, world. "
-- Remove the period: "Hello, world"
-- Change capitalization: "hello, world."
-
-Then re-run validation to see it fail.
-
----
-
-## What You Learn
-
-1. **Binary validation**: Either compliant or not, no subjective judgment
-2. **Exact constraints**: CANON specifies precisely what must be true
-3. **Validation gates**: Invalid artifacts are rejected, not accepted
-4. **No execution**: The file doesn't "run" — it's validated
-
-This is the foundation. All CANONIC systems follow this pattern:
-- Define constraints (CANON)
-- Create artifacts (work)
-- Validate compliance (gate)
-- Accept or reject (enforcement)
-
----
-
-## Next Steps
-
-After understanding this example:
-- Try [canonic-readme/](../canonic-readme/) for document structure validation
-- Try [simple-fsm/](../simple-fsm/) for state machine governance
-
----
-
-End of hello-world README.
+Generated from CANON.md + DICTIONARY.md

@@ -1,96 +1,59 @@
-# Examples
+# CANONIC Programming Examples
 
-**Demonstrations of CANONIC programming in action.**
+This directory contains three examples demonstrating CANONIC programming concepts through progressive complexity.
 
-This directory contains self-contained examples showing the paradigm from simple to complex.
+## Examples Overview
 
----
+### 1. hello-world/
+**Simplest possible CANONIC system**
 
-## Available Examples
+- Single file (`hello.txt`)
+- Single constraint ("Hello, world.")
+- Minimal Python validator (56 lines)
+- Demonstrates: Basic constraint validation
 
-### hello-world/
-The simplest CANONIC system.
-- One file: `hello.txt`
-- One constraint: Content must be exactly "Hello, world."
-- Demonstrates: Core validation loop
-- **Status:** Complete and runnable
+**Use this to understand:** How constraints define validity, how validation enforces constraints.
 
-### canonic-readme/
-A governed README with structural requirements.
-- Demonstrates: Document structure validation, inheritance chains
-- Shows: Required sections, heading hierarchy, format rules
-- **Status:** Complete and runnable
+### 2. simple-fsm/
+**State machine with validation gates**
 
-### simple-fsm/
-Basic finite state machine with validation gates.
-- Demonstrates: State transitions, validation gates, backflow
-- Shows: How CANONIC FSMs work in practice
-- **Status:** Complete and runnable
+- Three states: draft → review → published
+- Transition validation at each gate
+- Backflow on validation failure
+- Python FSM implementation (177 lines)
+- Demonstrates: Git-FSM pattern, validation gates, state transitions
 
----
+**Use this to understand:** How commits are state transitions, how validation gates work, how backflow corrects violations.
 
-## How to Use Examples
+### 3. canonic-readme/
+**Document governance with nested structure**
 
-Each example is self-contained:
+- Nested triad structure (project/ subdirectory)
+- Inheritance demonstration
+- Rich constraints (engagement, structure, code quality)
+- Demonstrates: Triad composition, inheritance chains, governance layers
 
-1. **Read the README** — Understand what it demonstrates
-2. **Check the CANON** — See the constraints
-3. **Run validation** — Execute the example
-4. **Modify and re-validate** — Learn by experimenting
+**Use this to understand:** How triads nest, how inheritance works, how constraints compose.
 
-**Example-specific validation:**
-```bash
-cd hello-world/ && python3 validate.py
-cd simple-fsm/ && python3 transition.py review
-```
+## Pedagogical Progression
 
-See each example's README for detailed usage instructions.
+Each example teaches specific concepts:
 
----
+1. **hello-world**: Constraint + validation fundamentals
+2. **simple-fsm**: State machines + git-FSM implementation
+3. **canonic-readme**: Triad composition + inheritance
 
-## Example Structure
+Start with hello-world, proceed to simple-fsm, finish with canonic-readme.
 
-Every example follows the same pattern:
+## Running Examples
 
-```
-example-name/
-├── CANON.md          # Constraints
-├── VOCABULARY.md     # Terms
-├── README.md         # Explanation
-└── [artifacts]       # Files being validated
-```
+Each example directory contains:
+- Complete triad (CANON.md, DICTIONARY.md, README.md)
+- Validation implementation (Python scripts)
+- Example artifacts to validate
+
+See individual example README.md files for specific instructions.
 
 ---
 
-## Learning Path
-
-**Start here:** hello-world/ — Core concepts
-**Then:** simple-fsm/ — State machines and validation gates
-**Finally:** canonic-readme/ — Document governance with inheritance
-
-For complex applications, see [Writing Machine](https://github.com/canonic-machine/writing)
-
----
-
-## Creating Your Own
-
-To create a CANONIC system based on these examples:
-
-1. Copy an example directory
-2. Modify CANON.md with your constraints
-3. Update VOCABULARY.md with your terms
-4. Create your artifacts
-5. Run validation
-6. Fix violations until compliant
-
----
-
-## Notes
-
-Examples are intentionally minimal. They demonstrate concepts, not production systems.
-
-For real-world usage, see the Writing Machine repository which uses CANONIC programming for complex document workflows.
-
----
-
-End of examples README.
+Generated from CANON.md + DICTIONARY.md + examples structure

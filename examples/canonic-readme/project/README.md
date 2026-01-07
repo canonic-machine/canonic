@@ -1,33 +1,73 @@
-# Hello World Library
+# Project Example
 
-## Description
-A simple library that prints "Hello, World!" to the console. This library demonstrates basic output functionality across multiple programming languages.
+Demonstrates inheritance chain and code governance.
 
-## Installation
+## What This Code Does
 
-### Via npm
+The `example.py` script demonstrates:
+1. Runnable Python code (satisfies parent constraint)
+2. Type annotations (satisfies local constraint)
+3. Docstrings (satisfies local constraint)
+4. Practical CANONIC validation pattern
+
+## Inheritance Chain
+
+This directory inherits constraints from:
+
+1. `../../CANON.md` (examples root)
+   - Progressive complexity requirement
+
+2. `../CANON.md` (canonic-readme root)
+   - Engagement requirement
+   - Technical accuracy requirement
+   - Reference resolution requirement
+
+3. `./CANON.md` (this directory)
+   - Python type checking requirement
+   - Docstring requirement
+   - Example execution requirement
+
+All constraints compose - this code must satisfy ALL levels.
+
+## How to Run
+
 ```bash
-npm install hello-world-lib
+python example.py
 ```
 
-### Via pip
+Expected output:
+```
+✓ Demonstrating CANONIC constraint validation
+✓ All inherited constraints satisfied
+```
+
+## Type Checking
+
 ```bash
-pip install hello-world-lib
+mypy example.py
 ```
 
-## Usage
+Should produce no errors (satisfies type checking constraint).
 
-### JavaScript
-```javascript
-const helloWorld = require('hello-world-lib');
-helloWorld.greet();
-```
+## Files
 
-### Python
-```python
-from hello_world_lib import greet
-greet()
-```
+- [CANON.md](CANON.md) - Project-specific constraints
+- [DICTIONARY.md](DICTIONARY.md) - Project-specific terms
+- [README.md](README.md) - This guide
+- `example.py` - Runnable Python example
 
-## License
-This library is released under the MIT License.
+## Constraint Satisfaction
+
+| Constraint | Source | Status |
+|-----------|---------|---------|
+| Progressive complexity | examples/CANON.md | ✓ Part of 3-example progression |
+| Engaging documentation | ../CANON.md | ✓ Clear structure, examples |
+| Technical accuracy | ../CANON.md | ✓ Correct descriptions |
+| Reference resolution | ../CANON.md | ✓ All files exist |
+| Type checking | ./CANON.md | ✓ Passes mypy |
+| Docstrings | ./CANON.md | ✓ All functions documented |
+| Runs without errors | ./CANON.md | ✓ Executes successfully |
+
+---
+
+Generated from CANON.md + DICTIONARY.md + example.py
