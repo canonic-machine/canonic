@@ -39,7 +39,14 @@
 - Use single words, not compound names with underscores or hyphens
 - UPPERCASE for consistency and discoverability
 
-**Violation:** Governance file uses multi-word name (e.g., SESSION_LEARNINGS.md instead of LEARNINGS.md) or non-uppercase name
+**Stack ordering for implementation repositories:**
+- Implementation repositories MAY use numeric prefixes to show architectural stack
+- Prefix format: `NN-FILENAME.md` where NN is zero-padded (00, 01, 02, etc.)
+- Canonical stack order: 00-CANON (truth) → 01-VOCABULARY (language) → 02-<SPEC> (architecture) → subsequent layers defined by spec
+- Pure governance repositories (canonic/) use unprefixed names
+- Stack ordering makes dependency layers immediately visible in directory listings
+
+**Violation:** Governance file uses multi-word name (e.g., SESSION_LEARNINGS.md instead of LEARNINGS.md), non-uppercase name, or violates spec-defined stack ordering
 
 ### Validation gates
 **All artifacts must pass validation before acceptance.**
