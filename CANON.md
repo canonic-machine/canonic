@@ -25,9 +25,18 @@
 ## Core Invariants
 
 ### Triad requirement
-**All governed directories must contain the triad: CANON.md, VOCABULARY.md, README.md.**
+**All governed directories must contain the minimal triad: CANON.md, VOCABULARY.md, README.md.**
 
-**Violation:** Directory missing any triad file
+**Triad primitives:**
+- These three files are equivalent primitives, not hierarchical
+- Always unnumbered (no numeric prefixes)
+- Present in all governed directories (governance and implementation)
+- Form the complete self-describing foundation
+- CANON.md: Governance constraints
+- VOCABULARY.md: Terminology definitions
+- README.md: Human-readable entry point
+
+**Violation:** Directory missing any triad file, or triad files using numeric prefixes
 
 ### File naming convention
 **Governance markdown files use single-word UPPERCASE names.**
@@ -66,22 +75,25 @@
 - Test: Can someone unfamiliar immediately understand what the file contains?
 
 **Stack ordering for implementation repositories:**
-- Implementation repositories MAY use numeric prefixes to show architectural stack
+- Implementation repositories MAY use numeric prefixes for architectural layers beyond the triad
 - Prefix format: `NN-FILENAME.md` where NN is zero-padded (00, 01, 02, etc.)
-- Universal stack foundation: 00-CANON (truth) → 01-VOCABULARY (language) → 02-SPEC (architecture)
-- Root CANON defines CANON, VOCABULARY, and SPEC (CANONIC)
-- SPEC defines all subsequent layers (03+)
-- Implementation repositories inherit this pattern: 00-CANON → 01-VOCABULARY → 02-<REPO-SPEC> → layers defined by that spec
-- Pure governance repositories (canonic/) use unprefixed names
+- Triad files (CANON.md, VOCABULARY.md, README.md) are ALWAYS unnumbered in all repositories
+- Numbered layers build on top of unnumbered triad foundation
+- Universal stack foundation: CANON.md + VOCABULARY.md + README.md → 00-SPEC (architecture) → layers defined by that spec
+- Root CANON defines SPEC (CANONIC.md specification file)
+- Implementation repositories inherit pattern: triad → 00-<REPO-SPEC> → 01+ layers defined by that spec
+- Pure governance repositories (canonic/) contain only triad + specification file
 - Stack ordering makes dependency layers and inheritance immediately visible in directory listings
 
-**Exemptions from numbering:**
-- README.md: Human entry point, not part of technical stack
+**Always unnumbered:**
+- CANON.md: Primitive governance constraints
+- VOCABULARY.md: Primitive terminology definitions
+- README.md: Primitive human entry point
 - LICENSE: Legal requirement, not governance artifact
 - .gitignore: Git configuration, not governed content
 - Files outside governance structure remain unprefixed
 
-**Violation:** Governance file uses multi-word name (e.g., SESSION_LEARNINGS.md instead of LEARNINGS.md), non-uppercase name, or violates spec-defined stack ordering
+**Violation:** Governance file uses multi-word name (e.g., SESSION_LEARNINGS.md instead of LEARNINGS.md), non-uppercase name, triad file has numeric prefix, or violates spec-defined stack ordering
 
 ### Validation gates
 **All artifacts must pass validation before acceptance.**
