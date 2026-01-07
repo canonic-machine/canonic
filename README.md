@@ -260,21 +260,16 @@ This README is generated according to the **documentation protocol** defined in 
 **Generation mechanism:**
 - Input sources: [CANON.md](CANON.md) + [VOCABULARY.md](VOCABULARY.md) + git history
 - Trigger: When CANON.md or VOCABULARY.md changes
+- Generator: LLM agent following documentation protocol
 - Validation: README staleness check via timestamps
-- Automation: [Pre-commit hook](examples/git-hooks/pre-commit) enforces synchronization
 
 **To regenerate this README:**
 1. Edit [CANON.md](CANON.md) or [VOCABULARY.md](VOCABULARY.md)
-2. Run documentation generation (LLM agent with protocol)
+2. Run documentation generation (LLM agent with protocol from [PROTOCOLS.md](PROTOCOLS.md))
 3. Stage both source changes and updated README
 4. Commit atomically: `git add CANON.md VOCABULARY.md README.md`
 
-**Staleness validation:**
-```bash
-examples/git-hooks/validate-readme-freshness.sh
-```
-
-This ensures README always reflects current governance state.
+**Implementation:** See [PROTOCOLS.md](PROTOCOLS.md) for complete documentation generation protocol specification.
 
 ---
 
@@ -299,11 +294,7 @@ canonic/
 ├── README.md                   # This documentation (generated)
 ├── PROTOCOLS.md                # Reusable validation/generation patterns
 └── examples/                   # Demonstrations
-    ├── canonic-readme/
-    └── git-hooks/              # Example git automation scripts
-        ├── pre-commit              # README regeneration trigger
-        ├── validate-readme-freshness.sh
-        └── README.md               # Hook documentation
+    └── canonic-readme/
 ```
 
 Every governed directory contains the triad: CANON.md, VOCABULARY.md, README.md.
@@ -350,14 +341,13 @@ This governance repository is in **rapid learning phase** (50% producer ratio).
 3. Write constraints in CANON.md
 4. Generate artifacts that satisfy constraints
 5. Validate outputs against constraints
-6. Install [git hooks](examples/git-hooks/) for automation
 
 ### For Contributing
-1. Install pre-commit hook: `cp examples/git-hooks/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit`
-2. Follow atomic commit discipline (one logical change per commit)
-3. Use commit patterns: "Canonify [pattern]" (producer) or "Apply/Fix [constraint]" (consumer)
-4. Regenerate README when CANON or VOCABULARY changes
-5. Maintain triad coherence in all governed directories
+1. Follow atomic commit discipline (one logical change per commit)
+2. Use commit patterns: "Canonify [pattern]" (producer) or "Apply/Fix [constraint]" (consumer)
+3. Regenerate README when CANON or VOCABULARY changes
+4. Maintain triad coherence in all governed directories
+5. Implement automation per [PROTOCOLS.md](PROTOCOLS.md) in your own repositories
 
 ---
 
