@@ -3,6 +3,56 @@
 
 **Inherits from:** None
 
+## Constitutional Nature
+
+### Root CANON as constitution
+**The root CANON is the constitution of CANONIC programming.**
+
+**Constitutional properties:**
+- Defines fundamental governance principles (not domain-specific rules)
+- Is the deduplication point (triad, inheritance, separation of concerns defined once)
+- Enables composition (all downstream implementations inherit these principles)
+- Must be stable (constitutional law does not churn after paradigm matures)
+
+**The root CANON is the dictionary:**
+- Defines what governance terms mean (definitive source of truth)
+- Provides canonical definitions used by all implementations
+- Mandates DICTIONARY.md in triad (dictionaries all the way down)
+- Serves as lexicon for the paradigm
+
+**Violation:** Root CANON contains domain-specific patterns, shows high commit frequency after stabilization, or allows constitutional principles to drift
+
+### Producer/consumer as legislative process
+**Producer commits canonify new patterns. Consumer commits apply canonical constraints.**
+
+**Producer commits (legislative):**
+- Add definitions to the constitutional dictionary
+- Expand the governance language
+- Use pattern: `Canonify [what was learned]`
+- Occur in governance repository (CANONIC)
+
+**Consumer commits (executive):**
+- Apply constitutional requirements
+- Speak the governance language correctly
+- Use patterns: `Apply [constraint]` or `Fix [violation]`
+- Occur in implementation repositories (MACHINE, domain applications)
+
+**Legislative flow:**
+```
+CANONIC produces → MACHINE consumes
+MACHINE produces → Domain applications consume
+Domain applications produce → Artifacts consume
+```
+
+Each layer is consumer of the layer above, producer for the layer below.
+
+**Maturity signals:**
+- High producer ratio → Constitutional language still forming
+- Low producer ratio → Constitutional language stabilized
+- Static root CANON → Constitution complete
+
+**Violation:** Consumer commit precedes producer commit, implementation produces without consuming upstream constraints, or root CANON shows continuous churn after paradigm stabilization
+
 ## Core Invariants
 
 ### Triad requirement
