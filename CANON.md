@@ -61,11 +61,9 @@ Each layer is consumer of the layer above, producer for the layer below.
 
 **VOCAB.md must contain alphabetically ordered term definitions.**
 
-**VOCAB is temporal - evolves with the machine.**
+**VOCAB is chronological with SPEC** - SPEC term is first entry, vocabulary evolves with specification.
 
-**SPEC term must be first entry in VOCAB.md** - machine's self-reference leads vocabulary.
-
-**Violation:** Directory missing any triad file, VOCAB.md terms not alphabetically ordered, or SPEC term not first in VOCAB
+**Violation:** Directory missing any triad file, VOCAB.md terms not alphabetically ordered, or SPEC term not first entry
 
 ### Implementation inheritance
 **Implementation repositories inherit from protocol specifications via markdown links.**
