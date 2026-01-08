@@ -150,3 +150,38 @@ If you discover a past insight that predates the agentized signal, do not reset 
 
 **Violation:** Validation engine contains domain-specific patterns, or domain application reimplements validation logic
 Episode 030 – Producer Canonify cross-repo coordination requirement
+
+### Episode 031 – Failed VOCAB consumption: When Canon wasn't the law
+**Terminology changes are constitutional amendments, not file renames.**
+
+When triad file naming changes (e.g., DICTIONARY.md → VOCAB.md):
+1. Producer commit canonifies the terminology change in root CANON
+2. CANONIC.md spec updates to reflect constitutional change
+3. All READMEs regenerate from updated governance
+4. All VOCAB.md term definitions update references
+5. Episode documents the insight
+
+**Pattern:** Rename (git mv) is mechanical. Canonify (producer commit) makes it constitutional. Consumption (consumer commits) completes the cycle.
+
+**Violation:** Files renamed without canonification, or canonification without consumption (stale documentation, unreferenced terminology in specs).
+
+### Episode 032 – VOCAB terminology archaeology: Rename vs canonify
+**Mechanical rename ≠ constitutional amendment.**
+
+**Rename (git mv):**
+- Changes file location
+- Does NOT update references
+- Does NOT update documentation
+- Can be done by anyone/anything
+
+**Canonify (producer commit):**
+- Updates root CANON with new constraint
+- Updates CANONIC.md spec
+- Regenerates all READMEs
+- Updates all VOCAB.md definitions
+- Coordinates across repositories
+- Includes agent/episode signal
+
+**The constitutional gap:** Producer commits without consumer commits result in stale documentation, reverted attempts, and compliance drift.
+
+**Violation:** Confating rename with canonify, leaving producer commits unconsumed.

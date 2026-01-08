@@ -16,7 +16,7 @@ A programming paradigm that uses plain-English constraints + validation gates to
 
 1. Read [CANONIC.md](CANONIC.md) — The paradigm specification (human-iterated)
 2. Read [CANON.md](CANON.md) — The constitution (root governance constraints)
-3. Read [DICTIONARY.md](DICTIONARY.md) — Canonical term definitions
+3. Read [VOCAB.md](VOCAB.md) — Canonical term definitions
 4. Explore [examples/](examples/) — Progressive demonstrations
 5. Check out [Writing Machine](https://github.com/canonic-machine/writing) — Complex FSM built on this paradigm
 
@@ -32,10 +32,10 @@ The root CANON is the **constitution** of CANONIC programming.
 - Enables composition (all implementations inherit these principles)
 - Must be stable (constitutional law does not churn after maturity)
 
-**The root CANON is the dictionary:**
+**The root CANON is the vocabulary:**
 - Defines what governance terms mean (definitive source of truth)
 - Provides canonical definitions used by all implementations
-- Mandates DICTIONARY.md in triad (dictionaries all the way down)
+- Mandates VOCAB.md in triad (vocabularies all the way down)
 - Serves as lexicon for the paradigm
 
 **Producer/consumer as legislative process:**
@@ -80,14 +80,14 @@ stateDiagram-v2
 All governed directories must contain the minimal triad:
 
 - **CANON.md** - Constraints (LLM-generated, LLM-consumed, token-optimized)
-- **DICTIONARY.md** - Term definitions (LLM-generated, alphabetically ordered)
+- **VOCAB.md** - Term definitions (LLM-generated, alphabetically ordered, temporal)
 - **README.md** - Human guidance (LLM-generated, human-consumed)
 
 **Generation and consumption flows:**
 
 ```
 CANON.md: LLM generates → LLM consumes (validators enforce constraints)
-DICTIONARY.md: LLM generates (alphabetically ordered terms)
+VOCAB.md: LLM generates (alphabetically ordered terms, evolves with machine)
 README.md: LLM generates → Human consumes (synthesized documentation)
 ```
 
@@ -97,13 +97,13 @@ README.md: LLM generates → Human consumes (synthesized documentation)
 
 **The triad is never directly edited:**
 
-CANON.md, DICTIONARY.md, and README.md are generated fresh by LLM.
+CANON.md, VOCAB.md, and README.md are generated fresh by LLM.
 Humans never directly edit these files.
 All changes flow through CANONIC.md iteration.
 
 **Alphabetical ordering requirement:**
 
-DICTIONARY.md must contain alphabetically ordered term definitions within each section.
+VOCAB.md must contain alphabetically ordered term definitions within each section.
 
 This enables:
 - Deduplication (find existing terms quickly)
@@ -193,7 +193,7 @@ Systems implement dual validation (syntactic + semantic) and validate themselves
 CANONs stay minimal to minimize token cost across all operations. Semantic violations converge to syntactic constraints.
 
 ### Self-Documenting
-The triad generates complete documentation automatically. README.md synthesizes from CANON.md + DICTIONARY.md + primary outputs.
+The triad generates complete documentation automatically. README.md synthesizes from CANON.md + VOCAB.md + primary outputs.
 
 ### Self-Healing
 Git history patterns trigger validation and correction. Backflow returns to source state on failure.
@@ -260,7 +260,7 @@ A pass/fail decision procedure that checks artifacts against canon constraints. 
 Any output under governance. Examples: documents, diagrams, indices, references, ledgers, code files.
 
 ### triad
-The three required files in every directory: CANON.md (constraints), DICTIONARY.md (definitions), README.md (human guide).
+The three required files in every directory: CANON.md (constraints), VOCAB.md (definitions), README.md (human guide).
 
 ### invariant
 A constraint that cannot be overridden by downstream CANONs. Must hold true across entire inheritance chain.
@@ -274,7 +274,7 @@ A git commit that adds new constraints to CANON.md. Message pattern: "Canonify [
 ### consumer commit (implementation)
 A git commit that applies existing CANON constraints. Patterns: "Apply [constraint]" or "Fix [violation]". Signals enforcement.
 
-See [DICTIONARY.md](DICTIONARY.md) for complete alphabetically-ordered definitions.
+See [VOCAB.md](VOCAB.md) for complete alphabetically-ordered definitions.
 
 ---
 
@@ -298,7 +298,7 @@ See [DICTIONARY.md](DICTIONARY.md) for complete alphabetically-ordered definitio
 canonic/
 ├── CANONIC.md         # Paradigm specification (human-iterated)
 ├── CANON.md           # Root constitution (LLM-generated)
-├── DICTIONARY.md      # Canonical term definitions (LLM-generated)
+├── VOCAB.md           # Canonical term definitions (LLM-generated)
 ├── README.md          # This documentation (LLM-generated)
 └── examples/          # Progressive demonstrations
     ├── hello-world/       # Minimal constraint + validation
@@ -307,7 +307,7 @@ canonic/
 ```
 
 **Governance purity:** This repository contains ONLY:
-- The triad (CANON.md, DICTIONARY.md, README.md)
+- The triad (CANON.md, VOCAB.md, README.md)
 - Paradigm specification (CANONIC.md)
 - Examples (pedagogical demonstrations)
 
@@ -326,7 +326,7 @@ Implementation repositories (MACHINE, domain applications) add operational tooli
 - Producer commits precede consumer commits
 - Each layer consumes from above, produces for below
 - State names reveal domain layer
-- Triad is entirely LLM-generated (humans never edit CANON/DICTIONARY/README)
+- Triad is entirely LLM-generated (humans never edit CANON/VOCAB/README)
 - Humans iterate CANONIC.md only
 - Humans consume README only
 
@@ -337,7 +337,7 @@ Implementation repositories (MACHINE, domain applications) add operational tooli
 ### For Understanding
 1. Read [CANONIC.md](CANONIC.md) — Paradigm specification
 2. Study [CANON.md](CANON.md) — Root constitution
-3. Review [DICTIONARY.md](DICTIONARY.md) — Term definitions
+3. Review [VOCAB.md](VOCAB.md) — Term definitions
 4. Explore [examples/](examples/) — Hands-on demonstrations
 
 ### For Building
@@ -359,7 +359,7 @@ Implementation repositories (MACHINE, domain applications) add operational tooli
 
 - [CANONIC.md](CANONIC.md) — The paradigm specification (human-iterated)
 - [CANON.md](CANON.md) — The constitution (LLM-generated governance)
-- [DICTIONARY.md](DICTIONARY.md) — Term definitions (LLM-generated, alphabetically ordered)
+- [VOCAB.md](VOCAB.md) — Term definitions (LLM-generated, alphabetically ordered)
 - [examples/](examples/) — Progressive demonstrations
 - [Writing Machine](https://github.com/canonic-machine/writing) — Complex domain application
 
@@ -371,9 +371,9 @@ This repository practices what it preaches.
 
 Every governed directory contains the triad. Every artifact is validated. The paradigm documents itself.
 
-**This README was generated from CANON.md + DICTIONARY.md + examples/** following the self-documenting protocol.
+**This README was generated from CANON.md + VOCAB.md + examples/** following the self-documenting protocol.
 
-When CANON or DICTIONARY changes, this README must regenerate to maintain the self-documenting property.
+When CANON or VOCAB changes, this README must regenerate to maintain the self-documenting property.
 
 ---
 

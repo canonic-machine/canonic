@@ -89,7 +89,7 @@ This demonstrates the enforcement layer: you cannot transition to published with
 ## Files
 
 - [CANON.md](CANON.md) - FSM constraints
-- [DICTIONARY.md](DICTIONARY.md) - Term definitions
+- [VOCAB.md](VOCAB.md) - Term definitions
 - [README.md](README.md) - This guide
 - `transition.py` - State transition implementation
 - `draft.txt` - Draft state content
@@ -98,4 +98,4 @@ This demonstrates the enforcement layer: you cannot transition to published with
 
 ---
 
-Generated from CANON.md + DICTIONARY.md
+Generated from CANON.md + VOCAB.md

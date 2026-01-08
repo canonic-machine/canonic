@@ -55,7 +55,7 @@ The ordered sequence of CANON files from repository root to target directory. Ea
 The property that all references (file, protocol, pattern, URL) resolve to existing, valid targets. Prevents broken links and inconsistent documentation.
 
 ### triad
-The three required files in every directory: CANON.md (constraints), DICTIONARY.md (definitions), README.md (human guide).
+The three required files in every directory: CANON.md (constraints), VOCAB.md (definitions), README.md (human guide).
 
 ### violation
 A failure to satisfy a canon constraint. Must be fixed before artifacts can be accepted.
@@ -143,7 +143,7 @@ The middle abstraction layer implementing constraint checking, git-FSM transitio
 ## Document Terms
 
 ### either artifact
-Document that must serve both LLM and human audiences. Examples: DICTIONARY.md, specifications.
+Document that must serve both LLM and human audiences. Examples: VOCAB.md, specifications.
 
 ### human-first artifact
 Document optimized for comprehension and teaching. Examples: README.md, guides, tutorials.
@@ -155,11 +155,20 @@ Document optimized for machine interpretation. Examples: CANON.md, protocols, co
 
 ## Meta Terms
 
+### canonify
+To encode a discovered pattern or constraint into the constitution (root CANON). A legislative act that makes a pattern official governance. Producer commits canonify; consumer commits apply canonified constraints. The pattern: "Canonify [what was learned]" for producer commits.
+
+### canonification
+The act of making something canonical through constitutional amendment. Occurs via producer commits that add constraints to root CANON. Enables recursive strengthening by encoding meta-patterns about system improvement.
+
+### consumption (consumer commits)
+The act of applying canonified constraints to downstream implementations. Consumer commits follow producer commits, implementing what has been canonified. Pattern: "Apply [constraint]" or "Fix [violation]". Must occur after canonification, not before.
+
 ### diagram direction
 The flow orientation of Mermaid diagrams. LR (left-to-right) for process flows, TB (top-bottom) for hierarchical structures.
 
 ### documentation generation
-Automated process of synthesizing README.md from CANON.md, DICTIONARY.md, and primary outputs. Triggered when source files change, executed by LLM agent following documentation protocol.
+Automated process of synthesizing README.md from CANON.md, VOCAB.md, and primary outputs. Triggered when source files change, executed by LLM agent following documentation protocol.
 
 ### documentation protocol
 Specification defining how README.md is generated from governance sources. Includes input requirements, generation process, validation checks, and trigger conditions.
@@ -167,8 +176,14 @@ Specification defining how README.md is generated from governance sources. Inclu
 ### durability
 Property of systems that remain stable and valid across time, edits, and collaborators. Primary goal of CANONIC programming.
 
+### episode
+A numbered document in paper/episodes/ that captures an insight, its context, action, and proof. Episodes create traceable evidence of learning. Episode numbers must be sequential and never reused. Linked from git commits via agent/episode signals.
+
+### failed VOCAB consumption
+The violation that occurs when terminology is renamed (e.g., DICTIONARY.md → VOCAB.md) without canonification or proper consumption. Results in stale documentation, reverted attempts, and compliance drift. Defined in Episode 031.
+
 ### generation trigger
-Event that initiates automatic README regeneration. Primary trigger: changes to CANON.md or DICTIONARY.md detected by pre-commit hook.
+Event that initiates automatic README regeneration. Primary trigger: changes to CANON.md or VOCAB.md detected by pre-commit hook.
 
 ### governance purity
 Property of repositories containing only governance artifacts (specifications, constraints, protocols, examples) without operational tooling. Examples demonstrate paradigm concepts; tools would automate repository operations.
@@ -178,6 +193,9 @@ The system's ability to examine and understand its own structure, behavior, and 
 
 ### introspection cycle
 The repeating pattern where work reveals gaps, introspection captures why, learnings are documented, and learnings are canonified into constraints. Core mechanism for system improvement through producer commits.
+
+### mechanical rename
+A git mv operation that changes file location without updating references, documentation, or governance. Differs from canonification which is a constitutional change. Violation: confating rename with canonify.
 
 ### Mermaid governance
 Consistent styling standards for all Mermaid diagrams in CANONIC systems. Ensures professional, readable visualizations that follow paradigm conventions.
@@ -206,11 +224,14 @@ The practice of analyzing git history, session artifacts, and system behavior to
 ### primary outputs
 The main artifacts produced by a repository. Varies by type: paradigm definitions (governance), LEARNINGS (implementation), output artifacts (domain applications), API docs (documentation systems), papers (research).
 
+### producer/consumer ordering
+Constitutional constraint that producer commits (canonification) must precede consumer commits (application). Cannot apply non-canonical patterns. Violation: consumer commit before producer commit.
+
 ### README freshness
 Condition where README.md timestamp is equal to or newer than source file timestamps. Indicates documentation reflects current governance state.
 
 ### README staleness
-Condition where README.md modification timestamp is older than CANON.md or DICTIONARY.md timestamps. Indicates documentation out of sync with governance. Detected by syntactic validation.
+Condition where README.md modification timestamp is older than CANON.md or VOCAB.md timestamps. Indicates documentation out of sync with governance. Detected by syntactic validation.
 
 ### README vocabulary accessibility
 Requirement that README files make key technical terms understandable to readers, either by direct explanation or clear links to definitions.
@@ -218,8 +239,11 @@ Requirement that README files make key technical terms understandable to readers
 ### recursive strengthening
 Process where meta-patterns about system improvement are themselves canonified, creating self-referential governance that mandates its own evolution.
 
+### rename vs canonify
+The distinction between mechanical file renaming (git mv) and constitutional amendment (canonification). Rename changes location; canonify changes what the system IS. Proper consumption requires both.
+
 ### self-documenting
-System that automatically generates its own documentation from governance artifacts. README.md is generated from CANON.md + DICTIONARY.md + primary outputs when sources change. Triad files provide complete self-description without external documentation.
+System that automatically generates its own documentation from governance artifacts. README.md is generated from CANON.md + VOCAB.md + primary outputs when sources change. Triad files provide complete self-description without external documentation.
 
 ### self-healing
 System that automatically detects and corrects violations of its own constraints through git history analysis. Invalid states are rejected and must be fixed. Git patterns trigger human review when violations recur.
@@ -245,9 +269,15 @@ The transition points between work sessions (start, end). Canonification commits
 ### session learnings
 Artifacts that capture discoveries, gaps, and patterns observed during work sessions. Act as interrupt mechanism triggering canonification. Enable the introspection cycle.
 
+### terminology change
+A constitutional amendment that modifies governance vocabulary (e.g., renaming DICTIONARY.md to VOCAB.md). Requires: (1) producer canonification, (2) spec update, (3) doc regeneration, (4) episode documentation. Violation: rename without canonification or consumption.
+
 ### traceability
 Ability to trace every artifact back to its source material or requirement. Prevents drift and hallucination.
 
+### VOCAB archaeology
+The investigation of git history to understand terminology evolution and identify consumption failures. Documented in Episode 032. Reveals patterns of rename vs canonify conflation.
+
 ---
 
-End of DICTIONARY.
+End of VOCAB.
