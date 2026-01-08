@@ -242,3 +242,22 @@ When triad file naming changes (e.g., DICTIONARY.md → VOCAB.md):
 - Session boundaries enforce completion
 
 **Violation:** Analyzing git history without deriving patterns, or failing to canonify discovered insights.
+
+### Episode 039 – Untracked Files Constraint
+**System files must not appear as untracked git changes.**
+
+**System Files Constraint:**
+
+1. .gitignore must include:
+   - .DS_Store (macOS)
+   - ._* (macOS extended attributes)
+   - .idea/ .vscode/ (editor configs)
+   - *.swp *.swo (editor swap files)
+   - .env *.log tmp/ temp/
+
+2. Working tree must be clean (nothing untracked) before:
+   - Committing
+   - Pushing
+   - Session end
+
+**Violation:** Untracked files in working tree before git operations
