@@ -47,6 +47,15 @@ Domain applications produce → Artifacts consume
 
 Each layer is consumer of the layer above, producer for the layer below.
 
+### Cross-repo atomic coordination
+**Producer/consumer episodes must coordinate commits across every affected repository.**
+
+The four-repo stack (CANONIC, MACHINE, WRITING, PAPER) already obeys canonical signals, but the “multi-repo disconnect” analysis revealed that atomic actions must land in each repository to make an episode traceable.
+
+**Constraint:** Before declaring an insight canonified or applied, ensure each repo records its own commit referencing the same episode, insight number, and vocabulary so the evidence path remains unbroken.
+
+**Violation:** A repo shows no edits while others advance a shared insight, or a documentation episode references an insight that lacks corresponding producer/consumer commits elsewhere.
+
 **Maturity signals:**
 - High producer ratio → Constitutional language still forming
 - Low producer ratio → Constitutional language stabilized
