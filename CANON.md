@@ -67,6 +67,15 @@ Every compliance claim must appear as a git commit whose message references the 
 
 **Violation:** Describing compliance without a corresponding commit message or producing artifacts that lack git-proven validation.
 
+### Episode alignment
+**Future insights must tie to numbered PAPER episodes with matching git commits in all affected repositories.**
+
+Every time a new insight emerges (producer or consumer), create or update the next sequential `paper/episodes/0XX-*.md` entry summarizing the context, action, and proof. Each repository that participates in that insight must reference the same episode number in its commit message and diff so the documentary chain stays intact.
+
+**Constraint:** No insight is complete until the episode and all participating repos signal the same episode number in their commits. Episode numbers must be sequential and never reused.
+
+**Violation:** Adding an episode without matching commits in the repos, or making commits that reference an insight without updating the episode log. This breaks the evidence trail.
+
 **Maturity signals:**
 - High producer ratio → Constitutional language still forming
 - Low producer ratio → Constitutional language stabilized
