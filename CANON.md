@@ -53,6 +53,42 @@ VOCAB is not just a governance artifact—it must demonstrate governance propert
 
 **Violation:** VOCAB contains contradictions, ordering violations, broken references, or inconsistent formatting
 
+### VOCAB terminology consumption
+**All VOCAB.md files must use correct terminology in footer.**
+
+The footer must say "End of VOCAB" not "End of DICTIONARY" or any other inherited terminology. Violation indicates failed consumption.
+
+**Violation:** VOCAB.md footer uses incorrect terminology
+
+### Multi-repo synchronization
+**All repositories must be regularly synchronized with origin.**
+
+Repositories should not accumulate commits ahead of origin/main. Regular push/pull cycles ensure all repos share same governance state.
+
+**Violation:** Repository is more than 5 commits ahead of origin, or repositories have divergent commit histories
+
+### Governance vocabulary completeness
+**Root VOCAB must define essential governance quality terms.**
+
+At minimum, VOCAB must include:
+- coherent: semantic property of logical constraint consistency
+- compliant: syntactic property of structural requirement matching
+- fully governed: the ideal state (both coherent AND compliant)
+
+**Violation:** Root VOCAB missing essential governance quality terms
+
+### Multi-repo vocabulary synchronization
+**When new governance terms are canonified, all repos must consume them.**
+
+New terms defined in root VOCAB must be added to:
+- MACHINE VOCAB
+- WRITING VOCAB
+- PAPER VOCAB
+
+This ensures all agents at all layers learn the same vocabulary.
+
+**Violation:** New term in root VOCAB not present in downstream VOCABs
+
 ### Three-layer architecture
 **CANONIC implementations must separate paradigm, validation engine, and domain applications.**
 
