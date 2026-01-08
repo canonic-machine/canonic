@@ -1,4 +1,4 @@
-# DICTIONARY (canonic-programming/)
+# VOCAB (canonic/)
 
 **Alphabetically ordered term definitions for the CANONIC programming paradigm.**
 
@@ -7,6 +7,9 @@ All terms defined here are inherited by downstream implementations.
 ---
 
 ## Core Paradigm Terms
+
+### CANONIC
+Constitutional programming paradigm where governance is source code. Named for "canon" (body of rules). Defines constraints, validation, inheritance, and the triad (CANON.md, VOCAB.md, README.md). Producer/consumer commits implement legislative process. VOCAB is temporal - evolves with the machine.
 
 ### artifact
 Any output under governance. Examples: documents, diagrams, indices, references, ledgers, code files.
