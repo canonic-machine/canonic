@@ -149,3 +149,4 @@ If you discover a past insight that predates the agentized signal, do not reset 
 - **Domain applications** (application layer): Inherit from MACHINE, add domain-specific patterns
 
 **Violation:** Validation engine contains domain-specific patterns, or domain application reimplements validation logic
+Episode 030 – Producer Canonify cross-repo coordination requirement
