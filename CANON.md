@@ -20,7 +20,13 @@
 - Serves as lexicon for the paradigm
 - VOCAB is temporal - evolves with the machine (not static dictionary)
 
-**Violation:** Root CANON contains domain-specific patterns, shows high commit frequency after stabilization, or allows constitutional principles to drift
+**Root CANON human-only constraint:**
+- Only humans can define or modify the root CANON
+- LLM never edits root CANON.md directly
+- Human iteration flows through CANONIC.md specification
+- Root CANON stability is a constitutional signal (instability = error)
+
+**Violation:** Root CANON contains domain-specific patterns, shows high commit frequency after stabilization, allows constitutional principles to drift, or is modified by LLM without human iteration through CANONIC.md
 
 ## Core Invariants
 
