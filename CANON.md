@@ -76,6 +76,15 @@ Every time a new insight emerges (producer or consumer), create or update the ne
 
 **Violation:** Adding an episode without matching commits in the repos, or making commits that reference an insight without updating the episode log. This breaks the evidence trail.
 
+### Agentized git signals
+**Every git signal must explicitly name the agent or agent role along with the episode reference.**
+
+Commits are the canonical signal of compliance: they are the place the agent explains what constraint it addressed and why. Every commit message must mention the agent (e.g., “Agent08”, “Canon Agent”, “Machine Agent”) or repeat the agent role (“producer agent”, “consumer agent”) and the same episode number referenced in the linked episode file.
+
+**Constraint:** A commit that doesn’t mention an agent role or episode number is incomplete. Use the format `Episode 0XX – Agent [role] …` for the commit summary, so the agent presence is obvious to reviewers.
+
+**Violation:** Commits that omit both the agent role and episode number; these commits fail the compliance-proof requirement because they lack an explicit agent signal.
+
 **Maturity signals:**
 - High producer ratio → Constitutional language still forming
 - Low producer ratio → Constitutional language stabilized
