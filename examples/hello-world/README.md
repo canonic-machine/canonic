@@ -49,11 +49,11 @@ This demonstrates the enforcement layer: constraints define validity, validation
 ## Files
 
 - [CANON.md](CANON.md) - The constraint specification
-- [DICTIONARY.md](DICTIONARY.md) - Term definitions
+- [VOCAB.md](VOCAB.md) - Term definitions
 - [README.md](README.md) - This guide
 - `validate.py` - Validation implementation
 - `hello.txt` - The artifact under governance
 
 ---
 
-Generated from CANON.md + DICTIONARY.md
+Generated from CANON.md + VOCAB.md

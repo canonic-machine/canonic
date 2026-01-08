@@ -47,8 +47,8 @@ Start with hello-world, proceed to simple-fsm, finish with canonic-readme.
 
 ## Running Examples
 
-Each example directory contains:
-- Complete triad (CANON.md, DICTIONARY.md, README.md)
+- Each example directory contains:
+- Complete triad (CANON.md, VOCAB.md, README.md)
 - Validation implementation (Python scripts)
 - Example artifacts to validate
 
@@ -56,4 +56,4 @@ See individual example README.md files for specific instructions.
 
 ---
 
-Generated from CANON.md + DICTIONARY.md + examples structure
+Generated from CANON.md + VOCAB.md + examples structure

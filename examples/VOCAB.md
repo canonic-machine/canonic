@@ -1,8 +1,8 @@
-# DICTIONARY (canonic-programming/examples/)
+# VOCAB (canonic-programming/examples/)
 
 **Alphabetically ordered term definitions for CANONIC programming examples.**
 
-Inherits all terms from ../DICTIONARY.md
+Inherits all terms from ../VOCAB.md
 
 ---
 
@@ -22,4 +22,4 @@ Document governance example demonstrating nested triad structure, inheritance ch
 
 ---
 
-End of DICTIONARY.
+End of VOCAB.

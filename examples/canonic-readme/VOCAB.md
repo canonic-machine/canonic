@@ -1,8 +1,8 @@
-# DICTIONARY (canonic-programming/examples/canonic-readme/)
+# VOCAB (canonic-programming/examples/canonic-readme/)
 
 **Alphabetically ordered term definitions for canonic-readme example.**
 
-Inherits all terms from ../DICTIONARY.md
+Inherits all terms from ../VOCAB.md
 
 ---
 
@@ -28,4 +28,4 @@ Documentation content that correctly describes system behavior, constraints, and
 
 ---
 
-End of DICTIONARY.
+End of VOCAB.

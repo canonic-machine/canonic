@@ -170,9 +170,9 @@ README.md: LLM generates → Human consumes (synthesized documentation)
 1. Iterate CANONIC.md (the specification) - Only human entry point
 2. Consume README.md (documentation) - Only human output point
 
-**The triad is never iterated:**
+**The triad is never directly edited:**
 
-CANON.md, DICTIONARY.md, and README.md are generated fresh by LLM.
+CANON.md, VOCAB.md, and README.md are generated fresh by LLM.
 Humans never directly edit these files.
 All changes flow through CANONIC.md iteration.
 
@@ -182,35 +182,35 @@ All changes flow through CANONIC.md iteration.
 - Token-optimized (minimal, declarative)
 - LLM to LLM (never human-edited)
 
-**DICTIONARY.md generation:**
+**VOCAB.md generation:**
 - LLM maintains term definitions
 - Always alphabetically ordered within sections
 - Terms added as governance evolves
 - LLM-generated (never human-edited)
 
 **README.md generation:**
-- Input: CANON.md + DICTIONARY.md + primary outputs
+- Input: CANON.md + VOCAB.md + primary outputs
 - Process: LLM synthesizes sources into human-readable guide
 - Output: README.md (replaces completely)
-- Trigger: When CANON.md or DICTIONARY.md changes
+- Trigger: When CANON.md or VOCAB.md changes
 - Human-consumed (for understanding)
 
 **The triad is recursive:**
 
-The constitution mandates DICTIONARY.md in the triad, which is itself a dictionary pattern - dictionaries all the way down.
+The constitution mandates VOCAB.md in the triad, which is itself a vocabulary pattern - vocabularies all the way down.
 
 Each layer has its own triad. Each triad defines its layer.
 
 **Alphabetical ordering requirement:**
 
-DICTIONARY.md must contain alphabetically ordered term definitions within each section.
+VOCAB.md must contain alphabetically ordered term definitions within each section.
 
 This enables:
 - Deduplication (find existing terms quickly)
 - Consistency (one canonical definition per term)
 - Findability (predictable location)
 
-**Violation:** Directory missing any triad file, DICTIONARY.md terms not alphabetically ordered, or any triad file human-edited instead of LLM-generated.
+**Violation:** Directory missing any triad file, VOCAB.md terms not alphabetically ordered, or any triad file human-edited instead of LLM-generated.
 
 ---
 
@@ -271,7 +271,7 @@ Agents program by generating CANONs, not artifacts.
 5. Validation gates acceptance
 
 **Violations:**
-- Human directly edits CANON/DICTIONARY/README (bypasses LLM generation)
+- Human directly edits CANON/VOCAB/README (bypasses LLM generation)
 - Agent adds content without CANON constraint (ungoverned)
 - Agent explains in README instead of constraining in CANON (wrong layer)
 
@@ -352,8 +352,7 @@ Optimizing CANONs optimizes the entire system.
 
 **Producer commits canonify new patterns. Consumer commits apply canonical constraints.**
 
-**Producer commits (legislative):**
-- Add definitions to constitutional dictionary
+- Add definitions to constitutional vocabulary
 - Expand governance language
 - Pattern: `Canonify [what was learned]`
 - Occur in governance repository (CANONIC)
@@ -586,7 +585,7 @@ It makes work durable.
 - Producer commits precede consumer commits
 - Each layer consumes from above, produces for below
 - State names reveal domain layer
-- Triad is entirely LLM-generated (humans never edit CANON/DICTIONARY/README)
+- Triad is entirely LLM-generated (humans never edit CANON/VOCAB/README)
 - Humans iterate CANONIC.md only
 - Humans consume README only
 
@@ -595,8 +594,8 @@ It makes work durable.
 ## Related Documents
 
 - `CANON.md` — The constitution (LLM-generated governance)
-- `DICTIONARY.md` — Term definitions (LLM-generated, alphabetically ordered)
-- `README.md` — Human guidance (LLM-generated from CANON + DICTIONARY + examples)
+- `VOCAB.md` — Term definitions (LLM-generated, alphabetically ordered)
+- `README.md` — Human guidance (LLM-generated from CANON + VOCAB + examples)
 - `../machine/` — Validation engine (constraint checking, git-FSM)
 - `../writing/` — Domain application (4-state FSM for writing)
 
