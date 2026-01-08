@@ -8,6 +8,9 @@ All terms defined here are inherited by downstream implementations.
 
 ## Core Paradigm Terms
 
+### canonbase
+The foundational governance layer of CANONIC programming. Refers to the root CANON.md file at the paradigm layer, the constitutional constraints it defines, the triad pattern it mandates, and the inheritance chain it establishes. The canonbase is the constitution—not operational code, not implementation details, not tooling. It is what remains stable while implementations evolve around it.
+
 ### CANONIC
 Constitutional programming paradigm where governance is source code. Named for "canon" (body of rules). Defines constraints, validation, inheritance, and the triad (CANON.md, VOCAB.md, README.md). Producer/consumer commits implement legislative process. VOCAB is temporal - evolves with the machine.
 
