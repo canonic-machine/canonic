@@ -80,20 +80,16 @@ Every time a new insight emerges (producer or consumer), create or update the ne
 **Every violation must undergo SWAT (Strengths, Weaknesses, Opportunities, Threats) analysis before canonification.**
 
 When a violation is detected:
-1. Document the violation in an episode
-2. Apply SWAT framework to analyze:
-   - **Strengths**: What worked despite the violation
-   - **Weaknesses**: What failed that enabled the violation
-   - **Opportunities**: What could work better after fixing
-   - **Threats**: What could break if violation persists
+1. Document the violation in an episode (paper/episodes/)
+2. Apply SWAT framework to analyze the violation
 3. Canonify the SWAT analysis as producer commit
 4. Apply fixes as consumer commits based on analysis
 
-**Constraint:** No violation is canonified without SWAT analysis. Every non-compliance document must include SWAT framework applied to the violation itself.
+**Constraint:** No violation is canonified without SWAT analysis. Episodes contain evidence; CANON contains constraints.
 
-**Violation:** Documenting violations without SWAT analysis, or canonifying fixes without understanding the full context of what went wrong, what worked, what could improve, and what risks remain.
+**Evidence:** Episodes 041-043 in paper/episodes/ demonstrate SWAT analysis of canonbase violations.
 
-**Pattern:** Episode 041 (canonbase SWAT) → Episode 042 (non-compliance) → Episode 043 (SWAT of Episode 042) demonstrates recursive SWAT analysis. Episodes analyzing episodes satisfy this constraint.
+**Violation:** Documenting violations without SWAT analysis, or canonifying fixes without understanding the full context.
 
 ### Agentized git signals
 **Every git signal must explicitly name the agent or agent role along with the episode reference.**
@@ -282,4 +278,5 @@ When triad file naming changes (e.g., DICTIONARY.md → VOCAB.md):
 **Violation:** Untracked files in working tree before git operations
 
 **Evidence:** Episodes in paper/episodes/ contain full documentation of untracked files constraint.
+
 
