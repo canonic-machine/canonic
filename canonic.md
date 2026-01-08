@@ -135,6 +135,21 @@ All governed directories must contain the minimal triad:
 - **VOCAB.md** - Term definitions (LLM-generated, alphabetically ordered, temporal)
 - **README.md** - Human guidance (LLM-generated, human-consumed)
 
+**CANON.md header format:**
+
+```markdown
+# CANON (path/)
+```
+
+Where `path` is the repository name or subdirectory path:
+- Root CANON in `canonic` repo: `# CANON (canonic/)`
+- Root CANON in `machine` repo: `# CANON (machine/)`
+- Root CANON in `writing` repo: `# CANON (writing/)`
+- Root CANON in `paper` repo: `# CANON (paper/)`
+- Subdirectory CANON: `# CANON (repo/subdir/)`
+
+**Violation:** CANON header uses conceptual name instead of actual path (e.g., "canonic-programming/" instead of "canonic/")
+
 **Generation and consumption flows:**
 
 ```
