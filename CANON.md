@@ -1,7 +1,29 @@
-
 # CANON (/)
 
 **Inherits from:** None
+
+## Vocabulary
+
+### CANONIC compliance
+**Compliance with the root constitution (paradigm layer).**
+
+The root CANON is the constitution. CANONIC compliance means adhering to constitutional principles: triad requirement, inheritance rules, producer/consumer process, cross-repo coordination, and compliance proof requirements.
+
+**Example:** A machine with complete triad, proper inheritance path, LICENSE and NOTICE files is CANONIC compliant.
+
+### CANON compliance
+**Compliance with a specific CANON's constraints (implementation layer).**
+
+Each governed directory has its own CANON.md with local constraints. CANON compliance means the artifacts satisfy those specific rules.
+
+**Example:** A machine with complete triad (CANONIC compliant) may be CANON non-compliant if hello.txt doesn't match "Hello, world." exactly.
+
+### Vocabulary precision requirement
+**Specify which compliance layer when reporting compliance status.**
+
+A machine can be CANONIC compliant but CANON non-compliant. The word "compliant" without qualification is ambiguous and violates vocabulary precision.
+
+**Violation:** Reporting "compliant" without specifying CANONIC vs CANON layer.
 
 ## Constitutional Nature
 
@@ -50,7 +72,7 @@ Each layer is consumer of the layer above, producer for the layer below.
 ### Cross-repo atomic coordination
 **Producer/consumer episodes must coordinate commits across every affected repository.**
 
-The four-repo stack (CANONIC, MACHINE, WRITING, PAPER) already obeys canonical signals, but the “multi-repo disconnect” analysis revealed that atomic actions must land in each repository to make an episode traceable.
+The four-repo stack (CANONIC, MACHINE, WRITING, PAPER) already obeys canonical signals, but the "multi-repo disconnect" analysis revealed that atomic actions must land in each repository to make an episode traceable.
 
 **Constraint:** Before declaring an insight canonified or applied, ensure each repo records its own commit referencing the same episode, insight number, and vocabulary so the evidence path remains unbroken.
 
@@ -94,16 +116,16 @@ When a violation is detected:
 ### Agentized git signals
 **Every git signal must explicitly name the agent or agent role along with the episode reference.**
 
-Commits are the canonical signal of compliance: they are the place the agent explains what constraint it addressed and why. Every commit message must mention the agent (e.g., “Agent08”, “Canon Agent”, “Machine Agent”) or repeat the agent role (“producer agent”, “consumer agent”) and the same episode number referenced in the linked episode file.
+Commits are the canonical signal of compliance: they are the place the agent explains what constraint it addressed and why. Every commit message must mention the agent (e.g., "Agent08", "Canon Agent", "Machine Agent") or repeat the agent role ("producer agent", "consumer agent") and the same episode number referenced in the linked episode file.
 
-**Constraint:** A commit that doesn’t mention an agent role or episode number is incomplete. Use the format `Episode 0XX – Agent [role] …` for the commit summary, so the agent presence is obvious to reviewers.
+**Constraint:** A commit that doesn't mention an agent role or episode number is incomplete. Use the format `Episode 0XX – Agent [role] …` for the commit summary, so the agent presence is obvious to reviewers.
 
 **Violation:** Commits that omit both the agent role and episode number; these commits fail the compliance-proof requirement because they lack an explicit agent signal.
 
 ### Proper git compliance
 **Proper git compliance means issuing a redo commit (never rewriting history) when earlier evidence lacks the required agent/episode signal.**
 
-If you discover a past insight that predates the agentized signal, do not reset `HEAD` or amend history. Instead, add a follow-up commit that references the same episode number and states “redo signal” or similar, explicitly describing how the new commit restores compliance. This redo commit becomes part of the canonical proof chain.
+If you discover a past insight that predates the agentized signal, do not reset `HEAD` or amend history. Instead, add a follow-up commit that references the same episode number and states "redo signal" or similar, explicitly describing how the new commit restores compliance. This redo commit becomes part of the canonical proof chain.
 
 **Constraint:** Every redo or compliance-restoring commit must mention the episode (e.g., `Episode 024 – Agent02 Apply compliance redo signal`) and describe the missing evidence it replaces. The commit message and episode document combine to explain why the redo occurred and how the compliance trail was fixed.
 
@@ -164,7 +186,8 @@ If you discover a past insight that predates the agentized signal, do not reset 
 - **Domain applications** (application layer): Inherit from MACHINE, add domain-specific patterns
 
 **Violation:** Validation engine contains domain-specific patterns, or domain application reimplements validation logic
-Episode 030 – Producer Canonify cross-repo coordination requirement
+
+### Episode 030 – Producer Canonify cross-repo coordination requirement
 
 ### Episode 031 – Failed VOCAB consumption: When Canon wasn't the law
 **Terminology changes are constitutional amendments, not file renames.**
@@ -278,5 +301,3 @@ When triad file naming changes (e.g., DICTIONARY.md → VOCAB.md):
 **Violation:** Untracked files in working tree before git operations
 
 **Evidence:** Episodes in paper/episodes/ contain full documentation of untracked files constraint.
-
-
