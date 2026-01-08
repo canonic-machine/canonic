@@ -54,6 +54,9 @@ The property that artifacts satisfy structural requirements defined in CANON. A 
 ### compliance
 State of satisfying all applicable canon constraints. Required for artifact acceptance.
 
+### fully governed
+The property of being both coherent AND compliant simultaneously. A fully governed system has structurally correct artifacts (compliant) that satisfy logically consistent constraints (coherent). The ideal state of CANONIC governance—requiring both syntactic validation (fast, deterministic) and semantic validation (LLM-powered, expensive). Contrast with partial governance where only one dimension is satisfied.
+
 ### inheritance
 The mechanism by which downstream CANONs acquire constraints from upstream CANONs. Forms a chain from root to target.
 
