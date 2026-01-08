@@ -63,7 +63,9 @@ Each layer is consumer of the layer above, producer for the layer below.
 
 **VOCAB is temporal - evolves with the machine.**
 
-**Violation:** Directory missing any triad file, or VOCAB.md terms not alphabetically ordered
+**SPEC term must be first entry in VOCAB.md** - machine's self-reference leads vocabulary.
+
+**Violation:** Directory missing any triad file, VOCAB.md terms not alphabetically ordered, or SPEC term not first in VOCAB
 
 ### Implementation inheritance
 **Implementation repositories inherit from protocol specifications via markdown links.**
