@@ -592,6 +592,46 @@ It makes work durable.
 
 ---
 
+## Vocabulary Authoring Pattern
+
+**New governance terms are discovered through canonbase review and added to VOCAB, not CANON.**
+
+**The pattern:**
+
+1. **Discovery**: Canonbase review reveals missing vocabulary (e.g., "coherent", "compliant", "fully governed")
+2. **Episode**: Document discovery in numbered episode (e.g., Episode 054)
+3. **VOCAB addition**: Add new terms to VOCAB.md (LLM-generated, alphabetically ordered)
+4. **Specification update**: If pattern requires human guidance, add section to CANONIC.md (human-iterated)
+5. **Consumption**: Downstream repos consume new terms into their VOCAB files
+6. **Commit**: Producer commit in governance repo, consumer commits in implementation repos
+
+**CANON remains minimal:**
+
+CANON contains only:
+- Fundamental governance principles (triad, three-layer, inheritance)
+- Constitutional invariants (what must always be true)
+- Violation definitions (what must not occur)
+
+Newly discovered vocabulary goes to VOCAB.
+Newly discovered patterns go to CANONIC.md (spec) or PROTOCOLS.md (reusable patterns).
+
+**What NOT to add to CANON:**
+- Detailed procedural constraints (belongs in CANONIC or PROTOCOLS)
+- Vocabulary definitions (belongs in VOCAB)
+- Examples or explanations (belongs in README or episodes)
+- Domain-specific patterns (belongs in MACHINE or domain application)
+
+**CANON minimality rule:**
+
+If a constraint can be expressed as a vocabulary term → VOCAB
+If a constraint requires human guidance → CANONIC.md
+If a constraint is reusable across contexts → PROTOCOLS.md
+If a constraint defines what must always be true → CANON
+
+**Violation:** CANON contains vocabulary definitions, procedural patterns, or domain-specific rules.
+
+---
+
 ## Related Documents
 
 - `CANON.md` — The constitution (LLM-generated governance)
