@@ -1,4 +1,4 @@
-# VOCAB (canonic/)
+# VOCAB (/)
 
 **Alphabetically ordered term definitions for the CANONIC programming paradigm.**
 

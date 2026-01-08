@@ -141,14 +141,11 @@ All governed directories must contain the minimal triad:
 # CANON (path/)
 ```
 
-Where `path` is the repository name or subdirectory path:
-- Root CANON in `canonic` repo: `# CANON (canonic/)`
-- Root CANON in `machine` repo: `# CANON (machine/)`
-- Root CANON in `writing` repo: `# CANON (writing/)`
-- Root CANON in `paper` repo: `# CANON (paper/)`
-- Subdirectory CANON: `# CANON (repo/subdir/)`
+Where `path` is the filesystem path relative to repository root:
+- Root CANON (repository root): `# CANON (/)`
+- Subdirectory CANON: `# CANON (subdir/)` or `# CANON (path/to/subdir/)`
 
-**Violation:** CANON header uses conceptual name instead of actual path (e.g., "canonic-programming/" instead of "canonic/")
+**Violation:** CANON header uses conceptual name or wrong path (e.g., "Root", "canonic-programming/", repo name at root)
 
 **Generation and consumption flows:**
 

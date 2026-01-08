@@ -1,5 +1,5 @@
 
-# CANON (canonic/)
+# CANON (/)
 
 **Inherits from:** None
 
