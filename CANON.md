@@ -1,5 +1,5 @@
 
-# CANON (canonic-programming/)
+# CANON (canonic/)
 
 **Inherits from:** None
 
