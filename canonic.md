@@ -141,18 +141,14 @@ All governed directories must contain the minimal triad:
 # CANON (path/)
 ```
 
-Where `path` is the filesystem path relative to repository root:
-- Root CANON (repository root): `# CANON (/)`
-- Subdirectory CANON: `# CANON (subdir/)` or `# CANON (path/to/subdir/)`
+Where `path` is the full inheritance path from root paradigm:
+- Root paradigm: `# CANON (/)`
+- Inherited repos: `# CANON (/canonic/machine/)`, `# CANON (/canonic/machine/writing/)`, `# CANON (/canonic/machine/writing/paper/)`
+- Subdirectory: `# CANON (/canonic/machine/writing/subdir/)`
 
-**Violation:** CANON header uses conceptual name or wrong path (e.g., "Root", "canonic-programming/", repo name at root)
+Path shows full inheritance chain, making governance lineage explicit and traceable.
 
-**Rationale - Contextual naming and code compression:**
-
-Using "/" for root instead of repo name is contextual naming - the path is relative to where you are.
-When inside the `canonic` repository, "/" means the root of THIS repository, not the paradigm name.
-This is code compression - minimal tokens to convey maximum meaning in context.
-Repository context is implicit (you're already in that repo). Repeating repo name in every header is redundant.
+**Violation:** CANON header doesn't show full inheritance path (e.g., `# CANON (/)` in inherited repo, missing ancestor path)
 
 **Generation and consumption flows:**
 
