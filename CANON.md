@@ -75,6 +75,21 @@ Each layer is consumer of the layer above, producer for the layer below.
 
 **Violation:** Governance repository missing examples directory
 
+### LICENSE requirement
+**All CANONIC repositories must include Apache License 2.0 with full attribution.**
+
+**Constitutional properties:**
+- Full open source (freedom to use, modify, distribute)
+- Full attribution (copyright notice, license text, NOTICE file required)
+- Patent grant (contributors grant patent rights)
+- Trademark protection (no trademark rights granted)
+
+**Required files:**
+- LICENSE (Apache 2.0 full text)
+- NOTICE (attribution to original author)
+
+**Violation:** Repository missing LICENSE file, LICENSE not Apache 2.0, missing NOTICE file, or missing copyright attribution
+
 ### Abstraction layers
 **CANONIC implementations must separate paradigm, validation engine, and domain applications.**
 
