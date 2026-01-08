@@ -20,13 +20,7 @@
 - Serves as lexicon for the paradigm
 - VOCAB is temporal - evolves with the machine (not static dictionary)
 
-**Root CANON human-only constraint:**
-- Only humans can define or modify the root CANON
-- LLM never edits root CANON.md directly
-- Human iteration flows through CANONIC.md specification
-- Root CANON stability is a constitutional signal (instability = error)
-
-**Violation:** Root CANON contains domain-specific patterns, shows high commit frequency after stabilization, allows constitutional principles to drift, or is modified by LLM without human iteration through CANONIC.md
+**Violation:** Root CANON contains domain-specific patterns, shows high commit frequency after stabilization, or allows constitutional principles to drift
 
 ## Core Invariants
 
@@ -87,3 +81,4 @@
 
 **Violation:** Validation engine contains domain-specific patterns, or domain application reimplements validation logic
 Every compliance claim must appear as a git commit whose message references the relevant constraint/episode and whose diff contains the validation or documentation evidence that proves the system obeys the constraint. The commit must either be:
+- **MACHINE** (validation engine layer): Implements constraint checking, git-FSM, self-* properties
