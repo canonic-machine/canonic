@@ -147,6 +147,13 @@ Where `path` is the filesystem path relative to repository root:
 
 **Violation:** CANON header uses conceptual name or wrong path (e.g., "Root", "canonic-programming/", repo name at root)
 
+**Rationale - Contextual naming and code compression:**
+
+Using "/" for root instead of repo name is contextual naming - the path is relative to where you are.
+When inside the `canonic` repository, "/" means the root of THIS repository, not the paradigm name.
+This is code compression - minimal tokens to convey maximum meaning in context.
+Repository context is implicit (you're already in that repo). Repeating repo name in every header is redundant.
+
 **Generation and consumption flows:**
 
 ```
