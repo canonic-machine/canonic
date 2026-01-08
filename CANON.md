@@ -36,6 +36,23 @@
 
 **Violation:** Directory missing any triad file, VOCAB.md terms not alphabetically ordered, or SPEC term not first VOCAB entry
 
+### VOCAB self-governance
+**The VOCAB itself must be fully governed.**
+
+VOCAB is not just a governance artifact—it must demonstrate governance properties. The vocabulary that defines coherent, compliant, and fully governed must itself be coherent, compliant, and fully governed.
+
+**Coherence requirements:**
+- All term definitions must be logically consistent (no contradictions)
+- Cross-references must be accurate and complete
+- Categories must be mutually exclusive and collectively exhaustive
+
+**Compliance requirements:**
+- Alphabetical ordering within each section (case-insensitive)
+- Proper header hierarchy (## for sections, ### for terms)
+- Consistent formatting (bold for key terms, backticks for code)
+
+**Violation:** VOCAB contains contradictions, ordering violations, broken references, or inconsistent formatting
+
 ### Three-layer architecture
 **CANONIC implementations must separate paradigm, validation engine, and domain applications.**
 
