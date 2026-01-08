@@ -1,8 +1,8 @@
-# VOCAB (canonic-programming/examples/canonic-readme/project/)
+# DICTIONARY (canonic-programming/examples/canonic-readme/project/)
 
 **Alphabetically ordered term definitions for project-specific terms.**
 
-Inherits all terms from ../VOCAB.md
+Inherits all terms from ../DICTIONARY.md
 
 ---
 
@@ -16,4 +16,4 @@ Static analysis verifying type annotations match actual usage. Uses mypy in this
 
 ---
 
-End of VOCAB.
+End of DICTIONARY.

@@ -52,7 +52,7 @@ Should produce no errors (satisfies type checking constraint).
 ## Files
 
 - [CANON.md](CANON.md) - Project-specific constraints
-- [VOCAB.md](VOCAB.md) - Project-specific terms
+- [DICTIONARY.md](DICTIONARY.md) - Project-specific terms
 - [README.md](README.md) - This guide
 - `example.py` - Runnable Python example
 
@@ -70,4 +70,4 @@ Should produce no errors (satisfies type checking constraint).
 
 ---
 
-Generated from CANON.md + VOCAB.md + example.py
+Generated from CANON.md + DICTIONARY.md + example.py

@@ -1,8 +1,8 @@
-# VOCAB (canonic-programming/examples/simple-fsm/)
+# DICTIONARY (canonic-programming/examples/simple-fsm/)
 
 **Alphabetically ordered term definitions for simple-fsm example.**
 
-Inherits all terms from ../VOCAB.md
+Inherits all terms from ../DICTIONARY.md
 
 ---
 
@@ -31,4 +31,4 @@ Constraint checking performed when attempting state transition. Pass enables tra
 
 ---
 
-End of VOCAB.
+End of DICTIONARY.

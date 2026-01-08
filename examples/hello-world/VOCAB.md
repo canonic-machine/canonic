@@ -1,8 +1,8 @@
-# VOCAB (canonic-programming/examples/hello-world/)
+# DICTIONARY (canonic-programming/examples/hello-world/)
 
 **Alphabetically ordered term definitions for hello-world example.**
 
-Inherits all terms from ../VOCAB.md
+Inherits all terms from ../DICTIONARY.md
 
 ---
 
@@ -16,4 +16,4 @@ Simplest possible constraint that demonstrates validation concept. Single file, 
 
 ---
 
-End of VOCAB.
+End of DICTIONARY.

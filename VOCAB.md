@@ -55,7 +55,7 @@ The ordered sequence of CANON files from repository root to target directory. Ea
 The property that all references (file, protocol, pattern, URL) resolve to existing, valid targets. Prevents broken links and inconsistent documentation.
 
 ### triad
-The three required files in every directory: CANON.md (constraints), VOCAB.md (definitions), README.md (human guide).
+The three required files in every directory: CANON.md (constraints), DICTIONARY.md (definitions), README.md (human guide).
 
 ### violation
 A failure to satisfy a canon constraint. Must be fixed before artifacts can be accepted.
@@ -64,11 +64,11 @@ A failure to satisfy a canon constraint. Must be fixed before artifacts can be a
 
 ## Agent Terms
 
-### AI slop
-Fluent but invalid output from AI systems. Text that sounds correct but violates requirements, invents references, or drifts from constraints.
-
 ### agent
 Automated system (often LLM-based) that operates on artifacts under CANON governance. Enforces constraints without human intervention.
+
+### AI slop
+Fluent but invalid output from AI systems. Text that sounds correct but violates requirements, invents references, or drifts from constraints.
 
 ### LLM
 Large Language Model. AI system that can interpret CANON constraints and generate/validate artifacts.
@@ -143,7 +143,7 @@ The middle abstraction layer implementing constraint checking, git-FSM transitio
 ## Document Terms
 
 ### either artifact
-Document that must serve both LLM and human audiences. Examples: VOCAB.md, specifications.
+Document that must serve both LLM and human audiences. Examples: DICTIONARY.md, specifications.
 
 ### human-first artifact
 Document optimized for comprehension and teaching. Examples: README.md, guides, tutorials.
@@ -159,7 +159,7 @@ Document optimized for machine interpretation. Examples: CANON.md, protocols, co
 The flow orientation of Mermaid diagrams. LR (left-to-right) for process flows, TB (top-bottom) for hierarchical structures.
 
 ### documentation generation
-Automated process of synthesizing README.md from CANON.md, VOCAB.md, and primary outputs. Triggered when source files change, executed by LLM agent following documentation protocol.
+Automated process of synthesizing README.md from CANON.md, DICTIONARY.md, and primary outputs. Triggered when source files change, executed by LLM agent following documentation protocol.
 
 ### documentation protocol
 Specification defining how README.md is generated from governance sources. Includes input requirements, generation process, validation checks, and trigger conditions.
@@ -168,7 +168,7 @@ Specification defining how README.md is generated from governance sources. Inclu
 Property of systems that remain stable and valid across time, edits, and collaborators. Primary goal of CANONIC programming.
 
 ### generation trigger
-Event that initiates automatic README regeneration. Primary trigger: changes to CANON.md or VOCAB.md detected by pre-commit hook.
+Event that initiates automatic README regeneration. Primary trigger: changes to CANON.md or DICTIONARY.md detected by pre-commit hook.
 
 ### governance purity
 Property of repositories containing only governance artifacts (specifications, constraints, protocols, examples) without operational tooling. Examples demonstrate paradigm concepts; tools would automate repository operations.
@@ -210,7 +210,7 @@ The main artifacts produced by a repository. Varies by type: paradigm definition
 Condition where README.md timestamp is equal to or newer than source file timestamps. Indicates documentation reflects current governance state.
 
 ### README staleness
-Condition where README.md modification timestamp is older than CANON.md or VOCAB.md timestamps. Indicates documentation out of sync with governance. Detected by syntactic validation.
+Condition where README.md modification timestamp is older than CANON.md or DICTIONARY.md timestamps. Indicates documentation out of sync with governance. Detected by syntactic validation.
 
 ### README vocabulary accessibility
 Requirement that README files make key technical terms understandable to readers, either by direct explanation or clear links to definitions.
@@ -219,7 +219,7 @@ Requirement that README files make key technical terms understandable to readers
 Process where meta-patterns about system improvement are themselves canonified, creating self-referential governance that mandates its own evolution.
 
 ### self-documenting
-System that automatically generates its own documentation from governance artifacts. README.md is generated from CANON.md + VOCAB.md + primary outputs when sources change. Triad files provide complete self-description without external documentation.
+System that automatically generates its own documentation from governance artifacts. README.md is generated from CANON.md + DICTIONARY.md + primary outputs when sources change. Triad files provide complete self-description without external documentation.
 
 ### self-healing
 System that automatically detects and corrects violations of its own constraints through git history analysis. Invalid states are rejected and must be fixed. Git patterns trigger human review when violations recur.
@@ -250,4 +250,4 @@ Ability to trace every artifact back to its source material or requirement. Prev
 
 ---
 
-End of VOCAB.
+End of DICTIONARY.

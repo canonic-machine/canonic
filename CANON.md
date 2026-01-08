@@ -26,7 +26,8 @@
 ### Producer/consumer as legislative process
 **Producer commits canonify new patterns. Consumer commits apply canonical constraints.**
 
-- Add definitions to the constitutional vocabulary
+**Producer commits (legislative):**
+- Add definitions to the constitutional dictionary
 - Expand the governance language
 - Use pattern: `Canonify [what was learned]`
 - Occur in governance repository (CANONIC)

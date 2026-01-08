@@ -16,11 +16,11 @@ This example shows how CANONIC systems compose through inheritance.
 ```
 canonic-readme/
 ├── CANON.md          (root constraints: engagement, accuracy, references)
-├── VOCAB.md          (term definitions)
+├── DICTIONARY.md     (term definitions)
 ├── README.md         (this file)
 └── project/
     ├── CANON.md      (inherits from ../, adds project-specific constraints)
-    ├── VOCAB.md      (inherits terms, adds project-specific terms)
+    ├── DICTIONARY.md (inherits terms, adds project-specific terms)
     ├── README.md     (project documentation)
     └── example.py    (runnable code demonstrating concepts)
 ```
@@ -73,10 +73,10 @@ The code runs successfully, demonstrating:
 ## Files
 
 - [CANON.md](CANON.md) - Root document constraints
-- [VOCAB.md](VOCAB.md) - Term definitions
+- [DICTIONARY.md](DICTIONARY.md) - Term definitions
 - [README.md](README.md) - This guide
 - [project/](project/) - Nested triad with inheritance
 
 ---
 
-Generated from CANON.md + VOCAB.md + structure
+Generated from CANON.md + DICTIONARY.md + structure
