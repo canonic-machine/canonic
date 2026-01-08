@@ -114,6 +114,14 @@ CANONIC implementations separate concerns across three layers:
 - Consume: MACHINE validation framework
 - Produce: Validated artifacts
 
+**Stack ordering:**
+
+The full stack follows inheritance chain - CANONIC → MACHINE → WRITING → PAPER.
+Each layer adds specificity while inheriting governance from layers above.
+Stack order appears in inheritance paths: `/canonic/machine/writing/paper/`
+
+**Violation:** Describing stack in wrong order (e.g., "CANONIC WRITING MACHINE" instead of "CANONIC MACHINE WRITING")
+
 **Maximal separation of concerns:**
 
 State names reveal the layer:
