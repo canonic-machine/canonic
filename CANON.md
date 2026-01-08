@@ -85,6 +85,15 @@ Commits are the canonical signal of compliance: they are the place the agent exp
 
 **Violation:** Commits that omit both the agent role and episode number; these commits fail the compliance-proof requirement because they lack an explicit agent signal.
 
+### Proper git compliance
+**Proper git compliance means issuing a redo commit (never rewriting history) when earlier evidence lacks the required agent/episode signal.**
+
+If you discover a past insight that predates the agentized signal, do not reset `HEAD` or amend history. Instead, add a follow-up commit that references the same episode number and states “redo signal” or similar, explicitly describing how the new commit restores compliance. This redo commit becomes part of the canonical proof chain.
+
+**Constraint:** Every redo or compliance-restoring commit must mention the episode (e.g., `Episode 024 – Agent02 Apply compliance redo signal`) and describe the missing evidence it replaces. The commit message and episode document combine to explain why the redo occurred and how the compliance trail was fixed.
+
+**Violation:** Resetting history to retroactively fix messages, or adding redo commits without referencing the episode/agent (the evidence trail still breaks).
+
 **Maturity signals:**
 - High producer ratio → Constitutional language still forming
 - Low producer ratio → Constitutional language stabilized
