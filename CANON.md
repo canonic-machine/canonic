@@ -59,13 +59,14 @@ Each layer is consumer of the layer above, producer for the layer below.
 ### Triad requirement
 **All governed directories must contain the minimal triad: CANON.md, VOCAB.md, README.md.**
 
-**VOCAB.md must contain alphabetically ordered term definitions.**
+**SPEC vs VOCAB vs CANON:**
+- **SPEC files** (CANONIC.md, WRITING.md, PAPER.md, etc.): Human-iterated source of truth. What the system IS.
+- **VOCAB.md**: LLM-generated alphabetically ordered term definitions. What terms mean.
+- **CANON.md**: LLM-generated constraints and requirements. How the system must work.
 
-**VOCAB contains definitions only, not specifications.** Term definitions explain what terms mean. Specifications (how things work, requirements, constraints) belong in CANON.md or SPEC files, not VOCAB.md.
+**VOCAB is chronological with SPEC** - SPEC term is first VOCAB entry, vocabulary evolves with specification.
 
-**VOCAB is chronological with SPEC** - SPEC term is first entry, vocabulary evolves with specification.
-
-**Violation:** Directory missing any triad file, VOCAB.md terms not alphabetically ordered, SPEC term not first entry, or VOCAB.md contains specification language instead of definitions
+**Violation:** Directory missing any triad file, VOCAB.md terms not alphabetically ordered, or SPEC term not first VOCAB entry
 
 ### Implementation inheritance
 **Implementation repositories inherit from protocol specifications via markdown links.**
