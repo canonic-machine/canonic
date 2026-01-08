@@ -56,6 +56,17 @@ The four-repo stack (CANONIC, MACHINE, WRITING, PAPER) already obeys canonical s
 
 **Violation:** A repo shows no edits while others advance a shared insight, or a documentation episode references an insight that lacks corresponding producer/consumer commits elsewhere.
 
+### Compliance proof
+**Compliance is a commitment to the canon backed by git proof.**
+
+Every compliance claim must appear as a git commit whose message references the relevant constraint/episode and whose diff contains the validation or documentation evidence that proves the system obeys the constraint. The commit must either be:
+- A producer-style `Canonify …` entry that introduces a new insight with linked episodes or test commands.
+- A consumer-style `Apply …`/`Fix …` entry that records the validation run (logs, outputs, exit codes) confirming compliance.
+
+**Constraint:** No compliance claim can exist outside of git history. Reviewers must be able to rerun the recorded commands or inspect the artifact mentioned in the commit to verify compliance.
+
+**Violation:** Describing compliance without a corresponding commit message or producing artifacts that lack git-proven validation.
+
 **Maturity signals:**
 - High producer ratio → Constitutional language still forming
 - Low producer ratio → Constitutional language stabilized
