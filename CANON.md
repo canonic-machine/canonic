@@ -70,15 +70,4 @@
 - NOTICE (attribution to original author)
 
 **Violation:** Repository missing LICENSE file, LICENSE not Apache 2.0, missing NOTICE file, or missing copyright attribution
-
 ### Abstraction layers
-**CANONIC implementations must separate paradigm, validation engine, and domain applications.**
-
-**Three-layer architecture:**
-- **CANONIC** (paradigm layer): Defines constraints, validation, inheritance, triad
-- **MACHINE** (validation engine layer): Implements constraint checking, git-FSM, self-* properties
-- **Domain applications** (application layer): Inherit from MACHINE, add domain-specific patterns
-
-**Violation:** Validation engine contains domain-specific patterns, or domain application reimplements validation logic
-Every compliance claim must appear as a git commit whose message references the relevant constraint/episode and whose diff contains the validation or documentation evidence that proves the system obeys the constraint. The commit must either be:
-- **MACHINE** (validation engine layer): Implements constraint checking, git-FSM, self-* properties
