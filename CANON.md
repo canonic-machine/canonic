@@ -185,3 +185,60 @@ When triad file naming changes (e.g., DICTIONARY.md → VOCAB.md):
 **The constitutional gap:** Producer commits without consumer commits result in stale documentation, reverted attempts, and compliance drift.
 
 **Violation:** Confating rename with canonify, leaving producer commits unconsumed.
+
+### Episode 038 – Git Evolutionary Analysis: Discovery Patterns Canonified
+**Git history analysis reveals best practices through producer/consumer event patterns.**
+
+**Five Discovery Patterns Identified:**
+
+1. **Constitutional Cascade**
+   ```
+   canonic (producer) → machine/writing (consumer)
+   ```
+   Evidence: LICENSE, inheritance path, three-layer architecture
+   **Pattern:** Constitutional requirements cascade to all downstream repos
+
+2. **Cross-Repo Synchronization**
+   ```
+   Same constraint canonified in multiple repos independently
+   ```
+   Evidence: Stack ordering, commit taxonomy
+   **Pattern:** Parallel evolution validates constraint necessity
+
+3. **Episode-Driven Compliance**
+   ```
+   Episode documents → All repos update
+   ```
+   Evidence: Episode 021 → Episode 030 → Episode 033-036
+   **Pattern:** Episode discipline drives cross-repo coordination
+
+4. **Redo Protocol**
+   ```
+   Violation detected → Redo commit → Documentation
+   ```
+   Evidence: VOCAB rename revert → Episode 030 → Cross-repo redo
+   **Pattern:** Redo commits restore compliance without history rewrite
+
+5. **Generated File Synchronization**
+   ```
+   Canon changes → All READMEs/VOCABs regenerate
+   ```
+   Evidence: Self-documenting protocol, constraint updates
+   **Pattern:** Generated files automatically follow canon changes
+
+**Git Evolutionary Analysis Method:**
+1. Collect git history across all 4 repos
+2. Filter for self-strengthening patterns (Canonify, Apply, Fix, Episode)
+3. Order chronologically by date
+4. Identify producer → consumer commit pairs
+5. Cross-reference with episodes
+6. Derive discovery patterns
+
+**Best Practices Discovered:**
+- Constitutional requirements cascade to all downstream repos
+- Episode discipline drives cross-repo coordination
+- Redo protocol replaces history rewriting
+- Self-documentation ensures generated files sync
+- Session boundaries enforce completion
+
+**Violation:** Analyzing git history without deriving patterns, or failing to canonify discovered insights.
