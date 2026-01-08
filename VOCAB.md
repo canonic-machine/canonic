@@ -45,6 +45,12 @@ A pass/fail decision procedure that checks artifacts against canon constraints. 
 
 ## Governance Terms
 
+### coherent
+The property that constraints are logically consistent with each other and with inherited upstream constraints. A governance structure is coherent when CANON constraints do not contradict, downstream CANONs do not contradict upstream invariants, and VOCAB definitions are internally consistent. Coherence is semantic—it asks whether the system makes sense together. Contrast with compliance (syntactic structural matching).
+
+### compliant
+The property that artifacts satisfy structural requirements defined in CANON. A system is compliant when required files exist (triad present), file formats match specifications, references resolve correctly, and commit patterns follow conventions. Compliance is syntactic—it asks whether artifacts match rules. Contrast with coherence (logical constraint alignment).
+
 ### compliance
 State of satisfying all applicable canon constraints. Required for artifact acceptance.
 
