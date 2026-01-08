@@ -114,13 +114,13 @@ CANONIC implementations separate concerns across three layers:
 - Consume: MACHINE validation framework
 - Produce: Validated artifacts
 
-**Stack ordering:**
+**Paradigm is constitutional, not stackable:**
 
-The full stack follows inheritance chain - CANONIC → MACHINE → WRITING → PAPER.
-Each layer adds specificity while inheriting governance from layers above.
-Stack order appears in inheritance paths: `/canonic/machine/writing/paper/`
+CANONIC is the paradigm layer - the constitution. It defines governance principles (constraints, validation, inheritance, triad) that all implementations must follow. The paradigm itself is NOT part of any "stack" - it governs stacks.
 
-**Violation:** Describing stack in wrong order (e.g., "CANONIC WRITING MACHINE" instead of "CANONIC MACHINE WRITING")
+Implementations (MACHINE, WRITING, PAPER) form stacks by inheriting from each other. Stack ordering is a MACHINE concern, not a paradigm concern.
+
+**Violation:** Treating paradigm as stackable, describing CANONIC as part of implementation stack
 
 **Maximal separation of concerns:**
 
