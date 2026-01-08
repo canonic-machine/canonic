@@ -14,11 +14,12 @@
 - Enables composition (all downstream implementations inherit these principles)
 - Must be stable (constitutional law does not churn after paradigm matures)
 
-**The root CANON is the dictionary:**
+**The root CANON is the vocabulary:**
 - Defines what governance terms mean (definitive source of truth)
 - Provides canonical definitions used by all implementations
-- Mandates DICTIONARY.md in triad (dictionaries all the way down)
+- Mandates VOCAB.md in triad (vocabularies all the way down)
 - Serves as lexicon for the paradigm
+- VOCAB is temporal - evolves with the machine (not static dictionary)
 
 **Violation:** Root CANON contains domain-specific patterns, shows high commit frequency after stabilization, or allows constitutional principles to drift
 
