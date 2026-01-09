@@ -32,6 +32,9 @@ The area governed by a CANON and its triad.
 ### inheritance
 The declared linkage from a scope to the scope it inherits from.
 
+### final
+The property that inherited axioms cannot be overridden by downstream scopes.
+
 ### coherence
 The property that CANON statements do not contradict.
 

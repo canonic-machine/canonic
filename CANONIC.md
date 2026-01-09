@@ -7,15 +7,15 @@
    - Applies to `/canonic` and informs downstream layers (e.g., `/machine`).
 
 3. Constraints
-   - Root CANON includes triad, inheritance, coherence, compliance, governance, invalidity, and introspection.
+   - Root CANON includes triad, inheritance, coherence, compliance, governance, invalidity, and introspection; these axioms are final.
    - VOCAB defines the terms used by CANON and this SPEC, including its own role.
-   - README describes the triad and points to `templates/`.
-   - `templates/` contains reusable templates for CANON, VOCAB, README, and SPEC.
+   - README describes the triad and points to machine templates.
+   - Machine hosts reusable templates for CANON, VOCAB, README, and SPEC.
 
 4. Validation
    - Each governed directory contains the triad.
    - Template files remain generic and reusable.
-   - Machine performs mechanical checks and correction (ordering, history-preserving fixes).
+   - Machine enforces finality, ordering, and correction (history-preserving fixes).
 
 5. Consumption notes
    - Downstream layers inherit this spec and may add constraints without contradicting the root CANON.

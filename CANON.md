@@ -10,6 +10,7 @@ axioms:
 2. inheritance:
    every CANON.md declares the scope it inherits from
    inheritance terminates at /
+   inherited axioms are final and cannot be overridden
 
 3. coherence:
    a scope is coherent iff its CANON statements do not contradict
