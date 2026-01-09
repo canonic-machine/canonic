@@ -1,3 +1,0 @@
-This is draft content.
-It demonstrates the draft state.
-Content here may be incomplete but should follow basic formatting.
