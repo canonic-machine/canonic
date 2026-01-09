@@ -25,4 +25,4 @@ axioms:
    any scope not governed is invalid
 
 7. introspection:
-   VOCAB defines the terms used by this CANON and itself
+   VOCAB defines the terms used by this CANON, the SPEC, and itself

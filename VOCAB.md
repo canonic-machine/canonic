@@ -6,10 +6,10 @@
 The constitutional programming paradigm defined by the root scope.
 
 ### CANON
-The constraints artifact that defines what must be true for a scope.
+The constraints artifact that defines what must be true for a scope; co-equal with VOCAB.
 
 ### VOCAB
-The meanings artifact for a scope; it defines the terms used by CANON and defines itself.
+The meanings artifact for a scope; co-equal with CANON. It defines the terms used by CANON and SPEC and defines itself.
 
 ### README
 The narrative artifact that explains a scope to humans.
@@ -28,6 +28,12 @@ The required set of governance artifacts in every scope: CANON.md, VOCAB.md, REA
 
 ### scope
 The area governed by a CANON and its triad.
+
+### axiom
+A single, immutable CANON statement that must hold for a scope.
+
+### co-equal
+The status of two canonical artifacts having equal authority in a scope.
 
 ### inheritance
 The declared linkage from a scope to the scope it inherits from.
