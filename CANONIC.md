@@ -1,28 +1,32 @@
 # CANONIC Spec
 
 1. Purpose
-   - Define how the paradigm governs the triad and inheritance while keeping the root minimal.
-   - Describe the full paradigm; SPEC is the first artifact and the source for CANON and VOCAB.
-   - Humans direct the SPECs; CANONIC machines propagate those specifications to get work done.
+   - Define the structure and intent of the CANONIC scope.
+   - Specify how SPEC, CANON, VOCAB and README relate.
 
 2. Scope
-   - Applies to `/canonic` and informs downstream layers (e.g., `/machine`).
+   - Applies to `/canonic` and informs inherited scopes (`/machine`).
 
 3. Constraints
-   - Root CANON includes triad, inheritance, coherence, compliance, governance, invalidity, and introspection; these axioms are final.
-   - VOCAB defines the terms used by CANON and this SPEC, including its own role.
-   - SPEC is primary; CANON and VOCAB are co-equal canonical artifacts derived from it and must cover its terminology.
-   - Machine layers apply SPEC constraints downstream to produce governed work.
-   - README describes the triad and points to machine templates.
-   - Machine hosts reusable templates for CANON, VOCAB, README, and SPEC.
+   - SPEC is first; CANON and VOCAB are co-equal and must cover SPEC terms.
+   - VOCAB defines the terms used by CANON, SPEC, and README and defines itself.
+   - CANON states paradigm axioms for the scope: triad, inheritance, and introspection.
+   - Machine applies this SPEC to inherited scopes and provides templates for CANON, VOCAB, README, and SPEC.
+   - CANON and VOCAB define README which describes the scope and points to machine templates.
 
 4. Validation
-   - Each governed directory contains the triad.
-   - Template files remain generic and reusable.
-   - Machine enforces finality, ordering, and correction (history-preserving fixes).
+   - Confirm that SPEC is first and that CANON and VOCAB are co-equal.
+   - Verify that VOCAB defines all terms used by CANON, SPEC, and README.
+   - Validate that the triad exists and inheritance is declared.
+   - Ensure that CANON and VOCAB define README which describes the scope and points to machine templates.
 
 5. Consumption notes
-   - Downstream layers inherit this spec and may add constraints without contradicting the root CANON.
-   - When terms are added here, downstream VOCABs must include them.
+   - Downstream layers inherit these constraints without contradicting the root CANON.
+   - Downstream VOCABs must include terms added in this layer
 
-This SPEC inherits the root triad and references VOCAB for definitions.
+6. Inheritance notes
+   - Downstream layers inherit this spec and may add constraints without contradicting the root CANON.
+   - When terms are added in this scope, downstream VOCABs must include them.
+   
+
+This SPEC is part of the CANONIC triad and references VOCAB for definitions.

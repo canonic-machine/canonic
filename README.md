@@ -1,11 +1,16 @@
 # CANONIC
 
-This repository hosts the minimal triad and the CANONIC spec.
+This scope contains the CANONIC triad and SPEC.
 
-- `CANON.md` defines the root constitution.
-- `VOCAB.md` defines the terms used by CANON and SPEC.
-- `README.md` (this file) describes the repository purpose.
-- `CANONIC.md` is the instantiated SPEC for the paradigm.
-- Machine hosts the generic templates for CANON, VOCAB, README, and SPEC.
+- CANON states axioms for the scope.
+- VOCAB defines terms used by CANON, SPEC, and README.
+- README describes the scope.
+- CANONIC.md is the SPEC for this scope.
+- Machine hosts templates for CANON, VOCAB, README, and SPEC.
 
-Violations are handled downstream.
+## Axiom Trace
+
+Root CANONIC axioms (final for this scope):
+1. triad
+2. inheritance (finality)
+3. introspection (VOCAB spans CANON + SPEC + README + itself)
