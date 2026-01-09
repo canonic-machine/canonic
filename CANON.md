@@ -13,4 +13,4 @@ axioms:
    inherited axioms are final and cannot be overridden
 
 3. introspection:
-   VOCAB defines every term used by this CANON, the SPEC, the README, and itself
+   VOCAB defines every term used by this CANON and itself
