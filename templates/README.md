@@ -12,6 +12,6 @@ CANONIC templates for governance artifacts.
 - /
 
 ## References
-- TEMPLATES-00-SPEC.md
+- 00-TEMPLATES.md
 - CANON.md
 - VOCAB.md
