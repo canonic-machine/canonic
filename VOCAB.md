@@ -77,4 +77,16 @@ Without exception.
 ### itself
 The same artifact referring to itself.
 
+### novelty
+The property of being new to a scope.
+
+### novel
+Not inherited from a parent scope.
+
+### duplicate
+To restate an inherited axiom.
+
+### duplicated
+Restated from an inherited axiom.
+
 End of VOCAB.

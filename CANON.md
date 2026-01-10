@@ -14,3 +14,7 @@ axioms:
 
 3. introspection:
    VOCAB defines every term used by this CANON and itself
+
+4. novelty:
+   CANON includes only novel axioms
+   inherited axioms are not duplicated
