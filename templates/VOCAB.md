@@ -26,16 +26,16 @@ The README for a scope.
 ### CANON.md
 The CANON file for a scope.
 
-### SPEC-template.md
+### TEMPLATES-003_spec-template.md
 The template for a SPEC.
 
-### VOCAB-template.md
+### TEMPLATES-004_vocab-template.md
 The template for a VOCAB.
 
-### README-template.md
+### TEMPLATES-002_readme-template.md
 The template for a README.
 
-### CANON-template.md
+### TEMPLATES-001_canon-template.md
 The template for a CANON.
 
 ### scope
