@@ -5,7 +5,7 @@ PURPOSE
     {{purpose}}
 
 SCOPE
-    {{scope path}}
+    {{local scope path}}
 
 INHERITS
     {{parent scope path}}

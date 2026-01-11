@@ -11,6 +11,9 @@ SCOPE
 INHERITS
     <Parent scope path>
 
+STACK TRACE
+    <Full stack path from root to this scope.>
+
 QUICKSTART
     1. <Step one>
     2. <Step two>
