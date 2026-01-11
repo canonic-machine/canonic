@@ -1,6 +1,9 @@
 NAME
     {{NAME}} — {{one-line purpose}}
 
+PURPOSE
+    {{purpose}}
+
 SCOPE
     {{scope path}}
 

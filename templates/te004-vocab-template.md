@@ -1,4 +1,10 @@
-VOCAB
+NAME
+    VOCAB — <scope name>
+
+PURPOSE
+    <Why this vocabulary exists.>
+
+SCOPE
     <scope path>
 
 CORE CONCEPTS
