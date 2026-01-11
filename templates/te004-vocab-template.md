@@ -7,21 +7,16 @@ PURPOSE
 SCOPE
     <scope path>
 
-CORE CONCEPTS
-    CANON — <define the axioms artifact for a scope>
-    inheritance — <define how a CANON links to a parent scope and how chains terminate>
-    final — <define the non-overridable status of inherited axioms>
-    triad — <define the required governance file set: CANON.md, VOCAB.md, README.md>
-    introspection — <describe how this VOCAB defines itself and the CANON it supports>
-    README — <define the README artifact for a scope>
-    VOCAB — <define this vocabulary artifact itself>
-    scope — <define the area governed by a CANON and its triad>
-    axiom — <define a single CANON statement>
-    concept — <define a governed meaning unit that must be defined in VOCAB>
-    template — <define the reusable blueprint for instantiating governance artifacts>
-    define — <define how concepts are stated in VOCAB>
+CANON CONCEPTS
+    <concept> — <define each concept used by CANON>
 
-ADDITIONAL CONCEPTS
-    <concept> — <define any other concept used by scope-specific axioms>
+SELF CONCEPTS
+    VOCAB — <define this vocabulary artifact>
+    concept — <define a governed meaning unit>
+    defines — <define how meanings are stated in VOCAB>
+    introspection — <define CANON/VOCAB closure>
+    used — <define usage in CANON statements>
+    every — <define without exception>
+    itself — <define self-reference>
 
 End of VOCAB.
