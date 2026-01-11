@@ -1,80 +1,76 @@
 # VOCAB (/)
 
-## Core concepts
-
 ### CANONIC
-The root scope.
+CANONIC.
 
 ### CANON
-The axioms for a scope.
+CANON.
 
 ### VOCAB
-The concepts for a scope; it defines the concepts used by CANON and itself.
+VOCAB.
 
 ### README
-The README for a scope.
+README.
 
 ### scope
-The area governed by a CANON and its triad.
+scope.
 
 ### triad
-The required governance artifacts for a scope: CANON.md, VOCAB.md, README.md.
+CANON.md VOCAB.md README.md.
 
 ### CANON.md
-The CANON file for a scope.
+CANON.
 
 ### VOCAB.md
-The VOCAB file for a scope.
+VOCAB.
 
 ### README.md
-The README file for a scope.
+README.
 
 ### axioms
-The CANON statements for a scope.
+CANON.
 
 ### inheritance
-The declared linkage from a scope to the scope it inherits from.
+inherits.
 
 ### inherits
-The declared parent scope for a CANON.
+inheritance.
 
 ### declares
-To state an inheritance linkage in CANON.
+inheritance.
 
 ### contains
-To hold governance artifacts within a scope.
+scope triad.
 
 ### terminates
-To end an inheritance chain at /.
+inheritance.
 
 ### inherited
-Axioms taken from a parent scope.
+inheritance.
 
 ### final
-The property that inherited axioms cannot be overridden.
+inherited.
 
 ### cannot
-A statement of prohibition.
+final.
 
 ### overridden
-A final axiom that is replaced in a downstream scope.
+inherited.
 
 ### introspection
-The requirement that VOCAB defines concepts used by CANON and itself.
+VOCAB defines concept used CANON VOCAB itself.
 
 ### defines
-To state meanings in VOCAB.
+VOCAB.
 
 ### concept
-A governed meaning unit named by a VOCAB heading and referenced by CANON.
+VOCAB.
 
 ### used
-Employed in CANON statements.
+CANON VOCAB.
 
 ### every
-Without exception.
+every.
 
 ### itself
-The same artifact referring to itself.
-
-End of VOCAB.
+itself.
