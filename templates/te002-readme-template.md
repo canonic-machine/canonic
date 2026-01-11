@@ -1,28 +1,28 @@
 NAME
-    <NAME> — <one-line description>
+    <State the name and one-line description.>
 
 PURPOSE
-    <Why this scope exists.>
+    <State why this scope exists.>
 
 SCOPE
-    <What this scope covers.>
-    <What this scope does not cover.>
+    <State what this scope covers.>
+    <State what this scope does not cover.>
 
 INHERITS
-    <Parent scope path>
+    <State the parent scope path.>
 
 STACK TRACE
-    <Full stack path from root to this scope.>
+    <State the full stack path from root to this scope.>
 
 QUICKSTART
-    1. <Step one>
-    2. <Step two>
-    3. <Step three>
+    1. <State step one.>
+    2. <State step two.>
+    3. <State step three.>
 
 EXAMPLES
-    <Example command or usage>
+    <State an example command or usage.>
 
 REFERENCES
-    <SPEC file>
+    <State the spec file.>
     CANON.md
     VOCAB.md

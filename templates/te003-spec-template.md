@@ -1,18 +1,18 @@
 NAME
-    <NAME> — <one-line description>
+    <State the name and one-line description.>
 
 PURPOSE
-    <Why this spec exists.>
+    <State why this spec exists.>
 
 SCOPE
-    <Which layers inherit from it.>
+    <State which layers inherit from it.>
 
 CONSTRAINTS
-    <Human-readable rules that define structure and intent.>
-    <What this spec does not cover.>
+    <State rules that define structure and intent.>
+    <State what this spec does not cover.>
 
 VALIDATION
-    <How downstream consumers check for compliance.>
+    <State how downstream consumers check for compliance.>
 
 CONSUMPTION NOTES
-    <Downstream instructions: updates, templates, spec naming.>
+    <State downstream instructions: updates, templates, spec naming.>

@@ -1,17 +1,17 @@
 NAME
-    {{NAME}} — {{one-line purpose}}
+    <State the name and one-line purpose.>
 
 PURPOSE
-    {{purpose}}
+    <State the purpose.>
 
 SCOPE
-    {{local scope path}}
+    <State the local scope path.>
 
 INHERITS
-    {{parent scope path}}
+    <State the parent scope path.>
 
 AXIOMS
-    1. triad — {{axiom statement}}
-    2. inheritance — {{axiom statement}}
-    3. introspection — {{axiom statement}}
-    4. {{optional axiom name}} — {{optional axiom statement}}
+    1. triad — <State the axiom.>
+    2. inheritance — <State the axiom.>
+    3. introspection — <State the axiom.>
+    4. <optional axiom name> — <State the axiom.>
