@@ -1,6 +1,6 @@
 # VOCAB (/)
 
-## Core terms
+## Core concepts
 
 ### CANON
 <define the axioms artifact for a scope>
@@ -29,18 +29,18 @@
 ### axiom
 <define a single CANON statement>
 
-### term
-<define a word or phrase that must be defined in VOCAB>
+### concept
+<define a governed meaning unit that must be defined in VOCAB>
 
 ### template
 <define the reusable blueprint for instantiating governance artifacts>
 
 ### define
-<define how terms are stated in VOCAB>
+<define how concepts are stated in VOCAB>
 
-## Additional terms
+## Additional concepts
 
-### <term>
-<define any other term used by scope-specific axioms>
+### <concept>
+<define any other concept used by scope-specific axioms>
 
 End of VOCAB.

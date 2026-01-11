@@ -1,6 +1,6 @@
 # VOCAB (/)
 
-## Core terms
+## Core concepts
 
 ### CANONIC
 The root scope.
@@ -9,7 +9,7 @@ The root scope.
 The axioms for a scope.
 
 ### VOCAB
-The terms for a scope; it defines the terms used by CANON and itself.
+The concepts for a scope; it defines the concepts used by CANON and itself.
 
 ### README
 The README for a scope.
@@ -60,13 +60,13 @@ A statement of prohibition.
 A final axiom that is replaced in a downstream scope.
 
 ### introspection
-The requirement that VOCAB defines terms used by CANON and itself.
+The requirement that VOCAB defines concepts used by CANON and itself.
 
 ### defines
 To state meanings in VOCAB.
 
-### term
-A word or phrase used by CANON that must be defined in VOCAB.
+### concept
+A governed meaning unit named by a VOCAB heading and referenced by CANON.
 
 ### used
 Employed in CANON statements.
