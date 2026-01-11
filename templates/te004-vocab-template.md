@@ -1,22 +1,13 @@
 NAME
-    VOCAB — <scope name>
+    <name>
 
 PURPOSE
-    <Why this vocabulary exists.>
+    <purpose>
 
 SCOPE
     <scope path>
 
-CANON CONCEPTS
-    <concept> — <define each concept used by CANON>
+CONCEPTS
+    <concept> — <definition>
 
-SELF CONCEPTS
-    VOCAB — <define this vocabulary artifact>
-    concept — <define a governed meaning unit>
-    defines — <define how meanings are stated in VOCAB>
-    introspection — <define CANON/VOCAB closure>
-    used — <define usage in CANON statements>
-    every — <define without exception>
-    itself — <define self-reference>
-
-End of VOCAB.
+End.
