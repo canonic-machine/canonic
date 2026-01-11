@@ -14,4 +14,4 @@
    - <how downstream consumers check for compliance>
 
 5. Consumption notes
-   - <downstream instructions: updates, templates, naming>
+   - <downstream instructions: updates, templates, spec naming>

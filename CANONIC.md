@@ -12,6 +12,7 @@
    - CANON states enforceable axioms for the scope: triad, inheritance, and introspection.
    - VOCAB is CANON-closed and defines the concepts referenced by CANON and itself.
    - VOCAB is concept-only: each concept is defined once; no duplicate entries for grammatical variation.
+   - SPEC filename matches the repo name (case-insensitive) and is unnumbered.
    - CANON -> VOCAB -> README: README uses concepts defined by VOCAB.
    - Generation method: derive CANON as minimal axioms from this SPEC; derive VOCAB from CANON and its concept set (CANON-closed); ensure README uses VOCAB concepts.
    - Fixed point: applying the generation method to this SPEC yields a triad that does not change on regeneration.
@@ -23,6 +24,7 @@
    - Verify that CANON states enforceable axioms for triad, inheritance, and introspection.
    - Verify that VOCAB is CANON-closed and README uses VOCAB concepts.
    - Verify that VOCAB is concept-only with no duplicate entries for grammatical variation.
+   - Verify that SPEC filename matches the repo name (case-insensitive) and is unnumbered.
    - Verify that CANON and VOCAB can be regenerated from this SPEC using the generation method.
    - Verify that regeneration is a fixed point (no changes after regeneration).
    - Confirm that this SPEC defines constraints and that machine applies them with templates.
