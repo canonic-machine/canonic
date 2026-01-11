@@ -74,3 +74,6 @@ every.
 
 ### itself
 itself.
+
+### canonbase
+full trace inherited CANONs from CANONIC through downstream scopes to current scope ledger.
