@@ -1,19 +1,14 @@
-NAME: {{NAME}}
-SCOPE: {{scope path}}
-INHERITS: {{parent scope path}}
+NAME
+    {{NAME}} — {{one-line purpose}}
 
-AXIOMS:
+SCOPE
+    {{scope path}}
 
-1. triad
-   - {{triad requirement}}
+INHERITS
+    {{parent scope path}}
 
-2. inheritance
-   - {{parent linkage statement}}
-   - inheritance terminates at /
-   - inherited axioms are final and cannot be overridden
-
-3. introspection
-   - VOCAB defines every concept used by this CANON and itself
-
-4. {{optional axiom name}}
-   - {{optional axiom statement}}
+AXIOMS
+    1. triad — {{axiom statement}}
+    2. inheritance — {{axiom statement}}
+    3. introspection — {{axiom statement}}
+    4. {{optional axiom name}} — {{optional axiom statement}}
