@@ -1,17 +1,25 @@
-# <NAME>
+NAME: <NAME>
+SUMMARY: <One-line description of the scope.>
 
-<One-line description of the scope.>
-
-## Purpose
+PURPOSE:
 - <Why this scope exists.>
 
-## Scope
-- <What this scope covers and does not cover.>
+SCOPE:
+- <What this scope covers.>
+- <What this scope does not cover.>
 
-## Inheritance
+INHERITS:
 - <Parent scope path>
 
-## References
-- <SPEC file, if present>
+QUICKSTART:
+1. <Step one>
+2. <Step two>
+3. <Step three>
+
+EXAMPLES:
+- <Example command or usage>
+
+REFERENCES:
+- <SPEC file>
 - CANON.md
 - VOCAB.md
