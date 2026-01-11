@@ -6,7 +6,21 @@
 2. Scope
    - Applies to `/canonic` and informs inherited scopes (`/machine`).
 
-3. Constraints
+3. System architecture
+   - The stack is layered and compositional:
+     - CANONIC (paradigm) → MACHINE (constitution) → OS (enforcement) → WRITING (application) → PAPER (artifact)
+     - GIT is the ledger machine for canon changes.
+
+   ```mermaid
+   flowchart TD
+     CANONIC["CANONIC (paradigm)"] --> MACHINE["MACHINE (constitution)"]
+     MACHINE --> OS["OS (enforcement)"]
+     OS --> WRITING["WRITING (application)"]
+     WRITING --> PAPER["PAPER (artifact)"]
+     OS --> GIT["GIT (ledger machine)"]
+   ```
+
+4. Constraints
    - SPEC is human first and may define machine architecture without implementing it.
    - SPEC states how CANON, VOCAB, and README relate.
    - CANON states enforceable axioms for the scope: triad, inheritance, and introspection.
@@ -18,7 +32,7 @@
    - Fixed point: applying the generation method to this SPEC yields a triad that does not change on regeneration.
    - This SPEC defines constraints; machine applies them and provides templates for CANON, VOCAB, and README.
 
-4. Validation
+5. Validation
    - Confirm that SPEC is human first and may define machine architecture without implementing it.
    - Verify that SPEC states how CANON, VOCAB, and README relate.
    - Verify that CANON states enforceable axioms for triad, inheritance, and introspection.
@@ -29,11 +43,11 @@
    - Verify that regeneration is a fixed point (no changes after regeneration).
    - Confirm that this SPEC defines constraints and that machine applies them with templates.
 
-5. Consumption notes
+6. Consumption notes
    - Downstream layers inherit these constraints without contradicting the root CANON.
    - When concepts are added to CANON in this scope, downstream VOCABs must include them.
 
-6. Inheritance notes
+7. Inheritance notes
    - Downstream layers inherit this spec and may add constraints without contradicting the root CANON.
 
 This SPEC is part of the CANONIC triad.
