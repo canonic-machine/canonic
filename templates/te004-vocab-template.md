@@ -1,13 +1,13 @@
 NAME
-    <name>
+    <Name this vocabulary.>
 
 PURPOSE
-    <purpose>
+    <State why this vocabulary exists.>
 
 SCOPE
-    <scope path>
+    <State the scope path for this vocabulary.>
 
 CONCEPTS
-    <concept> — <definition>
+    <Define each concept used by CANON and this vocabulary.>
 
 End.
