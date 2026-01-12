@@ -21,6 +21,9 @@ CANON.
 ### VOCAB.md
 VOCAB.
 
+### VOCAB
+The vocabulary artifact defining concepts for a scope.
+
 ### README.md
 README.
 
