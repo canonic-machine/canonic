@@ -1,17 +1,33 @@
-NAME
-    <State the name and one-line purpose.>
+# <SCOPE NAME>
 
-PURPOSE
-    <State the purpose.>
+inherits: <PARENT SCOPE PATH>
 
-SCOPE
-    <State the local scope path.>
+---
 
-INHERITS
-    <State the parent scope path.>
+## Axioms
 
-AXIOMS
-    1. triad — <State the axiom.>
-    2. inheritance — <State the axiom.>
-    3. introspection — <State the axiom.>
-    4. <optional axiom name> — <State the axiom.>
+### 1. <Axiom name>
+
+<State the axiom using normative language (MUST / MUST NOT / MAY).>
+
+---
+
+### 2. <Axiom name>
+
+<State the axiom using normative language (MUST / MUST NOT / MAY).>
+
+---
+
+### 3. <Axiom name>
+
+<State the axiom using normative language (MUST / MUST NOT / MAY).>
+
+---
+
+<!-- Optional additional axioms may be added following the same structure. -->
+
+---
+
+**This CANON defines validity for the <SCOPE NAME> scope.**
+
+---
