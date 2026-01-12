@@ -3,20 +3,17 @@
 ### CANONIC
 CANONIC.
 
-### CANON
-CANON.
-
-### VOCAB
-VOCAB.
-
-### README
-README.
+### CANONIC.md
+CANONIC.
 
 ### scope
 scope.
 
 ### triad
 CANON.md VOCAB.md README.md.
+
+### CANON
+CANON.md.
 
 ### CANON.md
 CANON.
@@ -30,17 +27,20 @@ README.
 ### axioms
 CANON.
 
+### contains
+triad.
+
+### every
+scope.
+
+### declares
+inheritance.
+
 ### inheritance
 inherits.
 
 ### inherits
 inheritance.
-
-### declares
-inheritance.
-
-### contains
-scope triad.
 
 ### terminates
 inheritance.
@@ -58,22 +58,19 @@ final.
 inherited.
 
 ### introspection
-VOCAB defines concept used CANON VOCAB itself.
+VOCAB defines every content concept used by this CANON and itself.
 
-### defines
-VOCAB.
+### content
+concept.
 
 ### concept
 VOCAB.
 
-### used
-CANON VOCAB.
+### defines
+VOCAB.
 
-### every
-every.
+### used
+CANON.
 
 ### itself
-itself.
-
-### canonbase
-full trace inherited CANONs from CANONIC through downstream scopes to current scope ledger.
+VOCAB.
