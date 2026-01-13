@@ -18,7 +18,18 @@ Absence of any triad artifact renders the scope invalid.
 
 ---
 
-### 2. Inheritance
+### 2. Repository licensing (root only)
+
+A repository root scope **MUST** contain:
+
+- `LICENSE`
+- `NOTICE`
+
+Absence of either file renders the repository root scope invalid.
+
+---
+
+### 3. Inheritance
 
 Every `CANON.md` **MUST** declare the scope it inherits from.
 
@@ -27,7 +38,7 @@ Every `CANON.md` **MUST** declare the scope it inherits from.
 
 ---
 
-### 3. Introspection
+### 4. Introspection
 
 `VOCAB.md` **MUST** define every content concept used by:
 

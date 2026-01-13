@@ -40,6 +40,30 @@ The descriptive artifact of a scope.
 
 ---
 
+### LICENSE
+
+The repository license file named `LICENSE`.
+
+---
+
+### NOTICE
+
+The repository attribution file named `NOTICE`.
+
+---
+
+### repository
+
+A versioned source-control project with a single top-level directory.
+
+---
+
+### repository root scope
+
+A scope that is the top-level directory of a repository.
+
+---
+
 ### scope
 
 A directory governed by a triad.

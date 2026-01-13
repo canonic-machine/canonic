@@ -42,6 +42,15 @@ Inherits from: `<PARENT SCOPE PATH>`
 
 ---
 
+## Repository metadata (root only)
+
+If this scope is a repository root, include:
+
+- `LICENSE`
+- `NOTICE`
+
+---
+
 ## References
 
 - `CANON.md`
