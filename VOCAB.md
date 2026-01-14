@@ -22,6 +22,12 @@ The governance artifact of a scope.
 
 ---
 
+### CANONIC
+
+The constitutional governance paradigm and root scope that defines the minimal structural and semantic rules all downstream scopes must satisfy.
+
+---
+
 ### content concept
 
 A term defined in VOCAB and used in CANON or VOCAB.

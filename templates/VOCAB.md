@@ -29,10 +29,10 @@ The CANON file for a scope.
 ### te003-spec-template.md
 The template for a SPEC.
 
-### te004-vocab-template.md
+### te002-vocab-template.md
 The template for a VOCAB.
 
-### te002-readme-template.md
+### te004-readme-template.md
 The template for a README.
 
 ### te001-canon-template.md
@@ -88,5 +88,29 @@ Without exception.
 
 ### itself
 The same artifact referring to itself.
+
+### placeholder
+A scaffold that defines structure without governance content.
+
+### structures
+Organizational patterns defined by templates.
+
+### shape
+The structural form of a governance artifact.
+
+### presence
+The requirement that a file exists within a scope.
+
+### governance
+The normative rules that define validity for a scope.
+
+### enforcement
+The mechanisms that ensure governance compliance.
+
+### execution semantics
+The operational behavior of artifacts at runtime.
+
+### interpretation
+The process of deriving meaning from artifacts.
 
 End of VOCAB.
