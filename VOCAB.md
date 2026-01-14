@@ -34,6 +34,12 @@ The paradigm specification artifact; defines the CANONIC paradigm in prose form.
 
 ---
 
+### canonbase
+
+The full inheritance graph of all scopes governed by CANONIC, spanning all repositories in a workspace.
+
+---
+
 ### content concept
 
 A term defined in VOCAB and used in CANON or VOCAB.
