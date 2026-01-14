@@ -23,9 +23,12 @@ Absence of any triad artifact renders the scope invalid.
 A repository root scope **MUST** contain:
 
 - `LICENSE`
+
+A repository root scope **MAY** contain:
+
 - `NOTICE`
 
-Absence of either file renders the repository root scope invalid.
+Absence of LICENSE renders the repository root scope invalid.
 
 ---
 
