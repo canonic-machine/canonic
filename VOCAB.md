@@ -24,7 +24,13 @@ The governance artifact of a scope.
 
 ### CANONIC
 
-The constitutional governance paradigm and root scope that defines the minimal structural and semantic rules all downstream scopes must satisfy.
+The constitutional governance paradigm defined by the root scope; establishes the minimal structural and semantic rules all scopes must satisfy.
+
+---
+
+### CANONIC.md
+
+The paradigm specification artifact; defines the CANONIC paradigm in prose form.
 
 ---
 
@@ -58,6 +64,12 @@ The repository attribution file named `NOTICE`.
 
 ---
 
+### root scope
+
+The scope at `/` from which all other scopes inherit; the termination point of inheritance.
+
+---
+
 ### repository
 
 A versioned source-control project with a single top-level directory.
@@ -85,6 +97,12 @@ The set of artifacts (`CANON.md`, `VOCAB.md`, `README.md`) required for a valid 
 ### validity
 
 The state of a scope that satisfies all applicable axioms.
+
+---
+
+### SPEC
+
+A specification artifact that defines requirements for a scope.
 
 ---
 

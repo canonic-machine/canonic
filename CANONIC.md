@@ -10,8 +10,9 @@ CANONIC establishes the minimal structural and semantic laws that govern all dow
 
 ## 2. Scope
 
-- Applies to `/canonic`.
-- Governs all inherited scopes.
+- This artifact (`CANONIC.md`) is the paradigm specification; it is non-normative prose.
+- `CANON.md` is the normative governance artifact; validity is defined exclusively there.
+- Applies to the root scope (`/`) and governs all inherited scopes.
 - Defines constitutional constraints only; it does not define enforcement, execution, or behavior.
 
 ---

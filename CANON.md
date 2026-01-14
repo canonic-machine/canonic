@@ -77,9 +77,9 @@ This is structurally necessary, not a defect.
 
 Concepts belong in the scope that introduces them.
 
-- Axioms **MUST** be placed in the scope governing the action they constrain
-- Concepts **MUST NOT** jump scopes to their governing layer
-- Inheritance carries concepts downstream, not upstream
+- Axioms **MUST** be placed in the scope that governs the action they constrain
+- Concepts **MUST NOT** be defined in a downstream scope and referenced by an upstream scope
+- Inheritance carries concepts downstream only
 
 ---
 
