@@ -49,6 +49,40 @@ Undefined content concepts render the scope invalid.
 
 ---
 
+### 5. Root minimalism
+
+Root CANON **MUST** contain only paradigm-level axioms.
+
+- Implementation details belong in MACHINE scope
+- Procedural rules belong in OS scope
+- Narrative records belong in WRITING scope
+
+Root scope establishes constitutional structure; downstream scopes specialize.
+
+---
+
+### 6. VOCAB closure at root
+
+Root VOCAB definitions **MAY** be circular and minimal.
+
+- Root concepts are self-grounding
+- Meaning emerges from structure and canonical context
+- Downstream scopes inherit and enrich definitions
+
+This is structurally necessary, not a defect.
+
+---
+
+### 7. Layer discipline
+
+Concepts belong in the scope that introduces them.
+
+- Axioms **MUST** be placed in the scope governing the action they constrain
+- Concepts **MUST NOT** jump scopes to their governing layer
+- Inheritance carries concepts downstream, not upstream
+
+---
+
 **This CANON defines constitutional validity for all CANONIC scopes.**
 
 ---
