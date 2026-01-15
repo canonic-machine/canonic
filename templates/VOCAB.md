@@ -137,4 +137,22 @@ The collection of Invention Disclosure Forms; tracked by layer (Foundation, Oper
 ### episodes
 Documented sessions or conversations that produce artifacts, decisions, or governance changes.
 
+### master plan
+The SPEC artifact; defines the roadmap and future vision for a scope while README captures current state.
+
+### current state snapshot
+The README artifact's role; describes what exists now, distinct from SPEC's roadmap.
+
+### roadmap
+A SPEC section documenting milestones and evolution trajectory toward the perfect paradigm.
+
+### generation metadata
+A SPEC section recording creation date, last update, generator (human/AI/episode), and template version.
+
+### artifact relationships
+A SPEC section with mermaid diagram showing how CANON, VOCAB, README, and SPEC relate within a scope.
+
+### future vision
+A SPEC section describing the target state the scope is evolving toward through canonification.
+
 End of VOCAB.
