@@ -135,3 +135,39 @@ The trajectory of a machine scope from human-driven operation toward AI-automate
 A scope that defines execution semantics for a CANONIC system. Machine scopes document their lifecycle and automation drift.
 
 ---
+
+### canonification
+
+The process of evolving artifacts toward canonical form through iterative refinement; each cycle brings structure closer to the perfect paradigm defined by templates.
+
+---
+
+### perfect paradigm
+
+The ideal structural form defined by CANONIC templates; the target state toward which all governed artifacts evolve through canonification.
+
+---
+
+### IDF
+
+Invention Disclosure Form; a documented invention disclosure that captures a novel idea, method, or system for potential patent protection.
+
+---
+
+### IDFs
+
+The collection of Invention Disclosure Forms; tracked by layer (Foundation, Operational, Patent Machine, Domain Apps, Emergent).
+
+---
+
+### episode
+
+A documented session or conversation that produces artifacts, decisions, or governance changes.
+
+---
+
+### episodes
+
+The collection of documented sessions across all scopes; the primary production output of the CANONIC paradigm.
+
+---

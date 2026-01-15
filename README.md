@@ -20,6 +20,24 @@ CANONIC defines the minimal structural and semantic rules that all downstream sc
 
 ---
 
+## Canonbase
+
+The **canonbase** is the full inheritance graph of all scopes governed by CANONIC, spanning all repositories in a workspace.
+
+```mermaid
+graph TD
+    root["/"] --> canonic
+    canonic --> machine
+    canonic --> os
+    canonic --> ledger
+    canonic --> writing
+    canonic --> paper
+    canonic --> agents
+    canonic --> stack
+    writing --> episodes
+    writing --> streams
+```
+
 ## Stack Navigation
 
 | Layer | Repository | Purpose |
