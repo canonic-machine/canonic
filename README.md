@@ -4,9 +4,33 @@ The constitutional foundation for governed scopes.
 
 ---
 
-## Overview
+## Purpose
 
-CANONIC defines the minimal structural and semantic rules that all downstream scopes must satisfy.
+CANONIC establishes the minimal structural and semantic rules that all downstream scopes must satisfy. It provides the constitutional bedrock for governance across the entire canonbase.
+
+---
+
+## Scope
+
+### In scope
+
+- Paradigm-level axioms for scope validity
+- Triad requirements (CANON, VOCAB, README)
+- Inheritance semantics
+- Introspection requirements
+- Layer discipline
+
+### Out of scope
+
+- Implementation details (delegated to MACHINE)
+- Procedural rules (delegated to OS)
+- Narrative records (delegated to WRITING)
+
+---
+
+## Inheritance
+
+Inherits from: `/`
 
 ---
 
@@ -52,3 +76,53 @@ graph TD
 | Composition | [stack](https://github.com/canonic-machine/stack) | Multi-repo layer |
 
 ---
+
+## CANONIC Foundation
+
+CANONIC is stewarded by the **CANONIC Foundation**, a 501(c)(3) non-profit organization.
+
+```
+CANONIC Foundation (501(c)(3))
+│
+├── Mission Products
+│   └── MammoChat (free, patient-sovereign)
+│
+├── IP Trust
+│   ├── Patents (70+ IDFs)
+│   ├── Validators (black-box, VaaS)
+│   └── Specifications
+│
+├── Revenue Services
+│   ├── Validator-as-a-Service
+│   ├── Certification Program
+│   └── Training
+│
+└── Licensed Members
+    └── OncoNex (Healthcare)
+```
+
+See [/companies/foundation/](../companies/foundation/) for Foundation governance.
+
+---
+
+## Quickstart
+
+1. Create scope directory with triad: `CANON.md`, `VOCAB.md`, `README.md`
+2. Declare inheritance in CANON: `inherits: /canonic/`
+3. Define axioms using normative language (MUST/MUST NOT/MAY)
+4. Define all content concepts in VOCAB
+5. Validate with CANONIC Foundation VaaS
+
+---
+
+## References
+
+- [CANON.md](CANON.md) — Root governance axioms
+- [VOCAB.md](VOCAB.md) — Root vocabulary
+- [CANONIC.md](CANONIC.md) — Paradigm specification (non-normative)
+- [/companies/foundation/](../companies/foundation/) — Foundation governance
+- [/patents/IP-REGISTRY.md](../patents/IP-REGISTRY.md) — IP portfolio
+
+---
+
+*This README is descriptive and non-normative. Governance is defined exclusively by CANON.*
