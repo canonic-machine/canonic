@@ -117,3 +117,21 @@ A specification artifact that defines requirements for a scope.
 The vocabulary artifact of a scope.
 
 ---
+
+### lifecycle
+
+The documented evolution of a machine scope from origin through current state to projected automation trajectory.
+
+---
+
+### automation drift
+
+The trajectory of a machine scope from human-driven operation toward AI-automated execution. Documents the progressive shift of execution responsibility while preserving human authority over governance.
+
+---
+
+### machine scope
+
+A scope that defines execution semantics for a CANONIC system. Machine scopes document their lifecycle and automation drift.
+
+---
