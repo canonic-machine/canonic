@@ -128,4 +128,13 @@ A template section for non-normative SHOULD-level operational guidance.
 ### references section
 A template section for cross-references to related episodes, IDFs, and scopes.
 
+### IDF
+Invention Disclosure Form; a documented invention disclosure that captures a novel idea, method, or system for potential patent protection.
+
+### IDFs
+The collection of Invention Disclosure Forms; tracked by layer (Foundation, Operational, Patent Machine, Domain Apps, Emergent).
+
+### episodes
+Documented sessions or conversations that produce artifacts, decisions, or governance changes.
+
 End of VOCAB.
