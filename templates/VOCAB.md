@@ -155,4 +155,55 @@ A SPEC section with mermaid diagram showing how CANON, VOCAB, README, and SPEC r
 ### future vision
 A SPEC section describing the target state the scope is evolving toward through canonification.
 
+### milestones
+Discrete progress markers on the roadmap toward the perfect paradigm.
+
+### normative
+Having the force of governance; MUST/SHOULD statements that define compliance.
+
+### descriptive
+Non-authoritative documentation that informs but does not govern.
+
+### normative language
+RFC 2119 keywords (MUST, MUST NOT, SHOULD, SHOULD NOT, MAY) used to express governance requirements.
+
+### separation of concerns
+The principle that each artifact has a distinct role: CANON governs, VOCAB defines, README describes, SPEC plans.
+
+### minimality
+The principle that governance artifacts contain only what is necessary; no bloat.
+
+### constraints
+Limits on what a SPEC governs and how artifacts relate.
+
+### validation
+The process by which MACHINE implementations check compliance with SPEC.
+
+### consumption notes
+Guidance for downstream use, updates, naming, and inheritance of artifacts.
+
+### human-first
+The property that SPEC is written for human understanding before machine parsing.
+
+### downstream
+Scopes that inherit from the current scope.
+
+### SPEC.md
+The SPEC file for a scope; the master plan artifact.
+
+### README.md
+The README file for a scope; the current state snapshot artifact.
+
+### VOCAB.md
+The VOCAB file for a scope; the vocabulary definitions artifact.
+
+### mermaid
+A markdown-based diagramming syntax for visualizing relationships and flows.
+
+### perfect paradigm
+The ideal structural form defined by CANONIC templates; the target state toward which all governed artifacts evolve through canonification.
+
+### canonification
+The process of evolving artifacts toward canonical form through iterative refinement.
+
 End of VOCAB.
