@@ -41,6 +41,25 @@ CANON templates **SHOULD** include:
 
 ---
 
+## Lifecycle
+
+**Origin:** Templates scope created to canonify documentation patterns and provide structural bootstrapping for new scopes. Formalized through IDF-095 (Structural Bootstrapping Pattern).
+
+**Current state:** AI-assisted. Human defines template structure; AI assists with template instantiation and pattern propagation across scopes.
+
+**Automation drift:** Template creation remains human-governed. Template instantiation and structural validation are fully automatable. Pattern evolution requires human deliberation to maintain non-authority constraint.
+
+---
+
+## References
+
+- IDF-091: Portfolio Coverage Standardization (series artifact nomenclature)
+- IDF-093: Prefix Canonicity Constraint
+- IDF-094: Directory Discriminant Pattern
+- IDF-095: Structural Bootstrapping Pattern
+
+---
+
 **This CANON defines validity for the TEMPLATES scope.**
 
 ---
