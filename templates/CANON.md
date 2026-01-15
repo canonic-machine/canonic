@@ -22,6 +22,25 @@ Templates have no legal, authoritative, or executable effect.
 
 ---
 
+### 3. Documentation canonification
+
+Templates canonify documentation patterns.
+
+When a documentation structure is added to a template, that pattern becomes the canonical form for all instances of that artifact type.
+
+---
+
+### 4. Template completeness
+
+CANON templates **SHOULD** include:
+
+- Axioms section (normative)
+- Lifecycle section (origin, current state, automation drift)
+- Best Practices section (non-normative, SHOULD-level guidance)
+- References section (cross-references to episodes, IDFs, related scopes)
+
+---
+
 **This CANON defines validity for the TEMPLATES scope.**
 
 ---

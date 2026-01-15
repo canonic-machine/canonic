@@ -113,4 +113,19 @@ The operational behavior of artifacts at runtime.
 ### interpretation
 The process of deriving meaning from artifacts.
 
+### documentation canonification
+The process by which adding a documentation structure to a template makes that pattern the canonical form for all instances of that artifact type.
+
+### template completeness
+The property of a CANON template that includes axioms, lifecycle, best practices, and references sections.
+
+### lifecycle section
+A template section documenting origin, current state, and automation drift for a machine scope.
+
+### best practices section
+A template section for non-normative SHOULD-level operational guidance.
+
+### references section
+A template section for cross-references to related episodes, IDFs, and scopes.
+
 End of VOCAB.

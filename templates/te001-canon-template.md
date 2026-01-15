@@ -28,6 +28,34 @@ inherits: <PARENT SCOPE PATH>
 
 ---
 
+## Lifecycle
+
+**Origin:** <How this machine was discovered or created. Reference episode if applicable.>
+
+**Current state:** <Human-driven | AI-assisted | AI-automated>. <Brief description of current operation mode.>
+
+**Automation drift:** <Trajectory from manual to automated. Note governance constraints that bound automation.>
+
+---
+
+## Best Practices
+
+<!-- Optional section for non-normative guidance -->
+
+<List operational best practices that are SHOULD-level, not MUST-level.>
+
+---
+
+## References
+
+<!-- Optional section for cross-references -->
+
+- <Related episodes>
+- <Related IDFs>
+- <Related scopes>
+
+---
+
 **This CANON defines validity for the <SCOPE NAME> scope.**
 
 ---
