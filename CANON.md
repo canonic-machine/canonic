@@ -85,15 +85,15 @@ Concepts belong in the scope that introduces them.
 
 ### 8. Lifecycle documentation
 
-Each machine scope **SHOULD** document its automation lifecycle.
+Each scope **SHOULD** document its lifecycle.
 
 Lifecycle documentation **MUST** include:
 
-- **Origin**: How the machine was discovered or created
+- **Origin**: How the scope was discovered or created
 - **Current state**: Human-driven, AI-assisted, or AI-automated
 - **Automation drift**: The trajectory from manual to automated operation
 
-This documents the evolution from human governance to AI execution while preserving human authority.
+This documents the evolution of each scope while preserving human authority over governance.
 
 ---
 
