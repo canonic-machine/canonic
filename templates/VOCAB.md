@@ -206,4 +206,31 @@ The ideal structural form defined by CANONIC templates; the target state toward 
 ### canonification
 The process of evolving artifacts toward canonical form through iterative refinement.
 
+### canonbase
+The full inheritance graph of all scopes governed by CANONIC, spanning all repositories in a workspace.
+
+### Stack Navigation
+A README section providing a table of layer-repository-purpose mappings for orienting within the canonbase.
+
+### layer
+A conceptual tier in the canonbase hierarchy (Root, Enforcement, Bounds, Record, Production, Publication, Execution, Composition).
+
+### workspace
+A collection of repositories governed by CANONIC; the container for a canonbase.
+
+### repository
+A versioned source-control project with a single top-level directory.
+
+### Quickstart
+A README section providing step-by-step instructions for getting started with the scope.
+
+### repository metadata
+A README section for repository root scopes documenting LICENSE and NOTICE presence.
+
+### in scope
+A README section describing what the scope covers.
+
+### out of scope
+A README section describing what the scope explicitly does not cover.
+
 End of VOCAB.
