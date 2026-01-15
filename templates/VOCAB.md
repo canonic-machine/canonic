@@ -90,4 +90,10 @@ A template section for cross-references to related episodes, IDFs, and scopes.
 
 ---
 
+### structural bootstrapping
+
+The purpose of templates to bootstrap CANONIC scopes with correct file structure; templates define shape and presence, not meaning.
+
+---
+
 End of VOCAB.
