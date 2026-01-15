@@ -1,5 +1,7 @@
 # VOCAB (/)
 
+inherits: /
+
 ---
 
 ## Content Concepts
