@@ -122,13 +122,13 @@ The vocabulary artifact of a scope.
 
 ### lifecycle
 
-The documented evolution of a machine scope from origin through current state to projected automation trajectory.
+The documented evolution of a scope from origin through current state to projected automation trajectory.
 
 ---
 
 ### automation drift
 
-The trajectory of a machine scope from human-driven operation toward AI-automated execution. Documents the progressive shift of execution responsibility while preserving human authority over governance.
+The trajectory of a scope from human-driven operation toward AI-automated execution. Documents the progressive shift of execution responsibility while preserving human authority over governance.
 
 ---
 
@@ -171,5 +171,35 @@ A documented session or conversation that produces artifacts, decisions, or gove
 ### episodes
 
 The collection of documented sessions across all scopes; the primary production output of the CANONIC paradigm.
+
+---
+
+### governance
+
+The authority structure and rules defined by CANON that constrain scope behavior; governance defines what is valid, not how validity is enforced or executed.
+
+---
+
+### layer discipline
+
+The axiom requiring concepts to be defined in the scope that introduces them; axioms belong where they govern, and concepts flow downstream only through inheritance.
+
+---
+
+### VOCAB closure
+
+The property allowing root VOCAB definitions to be circular and minimal; root concepts are self-grounding with meaning emerging from structure and canonical context.
+
+---
+
+### introspection
+
+The axiom requiring VOCAB to define every content concept used by CANON and VOCAB itself; ensures semantic completeness within each scope.
+
+---
+
+### root minimalism
+
+The axiom requiring root CANON to contain only paradigm-level axioms; implementation, procedures, and narratives belong in downstream scopes.
 
 ---
