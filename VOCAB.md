@@ -194,12 +194,35 @@ The property allowing root VOCAB definitions to be circular and minimal; root co
 
 ### introspection
 
-The axiom requiring VOCAB to define every content concept used by CANON and VOCAB itself; ensures semantic completeness within each scope.
+The axiom requiring VOCAB to define every content concept used by CANON and VOCAB itself; ensures semantic completeness within each scope. (IDF-006)
 
 ---
 
 ### root minimalism
 
 The axiom requiring root CANON to contain only paradigm-level axioms; implementation, procedures, and narratives belong in downstream scopes.
+
+---
+
+## IDF Closure
+
+The following concepts are documented by Invention Disclosure Forms in the PATENTS scope:
+
+| Concept | IDF | Title |
+|---------|-----|-------|
+| CANONIC governance | IDF-001 | Constitutional Governance Paradigm |
+| introspection | IDF-006 | Literal Introspection |
+| canonification | IDF-071 | Canonic Composition |
+| perfect paradigm | IDF-071 | Canonic Composition |
+| layer discipline | IDF-095 | Structural Bootstrapping |
+| VOCAB closure | IDF-087 | Mathematical Closure Geometry |
+| lifecycle | IDF-040 | AI Auto-Discovery IDF Protocol |
+| automation drift | IDF-040 | AI Auto-Discovery IDF Protocol |
+| series artifact nomenclature | IDF-091 | Portfolio Coverage Standardization |
+| prefix canonicity | IDF-093 | Prefix Canonicity Constraint |
+| directory discriminant | IDF-094 | Directory Discriminant Pattern |
+| structural bootstrapping | IDF-095 | Structural Bootstrapping Pattern |
+
+This table closes the canonbase to the patent portfolio, establishing traceability from root concepts to inventive disclosures.
 
 ---
