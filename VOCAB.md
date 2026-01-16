@@ -6,6 +6,12 @@ inherits: /
 
 ## Content Concepts
 
+### AI
+
+Artificial intelligence; a collaborator in CANONIC governance operating under human authority.
+
+---
+
 ### artifact
 
 A file governed by CANON.
@@ -32,7 +38,13 @@ The constitutional governance paradigm defined by the root scope; establishes th
 
 ### CANONBASE
 
-The complete multi-repository governance stack organized into six layers: Governance, Machine, Operational, Composition, Production, and Domain.
+The complete multi-repository governance stack; the parent directory containing all governed scopes.
+
+---
+
+### canonification
+
+The process of evolving artifacts toward the canonical structural form defined by CANONIC templates.
 
 ---
 
@@ -45,12 +57,6 @@ A term defined in VOCAB and used in CANON or VOCAB.
 ### governance chain
 
 The inheritance path from a scope through its parents to the root scope.
-
----
-
-### governance layer
-
-One of six architectural layers in the CANONBASE: Governance, Machine, Operational, Composition, Production, Domain.
 
 ---
 
@@ -74,7 +80,13 @@ The scope at `/` from which all other scopes inherit; the termination point of i
 
 ### scope
 
-A directory governed by a triad.
+A directory governed by a triad. CS domain term for computational boundaries and namespace contexts.
+
+---
+
+### layer
+
+IDF domain term for architectural strata and governance levels; distinct from scope which operates in CS domain.
 
 ---
 
@@ -104,19 +116,25 @@ The vocabulary artifact of a scope.
 
 ### SPEC
 
-Optional fourth element (beyond triad). SPEC closes the CANON and can extend it with generation details or future plans. Not constrained by Axiom 3. (IDF-116)
+Optional fourth element (beyond triad). Named `{SCOPE_NAME}.md` (e.g., `TEMPLATES.md`, `MACHINE.md`). SPEC closes CANON by defining the governance chain relative to that scope. Can extend with generation details or future plans. Not constrained by Axiom 3. The root SPEC (`CANONIC.md`) is special: it closes itself and exposes the full CANONBASE. (IDF-116, IDF-119)
 
 ---
 
 ### closure
 
-The constraint relationship between artifacts. CANON and VOCAB have mutual closure (Axiom 3). README spans VOCAB but can extend. SPEC closes CANON but can extend. (IDF-116)
+The constraint relationship between artifacts. VOCAB closes the **scope** (semantic closure via Axiom 3). SPEC closes the **path** (governance chain). At root, CANONIC is closed: VOCAB self-defines, SPEC (`CANONIC.md`) defines the full CANONBASE. (IDF-116, IDF-119)
 
 ---
 
 ### introspection
 
 The axiom requiring VOCAB to define every content concept used by CANON and VOCAB itself; ensures semantic completeness within each scope. (IDF-006)
+
+---
+
+### episode
+
+A unit of epistemic work in WRITING; a session that produces transcript evidence.
 
 ---
 
@@ -134,7 +152,7 @@ Intellectual property.
 
 ### WRITING
 
-The epistemic layer governing episode production.
+The epistemic scope governing episode production.
 
 ---
 
@@ -162,41 +180,59 @@ Validators as a Service; the CANONIC composition pattern where pure validators a
 
 ---
 
-## Layer Definitions
+## Stack Scopes
 
-### Governance layer
+### machine
 
-Layer 1: Constitutional core containing root CANON and templates.
-
----
-
-### Machine layer
-
-Layer 2: Execution semantics defining how enforcement works.
+The enforcement scope that evaluates candidate states against CANON.
 
 ---
 
-### Operational layer
+### os
 
-Layer 3: Procedures and rules including OS, LEDGER, and VALIDATORS.
-
----
-
-### Composition layer
-
-Layer 4: Stack management including STACK and .github infrastructure.
+The operational scope defining procedures, rules, and automation protocols.
 
 ---
 
-### Production layer
+### ledger
 
-Layer 5: Artifact generation including writing, paper, patents.
+The immutable record scope providing git-based evidence storage.
 
 ---
 
-### Domain layer
+### stack
 
-Layer 6: Application instances that inherit root and add domain-specific axioms.
+The composition scope defining multi-repo composition rules.
+
+---
+
+### templates
+
+The templates scope containing placeholder scaffolds for governance artifacts.
+
+---
+
+### transcript
+
+The transcript scope recording episode evidence.
+
+---
+
+### paper
+
+The paper scope for manuscript production.
+
+---
+
+### patents
+
+The patents scope for IP production and disclosure.
+
+---
+
+### publishing
+
+The publishing scope for release management.
 
 ---
 
@@ -210,5 +246,6 @@ Layer 6: Application instances that inherit root and add domain-specific axioms.
 | CANONBASE architecture | IDF-114 | CANONBASE Multi-Repository Architecture |
 | SPEC closure model | IDF-116 | Four-Element Structure |
 | GATE architecture | IDF-118 | Axiomatic Validator Architecture |
+| SPEC self-closure | IDF-119 | Root SPEC Self-Closure Pattern |
 
 ---
