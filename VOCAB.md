@@ -259,8 +259,8 @@ CANONIC uses prefixed identifiers for artifact enumeration. (IDF-091, IDF-093)
 
 - Prefix: uppercase, 2–3 characters
 - Separator: hyphen (`-`)
-- Number: zero-padded, 3 digits (001–999)
-- Identifier: `{PREFIX}-{NNN}` (e.g., `IDF-001`, `TE-001`, `EP-001`)
+- Number: zero-padded, 3 digits (000–999)
+- Identifier: `{PREFIX}-{NNN}` (e.g., `IDF-000`, `TE-000`, `EP-000`)
 - Filename: `{prefix}-{nnn}-{description}.md` (lowercase prefix)
 
 ### Ordering Semantics
@@ -274,16 +274,16 @@ CANONIC uses prefixed identifiers for artifact enumeration. (IDF-091, IDF-093)
 
 | TE | Artifact | Role |
 |----|----------|------|
-| TE-001 | SPEC | Closure |
-| TE-002 | CANON | Governance |
-| TE-003 | VOCAB | Semantics |
-| TE-004 | README | Description |
+| TE-000 | SPEC | Closure |
+| TE-001 | CANON | Governance |
+| TE-002 | VOCAB | Semantics |
+| TE-003 | README | Description |
 
 | PA | Gate | Blocks |
 |----|------|--------|
-| PA-001 | TRIAD | Structural foundation |
-| PA-002 | INHERITANCE | Authority hierarchy |
-| PA-003 | INTROSPECTION | Semantic closure |
+| PA-000 | TRIAD | Structural foundation |
+| PA-001 | INHERITANCE | Authority hierarchy |
+| PA-002 | INTROSPECTION | Semantic closure |
 
 **Chronologically-ordered** (creation order):
 

@@ -48,10 +48,10 @@ Templates are numbered to reflect **closure precedence**:
 
 | Template | Artifact | Role |
 |----------|----------|------|
-| TE-001 | SPEC | Closure — closes governance chain, defines scope boundary |
-| TE-002 | CANON | Governance — defines axioms and validity |
-| TE-003 | VOCAB | Semantics — defines content concepts |
-| TE-004 | README | Description — non-normative documentation |
+| TE-000 | SPEC | Closure — closes governance chain, defines scope boundary |
+| TE-001 | CANON | Governance — defines axioms and validity |
+| TE-002 | VOCAB | Semantics — defines content concepts |
+| TE-003 | README | Description — non-normative documentation |
 
 ### Rationale
 
@@ -72,10 +72,10 @@ The ordering reflects authority:
 ## 6. Constraints
 
 - Templates **MUST** exist for the following artifacts:
-  - `SPEC.md` (TE-001)
-  - `CANON.md` (TE-002)
-  - `VOCAB.md` (TE-003)
-  - `README.md` (TE-004)
+  - `SPEC.md` (TE-000)
+  - `CANON.md` (TE-001)
+  - `VOCAB.md` (TE-002)
+  - `README.md` (TE-003)
 
 - Templates **MUST** be placeholder-only.
 - Templates **MUST NOT** introduce scope-specific governance or behavior.
@@ -87,7 +87,7 @@ The ordering reflects authority:
 
 A TEMPLATES scope is valid if and only if:
 
-- templates exist for SPEC, CANON, VOCAB, and README (TE-001–TE-004), and
+- templates exist for SPEC, CANON, VOCAB, and README (TE-000–TE-003), and
 - templates contain no enforceable governance or executable behavior.
 
 ---
