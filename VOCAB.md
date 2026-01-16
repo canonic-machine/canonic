@@ -80,7 +80,7 @@ The scope at `/` from which all other scopes inherit; the termination point of i
 
 ### scope
 
-A directory governed by a triad. CS domain term for computational boundaries and namespace contexts.
+A directory governed by a triad AND closed by a SPEC. Without SPEC, a directory is a **proto-scope** (triad-compliant but not closed). SCOPE = TRIAD + SPEC. CS domain term for computational boundaries and namespace contexts.
 
 ---
 
@@ -122,7 +122,13 @@ Optional fourth element (beyond triad). Named `{SCOPE_NAME}.md` (e.g., `TEMPLATE
 
 ### closure
 
-The constraint relationship between artifacts. VOCAB closes the **scope** (semantic closure via Axiom 3). SPEC closes the **path** (governance chain). At root, CANONIC is closed: VOCAB self-defines, SPEC (`CANONIC.md`) defines the full CANONBASE. (IDF-116, IDF-119)
+The constraint relationship between artifacts. VOCAB closes **semantics** (Axiom 3). SPEC closes the **scope** (governance chain + generation details). A directory with triad but no SPEC is a proto-scope (open). A directory with triad AND SPEC is a scope (closed). At root, CANONIC is closed: VOCAB self-defines, SPEC (`CANONIC.md`) defines the full CANONBASE. (IDF-116, IDF-119)
+
+---
+
+### proto-scope
+
+A directory that satisfies triad (CANON.md, VOCAB.md, README.md) but lacks SPEC. Proto-scopes are open—they can evolve. Adding SPEC closes the proto-scope into a scope.
 
 ---
 
