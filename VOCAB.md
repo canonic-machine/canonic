@@ -242,12 +242,51 @@ The publishing scope for release management.
 
 ---
 
+## Nomenclature
+
+CANONIC uses prefixed identifiers for artifact enumeration. (IDF-091, IDF-093)
+
+### Prefix Registry
+
+| Prefix | Expansion | Domain | Format | Ordering |
+|--------|-----------|--------|--------|----------|
+| IDF | Invention Disclosure Form | patents | `IDF-NNN` | chronological |
+| TE | Template Element | templates | `TE-NNN` | closure precedence |
+| EP | Episode | transcript | `EP-NNN` | chronological |
+
+### Format Rules
+
+- Prefix: uppercase, 2–3 characters
+- Separator: hyphen (`-`)
+- Number: zero-padded, 3 digits (001–999)
+- Identifier: `{PREFIX}-{NNN}` (e.g., `IDF-001`, `TE-001`, `EP-001`)
+- Filename: `{prefix}-{nnn}-{description}.md` (lowercase prefix)
+
+### Ordering Semantics
+
+Template ordering reflects **closure precedence**:
+
+| Template | Artifact | Role |
+|----------|----------|------|
+| TE-001 | SPEC | Closure |
+| TE-002 | CANON | Governance |
+| TE-003 | VOCAB | Semantics |
+| TE-004 | README | Description |
+
+Episode and IDF ordering is **chronological** (creation order).
+
+---
+
 ## IDF Closure
 
 | Concept | IDF | Title |
 |---------|-----|-------|
 | CANONIC governance | IDF-001 | Constitutional Governance Paradigm |
 | introspection | IDF-006 | Literal Introspection |
+| nomenclature | IDF-091 | Portfolio Coverage Standardization |
+| prefix canonicity | IDF-093 | Prefix Canonicity Constraint |
+| directory discriminant | IDF-094 | Directory Discriminant Pattern |
+| structural bootstrapping | IDF-095 | Structural Bootstrapping Pattern |
 | layer drift | IDF-096 | Layer Drift Validator |
 | CANONBASE architecture | IDF-114 | CANONBASE Multi-Repository Architecture |
 | SPEC closure model | IDF-116 | Four-Element Structure |
