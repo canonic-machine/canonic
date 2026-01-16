@@ -120,6 +120,30 @@ The axiom requiring VOCAB to define every content concept used by CANON and VOCA
 
 ---
 
+### IDF
+
+Invention Disclosure Form; a patent disclosure document.
+
+---
+
+### IP
+
+Intellectual property.
+
+---
+
+### WRITING
+
+The epistemic layer governing episode production.
+
+---
+
+### ROOT
+
+The root scope (/) from which all inheritance terminates.
+
+---
+
 ## Layer Definitions
 
 ### Governance layer
