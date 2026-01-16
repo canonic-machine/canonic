@@ -102,6 +102,18 @@ The vocabulary artifact of a scope.
 
 ---
 
+### SPEC
+
+Optional fourth element (beyond triad). SPEC closes the CANON and can extend it with generation details or future plans. Not constrained by Axiom 3. (IDF-116)
+
+---
+
+### closure
+
+The constraint relationship between artifacts. CANON and VOCAB have mutual closure (Axiom 3). README spans VOCAB but can extend. SPEC closes CANON but can extend. (IDF-116)
+
+---
+
 ### introspection
 
 The axiom requiring VOCAB to define every content concept used by CANON and VOCAB itself; ensures semantic completeness within each scope. (IDF-006)
@@ -154,5 +166,6 @@ Layer 6: Application instances that inherit root and add domain-specific axioms.
 | introspection | IDF-006 | Literal Introspection |
 | layer drift | IDF-096 | Layer Drift Validator |
 | CANONBASE architecture | IDF-114 | CANONBASE Multi-Repository Architecture |
+| SPEC closure model | IDF-116 | Four-Element Structure |
 
 ---
