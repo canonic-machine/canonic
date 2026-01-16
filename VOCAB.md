@@ -250,7 +250,8 @@ CANONIC uses prefixed identifiers for artifact enumeration. (IDF-091, IDF-093)
 
 | Prefix | Expansion | Domain | Format | Ordering |
 |--------|-----------|--------|--------|----------|
-| IDF | Invention Disclosure Form | patents | `IDF-NNN` | chronological |
+| IDF | Invention Disclosure Form | patents/disclosures | `IDF-NNN` | chronological |
+| PA | Patent Application | patents/applications | `PA-NNN` | gate precedence |
 | TE | Template Element | templates | `TE-NNN` | closure precedence |
 | EP | Episode | transcript | `EP-NNN` | chronological |
 
@@ -264,16 +265,32 @@ CANONIC uses prefixed identifiers for artifact enumeration. (IDF-091, IDF-093)
 
 ### Ordering Semantics
 
-Template ordering reflects **closure precedence**:
+**Precedence-ordered** (semantic dependency):
 
-| Template | Artifact | Role |
-|----------|----------|------|
+| Prefix | Ordering | Rationale |
+|--------|----------|-----------|
+| TE | closure precedence | SPEC → CANON → VOCAB → README |
+| PA | gate precedence | TRIAD → INHERITANCE → INTROSPECTION |
+
+| TE | Artifact | Role |
+|----|----------|------|
 | TE-001 | SPEC | Closure |
 | TE-002 | CANON | Governance |
 | TE-003 | VOCAB | Semantics |
 | TE-004 | README | Description |
 
-Episode and IDF ordering is **chronological** (creation order).
+| PA | Gate | Blocks |
+|----|------|--------|
+| PA-001 | TRIAD | Structural foundation |
+| PA-002 | INHERITANCE | Authority hierarchy |
+| PA-003 | INTROSPECTION | Semantic closure |
+
+**Chronologically-ordered** (creation order):
+
+| Prefix | Ordering |
+|--------|----------|
+| IDF | creation order |
+| EP | creation order |
 
 ---
 
