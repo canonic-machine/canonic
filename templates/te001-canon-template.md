@@ -1,8 +1,14 @@
-# <SCOPE NAME>
+# <SCOPE NAME> [(<FILESYSTEM PATH>)]
 
-inherits: <PARENT SCOPE PATH>
+inherits: <GOVERNANCE PATH>
 
 ---
+
+<!--
+GOVERNANCE PATH: Logical inheritance chain (e.g., /canonic/machine/validators/)
+FILESYSTEM PATH: Optional, physical location if different from governance path
+Assumed flat: all ledgers are siblings at CANONBASE root
+-->
 
 ## Axioms
 

@@ -144,6 +144,24 @@ The root scope (/) from which all inheritance terminates.
 
 ---
 
+### GATE
+
+An axiom that gates validity; the three root axioms (Triad, Inheritance, Introspection) are the constitutional gates. VALIDATORS implement gating axiomatically.
+
+---
+
+### VALIDATORS
+
+Pure, axiomatic enforcement implementations that implement the gating of axioms across the governance chain. No bloat. IP secure. MACHINE orchestrates validators to determine validity.
+
+---
+
+### VaaS
+
+Validators as a Service; the CANONIC composition pattern where pure validators are composed into complete enforcement. (IDF-118)
+
+---
+
 ## Layer Definitions
 
 ### Governance layer
@@ -191,5 +209,6 @@ Layer 6: Application instances that inherit root and add domain-specific axioms.
 | layer drift | IDF-096 | Layer Drift Validator |
 | CANONBASE architecture | IDF-114 | CANONBASE Multi-Repository Architecture |
 | SPEC closure model | IDF-116 | Four-Element Structure |
+| GATE architecture | IDF-118 | Axiomatic Validator Architecture |
 
 ---

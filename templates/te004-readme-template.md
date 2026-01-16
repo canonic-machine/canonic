@@ -4,6 +4,19 @@
 
 ---
 
+## Governance Path
+
+`<GOVERNANCE PATH>` (e.g., `/canonic/machine/validators/`)
+
+Inherits from: `<PARENT GOVERNANCE PATH>`
+
+<!--
+GOVERNANCE PATH: Logical inheritance chain
+Filesystem assumed flat: all ledgers are siblings at CANONBASE root
+-->
+
+---
+
 ## Purpose
 
 <State why this scope exists.>
@@ -19,12 +32,6 @@
 ### Out of scope
 
 - <Describe what this scope explicitly does not cover.>
-
----
-
-## Inheritance
-
-Inherits from: `<PARENT SCOPE PATH>`
 
 ---
 

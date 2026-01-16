@@ -1,15 +1,15 @@
-# <SCOPE NAME>
+# VOCAB (<GOVERNANCE PATH>)
 
-## Purpose
-
-<State why this vocabulary exists and what it defines.>
+inherits: <PARENT GOVERNANCE PATH>
 
 ---
 
-## Scope
+<!--
+GOVERNANCE PATH: Logical path (e.g., /canonic/machine/validators/)
+Filesystem assumed flat: all ledgers are siblings
+-->
 
-- Applies to `<SCOPE PATH>`.
-- Defines content concepts for the corresponding CANON.
+## Content Concepts
 
 ---
 
