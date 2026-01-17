@@ -150,6 +150,18 @@ Invention Disclosure Form; a patent disclosure document.
 
 ---
 
+### EP
+
+Episode; series prefix for transcript episodes (EP-NNN format).
+
+---
+
+### PA
+
+Patent Application; series prefix for patent applications (PA-NNN format).
+
+---
+
 ### IP
 
 Intellectual property.

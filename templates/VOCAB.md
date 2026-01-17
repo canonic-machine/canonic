@@ -6,12 +6,6 @@ inherits: /
 
 ## Local Concepts
 
-### TEMPLATES
-
-The templates scope; governs placeholder scaffolds for CANONIC governance artifacts.
-
----
-
 ### template
 
 A placeholder scaffold for a governance artifact; defines file shape and presence only.
