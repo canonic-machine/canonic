@@ -57,6 +57,19 @@ The scope closes itself.
 
 ---
 
+### 5. Minimal Fixed Point
+
+`.git` **IS** the complete state of CANONIC.
+
+- Everything outside `.git` is a derived view
+- Delete all files, run `git checkout`, system restored
+- Any immutable, cryptographically-verified ledger satisfies this axiom
+- Git is one instantiation; blockchain is another
+
+The ledger IS the system. Everything else is ceremony.
+
+---
+
 ## Lifecycle
 
 **Origin:** Constitutional governance paradigm discovered through iterative refinement of AI-assisted documentation workflows. Formalized as IDF-001 (Constitutional Governance Paradigm).
@@ -89,6 +102,7 @@ Archives are reference implementations. Drift from archive = non-compliance.
 - IDF-096: Layer Drift Validator
 - IDF-114: CANONBASE Architecture
 - IDF-148: Axiom Change Cascade Protocol (Axiom 3)
+- IDF-149: Git IS the Blockchain (Axiom 5)
 - IDF-154: Archive-First Development (Workflow)
 - IDF-163: Specification Drift Prevention Pattern (Axiom 4)
 
