@@ -114,9 +114,9 @@ The vocabulary artifact of a scope.
 
 ---
 
-### SPEC
+### closure
 
-Optional fourth element (beyond triad). Named `{SCOPE_NAME}.md` (e.g., `TEMPLATES.md`, `MACHINE.md`). SPEC closes CANON by defining the governance chain relative to that scope. Can extend with generation details or future plans. Not constrained by Axiom 3. The root SPEC (`CANONIC.md`) is special: it closes itself and exposes the full CANONBASE. (IDF-116, IDF-119)
+The scope closes itself. Scoped specifications. (Axiom 6, IDF-163)
 
 ---
 
@@ -353,5 +353,14 @@ CANONIC uses prefixed identifiers for artifact enumeration. (IDF-091, IDF-093)
 | feature closure chain | IDF-152 | Feature Closure Chain Protocol |
 | illustration selection | IDF-153 | Optimal Illustration Selection |
 | archive-first | IDF-154 | Archive-First Development |
+| render pipeline | IDF-155 | Render Pipeline Validator |
+| axiom closure matrix | IDF-156 | Axiom Closure Matrix |
+| innovation multiplier | IDF-157 | Innovation Multiplier Pattern |
+| healthcare distributed ledger | IDF-158 | Healthcare Distributed Ledger Pattern |
+| TokenaaS | IDF-159 | Reputation Gates Currency |
+| OncoChat domain closure | IDF-160 | Oncology Domain Closure Pattern |
+| CANONIC sublanguage | IDF-161 | Governance Programming Language |
+| dot notation namespace | IDF-162 | CANONIC Dot Notation Namespace |
+| SPEC template variable | IDF-163 | Specification Drift Prevention Pattern |
 
 ---

@@ -6,7 +6,7 @@ inherits: /
 
 ## Axioms
 
-### 1. Triad
+### 0. Triad
 
 A scope **MUST** contain the following artifacts:
 
@@ -18,7 +18,7 @@ Absence of any triad artifact renders the scope invalid.
 
 ---
 
-### 2. Inheritance
+### 1. Inheritance
 
 Every `CANON.md` **MUST** declare the scope it inherits from.
 
@@ -27,7 +27,7 @@ Every `CANON.md` **MUST** declare the scope it inherits from.
 
 ---
 
-### 3. Introspection
+### 2. Introspection
 
 `VOCAB.md` **MUST** define every content concept used by:
 
@@ -38,7 +38,7 @@ Undefined content concepts render the scope invalid.
 
 ---
 
-### 4. Cascade
+### 3. Cascade
 
 When a CANON axiom changes, the LLM **MUST** execute the cascade:
 
@@ -51,16 +51,9 @@ The cascade IS the validation. Incomplete cascade renders the change invalid.
 
 ---
 
-### 5. Archive-First
+### 4. Closure
 
-Development **MUST** work backward from the archive (endpoint) to the current state.
-
-- **Archive** = The product (what "done" looks like)
-- **Current** = The state (what we have)
-- **Delta** = The work (archive - current)
-- **Closure** = Current achieves archive quality
-
-Archives are not historical artifacts. Archives are the reference implementation. Drift from archive = non-compliance.
+The scope closes itself.
 
 ---
 
@@ -74,14 +67,30 @@ Archives are not historical artifacts. Archives are the reference implementation
 
 ---
 
+## Workflows
+
+### Archive-First
+
+Development **SHOULD** work backward from the archive (endpoint) to the current state.
+
+- **Archive** = The product (what "done" looks like)
+- **Current** = The state (what we have)
+- **Delta** = The work (archive - current)
+- **Closure** = Current achieves archive quality
+
+Archives are reference implementations. Drift from archive = non-compliance.
+
+---
+
 ## References
 
 - IDF-001: Constitutional Governance Paradigm
 - IDF-006: Literal Introspection
 - IDF-096: Layer Drift Validator
 - IDF-114: CANONBASE Architecture
-- IDF-148: Axiom Change Cascade Protocol (Axiom 4)
-- IDF-154: Archive-First Development (Axiom 5)
+- IDF-148: Axiom Change Cascade Protocol (Axiom 3)
+- IDF-154: Archive-First Development (Workflow)
+- IDF-163: Specification Drift Prevention Pattern (Axiom 4)
 
 ---
 

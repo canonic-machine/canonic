@@ -12,27 +12,33 @@ A placeholder scaffold for a governance artifact; defines file shape and presenc
 
 ---
 
-### te-000-spec-template.md
+### te-0.0-closure-template.md
 
-The template for a SPEC (TE-000).
-
----
-
-### te-001-canon-template.md
-
-The template for a CANON (TE-001).
+The template for a closure (TE-0.0); scope closes itself.
 
 ---
 
-### te-002-vocab-template.md
+### te-0.1-canon-template.md
 
-The template for a VOCAB (TE-002).
+The template for a CANON (TE-0.1); governance.
 
 ---
 
-### te-003-readme-template.md
+### te-0.2-vocab-template.md
 
-The template for a README (TE-003).
+The template for a VOCAB (TE-0.2); semantics.
+
+---
+
+### te-0.3-readme-template.md
+
+The template for a README (TE-0.3); description.
+
+---
+
+### te-0.4-roadmap-template.md
+
+The template for a ROADMAP (TE-0.4); implementation phases, milestones, dependencies.
 
 ---
 
@@ -92,7 +98,7 @@ The purpose of templates to bootstrap CANONIC scopes with correct file structure
 
 ### closure precedence
 
-The ordering of template elements by authority: SPEC (closes scope) → CANON (governance) → VOCAB (semantics) → README (description). TE-000 through TE-003 reflect this ordering.
+The ordering of template elements by authority: Closure → CANON → VOCAB → README → ROADMAP. TE-0.0 through TE-0.4 reflect this ordering.
 
 ---
 
