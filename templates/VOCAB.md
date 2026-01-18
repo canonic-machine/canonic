@@ -4,7 +4,7 @@ inherits: /
 
 ---
 
-## Local Concepts
+## Content Concepts
 
 ### template
 
@@ -12,27 +12,27 @@ A placeholder scaffold for a governance artifact; defines file shape and presenc
 
 ---
 
-### te001-canon-template.md
+### te-000-spec-template.md
 
-The template for a CANON.
-
----
-
-### te002-vocab-template.md
-
-The template for a VOCAB.
+The template for a SPEC (TE-000).
 
 ---
 
-### te003-spec-template.md
+### te-001-canon-template.md
 
-The template for a SPEC.
+The template for a CANON (TE-001).
 
 ---
 
-### te004-readme-template.md
+### te-002-vocab-template.md
 
-The template for a README.
+The template for a VOCAB (TE-002).
+
+---
+
+### te-003-readme-template.md
+
+The template for a README (TE-003).
 
 ---
 
@@ -87,6 +87,12 @@ A template section for cross-references to related episodes, IDFs, and scopes.
 ### structural bootstrapping
 
 The purpose of templates to bootstrap CANONIC scopes with correct file structure; templates define shape and presence, not meaning.
+
+---
+
+### closure precedence
+
+The ordering of template elements by authority: SPEC (closes scope) → CANON (governance) → VOCAB (semantics) → README (description). TE-000 through TE-003 reflect this ordering.
 
 ---
 

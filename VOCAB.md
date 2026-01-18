@@ -80,7 +80,7 @@ The scope at `/` from which all other scopes inherit; the termination point of i
 
 ### scope
 
-A directory governed by a triad AND closed by a SPEC. Without SPEC, a directory is a **proto-scope** (triad-compliant but not closed). SCOPE = TRIAD + SPEC. CS domain term for computational boundaries and namespace contexts.
+A directory governed by a triad AND closed by a SPEC. Without SPEC, a directory is a **proto-scope** (triad-compliant but not closed). SCOPE = TRIAD + SPEC.
 
 ---
 

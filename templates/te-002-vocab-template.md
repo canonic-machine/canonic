@@ -11,10 +11,6 @@ Filesystem assumed flat: all ledgers are siblings
 
 ## Content Concepts
 
----
-
-## Concepts
-
 ### <Concept name>
 
 <Define the concept precisely and unambiguously.>

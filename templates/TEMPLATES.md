@@ -57,7 +57,7 @@ Templates are numbered to reflect **closure precedence**:
 
 SPEC is first because closure defines the scope.
 
-Without SPEC, a directory with CANON + VOCAB + README is a **proto-scope** — open, evolving, not yet computationally bounded.
+Without SPEC, a directory with CANON + VOCAB + README is a **proto-scope** — open, evolving, not yet closed.
 
 With SPEC, the scope is **closed** — governance chain terminates, validity is decidable.
 
