@@ -120,9 +120,33 @@ Optional fourth element (beyond triad). Named `{SCOPE_NAME}.md` (e.g., `TEMPLATE
 
 ---
 
+### cascade
+
+The mandatory sequence executed when a CANON axiom changes: IDF → VaaS → Downstream → Closure. The LLM executes the cascade; incomplete cascade renders the axiom change invalid. (IDF-148)
+
+---
+
 ### closure
 
 The constraint relationship between artifacts. VOCAB closes **semantics** (Axiom 3). SPEC closes the **scope** (governance chain + generation details). A directory with triad but no SPEC is a proto-scope (open). A directory with triad AND SPEC is a scope (closed). At root, CANONIC is closed: VOCAB self-defines, SPEC (`CANONIC.md`) defines the full CANONBASE. (IDF-116, IDF-119)
+
+---
+
+### archive
+
+The reference implementation; the endpoint state from which development works backward. Archives are not historical—they define "done." (IDF-154)
+
+---
+
+### delta
+
+The computed difference between archive (endpoint) and current (state). Delta = Archive - Current. Executing delta moves current toward archive quality.
+
+---
+
+### archive-first
+
+The development pattern where work begins at the archive (what we want), compares to current (what we have), and executes delta (what to do). Opposite of forward development. (Axiom 5, IDF-154)
 
 ---
 
@@ -321,5 +345,13 @@ CANONIC uses prefixed identifiers for artifact enumeration. (IDF-091, IDF-093)
 | SPEC closure model | IDF-116 | Four-Element Structure |
 | GATE architecture | IDF-118 | Axiomatic Validator Architecture |
 | SPEC self-closure | IDF-119 | Root SPEC Self-Closure Pattern |
+| Git + LLM infrastructure | IDF-147 | Git + LLM Infrastructure Closure |
+| cascade | IDF-148 | Axiom Change Cascade Protocol |
+| distributed ledger consensus | IDF-149 | Distributed Ledger Consensus via Git |
+| encrypted git | IDF-150 | Encrypted Git as Privacy Layer |
+| visibility × storage | IDF-151 | Visibility × Storage Access Matrix |
+| feature closure chain | IDF-152 | Feature Closure Chain Protocol |
+| illustration selection | IDF-153 | Optimal Illustration Selection |
+| archive-first | IDF-154 | Archive-First Development |
 
 ---
