@@ -47,6 +47,7 @@ Based on UCF AI in Medicine Summit layout:
 
 ### Supporting Partners
 - Florida Dept of Health (FCIF Grant 354 dissemination)
+- UCF Foundation (grant fulfillment + research showcase)
 - AIMed (Dr. Anthony Chang)
 - WholeLife Church (AdventHealth congregation + MammoChat focus groups)
 - CANONIC Foundation (governance + open source infrastructure)
