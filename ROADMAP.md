@@ -110,13 +110,15 @@ All work product derived from funded grants **MUST** be released to public domai
 
 ### IP Separation
 
-| Asset | Owner | License |
-|-------|-------|---------|
-| MammoChat™ | Foundation | Trademark retained |
-| MammoChat Development | UCF | Public domain per grant |
-| MammoChat Code | Open Source | Per FDOH terms |
+| Asset | Owner | License | Status |
+|-------|-------|---------|--------|
+| MammoChat™ | Foundation | Trademark retained | Not-for-profit |
+| MammoChat Development | UCF | Public domain per grant | Open source |
+| MammoChat Code | Open Source | Per FDOH terms | Public domain |
 
 UCF executes grant-funded development. Foundation retains MammoChat™ trademark.
+
+**MammoChat™ MUST remain not-for-profit.**
 
 **Future Claims:** All grant-funded IP flows to open source under this ledger.
 
