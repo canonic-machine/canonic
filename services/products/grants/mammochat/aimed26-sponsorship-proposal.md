@@ -165,6 +165,89 @@ de163002@ucf.edu | 215-681-0268
 
 ---
 
+## Timeline of Evidence for Rob
+
+```
+2017 ──────────────────────────────────────────────────────────────────────────
+│
+├─ Nov 8, 2017: Bloomberg "The Year Ahead" Summit, NYC
+│  └─ Dr. Hadley + Mike Cordano (Western Digital President/COO)
+│  └─ Emma Chandra interview at Bloomberg HQ
+│  └─ Announced: "Breast We Can!" crowdsourcing mammograms
+│  └─ Evidence: UCSF Press Release, Bloomberg Video
+│
+2017-2019 ─────────────────────────────────────────────────────────────────────
+│
+├─ UCSF/NIH Research: $5M+ AI + Precision Medicine
+│  └─ Federal funding = public domain
+│  └─ Western Digital corporate partnership
+│  └─ Evidence: Western Digital Blog, NIH records
+│
+2019-2024 ─────────────────────────────────────────────────────────────────────
+│
+├─ UCF College of Medicine
+│  └─ Dr. Hadley: Chief of Artificial Intelligence
+│  └─ "Breast We Can!" evolves to MammoChat
+│  └─ FDOH FCIF Grant 354 proposal submitted
+│
+├─ 2024: Dr. Hadley separates from UCF
+│  └─ 2 WEEKS BEFORE grant awarded
+│  └─ No employment IP claims possible
+│
+├─ 2024: FDOH FCIF Grant 354 Awarded
+│  └─ $1,998,935 to UCF (Contract 25C35)
+│  └─ AdventHealth subaward: $69,000
+│  └─ Public domain per grant terms
+│
+2024-2025 ─────────────────────────────────────────────────────────────────────
+│
+├─ Nov 2024: UCF AI in Medicine Summit
+│  └─ AdventHealth: Sponsor
+│  └─ Dr. Hadley: Organizer/Speaker
+│
+├─ Nov 17-19, 2024: AIMed24 Orlando
+│  └─ AdventHealth: Presenting Partner
+│  └─ Dr. Hadley: Speaker
+│
+├─ 2025: AIMed25 San Diego
+│  └─ AdventHealth: Presenting Partner
+│  └─ Dr. Hadley: Speaker
+│
+├─ 2025: MammoChat Clinical Trials Launch
+│  └─ NCT06604078: Breast Cancer AI Imaging Study
+│  └─ NCT07214883: UCF MammoChat Image Repository
+│  └─ PI: Dr. Mariana Dangiolo
+│  └─ Public domain per grant terms
+│
+2026 ──────────────────────────────────────────────────────────────────────────
+│
+├─ Oct 2026: MammoChat Summit (PROPOSED)
+│  └─ Patient-focused, community-driven
+│  └─ Partners: FDOH, Canonic Foundation, AIMed, WholeLife Church
+│  └─ Lead CANONIC Sponsor: AdventHealth
+│
+├─ Nov 2026: AIMed26 Orlando (PROPOSED)
+│  └─ MammoChat public release
+│  └─ CANONIC governance showcase
+│  └─ Lead CANONIC Sponsor: AdventHealth
+│  └─ Dr. Hadley: Headline Speaker
+│
+└──────────────────────────────────────────────────────────────────────────────
+```
+
+### Key Insight for Rob
+
+**No IP claims exist on MammoChat because:**
+
+1. **2017**: Foundation built at UCSF with federal (NIH) funding = public
+2. **2024**: Dr. Hadley separated from UCF 2 weeks before award = no employment IP
+3. **2024**: FDOH grant requires public domain = no UCF IP
+4. **2025**: Clinical trials under public domain terms = open source
+
+**Rob's opportunity**: Lead governance of something nobody can own. First mover advantage in open source AI healthcare governance.
+
+---
+
 ## Evidence Sources (Ledgered on CANONIC)
 
 ### Provenance Evidence
@@ -181,7 +264,12 @@ de163002@ucf.edu | 215-681-0268
 - [AIMed24 AdventHealth Partnership](https://www.adventhealth.com/news/aimed24-welcomes-adventhealth-presenting-partner)
 - [UCF AI in Medicine Summit](https://med.ucf.edu/news/worldwide-experts-physicians-gather-at-ucf-ai-in-medicine-summit/)
 
+### Clinical Trial Evidence
+- [NCT06604078: Breast Cancer AI Imaging Study](https://www.centerwatch.com/clinical-trials/listings/NCT06604078/breast-cancer-ai-imaging-study)
+- [NCT07214883: UCF MammoChat Image Repository](https://clinconnect.io/trials/NCT07214883)
+
 ---
 
-**MammoChat™ is a not-for-profit trademark of the Foundation.**
+**MammoChat™ is a not-for-profit trademark of the Canonic Foundation.**
 **All grant-funded development is open source per FDOH terms.**
+**All evidence ledgered on CANONIC blockchain.**
