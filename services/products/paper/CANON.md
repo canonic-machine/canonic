@@ -36,3 +36,13 @@ LANGUAGE.md = structure + 0 = structure
 The language is the coordinate system, not a point in the space. Protocol is open; discoveries (IDF) and applications (services) are protected.
 
 ---
+
+## Evidence
+
+### MammoChat FCIF Grant 354
+
+> "any work, invention, discovery, or development resulting from the grant-funded project shall be subject to public domain, and not be subject to patents, trademarks, and/or copyrights that could result in financial gain to the awardee or awardee's institution without prior approval from the Department. Further, it is expected that any results or outcomes are shared publicly to further Florida's cancer research innovation agenda."
+
+SOURCE: [Award Letter](../grants/mammochat/2-grant-354-fcif-rd-2-award-letter.txt)
+
+---
