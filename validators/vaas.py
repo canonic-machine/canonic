@@ -111,11 +111,57 @@ def validate_scope(scope: Path) -> tuple[bool, list[str]]:
     return all_pass, results
 
 
+def validate_identifier(name: str) -> tuple[bool, str]:
+    """
+    Rule: SINGLE_WORD
+    All identifiers MUST be single words (no hyphens, underscores, or spaces).
+
+    LANGUAGE.md Section 5.2.1:
+    ValidIdentifier ::= Letter (Letter | Digit)*
+    """
+    if '-' in name:
+        return False, f"IDENTIFIER FAIL: '{name}' contains hyphen (LANGUAGE.md violation)"
+    if '_' in name:
+        return False, f"IDENTIFIER FAIL: '{name}' contains underscore (LANGUAGE.md violation)"
+    if ' ' in name:
+        return False, f"IDENTIFIER FAIL: '{name}' contains space (LANGUAGE.md violation)"
+    return True, f"IDENTIFIER PASS: '{name}'"
+
+
+def validate_repo_name(root: Path) -> tuple[bool, str]:
+    """
+    Rule: REPO_NAMING
+    Repository names follow scope naming rules.
+
+    LANGUAGE.md Section 5.5.2:
+    VALID:   canonic, validators, paper, patents
+    INVALID: canonic-services (hyphen)
+    """
+    repo_name = root.resolve().name
+    return validate_identifier(repo_name)
+
+
 def main():
     """Run VaaS validation on all scopes."""
     root = Path(os.environ.get("CANONIC_ROOT", "."))
 
     print("=== VaaS - CANONIC Language Enforcement ===\n")
+
+    # First: validate repo name itself
+    repo_valid, repo_msg = validate_repo_name(root)
+    if not repo_valid:
+        print(f"✗ REPO NAME VIOLATION")
+        print(f"  {repo_msg}")
+        print(f"\n=== Summary ===")
+        print(f"PASS: 0")
+        print(f"FAIL: 1")
+        print(f"\n=== Failures ===")
+        print(f"  {repo_msg}")
+        print(f"\nREPO NAME MUST comply with LANGUAGE.md")
+        print(f"Rename directory to remove hyphens/underscores.")
+        return 1
+
+    print(f"✓ Repo name: {root.resolve().name}\n")
 
     scopes = find_scopes(root)
     print(f"Found {len(scopes)} scopes\n")
