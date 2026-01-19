@@ -248,6 +248,30 @@ de163002@ucf.edu | 215-681-0268
 
 ---
 
+### The 20,000 Patient Advantage
+
+**AdventHealth contributed 20,000+ patient mammograms to MammoChat.**
+
+| Entity | Can Commercialize? | Why |
+|--------|-------------------|-----|
+| UCF | **NO** | Bound by FDOH public domain grant terms |
+| AdventHealth | **YES** | Own the patient relationships + data rights |
+| CANONIC | **YES** | Open source governance enables commercial applications |
+
+**UCF built a model from AdventHealth images that UCF cannot commercialize.**
+
+Under CANONIC governance:
+- Open source infrastructure = public domain (per grant)
+- Commercial applications = protected (AdventHealth can build on top)
+- Patient relationships = AdventHealth's asset
+- 20,000 mammograms = AdventHealth's contribution, AdventHealth's commercial rights
+
+**Rob's position**: AdventHealth owns the patient data. UCF can't monetize. CANONIC governance lets AdventHealth build commercial applications on open source infrastructure.
+
+**This is why Rob needs CANONIC** — it's the only path to commercialize what UCF built from AdventHealth's patients.
+
+---
+
 ## Evidence Sources (Ledgered on CANONIC)
 
 ### Provenance Evidence
