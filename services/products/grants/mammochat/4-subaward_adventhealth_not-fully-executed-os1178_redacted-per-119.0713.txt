@@ -1,0 +1,654 @@
+UCF Reference # GR110893
+RESEARCH SUBAWARD AGREEMENT
+Between
+THE UNIVERSITY OF CENTRAL FLORIDA BOARD OF TRUSTEES
+and
+ADVENTIST HEALTH SYSTEM/SUNBELT, INC. DBA ADVENTHEALTH ORLANDO
+This Research Agreement (hereinafter “Agreement”) made and entered into by and between The University of Central
+Florida Board of Trustees (hereinafter referred to as “UCF”) Adventist Health System/Sunbelt, Inc. dba AdventHealth
+Orlando (“SUBCONTRACTOR”) (individually, “Party”, or collectively, “Parties”).
+The terms of this Agreement are intended to provide the administrative framework for the Parties to cooperate in the
+performance of this project. SUBCONTRACTOR shall perform the Statement of Work (“SOW”) as outlined in Appendix
+A.
+It is understood this is a Subcontract under UCF’s prime award from Florida Department of Health (hereinafter referred
+to as “Prime”), Grant/Contract Number 25C35, for the project titled “MammoChat: An AI-Driven Platform for Personalized
+Breast Cancer Patient Support” which is hereby incorporated by reference and attached as Appendix B.
+1.
+
+STATEMENT OF WORK
+
+SUBCONTRACTOR shall make all reasonable efforts to conduct its work under this Agreement as outlined in the SOW,
+set forth in Appendix A and incorporated herein by reference.
+2.
+
+PERIOD OF PERFORMANCE
+
+This period of performance began upon 9/16/2025 and shall not extend beyond 8/31/2026 unless the period is extended
+by modification of this Agreement. The budget period began upon 9/16/2025 and shall not extend beyond 8/31/2026
+unless the budget period is extended by modification of this Agreement.
+3.
+
+FINANCIAL SUPPORT
+
+This is a cost reimbursable Agreement in a sum not to exceed $69,000.00 . Serially numbered invoices from
+SUBCONTRACTOR shall be sent no more than monthly and no less than quarterly within thirty (30) calendar days of the
+end of the calendar quarter. UCF reserves the right to reject any invoice that is not compliant. The invoices shall contain:
+a. Name of subcontractor
+b. UCF Reference #
+c. Date of invoice
+d. Invoice number
+e. Period of performance covered by invoice
+f. Cost Categories
+g. Costs incurred and allowable under the Agreement
+h. Cumulative invoice amount (including cost share and program income)
+i. Certification as to truth and accuracy of invoice
+Submit Invoices to:
+
+4.
+
+University of Central Florida
+Contracts and Grants
+PO Box 160118
+Orlando, FL 32816-0118
+Email: Subvendor@ucf.edu
+
+ADMINISTRATIVE CONSIDERATION
+
+The SUBCONTRACTOR, as a recipient of State of Florida financial assistance, must comply with the following fiscal laws,
+rules, and regulations:
+a. Section 215.97, Florida Statutes
+b. Florida Administrative Code Chapter 69 1-5,
+c. State Projects Compliance Supplement
+
+Page 1
+
+d. Reference Guide for State Expenditures
+e. Other fiscal requirements set forth in program laws, rules, and regulations
+These documents and other Prime instructions may be obtained online through the Florida Department of Health website
+under Audit Guidance. Enumeration of laws, rules, and regulations herein is not exhaustive or exclusive. Funding to
+SUBCONTRACTOR will be held to applicable legal requirements whether or not outlined herein.
+SUBCONTRACTOR must return to UCF any overpayment of Agreement funds related to disallowed expenditures, funds
+unaccounted for due to non-submission of required deliverables, or other unused funds at the end of the Agreement term.
+If SUBCONTRACTOR or its independent auditor identifies that an overpayment has been made, SUBCONTRACTOR
+must repay the overpayment within 30 calendar days of the Agreement end date. If UCF or Prime first discovers an
+overpayment has been made, UCF will notify SUBCONTRACTOR in writing of such a finding. Should repayment not be
+made in the time specified by UCF, SUBCONTRACTOR may withhold the amount of the overpayment from any future
+payments under this or any other Agreement. This provision will not be a limitation on any remedies at law or equity
+available to UCF.
+5.
+
+ADMINISTRATIVE PERSONNEL
+
+University of Central Florida Board of Trustees
+Principal Investigator:
+Dr. Jane Gibson
+College of Medicine
+6850 Lake Nona Blvd.
+Orlando, FL 32827
+Phone: 407.266.1000
+Email: Jane.Gibson@ucf.edu
+Contractual:
+Subawards
+UCF Office of Research
+3100 Technology Parkway Suite 201
+Orlando, FL 32826-3281
+Phone: (407)-822-0155
+Fax: (407)-823-3299
+Email: Subwards@ucf.edu
+6.
+
+Adventist Health System/Sunbelt, Inc. dba AdventHealth
+Orlando
+Technical: Alyssa Tanaka
+<Insert Street Address>
+<Insert City, State, Zip>
+Phone: <Insert Phone Number>
+Email: <Insert email address>
+UEI: K3YFW6S3YQ67
+Contractual:
+Name
+Address
+City, State, Zip
+Phone:
+Fax: <insert fax>
+Email:
+
+AUDIT
+
+6.1
+SUBCONTRACTOR shall establish and maintain books, records, and documents in accordance with generally
+accepted accounting procedures and practices, which sufficiently and properly reflect all revenues and expenditures of
+funds provided by UCF under this Agreement.
+6.2
+SUBCONTRACTOR shall retain financial records, supporting documents, statistical records and any other
+documents pertinent to this Agreement for a period of six (6) years after termination of this Agreement, or if an audit has
+been initiated and audit findings have not been resolved at the end of six (6) years, the records must be retained until
+resolution of the audit findings or any litigation which may be based on the terms of this Agreement. SUBCONTRACTOR
+will retain sufficient records demonstrating its complicate with the terms of this Agreement for a period of six (6) years
+from the date an audit report is issued and shall allow UCF, Prime or its designee, the State of Florida’s Chief Financial
+Officer (CFO), or the Auditor General access to such records upon request. SUBCONTRACTOR shall ensure that audit
+working papers are made available to UCF, Prime or its designee, the CFO, or the Auditor General for a period of six (6)
+years from the date the audit report is issued, unless extended in writing by UCF or Prime.
+6.3
+Upon completion of or termination of this Agreement and at the request of UCF, SUBCONTRACTOR, at its
+expense, shall cooperate with UCF in the duplication and transfer of any said records or documents during the required
+retention period as specified in Article 6.2, above.
+6.4
+Persons duly authorized by UCF, Prime, and federal auditors, pursuant to 2. C.F.R. section 200.337, as revised
+will have full access to and the right to examine any of SUBCONTRACTOR’s records and documents related to this
+Agreement, regardless of the form in which kept, at all reasonable times for a long as records are retained.
+
+Page 2
+
+Commented [RB1]: AdventHealth: Please verify and fill out this
+section
+
+6.5 SUBCONTRACTOR agrees to provide such records, papers, and documents, outlined in Articles 6.1 through 6.4
+above, to UCF within seven (7) business days after the request is made in accordance with section 216.1366, Florida
+Statutes.
+6.6
+SUBCONTRACTOR shall perform the required financial and compliance audits in accordance with the Uniform
+Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards, 2. C.F.R. Part 200 as revised,
+subpart F and section 215.97, Florida Statutes, as applicable and conform with the following requirements:
+a.
+
+b.
+
+SUBCONTRACTOR shall maintain separate accounting of revenues and expenditures of funds under this
+Agreement in accordance with generally accepted accounting practices and procedures. Expenditures that
+support SUBCONTRACTOR activities not solely authorized under this Agreement must be allocated in
+accordance with applicable laws, rules, and regulations and the allocation methodology must be documented
+and supported by competent evidence.
+SUBCONTRACTOR shall maintain sufficient documentation of all expenditures incurred (e.g. invoices,
+canceled checks, payroll detail, bank statements, etc.) under this Agreement which evidences that
+expenditures are:
+I.
+Allowable under the Agreement and applicable laws, rules, and regulations;
+II.
+Reasonable; and
+III.
+Necessary for SUBCONTRACTOR to fulfill its obligations under this Agreement.
+
+6.7
+All documentation required by Article 6.6 is subject to review by UCF, Prime, and CFO. SUBCONTRACTOR
+must timely comply with any requests for documentation.
+6.8
+Monitoring: SUBCONTRACTOR shall permit persons duly authorized by UCF and Prime to inspect any records,
+papers, documents, facilities, goods, and services of SUBCONTRACTOR, which are relevant to this Agreement, and
+interview any clients and employees of SUBCONTRACTOR to assure the UCF and Prime of satisfactory performance of
+the terms and conditions of this Agreement. UCF and Prime must be permitted access to such records only as authorized
+or permitted by federal law and the laws of the state of Florida. Following such inspection, UCF will deliver to
+SUBCONTRACTOR a list of its comments regarding the way said goods or services are being provided.
+SUBCONTRACTOR will rectify all noted deficiencies within the specified period set forth in the comments or provide the
+UCF with a reasonable and acceptable justification, as determined by Prime, for not correcting the noted shortcomings.
+SUBCONTRACTOR's failure to correct or justify within the time specified will result in the withholding of payments, being
+deemed in breach or default, or termination of this Agreement.
+7.
+
+PUBLICATIONS, PRESENTATIONS, REPORTS, AND SPONSORSHIP
+
+7.1 Any publications, presentations, patents, printed report, materials designed for use by the general public (e.g.
+educational pamphlets), or resulting research finding related to this Agreement must acknowledge the appropriate funding
+source “Florida Department of Health, Public Health Research, Biomedical Research Program”.
+7.2 SUBCONTRACTOR must notify UCF of all publications, peer-reviewed journal articles, presentations, patents, printed
+reports, materials designed for use by the general public, and research finding as a result of this Agreement both during
+the Agreement period and for a period of six (6) years after the Agreement ends.
+7.3 SUBCONTRACTOR shall provide UCF with a copy of any proposed publications, peer-reviewed journal articles,
+presentations, patents, printed report, materials designed for use by the general public at least thirty (30) calendar days
+in advance of submission to allow UCF an opportunity to review the presentation or publication for UCF’s confidential
+information, trade secrets or material which would adversely affect or limit UCF’s ability to assert or protect any Intellectual
+Property rights. UCF will complete its review and provide SUBCONTRACTOR with any objections within thirty (30)
+calendar days of presentation. In the absence of timely objection, SUBCONTRACTOR shall be free to proceed without
+restriction. In the event of an objection, the Parties will negotiate in good faith the removal of the objectionable material.
+If research is to be presented at a conference, the presentation, poster, and abstract should be submitted to UCF. If the
+presentation is scientific, a summary should be developed and submitted that can be understood by and provided to the
+public.
+7.4 SUBCONTRACTOR must provide any best practices, innovative therapies, and protocols developed with Agreement
+funds and describe how they will be shared with the public.
+
+Page 3
+
+7.5 Return on Investment surveys may be sent to SUBCONTRACTOR for completion to measure the long-term impact
+of this Agreement.
+7.6 As required by section 286.25, Florida Statutes, if SUBCONTRACTOR is a non-governmental organization that
+sponsors a program financed wholly or in part by state funds, including any funds obtained through the Agreement, it will,
+in publicizing, advertising, or describing the sponsorship of the program, state: “Sponsored by Columbia University and
+the State of Florida, Department of Health.” If the sponsorship reference is in written material, the words “State of Florida,
+Department of Health” will appear in at least the same size letters or type as the SUBCONTRACTOR’s name
+8.
+
+EQUIPMENT
+
+No equipment is approved for purchase under this Agreement.
+9.
+
+INTELLECTUAL PROPERTY, PATENTS, COPYRIGHTS, AND ROYALTIES
+
+“Intellectual Property” means individually and collectively all inventions, improvements and/or discoveries, patentable or
+unpatentable, copyrightable or uncopyrightable, including but not limited to mask works, computer software, both object
+and source code, data, data bases and works of authorship.
+As between the Parties, Intellectual Property developed solely by a Party shall be solely and exclusively owned by that
+Party. “Joint Intellectual Property” means any Intellectual Property developed jointly by SUBCONTRACTOR and UCF
+under this Agreement. Joint Intellectual Property will be owned jointly by SUBCONTRACTOR and UCF, who agree to
+jointly determine proper inventorship, authorship, and ownership subject to Title 35 of the United States Code for
+inventions and Title 17 of the United States Code for works of authorship.
+“Background Intellectual Property” means Intellectual Property which was in existence prior to the period of performance
+of this Agreement, or which is created or developed by a Party outside the course of conducting work outlined in Appendix
+A of this Agreement. The Parties agree that Background Intellectual Property of SUBCONTRACTOR and UCF is their
+separate property, respectively, and is not affected by this Agreement. Neither Party shall acquire any claims to or rights
+in the Background Intellectual Property of the other Party by this Agreement or performance hereunder.
+Nothing in this Agreement shall circumvent or restrict either Party’s pre-existing obligations with the United States
+government pertaining to any kind of Intellectual Property, including but not limited to such pre-existing obligations
+contained in grants, contracts and other types of agreements or arrangements between either Party and the U.S.
+government. These obligations may include granting licenses to the U.S. government for certain Intellectual Property
+which is being developed.
+Notwithstanding any provision to the contrary in this Agreement, UCF shall retain the right to practice any Intellectual
+Property developed hereunder for its own academic, non-commercial research and teaching purposes.
+SUBCONTRACTOR must notify UCF of any intellectual property developed or being developed as part of this Agreement
+by the end of the Agreement term. SUBCONTRACTOR grants UCF and the state of Florida an irrevocable, nonexclusive,
+and royalty-free license to use all intellectual property developed under this Agreement for the complete lifetime of the
+intellectual property rights.
+SUBCONTRACTOR agrees that any work, invention, discovery, or development resulting from this Agreement shall be
+subject to public domain, and not be subject to patents, trademarks, and/or copyrights that could result in financial gain
+to SUBCONTRACTOR without prior approval from UCF.
+SUBCONTRACTOR agrees that any results or outcomes are shared publicly to further Florida's research agenda.
+10. CONFIDENTIAL INFORMATION
+It is not anticipated that confidential information will be disclosed during the performance of this project. Should it be
+necessary for either Party to receive confidential information, the disclosing Party agrees to label in writing at the time of
+delivery that such information is confidential, or if given orally, reduce to writing, clearly marked as confidential, and
+delivered within thirty (30) calendar days of the oral disclosure. The receiving Party and its personnel agree to safeguard
+
+Page 4
+
+the confidential information to the same extent it safeguards its own. The Parties’ technical representatives are
+responsible for initiating a Confidential Disclosure Agreement if applicable and forwarding it to the contractual
+representatives for execution. Confidential information does not include information that is:
+a.
+b.
+c.
+d.
+
+already known to the receiving Party at the time of disclosure as evidenced by written record; or
+generally available to the public or becomes available to the public through no fault of the receiving Party
+as evidenced by written record; or
+developed independently of and without reference to the confidential information as evidenced by written
+record; or
+received from a third party who had a legal right to disclose such information without restriction as
+evidenced by written record.
+
+If required by applicable law, regulation, or judicial, administrative or legislative order, the receiving Party may disclose
+the confidential information it receives hereunder to comply with such requirement, provided that (a) the receiving Party
+shall, to the extent permitted by law, promptly notify the disclosing Party so that the disclosing Party may contact such
+disclosure, and (b) the receiving Party shall limit the scope of such disclosure to only such portion of the confidential
+information that is legally required to disclose.
+Upon written request of the disclosing Party, the receiving Party shall promptly return all confidential information of the
+disclosing Party, together with all copies thereof provided, however, that the receiving Party may retain one (1) copy of
+the confidential information solely for its legal and archival purposes.
+The confidentiality obligations set forth in this provision shall survive for a period of three (3) years from the Effective Date.
+Notwithstanding anything to the contract in this provision, any inventions disclosed under this Agreement shall be
+considered confidential information, whether labeled or not.
+11. HUMAN SUBJECTS
+11.1 SUBCONTRACTOR must comply with all applicable federal and state laws and regulations, including 45 CFR 46,
+45 CFR 160 and 164, and 21 CFR 50, 56, 312, 812, and other applicable regulations, when research is covered by
+regulations, or the organization has committed to applying federal regulations or equivalent protections to all
+research.
+11.2 SUBCONTRACTOR must obtain, maintain, and provide to UCF an active Institutional Review Board (IRB) approval
+letter before project work can begin. The approval letter must include Corresponding Principal Investigator’s name,
+grant title exactly as it appears in these Terms and Conditions, approval date, expiration date, and the signature of
+the approving authority chairperson.
+11.3 SUBCONTRACTOR is responsible for safeguarding the rights and welfare of human subjects in UCF and Primesupported projects. SUBCONTRACTOR proposing to involve human subjects in nonexempt research must provide,
+upon request, a copy of the organization's Assurance of Compliance with the Office of Human Research Protections
+(OHRP) and must establish and maintain appropriate policies and procedures for the protection of human subjects.
+SUBCONTRACTOR is required to obtain and maintain approval from an IRB accredited by the Association for
+Accreditation of Human Research Protection Programs (AAHRPP), or an IRB acceptable to UCF.
+SUBCONTRACTOR is required to report unanticipated problems and non-compliance involving the research to UCF.
+11.4 When appropriate, SUBCONTRACTOR agrees to define the arrangements for medical care for research-related
+injury before the research starts and communicates it to prospective research subjects. This does not require any
+particular party to be responsible for such care; it requires that it be made clear to subjects through the informed
+consent document/process who will provide medical care and who will be responsible to pay for it, should a subject
+experience a research- related injury.
+11.5 SUBCONTRACTOR agrees to report to UCF within two (2) state working days, any expiration of IRB approval,
+serious or continuing non-compliance, unanticipated problems involving risks to subjects or others, and any
+suspension or termination of IRB approval. SUBCONTRACTOR IRB must report to UCF when reporting to federal
+officials any serious or continuing non-compliance or unanticipated problems involving risks to subjects or others.
+During the time that one or more IRB approval(s) is expired, all activities covered by the expired IRB approval(s)
+must stop until approval is obtained, and expenses for those activities during the expired period will be disallowed.
+
+Page 5
+
+11.6 SUBCONTRACTOR must comply with NOT-OD-18-014: "NIH Policy and Guidelines on the Inclusion of Women and
+Minorities as Subjects in Clinical Research.
+12 LABORATORY ANIMALS
+No research involving animals is planned or authorized under this Agreement.
+13 TERMINATION
+If UCF’s prime award should be terminated during the performance of this Agreement, or should the prime award funding
+for support be deleted or reduced, UCF may in written notice to SUBCONTRACTOR terminate this Agreement upon
+reasonable notice consistent with the termination of the prime award. Either Party may terminate this Agreement at any
+time, for any reason other than stated above, upon thirty (30) calendar days written notice to the other Party.
+14 ASSIGNMENT
+SUBCONTRACTOR may not assign or transfer its rights and remedies nor transfer its obligations or subcontract for any
+of the services to be performed under this Agreement, in whole or part, without the prior written consent of UCF.
+15 ASSUMPTION OF RISK
+Each Party assumes any and all risks of personal injury and property damage attributable to the negligent acts or
+omissions of that Party and its officers, employees, servants, and agents thereof while acting within the scope of their
+employment. UCF warrants and represents that it is self-funded for liability insurance, both public and property, with said
+protection being applicable to officers, employees, servants, and agents while acting within the scope of their employment
+by UCF. The Parties agree that nothing contained herein shall be construed or interpreted as (1) denying to either Party
+any remedy or defense available to such Party under the laws of the State of Florida; (2) the consent of the State of
+Florida or its agents and agencies to be sued; or (3) a waiver of sovereign immunity of the State of Florida beyond the
+waiver provided in Section 768.28, Florida Statutes.
+16 INDEMNIFICATION
+16.1 SUBCONTRACTOR is liable for and will indemnify, defend, and hold harmless UCF and Prime and all of their
+officers, agents, and employees from all claims, suits, judgements, or damages, consequential or otherwise and including
+attorneys’ fees and costs, arising out of any act, actions, neglect, or omissions by SUBCONTRACTOR, its agents, or
+employees during the performance or operation of this Agreement of any subsequent modification thereof, whether direct
+or indirect, and whether to any person or tangible or intangible property.
+16.2 SUBCONTRACTOR’s inability to evaluate liability or its evaluation of no liability will not excuse UCF’s duty to defend
+and indemnify UCF and Prime. Only adjudication or judgment after the highest appeal is exhausted specifically finding
+SUBCONTRACTOR not liable will excuse the performance of the provision. SUBCONTRACTOR will pay all costs and
+fees related to this obligation and its enforcement by UCF and Prime. UCF or Prime’s failure to notify SUBCONTRACTOR
+or a claim will not release SUBCONTRACTOR of the above duty to indemnify.
+16.3 Nothing in this Agreement shall be construed as UCF or Prime agreeing to indemnify SUBCONTRACTOR.
+17 EXPORT CONTROL
+Each Party acknowledges that it is subject to and agrees to abide by the United States laws and regulations controlling
+the export or transfer of information, technical data, software, items, materials, mockups/prototypes, biological materials
+and other items, (including the Arms Export Control Act (AECA), as amended, an enumerated in the International Traffic
+Arms Regulations (ITAR), and the Export Control Reform Act (ECRA) as amended and enumerated in the Export
+Administration Regulations (EAR)). The transfer of such items and technical data may require a license from the cognizant
+agency of the U.S. Government or written assurances by Company that it shall not export such items to certain foreign
+
+Page 6
+
+countries and/or foreign persons without prior approval of the cognizant agency. UCF neither represents that a license is
+or is not required or that, if required, it shall be issued.
+18 INDEPENDENT CONTRACTOR
+In the performance of all services hereunder, SUBCONTRACTOR shall be deemed to be, and shall be, an independent
+contractor and, as such, SUBCONTRACTOR shall not be entitled to any benefits applicable to employees of UCF. UCF
+shall not be responsible for withholding taxes with respect to the SUBCONTRACTOR’s compensation hereunder, and it
+is the SUBCONTRACTOR’s sole responsibility to pay any Federal, State, or local taxes as required by law. Neither Party
+is authorized or empowered to act as agent for the other for any purpose and shall not, on behalf of the other, enter into
+any contract, warranty or representation as to any matter. Neither Party shall be bound by the acts or conduct of the other.
+SUBCONTRACTOR agrees to indemnify and hold harmless UCF against and in respect of any taxes or other fees which
+UCF may be required to pay to government authorities on behalf of SUBCONTRACTOR for activities or services related
+to this Agreement.
+19 FINANCIAL CONFLICT OF INTEREST
+Prior to starting research under this Agreement, the SUBCONTRACTOR will be required to provide UCF with a conflictof-interest form, which is hereby incorporated by reference and attached as Appendix C, signed by SUBCONTRACTOR’s
+Technical Representative. SUBCONTRACTOR shall report to UCF any financial conflict of interest, regardless of any
+conflict-of-interest procedures at SUBCONTRACTOR’s institution before the Agreement starts. SUBCONTRACTOR must
+have in place an administrative process to identify and resolve financial conflicts of interest that may affect the objectivity
+of the proposed research. SUBCONTRACTOR must inform UCF of any conflict-of-interest management plan required by
+SUBCONTRACTOR prior to starting research. UCF may require an additional management plan if the plan developed by
+SUBCONTRACTOR is not acceptable to UCF. If a reportable interest, as defined by UCF, arises after the Agreement
+starts, SUBCONTRACTOR must notify UCF within 24 hours.
+20 POLICY REGARDING SCIENTIFIC MISCONDUCT
+The following provisions must apply to ensure research integrity and manage scientific misconduct:
+a. SUBCONTRACTOR must promptly inform UCF of any notices of scientific misconduct or suspensions. If an
+administrative action for scientific misconduct is imposed by the Department of Health and Human Services (HHS), by
+his/her own institution, or by any other regulatory agency, SUBCONTRACTOR must notify UCF within 48 hours.
+SUBCONTRACTOR must provide a copy of the final notice of the administrative action (i.e., after the disposition of any
+appeal) to UCF either at the time of application or within 1-month of the imposition of the administrative action.
+b. SUBCONTRACTOR must certify establishment of administrative policies consistent with 42 CFR 50, Subpart A,
+"Responsibility of PHS Awardee and Applicant Institutions for Dealing with and Reporting Possible Misconduct in
+Science," and 42 CFR 94, "Public Health Service Standards for the Protection of Research Misconduct Whistleblowers."
+21 Public Records
+The SUBCONTRACTOR shall keep and maintain public records, as defined by Chapter 119, Florida Statutes that are
+required by UCF to perform the services required by the Agreement. Upon request from UCF’s custodian of public records,
+provide UCF with a copy of the requested public records or allow the records to be inspected or copied within a reasonable
+time at a cost that does not exceed that provided in Chapter 119, Florida Statutes, or as otherwise provided by law. The
+SUBCONTRACTOR shall ensure that public records that are exempt or that are confidential and exempt from public
+record disclosure are not disclosed, except as authorized by law for the duration of the Agreement term and following
+completion of the Agreement if the SUBCONTRACTOR does not transfer the public records to UCF. Upon completion of
+the Agreement, the SUBCONTRACTOR shall transfer to UCF at no cost, all public records in possession of
+SUBCONTRACTOR or keep and maintain public records required by UCF to perform the Agreement services. If
+SUBCONTRACTOR transfers all public records to UCF upon completion of the Agreement, SUBCONTRACTOR will
+destroy any duplicate public records that are exempt or confidential and exempt. If SUBCONTRACTOR keeps and
+maintains public records upon completion of the Agreement, SUBCONTRACTOR will meet all applicable requirements
+for retaining public records. All records stored electronically must be provided to UCF, upon request of UCF’s custodian
+of public records, in a format that is compatible with the information technology systems of UCF and Prime. UCF may
+unilaterally terminate this Agreement if SUBCONTRACTOR refuses to allow access to all public records made or
+maintained by SUBCONTRACTOR in conjunction with the Agreement, unless the records are exempt from section 24(a)
+of Article I of the State Constitution and section 119.07(1), Florida Statutes.
+
+Page 7
+
+If SUBCONTRACTOR has questions regarding the application of Chapter 119, Florida
+Statutes, to SUBCONTRACTOR's duty to provide public records relating to the
+Agreement, contact the UCF custodian of public records at: Office of the General
+Counsel, (407)823-2482, gcounsel@ucf.edu, University Of Central Florida, 4365
+Andromeda Loop N., Millican Hall, Suite 360,Orlando, FL 32816-0015.
+22 MODIFICATIONS
+Modifications to this Agreement may be made only in writing signed by authorized signatories of both Parties.
+
+23 COUNTERPARTS
+This Agreement may be executed in counterparts, each of which shall be considered an original, but which together shall
+constitute but one and the same Agreement.
+24 GOVERNING LAW
+This Agreement shall be governed by the laws of the State of Florida without regard to its choice of law principles, and to
+the extent applicable, by the laws of the United States. The Parties agree that jurisdiction and venue for any action arising
+under this Agreement shall lie exclusively within either the state courts of Florida located in Orange County, Florida or the
+United States District Court for the Middle District of Florida, Orlando Division. The Parties specifically waive the right to
+any other jurisdiction and venue, and the defense based on inconvenient forum.
+25 SEVERABILITY
+If any one or more of the provisions of this Agreement shall be held to be invalid, illegal or unenforceable, the validity,
+legality or enforceability of the remaining provisions of this Agreement shall not be in any way be affected or impaired
+thereby and shall remain in full force and effect.
+26 NON-USE OF NAMES
+Neither Party may use each other’s name or trademarks in any promotion, statement, advertisement, press release or
+communications to the general public or any third party without the other’s express written consent.
+27 REMEDIES
+The Parties understand and agree that a Party may suffer irreparable harm in the event that the other Party, or its
+employees, servants, or agents, breach any of the obligations under this Agreement and that monetary damages may be
+inadequate to compensate for such breach. Accordingly, the Parties agree that in the event of a breach or threatened
+breach by a Party, of any of the provisions of this Agreement, a Party, in addition to and not in limitation of any other
+available rights, remedies or damages, shall be entitled to seek a temporary restraining order, preliminary injunction and
+permanent injunction in order to prevent or to restrain any such breach by the Party, or its employees, servants, agents
+and any and all persons directly or indirectly acting for the Party.
+28 WAIVER
+No failure or delay by a Party hereto to insist on the strict performance of any term of this Agreement, or to exercise any
+right or remedy consequent to a breach thereof, shall constitute a waiver of any breach or any subsequent breach of such
+term. No waiver of any breach hereunder shall affect or alter the remaining terms of this Agreement, but each and every
+term of this Agreement shall continue in full force and effect with respect to any other then existing or subsequent breach
+thereof.
+29 LIMITATION OF DAMAGES
+
+Page 8
+
+In no event will UCF be responsible for any indirect damages, incidental damages, consequential damages, exemplary
+damages of any kind, lost goodwill, lost profits, lost business and/or any indirect economic damages whatsoever
+regardless of whether such damages arise from claims based upon contract, negligence, tort (including strict liability or
+other legal theory), a breach of any term of this Agreement, and regardless of whether it was advised or had reason to
+know of the possibility of incurring such damages in advance.
+30 FORCE MAJEURE
+No default, delay, or failure to perform on the part of either Party shall be considered a default, delay, or failure to perform
+hereunder, if such default, delay, or failure to perform is due to causes beyond either Party’s reasonable control including,
+but not limited to, strike, lockouts, or inactions of governmental authorities; epidemics; war; embargoes; fire; earthquake;
+acts of God; or default of a common carrier. In the event of such default, delay, or failure to perform, any date or times by
+which either Party is otherwise scheduled to perform shall be extended automatically for a period of time equal in duration
+to the time lost by reason of the excused default, delay, or failure to perform.
+31 COPYRIGHTS
+SUBCONTRACTOR shall grant to UCF an irrevocable, royalty-free, non-transferable, non-exclusive right and license to
+use, reproduce, make derivative works, display, and perform publicly any copyrights or copyrighted material (including
+any computer software and its documentation and/or databases) first developed and delivered under this Agreement
+solely for the purpose of and only to the extent required to meet UCF’s obligations under its prime award.
+32 DATA RIGHTS
+SUBCONTRACTOR shall grant to UCF the right to use data created in the performance of this Agreement solely for the
+purpose of and only to the extent required to meet UCF’s obligations under its prime award.
+33 NO WARRANTIES
+UCF MAKES NO REPRESENTATIONS AND EXTENDS NO WARRANTIES OF ANY KIND, EITHER EXPRESS OR
+IMPLIED WITH REGARD TO THE RESEARCH, INTELLECTUAL PROPERTY, AND/OR PROPRIETARY MATERIALS.
+THERE ARE NO EXPRESS OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR
+PURPOSE, OR THAT COMPANY’S USE OF THE RESEARCH DELIVERABLES OR INTELLECTUAL PROPERTY WILL
+NOT INFRINGE ANY THIRD PARTY PATENT, COPYRIGHT, TRADEMARK, OR OTHER THIRD PARTY RIGHTS. UCF
+MAKES NO REPRESENTATION AS TO THE USEFULNESS OF RESEARCH DELIVERABLES, INTELLECTUAL
+PROPERTY, OR PROPRIETARY MATERIALS. IF THE COMPANY CHOOSES TO EXPLOIT RESEARCH
+DELIVERABLES, INTELLECTUAL PROPERTY, OR PROPRIETARY MATERIALS IN ANY MANNER WHATSOEVER,
+IT DOES SO AT ITS OWN RISK.
+34 EMPLOYMENT ELIGIBILITY VERIFICATION
+SUBCONTRACTOR is required to use the U.S. Department of Homeland Security’s E-Verify system, located at
+https://www.e-verify.gov to verify the employment eligibility of all newly hired employees used by SUBCONTRACTOR
+under this Agreement. Failure to comply with the requirements of section 448.095, Florida Statutes, will result in the
+Agreement being terminated.
+35 CLOSEOUT
+Along with any other reports or deliverables required hereunder, SUBCONTRACTOR shall submit its final invoice and
+release and assignment to UCF within sixteen (16) calendar days following completion of the period of performance of
+this Subcontract. Payment of the final invoice will be withheld pending:
+ Completion, submission, and acceptance by UCF of all work performed under the SOW.
+ Clear, visible, and proper marking of “final invoice” on the actual final invoice.
+36 ENTIRE AGREEMENT
+This Agreement consists of the following parts:
+
+Page 9
+
+Articles 1 - 36
+Appendix A:
+Appendix B:
+Appendix C:
+
+Statement of Work, Deliverables & Budget
+Flow-Down Terms and Conditions
+Reportable Financial Interests
+
+and constitutes the entire Agreement of the parties with respect to the subject matter hereof. Any other agreement, written
+or oral, is hereby superseded.
+IN WITNESS WHEREOF, the authorized contractual representatives of parties hereto have executed this Agreement on
+the dates set forth below:
+THE UNIVERSITY OF CENTRAL FLORIDA BOARD OF
+TRUSTEES
+
+ADVENTIST HEALTH SYSTEM/SUNBELT, INC. DBA
+ADVENTHEALTH ORLANDO
+
+Name: Elena Andreeva, MA, AOR
+Title: Subaward Specialist III, Sponsored Programs
+Date:____________________________
+
+Name:
+Title:
+Date:
+
+Page 10
+
+APPENDIX A: STATEMENT OF WORK, DELIVERABLES & BUDGET
+Statement of Work
+
+Page 11
+
+Deliverables
+The following deliverable items are required:
+Due Date
+
+Deliverable
+
+Technical Progress Report
+
+10/15/2025
+
+Technical Progress Report 2
+
+1/15/2026
+
+Technical Progress Report 3
+
+4/15/2026
+
+Final Progress Report
+
+7/15/2026
+
+Budget
+
+Page 12
+
+Page 13
+
+Page 14
+
+Page 15
+
+Page 16
+
+APPENDIX B: FLOW-DOWN TERMS AND CONDITIONS
+SUBCONTRACTOR is subject to the terms and conditions included below. Where appropriate, the following
+modifications are made to the specific terms herein:
+Wherever the terms “Florida Department of Health " or “Department” are used, "UCF" shall be substituted.
+Wherever the word “Provider”, “Grantee”,” is used, the word “SUBCONTRACTOR” shall be substituted.
+Wherever the word "Contract” or “” is used, the word "Agreement" shall be substituted.
+TERMS AND CONDITIONS INCORPORATED BY REFERENCE
+UCF is flowing down to SUBCONTRACTOR the terms and conditions of its Prime Award, attached and included herein
+as APPENDIX B. Without diminishing SUBCONTRACTOR's obligation to comply with the applicable terms and conditions
+of Prime Award in their entirety, SUBCONTRACTOR shall expressly note the obligations to comply with the following
+provisions set forth in the Prime Award:
+STATE OF FLORIDA, DEPARTMENT OF HEALTH
+STANDARD CONTRACT
+Section I: PROVIDER AGREES:
+A. To provide services in accordance with the terms specified in Attachment I attached hereto and
+ensure any deliverables under the Contract, which may include “commodities” and “contractual
+services”, as each is defined in section 287.012, F.S. does not include, and no State funding under
+the Contract is being provided for, promoting, advocating for, or providing training or education on
+“Diversity, Equity, and Inclusion” (“DEI”). DEI is any program, activity, or policy that classifies
+individuals on the basis of race, color, sex, national origin, gender identity, or sexual orientation and
+promotes differential or preferential treatment of individuals on the basis of such classification or
+promotes the position that a group or an individual’s action is inherently, unconsciously, or implicitly
+biased on the basis of such classification.
+C.8. Coordination of Contracted Services
+F. Insurance
+K. 2. Procurement of Materials with Recycled Content
+V. Information Security and Confidentiality of Data, Files, and Records
+AA. Replacement of Provider Staff
+Attachment I, Special Provisions, 7. Background Screening
+Attachment I, Special Provisions, 8. Drug Screening
+Attachment I, 6. Other Provisions, b. Non-Expendable Property
+
+Page 17
+
+Commented [RB2]: AdventHealth, if this article is applicable to
+your organization, please provide a list of contracts to be forwarded
+to FLDOH.
+Commented [RB3]: AdventHealth, per prime requirement,
+please provide evidence of adequate insurance prior to signing the
+agreement.
+
+Appendix C
+Reportable Financial Interests
+
+Commented [RB4]: AdventHealth, please have your PI
+complete and sign this form.
+
+Florida Department of Health Financial Conflict of Interest in Research
+Principal Investigator:
+Grant Title:
+Grant Number:
+Step 1: Use the following tests to determine if the researcher and the researcher’s immediate family, or any
+other personnel on the grant (sub‐investigators and research staff) and their immediate families, have any of
+the following financial interests related to the research:
+"Immediate Family" means spouse, domestic partner, children, and dependents.
+"Financial Interest Related to the Research" means financial interest in the sponsor, product or service being
+tested, or competitor of the sponsor.
+Ownership interest, stock options, or other financial interest of any value related to the
+research. Does not include mutual funds or companies publicly traded on a stock exchange.
+Compensation of any value related to the research.
+Proprietary interest related to the research of any value including, but not limited to, a patent,
+trademark, copyright or licensing agreement.
+Board or executive relationship in a company (such as a startup company but including publicly
+traded companies) related to the research, regardless of compensation.
+Any arrangement where the value of the ownership interests will be affected by the outcome of
+the research. For example, an arrangement has been made where the value of stock options given
+to the researcher by a startup company will vary depending on the outcome of the research.
+Any other interest that could be affected by the outcome of the research
+If any of the following above conditions are met, provide a description of financial interests related to the
+research:
+
+The grantee has no financial interests requiring disclosure
+
+Signed
+Dated
+Failure to disclose financial interests related to the research, and failure to provide an updated disclosure at
+least at the time of the continuation request or if the financial interests of the researcher and personnel on
+the grant change, may result in:
+‐ Immediate termination of the grant.
+‐ Financial consequences, including repayment of all grant funds.
+‐ Any other action required by state law.
+
+Page 18
+
+

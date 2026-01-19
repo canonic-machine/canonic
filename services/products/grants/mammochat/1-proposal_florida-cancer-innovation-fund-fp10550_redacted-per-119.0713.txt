@@ -1,0 +1,2798 @@
+Florida Cancer Innovation Fund
+Funding Opportunity Announcement
+FY 2023-2024
+
+Grant Application
+
+The Florida Department of Health through the Florida Cancer Innovation Funds are accepting applications for projects and studies in cancer research and innovation. The purpose of this effort is to energize collaborations between
+oncologists, cutting edge researchers and cancer facilities and others to provide a plausible route for expedited funding to bolster competitiveness for extramural cancer research funding. This funding aims to provide opportunities to
+break down longstanding silos between researchers, cancer facilities, and medical providers. The funding will improve cancer research and treatment through innovative approaches to data infrastructure and best practices through the
+provision of innovation grants.
+
+1. Corresponding Applicant Principal Investigator/Main Research Study or Project Coordinator Information
+Successful Florida Cancer Innovation Fund projects will focus on cutting edge cancer research and patient care prioritized on the expeditious nature of a proposal. Potential applicants may include but are not limited to:
+Researchers working on cutting edge cancer treatments
+Post-doctoral/Graduate student fellows
+Non-profit organizations
+Medical providers
+Oncology practices
+Florida Cancer Centers of Excellence
+Funding is for Florida-based research.
+Please provide the principal address that will be listed on any contracts or agreements with the Florida Department of Health.
+Are you a US citizen or permanent resident? Yes
+First Name: Dexter Middle Name: Last Name: Hadley
+Professional Title: Chief of Artificial intelligence Institution or Facility: The University of Central Florida Board of Trustees
+Institution or Facility City: Orlando Institution or Facility State: Florida Institution or Facility Zip Code: 32827
+Phone Number: 215-681-0268 Applicant Email Address: de163002@ucf.edu Role: Principal Investigator
+
+Institution or Facility Address: 6850 Lake Nona Blvd
+
+2. Authorized Official Information
+Please provide the contact information for the authorizing official who, if selected for an award, can sign agreements for your proposal. This may be the sponsored research official for an academic institution, a legal representative or
+another individual in your organization who is authorized to sign agreements on behalf of your institution or facility.
+First Name: Lynn Middle Name: Last Name: Aitken
+Professional Title: Proposal Specialist III Authorizing Official Institution or Facility: The University of Central Florida Board of Trustees
+Authorizing Official City: Orlando Authorizing Official State: Florida Authorizing Official Zip Code: 32826
+Phone Number: 407-823-3778 Authorizing Official Email Address: lynn.aitken@ucf.edu Role: Authorized Official- Signatory
+
+Authorizing Official Address: 12201 Research Parkway
+
+3. Financial and Grant Management Contact
+Please provide contact information for who will be managing any contractual and grant obligations if selected for award. Contractual obligations may require the submission of study cost invoices and any reporting requirements outlined
+in agreements between the applicant and the Florida Department of Health if selected for award.
+First Name: Aaron Middle Name: Last Name: Davis
+Professional Title: Contract Officer III Financial and Grant Management Institution or Facility: The University of Central Florida Board of Trustees Financial and Grant Management Address: 12201 Research Parkway
+Financial and Grant Management City: Orlando Financial and Grant Management State: Florida Financial and Grant Management Zip Code: 32826
+Financial and Grant Management Phone Number: 407-823-3778 Financial and Grant Management Email Address: aaron.davis@ucf.edu Role: Financial Contact
+
+4. Scientific Review Officer (SRO) Contact
+Please provide the contact information for the Scientific Review Office, who, if selected for an award, will direct the review process by which scientific grants are agreements for your proposal. This may be the sponsored research
+official for an academic institution, a legal representative or another individual in your organization who is authorized to sign agreements on behalf of your institution or facility.
+Pre-Award Contact
+First Name: LynnMiddle NameLast Name Aitken
+Professional Title Proposal Specialist IIIInstitution or Facility The University of Central Florida Board of TrusteesInstitution or Facility Address
+12201 Research Parkway
+Institution or Facility City OrlandoInstitution or Facility State FloridaInstitution or Facility Zip Code 32826
+Phone Number 407-823-4656Applicant Email Address Lynn.Aitken@ucf.eduRole Scientific Review Officer
+Post-Award Contact
+Currently Unknown
+First Name AaronMiddle NameLast Name Davis
+Professional Title Contracts Officer IIIInstitution or Facility The University of Central Florida Board of TrusteesInstitution or Facility Address
+12201 Research Parkway
+Institution or Facility City OrlandoInstitution or Facility State FLORIDAInstitution or Facility Zip Code 32826
+Phone Number 407-823-3778Applicant Email Address Aaron.Davis@ucf.eduRole Scientific Review Officer
+
+5. Project/Study Information- Grant Category
+Applications will be accepted in the grant categories outlined below. Funding amounts are available for all grant categories. Each application must identify a Corresponding Principal Investigator/Study or Research Coordinator, herein
+named the Principal Investigator (PI). Principal Investigators and organizations may not submit the same application in different grant categories. For example, PIs and organizations may not submit the same project for a Standard
+Grant and a Pilot Grant in the same grant funding cycle. Please choose only one option. For more details please refer to the Funding Opportunity Announcement document.
+What best describes your proposal?
+Consortium Grant: Projects that includes a consortium of clinical, basic, translational, and underrepresented institutions/centers to conduct high quality grant-supported research. The consortium should involve partnerships to be
+developed among investigators across the state of Florida, with the award made to the lead organization. The lead organization of the consortium must perform a substantive role in conducting the planned research including providing
+oversight of all scientific, programmatic, financial, and administrative matters related to the grant. The collaborating organizations must have well-defined roles that contribute to the common scientifically rigorous research goals that
+must include sound background information, hypotheses, protocols, and promising practices that address clearly one or more areas of research interest.
+Standard Grant: Research projects that are fully developed, scientifically rigorous, and include sound background information, hypotheses, and promising preliminary results or supporting data.
+Pilot Grant: Exploratory, novel studies that break new ground or extend previous discoveries toward new directions or applications. No preliminary data are required but may be included if available.
+Post-doctoral Fellowship Grant: Post-doctoral fellowship grants provide clinical, patient-oriented research fellowship training that stimulates novel insights, discovery, and validation of novel diagnostic strategies to symptomatology
+and treatment. Organizations must have a certified fellowship-training program or an established training program for health professionals to be considered eligible.
+Please check which category your study/project applies (must check one).span>
+
+Consortium Grant Standard Grant Pilot Grant Post-Doctoral Fellowship Grant
+Pilot Grant
+Does your project address a clear gap or unmet need in the current research field?
+Yes No
+If Yes, provide one sentence describing the gap
+This project fills the gap in digital health for breast cancer by providing explainable, AI-driven support tools to build a digital community based on transparency and personalized care, addressin
+resources to improve patient outcomes.
+On a scale of 1–5, how innovative is the approach taken in this project compared to existing studies or methods? Scale: 1 (Similar to existing methods) to 5 (Highly novel approach) * 5
+If 4 or 5, briefly describe what makes it innovativespan>
+This project integrates mCODE, AI (RAGs, LLMs), and blockchain to deliver personalized, explainable support for breast cancer patients. Using NFTs for trust, it aligns with the AI, Blockchain, and Cybersecurity
+(ABC) narrative outlined in the authors' 2024 HIMMS book (Metcalf, Hadley et al 2024).
+Does your project explore a direction that significantly extends beyond established research?
+Yes No
+If Yes, specify one key area where it extends current researchspan>
+
+If Yes, specify one key area where it extends current researchspan>
+This project builds on research showing social connections enhance breast cancer outcomes by creating AI-powered digital communities. to foster interaction, reduce isolation, improve adherence, and offer personalized
+guidance, leveraging peer-driven emotional and practical support.
+
+6. Project/Study Information- Research Category
+(*) denotes required fields.
+
+These Cancer Innovation Funds are focusing on several important goal areas to bring a revolutionary new approach to combatting cancer in Florida. The three main goal areas for the Florida Cancer Innovation Funds are listed below.
+What best describes your proposal?
+Data Statistics : Data statistics about the proliferation and treatment of cancer should be both timely available and easily accessible. This research area will seek to identify the reasons data are slow to move or hard to access and
+establish a new approach to dismantle data siloes.
+Best practices : Best practices in cancer care and treatment should not be proprietary. This research area will seek to streamline, encourage, and incentivize the sharing of treatment and research best practices among public and
+private entities so that everyone is provided the most effective treatment possible.
+Innovation : Innovative new methods, technologies, treatments, and clinical practice standards should be identified and shared to meet the needs in addressing cancer in Florida. This research area will identify and employ creative
+problem-solving methods to reduce barriers to providing innovative cancer care and treatment. Technology and other resources should be identified and shared among medical providers, community organization and long-standing
+research institutions for the greatest impact.
+Please select the research category your study proposal most aligns. (must select one).*
+Data Statistics - Improve data timeliness and accessibility Best Practices - Streamline, encourage, and incentivize the sharing of treatment best practices among public and private entities
+cutting-edge technology and clinical treatments
+Innovation
+Do you already have access to the innovative technologies, methods, or resources required to implement your proposed study?
+Yes No
+Do you have formal agreements or partnerships with technology providers, research institutions, or other key stakeholders at the time of grant submission?
+Yes No
+How long will it take to establish necessary partnerships or access the innovative resources for your study? * Less than 3 months
+
+Innovation - Advancements in
+
+7. Project/Study Information- Research Type
+All applications submitted in response to this funding opportunity must be responsive to one of the most prevalent cancer diagnoses in Florida or cancers impacting pediatrics. This funding opportunity encourages different research
+types including those listed below:
+1. Translational Research: Projects designed to translate scientific bench discoveries to practical therapeutic interventions in a clinical setting. These efforts can relate to studies intended for translation to human subjects (Phase I
+clinical trials), translation to patients (Phase II, III clinical trials), translation to practice (Phase IV clinical trials), and/or translation to population health.
+2. Implementation Research: Research projects focused on methodologies designed to promote the implementation of verified clinical treatments and practices into routine healthcare protocols at a clinical and organizational level.
+These studies can also focus on the de-implementation of clinical practices deemed to be of low or insignificant benefit to patient care and outcomes.
+3. Open Science: Increases rigor and transparency of research studies while maximizing return on research investments. Open Science establishes repositories for sharing research as research is being conducted. This includes open
+access by sharing of information and making progress and findings accessible while the research is being conducted. This accelerates the sharing of knowledge while the research is being conducted and project aims and progress
+toward aims is shared. Knowledge is shared throughout the project period with all grantees. More people can become more involved and collaborate with multiple institutions. Scientist self-correcting reduces gaps and reduces
+problems and short-timeframe deadlines.
+4. Patient and Family Support: Research that focuses on psychosocial support for patients and families, including patients participating in their care to improve outcomes. This research also includes supporting and encouraging
+patient engagement in improving the quality of care provided by their care team for the continuity of care. Examples can include access to support groups provided by the healthcare organizations or partners and patient navigators.
+5. Treatment-Related Morbidities: Expand upon research that improves scientific understanding of causes and subsequent impact of cancer/cancer-treatment related morbidities in other systems (e.g., cardiovascular, pulmonary,
+endocrine, lymphatic, central nervous system, reproductive, and developmental).
+6. Technology Transfer Feasibility (TTF): The goals of the TTF grant mechanism are to stimulate technology transfer activities for promising research discoveries that could lead to innovations in the prevention, diagnosis,
+treatment, and/or cure of cancer and strengthen a project’s economic feasibility and commercialization prospects. The primary objective is to assist investigators in moving promising research findings toward commercialization. The
+TTF grant offers early-stage funding to develop intellectual property and improve its commercial potential and competitiveness for further development activities, including company formation or partnering with private interests.
+Projects should be designed to establish the technical/scientific merit and feasibility needed to attract commercial interest.
+7. Treatment Studies: Proposals should explore innovative treatment models, including the latest research trends and emerging therapies. These studies should highlight promising treatments that have the potential to drive further
+research and development in the field.
+8. Special populations: Research targeting specific or niche groups, including pediatric populations.
+This funding opportunity encourages different research types including those listed below: *
+Translational Research Implementation Research Open Science Patient and Family Support Treatment-Related Morbidities
+Institutional Alignment
+Patient and Family Support
+Do you currently have access to patient support networks, such as support groups or patient navigators, to facilitate this research?
+Yes No
+Have you identified specific methods to measure patient or family engagement and support outcomes?
+Yes No
+How soon after the project’s start will patient engagement activities or support mechanisms be implemented? * Immediately
+
+Technology Transfer Feasibility
+
+Treatment Studies
+
+Special populations
+
+8 Project/Study Information- Project Description
+Please provide title of your project (Limit 200 characters)
+MammoChat: An AI-Driven Platform for Personalized Breast Cancer Patient Support
+Application Instructions:
+Preferred format for all uploaded sections: Arial, 11-point font, single-spacing, and 0.5" for all margins.
+Please make sure all sections are complete and each question is followed and answered carefully.
+Please note: Some scientific notations and formatting may not show in the online application sections.
+Please upload any file as a PDF using the File Name Format provided.
+Example File Name Format: Your LAST NAME_SPECIFIC AIMS
+File size must be less than 31 MB
+Upload File
+Upload a general audience abstract. This abstract should be no more than one page and should describe the proposed project in a manner that the public or non-scientific audience can understand.
+Note: Uploading a new file will replace the existing uploaded file.
+354_Anderson_ProjectDescription.pdf (Hadley_General Audience Abstract.pdf)
+8.a. Innovation Statement (Limit 500 characters): Clearly articulate the project's potential to how this study/project will help with improve outcomes for cancer patients in Florida. The innovation statement should be written in
+plain language that can be understood by a general, lay audience, reviewers and colleagues.
+8.b. Study/Project Summary (Limit 2500 characters): Please describe the intent of your study/project. This may include the study objectives, study design, any proposed data analyses, and expected outcomes.
+
+Study Objectives
+
+Study Design
+
+8.c. Study/Project Key Topics.(Limit 500 characters) : * Provide up to 4 key topics that best describe your study/project.
+
+8.d. Please describe the populations your study will predominantly serve (Limit 500 characters)
+8.e. Please select the predominant cancers your study aims to address Breast Cancer
+8.f. Is the application specifically focused on pediatric cancer research?
+Yes No
+8.g. Is the application focused on research or treatment in rural populations?
+Yes No
+8.h. Is the application focused on addressing modifiable risk factors associated with cancer?
+Yes No
+8.i. Could your research lead to a newly developed product or service?
+Yes No Not Sure
+8.j. Will your research have a positive financial impact on cancer patient health care?
+Yes No Not Sure
+8.k. Will your research lead to a positive change in the standard of care for cancer patients?
+Yes No Not Sure
+8.l. Is your research project based in Florida? *
+Yes No
+Describe the future direction of your research, your long-term goals, and the project timeline for submitting additional grant application(s) to other federal or state funding opportunities. Explain the benefits/Return on
+Investment (ROI) to the state of Florida (Limit 2500 characters)
+Future Direction, Long-Term Goals, and Project Timeline
+
+Benefits/Return on Investment (ROI) for Florida
+
+9. Specific Aims
+Please provide up to 3 specific aims of your project. (Limit 1 Page) Upload as a PDF *
+State the goals of the proposed research and summarize the expected outcomes, including the impact that the results of the proposed research will exert on the field involved.
+List up to 3 specific aims of the proposed research (e.g., to test a stated hypothesis, create a novel design, solve a specific problem, challenge an existing paradigm or clinical practice, address a critical barrier to progress in the
+field, or develop new technology).
+Uploaded File Name: 354_Anderson_SpecificAims.pdf (Hadley_Specific Aims.pdf)
+
+10. Study/Project Collaborators
+Collaborator #1
+First Name: Amoy
+Last Name: Fraser
+Professional Title: Director- Clinical & Aerospace Health Research
+Institution or Facility: UCF
+Division/Department: College of Medicine
+Brief description of role in project (e.g., Scientific Mentor; CoInvestigator for Genomic analysis; Other):
+Dr. Amoy Fraser, Director of Clinical & Aerospace Health Research at UCF College of Medicine, brings extensive experience in clinical trial operations. Her expertise will be invaluable in the identification, setup, and ongoing
+management of studies for the MammoChat project. Dr. Fraser’s contributions will ensure smooth coordination of clinical aspects, from trial design to regulatory compliance, improving the efficiency of recruitment, data
+collection, and patient interaction. Her leadership will enhance the project’s capacity to meet milestones in patient recruitment, engagement, and trial participation, ensuring the successful execution of MammoChat’s clinical
+objectives.
+Collaborator #2
+First Name: Chaithanya
+Last Name: Renduchintala
+Professional Title: Assistant Professor
+Institution or Facility: UCF
+Division/Department: Rosen College of Hospitality Management
+Brief description of role in project (e.g., Scientific Mentor; CoInvestigator for Genomic analysis; Other):
+Dr. Chaithanya Renduchintala, Assistant Professor at the Rosen College of Hospitality Management, brings valuable expertise in community health data modeling and travel health. With a PhD in Modeling and Simulation, his
+research focuses on AI applications for community health, data sharing, and health system design. Dr. Renduchintala’s work in travel and tourism health will support MammoChat by incorporating AI to model community
+health outcomes, improve patient engagement, and facilitate data-driven decision-making in health interventions. His experience in collaborating with healthcare organizations and developing knowledge graphs will enhance the
+project’s capacity to integrate diverse health data for more effective outcomes.
+Collaborator #3
+
+Collaborator #3
+First Name: David
+Last Name: Metcalf
+Professional Title: Director of the Mixed Emerging Technology Integration Lab (METIL)
+Institution or Facility: UCF
+Division/Department: Institute for Simulation, Modeling and Training
+Brief description of role in project (e.g., Scientific Mentor; CoInvestigator for Genomic analysis; Other):
+Dr. David Metcalf, Senior Researcher and Director of METIL at UCF, brings significant expertise in blockchain-enabled applications, having worked on projects such as the Navy TRACRChain Blockchain Automated
+Range Training Tracking and ARO/UCF Blockchain and Quantum Defense Simulator. His experience integrating blockchain with digital twins, AR/VR/haptic applications, and quantum security aligns with the MammoChat
+project’s goal to enhance patient engagement and data integrity. His leadership in blockchain-driven technologies, coupled with his publications in Blockchain Enabled Applications (Springer APRESS, 2022), Voice, AI and
+Healthcare (HIMSS, 2023), and most recently a book he o-authored with Dr. Hadley entitled AI, Blockchain and Cybersecurity (ABC) in Healthcare (HIMMS, 2024) will help strengthen the technological foundation of the
+MammoChat platform with deep blockchain expertise an insight.
+Collaborator #4
+First Name: Allana
+Last Name: Roach
+Professional Title: Co-investigator
+Institution or Facility: Independant Contractor
+Division/Department: Independant Contractor
+Brief description of role in project (e.g., Scientific Mentor; CoInvestigator for Genomic analysis; Other): Moderator and content provider to ensure a safe, inclusive, and engaging environment for patients.
+
+11. Research Strategy
+Please provide the research strategy and describe your project. (Limit 3 Pages) Upload as a PDF *
+Innovation
+Explain how the application challenges and seeks to shift current research or clinical practice paradigms.
+Describe any novel theoretical concepts, approaches or methodologies, instrumentation, or interventions to be developed or used, and any advantage over existing methodologies, instrumentation, or interventions.
+Explain any refinements, improvements, or new applications of theoretical concepts, approaches, methodologies, instrumentation, interventions.
+Approach
+Describe the overall strategy, methodology, and analyses to accomplish the project's specific aims. Include how the data will be collected, analyzed, and interpreted, and any resource-sharing plan as appropriate.
+If the project is in the early stages of development, describe any strategy to establish feasibility.
+Discuss anticipated results (including benchmarks for assessing success in achieving the proposed aims) and potential problems.
+Significance
+Explain how the proposed project will improve scientific knowledge, technical capability, and/or clinical practice in one or more broad fields.
+Describe how the concepts, methods, technologies, treatments, services, or preventative interventions that drive this field will be changed if the proposed aims are achieved.
+Uploaded File Name: 354_Anderson_ResearchStrategy.pdf (Hadley_Research Strategy.pdf)
+
+12. Capacity
+Productivity: Please describe how you will achieve the anticipated outputs and effectiveness of the treatment or research project, including what ability you have to achieve described milestones and deliverables
+within the proposed timeline. (2,500 characters)
+
+Capacity: Please describe the ability of the team or organization to successfully carry out the project, including the expertise, experience, and resources available to ensure the completion of the proposed treatment
+or research. (2,500 characters).
+The MammoChat project team has a strong capacity to successfully carry out the project, with a multidisciplinary team that combines deep expertise in AI, clinical practice, and healthcare technology. Dr. Hadley’s leadership,
+demonstrated through his successful execution of previous NIH-funded projects and his engagement with AI in Medicine events, will ensure that the project remains on track and meets all objectives.
+Dr. Amoy Fraser’s experience in clinical trial operations will ensure that recruitment, data collection, and patient engagement meet regulatory standards, while Dr. Chaithanya Renduchintala’s expertise in travel health, community health
+systems, and AI data modeling will enhance
+. Dr. David Metcalf’s extensive background in AI, mobile learning, blockchain, and simulation will ensure that
+MammoChat uses the latest technologies for optimal patient engagement and data security. Dr. Allana Roach is an expert moderator.
+. This combination of technical resources, clinical expertise, and operational experience gives the team the capacity to deliver impactful results.
+Moreover, UCF’s established partnerships with AdventHealth and Lake Nona Medical City will help integrate MammoChat into local healthcare systems and expand its reach to a broader patient population. With the support of
+experienced collaborators and access to cutting-edge technologies, MammoChat is poised for success.
+
+13. References or Bibliography
+
+Bibliography and References Cited - No page limit.
+Upload the Bibliography and References Cited in one PDF.
+Do not include any visuals or any information that is not a cited reference.
+Include only the references cited in your narratives.
+Uploaded File Name: 354_Anderson_Bibliography.pdf (Hadley_References.pdf)
+
+14. Previous Research Funding
+Have you ever had a cancer research grant with the Department of Health? (check all that apply) *
+William G. “Bill” Bankhead, Jr. and David Coley Cancer Research Program James and Esther King Biomedical Research Program
+What was the title of your grant?:*
+What year were you funded:*
+
+Live Like Bella Pediatric Cancer Research Initiative
+
+No
+
+Please confirm this is a new proposal and not a continuation of another funded grant
+
+15. Budget
+Do you have any reportable conflicts of interest?: No
+Florida Cancer Innovation Fund Grant Budget Narrative. 12 Month Budget
+
+Name/Role On Project
+Dexter Hadley/PI
+TBD/Post Doc
+TBD/GRA
+TBD/GRA
+Chaithanya Renduchintala/Co-I
+Amoy Fraser/Director of Clinical Research
+TBD/Clinical Research Coordinator
+TBD/Clinical Research Coordinator
+TBD/Clinical Research Coordinator
+David Metcalf/Co-I
+Michael Eakins/Software Development Project
+Coordinator
+James Murphy/Sr. Developer
+Ethan Janicki/Jr developer
+TBD/GRA
+
+Annual Base Salary and Fringe
+% Effort on
+($)
+Project
+$172,524.00
+30.00%
+$57,000.00
+100.00%
+$29,000.00
+100.00%
+$29,000.00
+100.00%
+$113,333.00
+15.00%
+$93,696.00
+1.00%
+$56,000.00
+100.00%
+$56,000.00
+100.00%
+$56,000.00
+100.00%
+$221,990.00
+%
+
+Project Salary Total Fringe Fringe Amount Fringe Fixed/Flat Rate Total Personnel & Fringe
+($)
+%
+($)
+($)
+($)
+$51,757.20
+32.00% $16,562.30
+$0.00
+$68,319.50
+$57,000.00
+20.00% $11,400.00
+$
+$68,400.00
+$29,000.00
+2.00% $580.00
+$
+$29,580.00
+$29,000.00
+2.00% $580.00
+$
+$29,580.00
+$16,999.95
+32.00% $5,439.98
+$0.00
+$22,439.93
+$936.96
+41.00% $384.15
+$
+$1,321.11
+$56,000.00
+41.00% $22,960.00
+$
+$78,960.00
+$56,000.00
+41.00% $22,960.00
+$
+$78,960.00
+$56,000.00
+41.00% $22,960.00
+$
+$78,960.00
+$44,635.31
+32.00% $14,283.30
+$0.00
+$58,918.61
+
+$104,441.00
+
+0.00%
+
+$21,008.20
+
+32.00% $6,722.62
+
+$0.00
+
+$27,730.83
+
+$82,643.00
+$72,411.00
+$38,335.00
+
+0.00%
+0.00%
+%
+
+$16,623.56
+$14,565.40
+$7,747.77
+
+11.00% $1,828.59
+2.00% $291.31
+2.00% $154.96
+
+$0.00
+$0.00
+$
+
+$18,452.15
+$14,856.71
+$7,902.73
+
+Supplies $30,500.00
+This budget covers participant onboarding kits, educational materials, and recruitment supplies such as flyers and brochures. These items are critical for engaging participants and ensuring adherence to study protocols.
+Equipments $100,000.00
+The requested budget for equipment is essential to support the development
+
+Equipment $100,000.00
+The requested budget for equipment is essential to support the development and
+
+Expense $0.00
+Travel $35,000.00
+Travel funds will support outreach to underserved areas for recruitment and attendance at conferences to disseminate findings and build collaborations.
+Technical Support $988,322.00
+MicroSoft Nuance PowerShare for $500 monthly for collection of the images = $6,000
+Travel/conferences/meetings for promoting MammoChat = $5,000
+Miscellaneous materials (printing, flyers, etc.) = $500
+$25 gift card x 20,000 participants.= $500,000
+Print Marketing Costs: $10,000
+Community Outreach Events: Hosting MammoChat meting October 2025 at UCF = $20,000
+Publications = $10,000
+Social Media Marketing: $112,000
+Technical Support: $50,000
+Moderator: $60,000
+Advertising and Outreach: Funds will support robust recruitment efforts through digital and traditional media, as well as community engagement events. Participant Incentives: Gift cards will be provided to all participants to ensure
+recruitment and retention. UCF MammoChat Meeting: This annual event, held during Breast Cancer Awareness Month, will engage stakeholders, including patients, physicians, and researchers, to discuss progress and foster
+collaboration. Publication Costs: Covers fees for open-access journal publications to ensure research findings are widely disseminated to the scientific community and stakeholders.
+Indirect $260,731.00
+The project’s indirect costs, calculated at 15% of the total direct costs, are necessary to support the administrative and operational infrastructure required for successful project execution. These funds cover essential expenses such as
+facilities maintenance, utilities, financial oversight, compliance monitoring, and institutional support for research activities. The indirect costs ensure that the project operates within a robust framework that provides the necessary
+resources for managing personnel, safeguarding data, and adhering to regulatory and reporting requirements. This rate reflects a fair allocation of shared costs, enabling the efficient execution of the MammoChat initiative while
+maintaining the high standards expected of research at this level.
+Total Budget Requested $1998935
+
+16. Professional Qualifications/Experience
+Please add a curriculum vitae, resume or bio sketch. Upload as a PDF (optional)
+Uploaded File Name: 354_Anderson_ProfessionalDocuments.pdf (Hadley_Professional Documents.pdf)
+
+17. Images, Tables, or Graphs
+Please upload any image, tables, or graphs.. Upload as a PDF (optional)
+Uploaded File Name: 354_Anderson_TableGraphs.pdf (Hadley_Table Graphs.pdf)
+
+18. Letters of Support
+Letters of Support: A letter of support is a document designed to corroborate the proposed research through a third-party. The document should provide testimony that supports the anticipated study and methods. Please provide
+letters of support from any collaborators (including their role in the project), academic department chair’s (particularly for junior researchers), contractors, and others who are supporting your research.
+Upload all Letters of Support in one PDF.Upload as a PDF*
+Uploaded File Name: 354_Anderson_LetterOfSupport.pdf (Hadley_Letters Of Support.pdf)
+
+19. Regulatory Approvals
+If your research involves Human Subjects, animals, embryonic stem cells, and/or recombinant DNA, you must obtain regulatory approval from IRB, IACUC, ESCRO and/or IBC, respectively.
+IMPORTANT: These include Prior Approval for human subject’s research and live vertebrate research (see below). These processes might take several weeks. Initiate them as early as possible.
+IRB – Institutional Review Board – for research involving Human Subjects (must select one)
+CLICK HERE to learn more about the IRB
+Not Applicable Approval is already obtained for this project Submission process is initiated Submission process is not initiated
+IACUC – Institutional Animal Care and Use Committee – for research involving Animals (must select one)
+Not Applicable Approval is already obtained for this project Submission process is initiated Submission process is not initiated
+ESCRO – Embryonic Stem Cell Research Oversight Committee – for research using Stem Cells (must select one)
+Not Applicable Approval is already obtained for this project Submission process is initiated Submission process is not initiated
+IBC – Institutional Biosafety Committee – for research using Recombinant DNA (must select one)
+Not Applicable Approval is already obtained for this project Submission process is initiated Submission process is not initiated
+Environmental Safety – Does your research involve procedures, situations, or materials that may be hazardous to personnel?
+Yes No
+
+Abstract
+
+enabling discovery of peers with similar experiences. NFTs will encode anonymized mCODE data, ensuring
+
+Significance
+Breast cancer patients often struggle to access personalized, accurate information and support, leading to
+
+Approach
+
+retrievers like DPR or BM25, will efficiently match user queries to relevant documents within a corpus of breast cancer
+
+Research Design:
+
+Timeline
+The project will progress in three phases over 12 months:
+• Phase 1 (Months 1-4):
+• Phase 2 (Months 5-8):
+• Phase 3 (Months 9-12):
+Scalability and Long-Term Sustainability
+
+.
+.
+
+Team Dynamics
+We have assembled an interdisciplinary team that brings together seasoned professionals whose combined
+expertise and collaborative dynamics uniquely position MammoChat for success. Dexter Hadley, MD/PhD leads the
+project with a proven track record in translating patient data into clinical innovation, complemented David Metcalf, PhD
+with expertise in blockchain and emerging technologies and Chaithanya Renduchintala, PhD with data-driven insights into
+population health. Amoy Fraser, PhD, MPH is an experienced leader in human subjects’ research, ensures efficient trial
+management and compliance, while Allana Roach, PhD, MPH is a leading bioethicist and expert in behavioral science,
+health equity, and community-based interventions and well suited to create engaging content and moderate the platform
+to foster an inclusive digital community. When taken together, the team’s diverse yet complementary skills and deep
+experience enhance their ability to deliver a transformative solution, significantly increasing the project’s likelihood of
+achieving its ambitious goals to revolutionize breast cancer care.
+Future Directions
+This proposal describes development of
+
+References
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+
+12.
+13.
+14.
+15.
+16.
+
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+
+Metcalf, D., Hadley, D., Hooper, M., Pappas, H. & Dhillon, V. ABC: AI, Blockchain, and Cybersecurity for
+Healthcare: New Innovations for the Post-Quantum Era.
+Hadley, D. et al. How COVID-19 Catalyzed Community-Driven AI in the Metaverse of Medical Data. in
+Leveraging Technology as a Response to the COVID Pandemic (ed. Harry P. Pappas, P. H. F.) 151–180
+(Productivity Press, New York, 2022). doi:10.4324/b23264-10.
+Hadley, D. et al. Precision annotation of digital samples in NCBI’s gene expression omnibus. Sci Data 4,
+170125 (2017).
+Leedham, B. & Ganz, P. A. Psychosocial concerns and quality of life in breast cancer survivors. Cancer
+Invest 17, 342–348 (1999).
+van Londen, G. et al. Breast cancer survivorship symptom management: current perspective and future
+development. Breast Cancer Manag 2, 71–81 (2013).
+Bergerot, C. et al. Is cancer back?—psychological issues faced by survivors of breast cancer. Ann
+Palliat Med 0, 0–0 (2023).
+Martínez Arroyo, O., Andreu Vaíllo, Y., Martínez López, P. & Galdón Garrido, M. J. Emotional distress
+and unmet supportive care needs in survivors of breast cancer beyond the end of primary treatment.
+Supportive Care in Cancer 27, 1049–1057 (2019).
+Marcom, S. M. & Sorensen, M. Female breast cancer survivor narratives on paths to healing after the
+conclusion of primary treatment: A qualitative study. Journal of Cancer Survivorship (2024)
+doi:10.1007/s11764-024-01688-y.
+Cohee, A. et al. The mediating role of avoidant coping in the relationships between physical,
+psychological, and social wellbeing and distress in breast cancer survivors. Psychooncology 30, 1129–
+1136 (2021).
+LeRoy, A. S., Shields, A., Chen, M. A., Brown, R. L. & Fagundes, C. P. Improving Breast Cancer
+Survivors’ Psychological Outcomes and Quality of Life: Alternatives to Traditional Psychotherapy. Curr
+Breast Cancer Rep 10, 28–34 (2018).
+Kimmick, G. G., Shelby, R. A. & Sutton, L. M. Common Issues in Breast Cancer Survivors: A Practical
+Guide to Evaluation and Management. Common Issues in Breast Cancer Survivors: A Practical Guide to
+Evaluation and Management (Springer International Publishing, Cham, 2021). doi:10.1007/978-3-03075377-1.
+Pinto-Carral, A., Molina, A. J., de Pedro, Á. & Ayán, C. Pilates for women with breast cancer: A
+systematic review and meta-analysis. Complement Ther Med 41, 130–140 (2018).
+Holland, J. C. Psycho-oncology: Overview, obstacles and opportunities. Psychooncology 27, 1364–1376
+(2018).
+Maher, J. & Fenlon, D. The psychosocial issues of survivorship in breast cancer. Advances in Breast
+Cancer 7, 17–22 (2010).
+Knobf, M. T. Clinical update: Psychosocial responses in breast cancer survivors. Semin Oncol Nurs 27,
+(2011).
+Klotz, J., Kamineni, P. & Sutton, L. M. Overview of the National and International Guidelines for Care of
+Breast Cancer Survivors. in Common Issues in Breast Cancer Survivors: A Practical Guide to Evaluation
+and Management 1–10 (Springer International Publishing, Cham, 2021). doi:10.1007/978-3-030-753771_1.
+Morrow, P. K. Breast cancer survivorship management. in Advances in Cancer Survivorship
+Management 57–69 (Springer New York, New York, NY, 2015). doi:10.1007/978-1-4939-0986-5_5.
+Ganz, P. A. & Goodwin, P. J. Breast cancer survivorship: Where are we today? in Advances in
+Experimental Medicine and Biology vol. 862 1–8 (2015).
+Allinson, V. M. Supportive care after breast cancer surgery. Nurs Times 110, 20–23 (2014).
+EISEMAN, B. Breast Cancer: Diagnosis and Management. in Archives of Surgery vol. 120 505 (Springer
+International Publishing, Cham, 1985).
+Andress, L. et al. Addressing power dynamics in community-engaged research partnerships. J Patient
+Rep Outcomes 4, 24 (2020).
+Wallerstein, N. B. & Duran, B. Using Community-Based Participatory Research to Address Health
+Disparities. Health Promot Pract (2006) doi:10.1177/1524839906289376.
+Harmon, D. M., Young, C. D., Bear, M. A., Aase, L. A. & Pruthi, S. Integrating online community support
+into outpatient breast cancer care: Mayo Clinic Connect online platform. Digit Health 7, (2021).
+
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
+44.
+45.
+46.
+47.
+48.
+49.
+50.
+
+Lepore, S. J. et al. Digital literacy linked to engagement and psychological benefits among breast cancer
+survivors in Internet-based peer support groups. Eur J Cancer Care (Engl) 28, (2019).
+Suarez, N. R. E. et al. Connected and supported: a scoping review of how online communities provide
+social support for breast cancer survivors. Journal of Cancer Survivorship (2024) doi:10.1007/s11764024-01660-w.
+Pyle, D., Perry, A., Lamont-Mills, A., Tehan, G. & Chambers, S. K. A scoping review of the characteristics
+and benefits of online prostate cancer communities. Psychooncology 30, 659–668 (2021).
+Petrič, G., Cugmas, M., Petrič, R. & Atanasova, S. The quality of informational social support in online
+health communities: A content analysis of cancer-related discussions. Digit Health 9, (2023).
+Harkin, L. J., Beaver, K., Dey, P. & Choong, K. A. Secret groups and open forums: Defining online
+support communities from the perspective of people affected by cancer. Digit Health 6, (2020).
+Leimeister, J. M., Daum, M. & Krcmar, H. Towards mobile communities for cancer patients: the case of
+krebsgemeinschaft.de. International Journal of Web Based Communities 1, 58–70 (2004).
+Costantini, L. et al. Use of digital technologies to support cancer screening in community health
+promotion interventions: scoping review. Health Promot Int 38, (2023).
+Ciria-Suarez, L. et al. A Digital Cancer Ecosystem to Deliver Health and Psychosocial Education as
+Preventive Intervention. Cancers (Basel) 14, (2022).
+Iacono, E., Franchina, V., Piazza, D., DI, V. A.-R. I. & 2022, undefined. New Digital Health Challenges:
+development of a Help Community for the cancer patient. flore.unifi.it.
+DiDonato, A., Drumheller, C., Winters, G. & Metzger, R. CodeX quality measures for cancer: Leveraging
+FHIR and mCODE to support digital quality measures. JCO Oncol Pract 19, 466–466 (2023).
+Terry, M., Anton, H., Casagni, M., Chamala, S. & Chen, J. L. Exchanging genomics reports between
+pathology labs and medical centers using the Minimal Clinical Oncology Data Element (mCODE) FHIR
+implementation guide. Journal of Clinical Oncology 41, e13575–e13575 (2023).
+Choi, J.-W. et al. Automated digital oncologic data review for breast cancer research: AI-enabled
+mCODE and field-of-interest extraction framework. Journal of Clinical Oncology 42, e12647–e12647
+(2024).
+Dennstädt, F., Putora, P. M. & Cihoric, N. (Common) Data Elements in Radiation Oncology: A
+Systematic Literature Review. JCO Clin Cancer Inform (2023) doi:10.1200/cci.23.00008.
+Guilbert, B. et al. ONCO-FAIR Project: Improving Data Interoperability in Oncology Chemotherapy
+Treatments for Data Reuse. in Studies in health technology and informatics vol. 316 1373–1377 (2024).
+Osterman, T. J., Terry, M. & Miller, R. S. Improving Cancer Data Interoperability: The Promise of the
+Minimal Common Oncology Data Elements (mCODE) Initiative. JCO Clin Cancer Inform 4, 993–1001
+(2020).
+Yi-Hsin, Y., Chen, L.-T. & Huang, S.-F. Establishing the common oncology data model for the national
+biobank consortium of Taiwan. Journal of Clinical Oncology 38, e19283–e19283 (2020).
+Li, Y. et al. Minimal Common Oncology Data Elements Genomics Pilot Project: Enhancing Oncology
+Research Through Electronic Health Record Interoperability at Vanderbilt University Medical Center.
+JCO Clin Cancer Inform (2024) doi:10.1200/cci.23.00249.
+Botsis, T. et al. Precision Oncology Core Data Model to Support Clinical Genomics Decision Making.
+JCO Clin Cancer Inform 7, e2200108 (2023).
+Botsis, T. et al. Precision Oncology Core Data Model to Support Clinical Genomics Decision Making.
+JCO Clin Cancer Inform (2023) doi:10.1200/cci.22.00108.
+Chen, J. & Chiang, Y. Applying the Minimal Common Oncology Data Elements (mCODE) to the AsiaPacific Region. JCO Clin Cancer Inform 252–253 (2021) doi:10.1200/cci.20.00181.
+Das, R. et al. Improved precision oncology question-answering using agentic LLM. medrxiv.org.
+Rydzewski, N. R. et al. Comparative Evaluation of LLMs in Clinical Oncology. Nejm Ai 1, (2024).
+Seibel, N. L. AdvAnces in LLM. Cancer 9, 476–478 (2011).
+Carl, N. et al. Large language model use in clinical oncology. NPJ Precis Oncol 8, (2024).
+Longwell, J. B. et al. Performance of Large Language Models on Medical Oncology Examination
+Questions. JAMA Netw Open 7, e2417641 (2024).
+Oh, Y. et al. LLM-driven Multimodal Target Volume Contouring in Radiation Oncology. nature.com (2023)
+doi:10.1038/s41467-024-53387-y.
+Benary, M. et al. Leveraging Large Language Models for Decision Support in Personalized Oncology.
+JAMA Netw Open 6, E2343689 (2023).
+
+51.
+52.
+53.
+54.
+55.
+56.
+57.
+58.
+59.
+60.
+61.
+62.
+63.
+
+64.
+65.
+66.
+
+67.
+68.
+69.
+70.
+71.
+72.
+73.
+74.
+
+Yalamanchili, A. et al. Quality of Large Language Model Responses to Radiation Oncology Patient Care
+Questions. JAMA Netw Open E244630 (2024) doi:10.1001/jamanetworkopen.2024.4630.
+Lammert, J. et al. Expert-Guided Large Language Models for Clinical Decision Support in Precision
+Oncology. ascopubs.org.
+Lammert, J. et al. Large language models for precision oncology: Clinical decision support through
+expert-guided learning. Journal of Clinical Oncology 42, e13609–e13609 (2024).
+He, J. et al. Retrieval-augmented large language models for clinical trial screening. Journal of Clinical
+Oncology 42, 157–157 (2024).
+Wunderlich, M. et al. Improved chemotherapy modeling with RAG-based immune deficient mice. PLoS
+One 14, e0225532 (2019).
+Ferber, D. et al. GPT-4 for Information Retrieval and Comparison of Medical Oncology Guidelines. Nejm
+Ai 1, (2024).
+Kreimeyer, K., Canzoniero, J. V., Fatteh, M., Anagnostou, V. & Botsis, T. Using Retrieval-Augmented
+Generation to Capture Molecularly-Driven Treatment Relationships for Precision Oncology. in Studies in
+health technology and informatics vol. 316 983–987 (2024).
+Ta, P., Gupta, B., Jain, A., … K. R. preprint arXiv & 2024, undefined. Knowledge Models for Cancer
+Clinical Practice Guidelines: Construction, Management and Usage in Question Answering. arxiv.org.
+Edgerton, M., Srigley, J., … M. E. D.-… of P. & & 2024, undefined. SNOMED-Encoded Synoptic Cancer
+Reports. search.proquest.com.
+Quidwai, M. A. & Lagana, A. A RAG Chatbot for Precision Medicine of Multiple Myeloma. medRxiv
+2023–2024 (2024).
+Ferber, D. & Kather, J. N. Large Language Models in Uro-oncology. Eur Urol Oncol 7, 157–159 (2024).
+Kostick-Quenet, K. et al. How NFTs could transform health information exchange. Science (1979) 375,
+500–502 (2022).
+Dubovitskaya, A., Xu, Z., Ryu, S., Schumacher, M. & Wang, F. How blockchain could empower ehealth:
+An application for radiation oncology: (Extended abstract). in Lecture Notes in Computer Science
+(including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) vol.
+10494 LNCS 3–6 (2017).
+Hinkel, J. M., Ray, A., Brar, S. & Lalmalani, R. Modeling an oncology outcomes-based contract using a
+blockchain database approach: Cost and technology considerations. Journal of Clinical Oncology 37,
+e18360–e18360 (2019).
+Subramanian, H. & Subramanian, S. Improving Diagnosis through Digital Pathology: Proof-of-Concept
+Implementation Using Smart Contracts and Decentralized File Storage. J Med Internet Res 24, (2022).
+Dakshayini, M., Kavalleswari, A. & Suhasini, H. S. Blockchain-NFT Enabled Privacy and Ownership
+Protection System for Genomics[POPS-G]. International Conference on Emerging Technologies in
+Computer Science for Interdisciplinary Applications, ICETCS 2024 (2024)
+doi:10.1109/ICETCS61022.2024.10544201.
+Sanchez, W., Linder, L., Miller, R. C., Hood, A. & Gross, M. S. Non-Fungible Tokens for Organoids:
+Decentralized Biobanking to Empower Patients in Biospecimen Research. Blockchain Healthc Today 7,
+(2024).
+Sai, S., Hassija, V., Chamola, V. & Guizani, M. Federated Learning and NFT-Based Privacy-Preserving
+Medical-Data-Sharing Scheme for Intelligent Diagnosis in Smart Healthcare. IEEE Internet Things J 11,
+5568–5577 (2024).
+Esmaeilzadeh, P. Evolution of Health Information Sharing Between Health Care Organizations: Potential
+of Nonfungible Tokens. Interact J Med Res 12, e42685 (2023).
+Wang, G. et al. Efficient Use of Biological Data in the Web 3.0 Era by Applying Nonfungible Token
+Technology. J Med Internet Res 26, (2024).
+Gross, M. S., Hood, A. J. & Miller, R. C. Nonfungible Tokens as a Blockchain Solution to Ethical
+Challenges for the Secondary Use of Biospecimens: Viewpoint. JMIR Bioinform Biotech 2, (2021).
+Jalal, S. H. & Asim, R. Comment on “Non-fungible token integration in neurosurgery: a technical review”.
+Neurosurg Rev 47, (2024).
+Brickman, A., Baykara, Y., Carabaño, M. & Hacking, S. M. Whole slide images as non-fungible tokens: A
+decentralized approach to secure, scalable data storage and access. J Pathol Inform 15, (2024).
+Lawson McLean, A. Non-fungible token integration in neurosurgery: a technical review. Neurosurg Rev
+46, 207 (2023).
+
+75.
+76.
+77.
+78.
+79.
+80.
+81.
+82.
+83.
+84.
+85.
+86.
+87.
+88.
+89.
+90.
+
+91.
+92.
+93.
+94.
+95.
+96.
+
+Carcinogenesis, M. T.-J. of & 2023, undefined. Block chain for secure privacy preserving cancer data
+management. Submissions.Carcinogenesis.Com (2023).
+Ranjbarzadeh, R., Keles, A., Crane, M., Anari, S. & Bendechache, M. Secure and Decentralized
+Collaboration in Oncology: A Blockchain Approach to Tumor Segmentation. ieeexplore.ieee.org 1681–
+1686 (2024) doi:10.1109/compsac61105.2024.00265.
+Griewing, S., Lingenfelder, M., Wagner, U. & Gremke, N. Use Case Evaluation and Digital Workflow of
+Breast Cancer Care by Artificial Intelligence and Blockchain Technology Application. Healthcare
+(Switzerland) 10, (2022).
+Dubovitskaya, A., Novotny, P., Xu, Z. & Wang, F. Applications of Blockchain Technology for Data-Sharing
+in Oncology: Results from a Systematic Literature Review. Oncology (Switzerland) 98, 403–411 (2020).
+Rahman, M. A. et al. An IoT and blockchain-based multi-sensory in-home quality of life framework for
+cancer patients. 2019 15th International Wireless Communications and Mobile Computing Conference,
+IWCMC 2019 2116–2121 (2019) doi:10.1109/IWCMC.2019.8766496.
+Glicksberg, B. S. et al. Blockchain-authenticated sharing of genomic and clinical outcomes data of
+patients with cancer: A prospective cohort study. J Med Internet Res 22, (2020).
+Ray, P. P. & Majumder, P. A review on cancer data management using blockchain: Progress and
+challenges. Advances in Computers 131, 49–78 (2023).
+Cheng, A., Guan, Q., Su, Y., Zhou, P. & Zeng, Y. Integration of Machine Learning and Blockchain
+Technology in the Healthcare Field: A Literature Review and Implications for Cancer Care. Asia Pac J
+Oncol Nurs 8, 720–724 (2021).
+Aidbox FHIR Server for Healthcare Apps and Analytics | FHIR Platform. https://www.healthsamurai.io/aidbox.
+Osterman, T. J., Terry, M. & Miller, R. S. Improving Cancer Data Interoperability: The Promise of the
+Minimal Common Oncology Data Elements (mCODE) Initiative. JCO Clin Cancer Inform 4, 993–1001
+(2020).
+Zong, N. et al. Modeling cancer clinical trials using HL7 FHIR to support downstream applications: A
+case study with colorectal cancer data. Int J Med Inform 145, (2021).
+Warner, J. et al. An interoperable HL7 document standard to improve the quality of cancer care across
+multiple locations. Journal of Clinical Oncology 31, 12–12 (2013).
+Zong, N. et al. Developing an FHIR-Based Computational Pipeline for Automatic Population of Case
+Report Forms for Colorectal Cancer Clinical Trials Using Electronic Health Records. JCO Clin Cancer
+Inform 201–209 (2020) doi:10.1200/cci.19.00116.
+Ando, Y. Oncology information system. in Carbon-Ion Radiotherapy: Principles, Practices, and
+Treatment Planning 113–117 (Springer Japan, Tokyo, 2014). doi:10.1007/978-4-431-54457-9_13.
+Guilbert, B. et al. ONCO-FAIR Project: Improving Data Interoperability in Oncology Chemotherapy
+Treatments for Data Reuse. in Studies in health technology and informatics vol. 316 1373–1377 (2024).
+Beutter, C. N. L. et al. Quality of life as an indicator for care delivery in clinical oncology Using FHIR. in
+German Medical Data Sciences: Bringing Data to Life: Proceedings of the Joint Annual Meeting of the
+German Association of Medical Informatics, Biometry and Epidemiology (gmds e.V.) and the Central
+European Network - International Biometric Society (CEN-IB vol. 278 110–117 (2021).
+Conway, J. R., Warner, J. L., Rubinstein, W. S. & Miller, R. S. Next-Generation Sequencing and the
+Clinical Oncology Workflow: Data Challenges, Proposed Solutions, and a Call to Action. JCO Precis
+Oncol 1–10 (2019) doi:10.1200/po.19.00232.
+Warner, J. et al. The clinical oncology treatment plan and summary implementation guide: An
+interoperable HL7 document standard to improve the quality of cancer care. Journal of Clinical Oncology
+32, 6603–6603 (2014).
+Goel, A. K., Campbell, W. S. & Moldwin, R. Structured Data Capture for Oncology. JCO Clin Cancer
+Inform 194–201 (2021) doi:10.1200/cci.20.00103.
+Gazzarata, R. et al. HL7 Fast Healthcare Interoperability Resources (HL7 FHIR) in digital healthcare
+ecosystems for chronic disease management: Scoping review. Int J Med Inform 189, (2024).
+Mayo, C., Feng, M., Brock, K., … R. K.-… of R. O. & 2023, undefined. Operational Ontology for
+oncology (O3): A professional society-based, Multistakeholder, consensus-driven Informatics standard
+supporting clinical and. Elsevier.
+Duim, M., Boterenbrood, F. & Goossen, W. T. F. Continuity of care with HL7 v3 care record for oncology
+nursing. Stud Health Technol Inform 201, 476–482 (2014).
+
+97.
+98.
+99.
+100.
+101.
+102.
+
+103.
+104.
+105.
+106.
+107.
+108.
+109.
+110.
+111.
+112.
+113.
+114.
+115.
+116.
+117.
+118.
+119.
+
+Maggi, N., Ruggiero, C. & Giacomini, M. Towards an Electronic Medical Record for Precision Oncology:
+Information and Knowledge Management. IEEE 4th International Forum on Research and Technologies
+for Society and Industry, RTSI 2018 - Proceedings (2018) doi:10.1109/RTSI.2018.8548422.
+Phillips, M. & Halasz, L. Radiation Oncology Needs to Adopt a Comprehensive Standard for Data
+Transfer: The Case for HL7 FHIR. Int J Radiat Oncol Biol Phys 99, 1073–1075 (2017).
+Warner, J. L. et al. SMART precision cancer medicine: A FHIR-based app to provide genomic
+information at the point of care. Journal of the American Medical Informatics Association 23, 701–710
+(2016).
+Swoboda, J. et al. The Mappability of Clinical Real-World Data of Patients with Melanoma to Oncological
+Fast Healthcare Interoperability Resources (FHIR) Profiles: A Single-Center Interoperability Study.
+Informatics 11, 42 (2024).
+Lambarki, M., Kern, J., Croft, D., … C. E.-… : B. D. to & 2021, undefined. Oncology on FHIR: a data
+model for distributed cancer research. ebooks.iospress.nl.
+Lambarki, M. et al. Oncology on FHIR: A data model for distributed cancer research. in German Medical
+Data Sciences: Bringing Data to Life: Proceedings of the Joint Annual Meeting of the German
+Association of Medical Informatics, Biometry and Epidemiology (gmds e.V.) and the Central European
+Network - International Biometric Society (CEN-IB vol. 278 203–210 (2021).
+Share and Exchange Medical Images Anywhere with PowerShare | Nuance.
+https://www.nuance.com/healthcare/diagnostics-solutions/radiology-network/powershare-medicalimage-sharing.html?srsltid=AfmBOooa_EDs6hx7ijXtdjBcBXh6smtIXcgnYvwuPkiVRDfJIOH55UL_.
+Duncan, L. D. et al. Clinical integration of picture archiving and communication systems with pathology
+and hospital information system in oncology. American Surgeon 76, 982–986 (2010).
+Hussein, R., Engelmann, U., Schroeter, A. & Meinzer, H. P. DICOM structured reporting: Part 2.
+Problems and challenges in implementation for PACS workstations. Radiographics 24, 897–909 (2004).
+Kaspar, M. et al. Unlocking the PACS DICOM Domain for its Use in Clinical Research Data
+Warehouses. J Digit Imaging 33, 1016–1025 (2020).
+Ando, Y. Oncology information system. in Carbon-Ion Radiotherapy: Principles, Practices, and
+Treatment Planning 113–117 (Springer Japan, Tokyo, 2014). doi:10.1007/978-4-431-54457-9_13.
+Shahbaz, S., Mahmood, A. & Anwar, Z. SOAD: Securing oncology EMR by anonymizing DICOM
+images. Proceedings - 11th International Conference on Frontiers of Information Technology, FIT 2013
+125–130 (2013) doi:10.1109/FIT.2013.30.
+Hong, S.-I. & Kim, Y.-J. Using CR System at the Department of Radiation Oncology PACS Evaluation.
+Journal of the Korean Society of Radiology 6, 143–149 (2012).
+Mackenzie, A., Lewis, E. & Loveland, J. Successes and challenges in extracting information from
+DICOM image databases for audit and research. British Journal of Radiology 96, (2023).
+Kahn, C., Carrino, J., Flynn, M., … D. P.-J. of the A. & 2007, undefined. DICOM and radiology: past,
+present, and future. jacr.org.
+Nathan, M. D. PACS beyond radiology. Developing tender specifications for a cancer hospital. Int Congr
+Ser 1281, 1000–1004 (2005).
+Shakeshaft, J. PACS in Radiotherapy. Clin Oncol 22, 681–687 (2010).
+Minasian, L. M., O’Mara, A. & Mitchell, S. A. Clinician and Patient Reporting of Symptomatic Adverse
+Events in Cancer Clinical Trials: Using CTCAE and PRO-CTCAE® to Provide Two Distinct and
+Complementary Perspectives. Patient Relat Outcome Meas Volume 13, 249–258 (2022).
+Botsis, T. et al. Precision Oncology Core Data Model to Support Clinical Genomics Decision Making.
+JCO Clin Cancer Inform 7, e2200108 (2023).
+Lee, M. K. et al. Reliability and validity of PRO-CTCAE® daily reporting with a 24-hour recall period.
+Quality of Life Research 32, 2047–2058 (2023).
+Hay, J. L. et al. Cognitive interviewing of the US national cancer institute’s patient-reported outcomes
+version of the common terminology criteria for adverse events (PRO-CTCAE). Quality of Life Research
+23, 257–269 (2014).
+Basch, E. et al. Composite grading algorithm for the National Cancer Institute’s Patient-Reported
+Outcomes version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE). Clinical
+Trials 18, 104–114 (2021).
+Chung, A., Shoenbill, K., … S. M.-J. of the & 2019, undefined. clinical research using the National
+Cancer Institute’s Patient-Reported Outcomes version of the Common Terminology Criteria for Adverse
+Events (PRO-CTCAE). academic.oup.com.
+
+120. Basch, E. et al. Development of the national cancer institute’s patient-reported outcomes version of the
+common terminology criteria for adverse events (PRO-CTCAE). J Natl Cancer Inst 106, (2014).
+121. A.C., D. et al. Validity and Reliability of the US National Cancer Institute’s Patient-Reported Outcomes
+Version of the Common Terminology Criteria for Adverse Events (PRO-CTCAE). JAMA Oncol 1, 1051–
+1059 (2015).
+122. Basch, E., Pugh, S., Dueck, A., … S. M.-I. J. of & 2017, undefined. symptomatic adverse events via the
+patient-reported outcomes version of the common terminology criteria for adverse events (PRO-CTCAE)
+in a chemoradiotherapy …. Elsevier.
+123. Watson, G. A. et al. Evaluation of the patient experience of symptomatic adverse events on Phase I
+clinical trials using PRO-CTCAE. Br J Cancer 127, 1629–1635 (2022).
+124. Kluetz, P., Chingos, D., … E. B.-A. S. of & 2016, undefined. adverse events with the National Cancer
+Institute’s Patient-Reported Outcomes Version of the Common Terminology Criteria for Adverse Events
+(PRO-CTCAE). cdr.lib.unc.edu.
+125. Bogaarts, M. P. J. et al. Development of the Psychosocial Distress Questionnaire-Breast Cancer (PDQBC): A breast cancer-specific screening instrument for psychosocial problems. Supportive Care in
+Cancer 19, 1485–1493 (2011).
+126. Bogaarts, M. P. J. et al. Reliability and validity of the psychosocial distress questionnaire-breast cancer.
+J Nurs Meas 22, E14–E28 (2014).
+127. Castermans, E., Coenders, M., Beerlage, H. P. & de Vries, J. Psychosocial screening for patients with
+prostate cancer: The development and validation of the psychosocial distress questionnaire-prostate
+cancer. J Psychosoc Oncol 34, 512–529 (2016).
+128. Bogaarts, M. P. J. et al. The Psychosocial Distress Questionnaire-Breast Cancer (PDQ-BC) is a useful
+instrument to screen psychosocial problems. Supportive Care in Cancer 20, 1659–1665 (2012).
+129. Bogaarts, M. P. J. et al. Development of the Psychosocial Distress Questionnaire-Breast Cancer (PDQBC): A breast cancer-specific screening instrument for psychosocial problems. Supportive Care in
+Cancer 19, 1485–1493 (2011).
+130. Sedrak, M. S. et al. The emerging role of professional social media use in oncology. Future Oncology
+13, 1281–1285 (2017).
+131. Reblin, M. et al. Outcomes of an electronic social network intervention with neuro-oncology patient
+family caregivers. J Neurooncol 139, 643–649 (2018).
+132. Bender, J. L., O’Grady, L. & Jadad, A. R. Supporting Cancer Patients through the Continuum of Care: A
+View from the Age of Social Networks and Computer-Mediated Communication. Current Oncology 15,
+107–107 (2008).
+133. Lewis, M. A. & Dicker, A. P. Social media and oncology: The past, present, and future of electronic
+communication between physician and patient. Semin Oncol 42, 764–771 (2015).
+134. Pinquart, M. & Duberstein, P. R. Associations of social networks with cancer mortality: A meta-analysis.
+Crit Rev Oncol Hematol 75, 122–137 (2010).
+135. Piombo, S. E. et al. Social networks of oncology clinicians as a means for increasing survivorship clinic
+referral. Communications Medicine 2, (2022).
+136. Beasley, J. M. et al. Social networks and survival after breast cancer diagnosis. Journal of Cancer
+Survivorship 4, 372–380 (2010).
+137. Kroenke, C. H., Kubzansky, L. D., Schernhammer, E. S., Holmes, M. D. & Kawachi, I. Social networks,
+social support, and survival after breast cancer diagnosis. Journal of Clinical Oncology 24, 1105–1111
+(2006).
+138. Student FIRE Program - College of Medicine. https://med.ucf.edu/research/m-d-student-research/fire/.
+139. Hadley, D. UCF AI in Medicine Summit (UCF AIMS) 2024. http://ucfaims.org (2024).
+140. Hadley, D. UCF Wellness Education AI Lifestyle & Technology in Health (UCF WEALTH) Symposium
+2022. http://ucfwealth.org (2022).
+
+OMB No. 0925-0001 and 0925-0002 (Rev. 10/15 Approved Through 10/31/2018)
+
+BIOGRAPHICAL SKETCH
+Provide the following information for the Senior/key personnel and other significant contributors.
+Follow this format for each person. DO NOT EXCEED FIVE PAGES.
+
+NAME: HADLEY, DEXTER
+eRA COMMONS USER NAME (credential, e.g., agency login): HadleyD
+POSITION TITLE: Assistant Professor of Pathology, University of Central Florida
+EDUCATION/TRAINING (Begin with baccalaureate or other initial professional education, such as nursing, include
+postdoctoral training and residency training if applicable. Add/delete rows as necessary.)
+DEGREE
+(if applicable)
+
+Completion
+Date
+MM/YYYY
+
+New College of Florida, Sarasota, FL
+
+B.S.
+
+05/1999
+
+Natural Science
+
+University of Pennsylvania, Philadelphia, PA
+
+M.S.E.
+
+05/2003
+
+Systems Engineering
+
+University of Pennsylvania, Philadelphia, PA
+
+Ph.D.
+
+10/2007
+
+Genomics & Comp Bio
+
+University of Pennsylvania, Philadelphia, PA
+
+M.D.
+
+05/2009
+
+Medicine
+
+Hospital of the University of Pennsylvania, PA
+
+Internship
+
+06/2010
+
+General Surgery
+
+Stanford University, Stanford, CA
+
+Residency
+
+06/2013
+
+Clinical Pathology
+
+INSTITUTION AND LOCATION
+
+FIELD OF STUDY
+
+A. Personal Statement
+My research focus has long been geared towards translational medicine. I have made significant translational discoveries
+across the neuropsychiatric disease spectrum at the Center for Applied Genomics in The Children’s Hospital of
+Philadelphia, which houses the largest academic pediatric biobank in the world. My work has resulted in an ongoing
+‘precision medicine’ clinical trial for ADHD (ClinicalTrials.gov Identifier: NCT02286817) for a first-in-class, non-stimulant
+neuromodulator, and I co-founded a company, neuroFix Therapeutics, that was recently successfully acquired based on
+early positive trial results. At Stanford, I moved towards developing tools and databases to organize public data stores by
+crowd-sourcing the annotation of over 1.6 million samples within NCBI’s Gene Expression Omnibus (GEO) for
+downstream analysis. As a PI at UCSF, my laboratory integrated analysis of this datastore with many different functional
+databases and advances in digital health to better characterize signature patterns of disease and identify novel
+interventions to optimize disease management. Moving forward as a new PI at UCF jointly supported by HCA Healthcare,
+my laboratory will continue to build data driven interventions in healthcare that can be developed, tested, and eventually
+deployed at scale to improve the health and well-being of large populations of patients in a clinical setting.
+1. Hadley D, et al.: Precision annotation of digital samples in NCBI’s Gene Expression Omnibus, Scientific Data. Sci
+Data. 2017 Sep 19;4:170125. doi: 10.1038/sdata.2017.125.
+2. Bhattacharya A, ...Hadley D. Precision Diagnosis Of Melanoma And Other Skin Lesions From Digital Images. AMIA
+Jt Summits Transl Sci Proc. 2017; 2017:220-226.
+3. Wong, A., …Hadley, D: Development and Validation of an Electronic Health Record–Based Machine Learning
+Model to Estimate Delirium Risk in Newly Hospitalized Patients Without Known Cognitive Impairment. JAMA Netw
+Open. 2018 1(4), e181018. doi: 10.1001/jamanetworkopen.2018.1018
+4. Ding Y, ...Hadley D, Franc BL. A Deep Learning Model to Predict a Diagnosis of Alzheimer Disease by Using 18FFDG PET of the Brain.A Deep Learning Model to Predict a Diagnosis of Alzheimer Disease by Using 18F-FDG PET
+of the Brain. Radiology. 2018 Nov 6:180958. doi: 10.1148/radiol.2018180958
+My expertise in leveraging multi-modal “Big Data” to more precisely characterize disease at the intersection of molecular
+medicine and digital health. My laboratory integrates multiple large-scale open databases with advances in digital health to
+facilitate cross platform computational analyses to predict disease. I strive to translate this biological insight into clinical
+innovations like novel drugs, biomarkers, and other interventions to more optimally mange disease and facilitate precision
+medicine. In general, the end point of my work is rapid proofs of concept clinical trials in humans that translate into better
+patient outcomes and reduced morbidity and mortality across the spectrum of disease.
+
+B. Positions and Honors
+Academic Appointments:
+07/10 – 06/12
+09/13 – 03/15
+04/15 – 07/19
+08/19 –
+Honors / Awards:
+2000
+2000
+2007
+2003 – 2007
+2009
+2011
+2015
+
+Lead Clinical Genomics Analyst, Center for Applied Genomics, Children's
+Hospital of Philadelphia, Philadelphia, PA
+Research Associate, Division of Systems Medicine, Department of
+Pediatrics, Stanford University, Stanford, CA
+Assistant Professor, Department of Pediatrics, UCSF, San Francisco, CA
+Assistant Professor, Department of Clinical Sciences, UCF, Orlando, FL
+
+Center of Excellence Fellowship
+NIH/NHLBI Fellowship
+AAAS Excellence in Science Scholar
+NIH Computational Biology Training Grant
+Penn Biotech Group Entrepreneurial Competition Winner
+NIH LRP award for outstanding pediatric clinical research
+AMIA Design Challenge Competition Winner
+
+Membership in Professional and Scientific Societies:
+1999 – 2009
+American Medical Student Association
+1999 – 2009
+Student National Medical Association, Treasurer
+2005 – 2008
+International Mammalian Genome Society
+2006 – 2012
+Autism Genetic Resource Exchange
+2007 – 2012
+Penn Biotech Group
+2009 – 2012
+Pennsylvania Medical Society
+2009 – present
+American Medical Association
+2011 – 2014
+Early Growth Genetics (EGG) Consortium, CNV Group Leader
+2012 – 2014
+Stanford Society of Physician Scholars
+2013 – 2014
+Stanford Global Health Interest Group
+2013 – 2014
+Eastern Caribbean Health Outcome Research Network (ECHORN)
+2013 – present
+American Medical Informatics Association (AMIA)
+2018 – present
+American Heart Association (AHA)
+Teaching Appointments:
+2002
+2002
+12/8/2011
+5/31/2012
+12/7/2016
+
+2019
+
+Teaching Assistant (Probability & Statistics), University of Pennsylvania,
+School of Engineering and Applied Sciences, Philadelphia, PA
+Teaching Assistant (Mathematical Programming), University of
+Pennsylvania, School of Engineering and Applied Sciences, Philadelphia,
+PA
+CME Lecture: “Rare genetic causes for common neuropsychiatric
+diseases: Novel opportunities for personalizing treatment”, Washington
+University, School of Medicine, St Louis, MO
+Workshop: “Analysis of Copy Number Variation”, Advanced Topics in
+Genome-Wide Association Studies, Ontario Institute for Cancer Research,
+Toronto, Ontario, Canada
+Workshop: Using the NIH’s BD2K-funded Search Tag Analyze Resource
+for GEO (STARGEO.org) as an open online platform to use open data to
+characterize the functional genomics of disease, University of California,
+San Francisco, CA
+Medical school genetics small group sessions
+
+C. Contribution to Science
+As a new faculty member of UCF, I am building a research laboratory in close collaboration with HCA Healthcare with a
+goal to translate the growing stores of clinical and research data into new drugs, diagnostics, and insights into disease.
+Towards this end, I have focused my scientific inquiry thus far into three different areas:
+1. Developing methods to structure and optimize the translational utility of large data stores. I have worked with
+many different large-scale datasets, and I understand the importance of structuring it for better translational utility. I
+developed a systems approach to functional genomics with large scale screening for biomarkers and candidate drug
+
+repositioning using open data. I have developed the Search Tag Analyze Resource (stargeo.org) as a web application
+for physicians and scientists with no bioinformatics experience to annotate digital samples and interpret disease gene
+signatures using of over 1.6 million samples within NCBI’s Gene Expression Omnibus (GEO). Moving forward as a
+new PI at UCSF, my laboratory will integrate multi-modal sources of both open and closed data across the gamut of
+available ‘omics’ technologies to define disease pathology and to predict drugs and diagnostics for disease with an end
+point of rapid proofs of concept Phase 1 and 2a clinical trials in humans.
+a. Hadley D, et al.: Precision annotation of digital samples in NCBI’s Gene Expression Omnibus, Scientific Data.
+Sci Data. 2017 Sep 19;4:170125. doi: 10.1038/sdata.2017.125.
+b. Bhattacharya, A., et al., & Hadley, D: Precision Diagnosis Of Melanoma And Other Skin Lesions From Digital
+Images. AMIA Jt Summits Transl Sci Proc. 2017 Jul 26;2017:220-226. eCollection 2017.
+c. Wong, A., et al., & Hadley, D: Development and Validation of an Electronic Health Record–Based Machine
+Learning Model to Estimate Delirium Risk in Newly Hospitalized Patients Without Known Cognitive Impairment.
+JAMA Netw Open. 2018 1(4), e181018. doi: 10.1001/jamanetworkopen.2018.1018
+d. Trivedi, HM., et al., & Hadley, D: Large Scale Semi-Automated Labeling of Routine Free-Text Clinical Records
+for Deep Learning. J Digit Imaging. 2018 Aug 20. doi: 10.1007/s10278-018-0105-8
+2. Large-scale characterization of risk factors for complex disease. My background is in genomics and computational
+biology, and my early work focused on design and analysis of studies to prioritize genetic risk factors for complex
+disease. However, I have always had a translational focus on copy number variants (CNVs), and I contributed to
+PennCNV, one of the original algorithms to call CNVs from GWAS results. As a student and a postdoc, I was exposed
+to all aspects of GWAS, including assay development to detect CNVs by PCR as well as and sample recruitment for
+studies in complex diseases like autism and age-related macular degeneration.
+a. Hadley D, et al.: Patterns of Sequence Conservation in Presynaptic Neural Genes. Genome Biol.
+2006;7(11):R105. PMCID: PMC1794582
+b. Hadley D, et al.: Analysis of six genetic risk factors highly associated with AMD in the region surrounding
+ARMS2 and HTRA1 on chromosome 10q26. IOVS. 2010 Apr;51(4):2191-6.
+c. Orlin A*, Hadley D*, et al.: Association between high risk disease loci and response to Anti-VEGF treatment for
+wet AMD. Retina, 2012 Jan;32(1):4-9, *shared contribution.
+d. Himmelstein, DS, …Hadley D, et al.: Systematic integration of biomedical knowledge prioritizes drugs for
+repurposing. Elife. 2017 Sep 22;6. pii: e26726. doi: 10.7554/eLife.26726.
+3. Translating genomic discoveries into clinical interventions for neuropsychiatric disease. I have made significant
+translational discoveries across the neuropsychiatric disease spectrum working at the Center for Applied Genomics
+which houses the largest academic pediatric biobank in the world with over 300,000 genotyped samples and associated
+with EMRs. I was able to learn production scale genomics, and the intricacies of maintaining a large biobank. In addition
+to characterizing the disease genomics of a number of disorders with both genotyping and sequencing, my work has
+resulted on an ongoing ‘precision medicine’ clinical trial for ADHD (ClinicalTrials.gov Identifier: NCT02286817).
+a. Hadley D & Hakonarson H: The Genetics of Autism. Medscape Genomic Medicine, 2011.
+b. Bucan M, …Hadley D, et. al: Genome-wide analyses of exonic copy number variants in a family-based study
+point to novel autism susceptibility genes. PLoS Genet. 2009 Jun;5(6):e1000536. PMCID: PMC2695001
+c. Elia J, …Hadley D, et al.: Genome Wide Copy Number Variation Study Associates Metabotropic Glutamate
+Receptor Gene Networks with Attention Deficit Hyperactivity Disorder. Nat Genet. 2011 Dec 4;44(1):78-84.
+PMCID: PMC4310555
+d. Hadley D, et al.: The impact of metabotropic glutamate receptor and other gene family interaction networks on
+autism spectrum disorders. Nat Commun. 2014 Jun 13;5:4074. PMCID: PMC4059929
+
+Complete List of over 39 Published Works in MyBibliography:
+
+https://www.ncbi.nlm.nih.gov/myncbi/dexter.hadley.1/bibliography/public/
+D. Research Support
+Ongoing
+U01 LM012675- Hadley (PI)
+08/01/2017-07/31/2021
+NIH/NLM
+Crowd-Assisted Deep Learning (CrADLe) Digital Curation to Translate Big Data into Precision Medicine
+This proposal is about engineering Crowd Assisted Deep Learning (CrADLe) machine intelligence to rapidly scale the
+digital curation of public digital samples and directly translating this ‘omics data into useful biological inference.
+1U 19AR076737 - Hadley (PI)
+09/25/2019-05/31/2024
+NIH/NIAMS
+Informatics core for UCSF REACH BACPAC Consortium
+
+The Informatics Core (IC) will translate patient data on chronic lower back pain (cLBP) collected by UCSF REACH into
+translational models of clinical intelligence that improve chronic lower backpain outcomes.
+Completed
+UH2CA203792 Hadley (PI)
+02/01/16-03/31/18
+NIH/NCI
+Crowd-sourcing A STAR Functional Genomic Characterization of Cancer with Open Big Data
+The major goals of this project are to leverage our STARGEO tool to make annotations on the public data at scale with a
+crowd-sourcing paradigm, to describe pan-cancer digital samples and appropriate tissue controls, and to use these
+crowd-sourced annotations to establish a genomic-data driven classification (nosology) for cancer, and use it to discover
+novel drugs and biomarkers for cancer.
+R01HL129856 Hsue, Ganz, Freiberg (MPI)
+09/01/2016 - 06/30/2020
+NHLBI
+Protein Biomarkers for CVD Prediction in HIV-Infected and Uninfected Veterans
+The goals of this project are to: 1) discover a broad range of protein biomarkers predictive of CVD and
+mortality events; 2) identify a small multi-protein panel of biomarkers among HIV+ individuals to predict
+cardiovascular outcomes and mortality events; and 3) determine whether an optimal combination of proteins
+in a panel derived in Aim 2 can improve on the prognostic performance of existing models based on
+traditional risk factors.
+Role: Co-Investigator
+R01CA174929- Park (PI)
+05/01/2014-02/28/2019
+NIH/NCI
+A biophysical stromal basis for radiation sensitivity in ductal carcinoma in situ
+Our goals are to determine if and how ECM tension specifically regulates IR therapy resistance by testing 1) whether the
+YAP pathways are acting independently in IR- mediated cell death and proliferation; 2) and whether integrin
+mechanosignaling modifies this regulation. In addition, we have the unique opportunity to investigate whether stromal
+biophysical and morphological features are associated YAP signaling and disease progression in clinical DCIS.
+Role: Co-Investigator
+
+Effective 01/30/2023
+
+NSF BIOGRAPHICAL SKETCH
+
+OMB-3145-0058
+
+IDENTIFYING INFORMATION:
+NAME: Metcalf, David
+POSITION TITLE: Director, METIL
+PRIMARY ORGANIZATION AND LOCATION: University of Central Florida, Orlando, Florida,
+United States
+Professional Preparation:
+ORGANIZATION AND LOCATION
+
+Nova SE University, Ft Lauderdale, Florida,
+United States
+Nova SE University, Ft Lauderdale, Florida,
+United States
+
+DEGREE
+(if applicable)
+
+RECEIPT DATE
+
+FIELD OF STUDY
+
+PHD
+
+02/1998
+
+Information Systems
+
+MS
+
+04/1996
+
+BA
+
+04/1990
+
+University of Texas, Austin, Texas, United States
+
+Computer-Based
+Learning
+Studio Art, Computer
+Graphics
+
+Appointments and Positions
+2005 - present Director, METIL, University of Central Florida, Institute for Simulation and
+Training, Orlando, Florida, United States
+2018 - present Managing Director, Global Blockchain Ventures, Orlando, Florida, United States
+Products
+Products Most Closely Related to the Proposed Project
+1. Metcalf DS, ET AL. Trustmark, Voice, AI and Trust in Healthcare. ProjectVOICE;
+2023 April 16; Chattanooga, TN.
+2. Metcalf DS. Learngineering: AI and Next Generation Training. Innovations in Leadership,
+Training 2023; 2023 February 12; Orlando, FL.
+3. Metcalf DS, ET AL. It Speaks, It Listens, It's Your Daily Voice Assistant - Leveraging Voice
+Technology in Health and Wellness. HIMSS Machine Learning & AI for Healthcare Forum;
+2023 April 17; Chicago, IL.
+4. Metcalf DS, ET AL. ABC: AI, Blockchain and Cybersecurity for Healthcare (Series). Chicago:
+Routledge; 2024.
+5. Hadley D, Metcalf D. Smart Hospital of the Future. Frisch P, editor. Chicago: Routledge; 2024.
+Healthcare and the MetaVerse.
+Other Significant Products, Whether or Not Related to the Proposed Project
+1. Metcalf DS, ET AL. ABC: AI, Blockchain and Cybersecurity for Energy (Series). Chicago:
+Routledge; 2024.
+2. Dhillon V, Metcalf DS, Hooper M. Blockchain Enabled Applications. 2nd ed. New York:
+Springer/APRESS; 2021. 504p.
+3. Metcalf DS, Fisher T, ET AL. Voice Technology in Healthcare. Chicago: HIMSS, Taylor &
+Francis; 2020.
+4. Metcalf DS. Blockchain, Cybersecurity and Simulation. I/ITSEC; 2019 December 06; Orlando,
+SCV Biographical Sketch v.2023-1 (rev. 01/31/2023)
+
+Page 1 of 2
+
+FL.
+5. Metcalf DS., inventors. APPARATUS AND PROCESS FOR MOBILE … SERIALIZATION
+USING MESSAGING ON THE MOVING KNOWLEDGE ENGINE PLATFORM. USA
+9,119,050. 2015 August 25.
+Synergistic Activities
+1. Project AI Avengers; Analysis and novel uses of AI for Navy Applications; US Navy, 2022
+2. SMART; PI; Augmented Reality, AI, Cybersecurity; DoE Nuclear Security, 2021-present
+3. UCF Aviation STEM Outreach Program; PI; engaging K-12 in future careers, 2019-present
+4. Open Voice Network; Board Member; AI, Natural Language Processing and Ethics; Intelligent
+Health Association, IEEE, and Linux Foundation; 2022-present
+5. NSF ICorps; Co-Investigator; over 150 teams over 18 cohorts; National Science Foundation ;
+2014-present
+Certification:
+When the individual signs the certification on behalf of themselves, they are certifying that the
+information is current, accurate, and complete. This includes, but is not limited to, information related
+to domestic and foreign appointments and positions. Misrepresentations and/or omissions may be
+subject to prosecution and liability pursuant to, but not limited to, 18 U.S.C. §§ 287, 1001, 1031 and 31
+U.S.C. §§ 3729-3733 and 3802.
+Certified by Metcalf, David in SciENcv on 2023-10-30 10:56:39
+
+SCV Biographical Sketch v.2023-1 (rev. 01/31/2023)
+
+Page 2 of 2
+
+amoy.fraser@ucf.edu
+Dr. Amoy Fraser, Email:
+Reason: Read and approved
+Time: 25/Mar/2024 07:50:12 -0400
+PhD, CCRP, PMP fa47d4d0-e6bc-4ab9-a7af-aebc147a8498
+Name: Dr. Amoy Fraser, PhD, CCRP, PMP
+
+OMB No. 0925-0001 and 0925-0002 (Rev. 10/2021 Approved Through 01/31/2026)
+
+BIOGRAPHICAL SKETCH
+Provide the following information for the Senior/key personnel and other significant contributors.
+Follow this format for each person. DO NOT EXCEED FIVE PAGES.
+
+NAME: Amoy Fraser, Ph.D.
+eRA COMMONS USER NAME (credential, e.g., agency login): AMOYFRASER
+POSITION TITLE: Director
+EDUCATION/TRAINING (Begin with baccalaureate or other initial professional education, such as nursing,
+include postdoctoral training and residency training if applicable. Add/delete rows as necessary.)
+DEGREE
+(if
+applicable)
+
+Completion
+Date
+MM/YYYY
+
+BS
+
+1997
+
+Psychology
+
+Florida International University, Miami, FL, USA
+
+Certificate
+
+2003
+
+Pedagogy
+
+Florida International University, Miami, FL, USA
+
+MS
+
+2004
+
+Criminal Justice
+
+University of South Florida, Tampa, FL, USA
+
+MA
+
+2011
+
+Criminology
+
+Project Management Institute, Boston, MA, USA
+
+Certification
+
+2012
+
+Project Management
+
+Society of Clinical Research Associates, Chalfont,
+PA, USA
+University of Central Florida, Orlando, FL, USA
+
+Certification
+
+2017
+
+Clinical Trials
+
+PhD
+
+2019
+
+Public Affairs:
+Governance and Policy
+Research
+
+INSTITUTION AND LOCATION
+Barry University, Miami, FL, USA
+
+FIELD OF STUDY
+
+A. Personal Statement
+I am the Director of the Clinical and Aerospace Health Research at the University of Central Florida’s College
+of Medicine. In this role, I assist with the operations of various comprehensive and impactful studies. In 2017, I
+received my Certified Clinical Research Professional (CCRP) certification. In addition to my certification, I also
+hold a Ph.D. in Public Affairs: Governance and Policy Research. This foundation allows me to partner and
+assist faculty at USCF to ensure the greatest outcomes for their studies. My educational background in
+addition to my expertise in clinical research and my strong history of collaboration with Dr. Masternak makes
+me uniquely qualified to serve as a Director on this study.
+B. Positions, Scientific Appointments, and Honors
+Research and Professional Experience
+2020 – present
+Director- Clinical and Aerospace Health Research, University of Central Florida College of
+Medicine
+2020 – present
+WOC Research Health Science Specialist, Orlando VA Medical Center
+2020 – present
+Voting Member, University of Central Florida Institutional Review Board
+2020 – 2021
+Director or Research and Innovative Programs, DACCO Behavioral Health
+2019 – 2020
+Clinical Trials Program Coordinator- Risk and Feasibility. Tampa General Hospital
+2017 – 2019
+Advanced Clinical Research Administrator. University of South Florida.
+2009 – 2020
+WOC Research Health Science Specialist, James A Haley VA Medical Center/ Tampa
+Veterans Research and Education Foundation
+
+C. Contributions to Science
+1. Bose, Cuthbertson, Fraser, Roullet, Gibson, Schules, Gawron, Gamble, Sacra, Lopez, & Rizzo. (2020).
+Zellweger Spectrum Disorder: A cross-sectional study of symptom prevalence using input from family
+caregivers. Molecular Genetics and Metabolism, 25,
+December.https://www.sciencedirect.com/science/article/pii/S2214426920301403
+2. Javete, Fraser, Fukes, Metcalf, Bastiano, Mellilo, Perez, Sky, & Levy. (2020). Decreased Substance
+Abuse in Suicidal Veterans after Receiving Spirituality-Based Crisis Intervention. Journal of Military and
+Government Counseling, 8(2), 1-18. http://mgcaonline.org/wpcontent/uploads/2021/05/JMGC-Vol-8-Is2.pdf
+3. Fraser & Melillo. (2018). Expanding the Scope of Practice of APRNs: Literature Review of the Cost
+Analyses Methods Used. Nursing Economic$, 36(1), 23-28.
+4.
+
+Lind, Powell-Cope, Chavez, Fraser, & Harrow. (2013). Negotiating Domains of Patient Dignity in VA
+Spinal Cord Injury Units: Perspectives from Interdisciplinary Care Teams and Veterans. Annals of
+Anthropological Practice-Special Issue: Anthropology Goes Public in the VA, 37(2), 130-148.
+
+Chaithanya Renduchinala, Ph.D.
+Mailing Address:
+2402 Marlboro Street
+Orlando, FL 32801
+
+Cell Phone: 480-358-7417
+Email: chait.rendu@ucf.edu
+
+EDUCATION
+Ph.D. in Modeling and Simulation, School of Modeling, Simulation and Training,
+University of Central Florida
+
+December 2022
+
+Master of Science, Modeling and Simulation, School of Modeling, Simulation and
+Training, University of Central Florida
+
+December 2015
+
+Master of Science, Biomedical Science, College of Medicine, University of Central
+Florida
+
+August 2014
+
+Master of Science, Textile Technology Management, Wilson College of Textiles, North
+Carolina State University
+
+May 2003
+
+Bachelor of Textile Technology, D.K.T.E Textile & Engineering Institute,
+Ichalkaranji, India
+
+April 1999
+
+WORK EXPERIENCE
+•
+•
+
+Assistant Professor, Rosen College of Hospitality Management, May 2023
+to present
+Senior Health Data Analyst, Community Health, Cleveland Clinic Foundation, July 2022
+to April 01, 2023.
+
+•
+
+Community Health Improvement Planning, Florida Department of Health, Orange
+County, June 2020 to March 2022
+
+•
+
+Venture Development Manager, Business Incubation Program, University of Central
+Florida, August 2012 to April 2019
+
+•
+
+Technology Licensing Associate, Technology Transfer, University of Central Florida
+August 2007 to August 2012
+
+•
+
+Technology Licensing Associate, Technology Transfer, Texas A& M University System
+Office, College Station Texas. January 2006 to July 2007
+
+•
+
+Business Process Analyst/Project Manager, Knowledge Sharing Systems, Raleigh, North
+Carolina, January 2004 to January 2006
+
+•
+
+Process Analyst, Office of Technology Transfer, North Carolina State University, Raleigh,
+
+Chaithanya Renduchintala, Ph.D.
+of 5
+
+Updated January-18-2023
+
+Page 1
+
+North Carolina, July 2003 – July 2004
+
+TECHNICAL SKILLS AND EXPERTISE
+Programming for Data Science
+• Python, R and familiarity with SPSS, SAS, SAS-Adx, Geo-Spatial Analysis.
+Graduate Level Course work
+• Supervised and Unsupervised Machine Learning, Data mining, Advanced Data mining,
+Structural Equation Modeling and Experimental Design. Strong Emphasis on model
+interpretation.
+Data Sets Analyzed
+• Analysis of American Community Survey (ACS), Behavioral Risk Factor Surveillance
+System (BRFSS) and Social Vulnerability Index (SVI) datasets in the design of Community
+Health Plans using R, Python, Jupyter Notebook,
+• Data Modeling: Relational, Document and Graph Data modeling, TeraData MSSQL server,
+MongoDB, PostgreSQL, Neo4J
+• Web Development Technologies: JavaScript, React and Angular.
+
+ACADEMIC AWARDS AND HONORS
+International Recognition
+• 1st Place, Society for Design and Process Science, SDPS 2018 conference, Taichung, Taiwan
+Institutional Recognition
+• $10,000 Fellowship from UCF Graduate Studies
+• Judges’ Choice Award at the 2022 Student Scholar Symposium, UCF for “Synthetic Data and
+Data Collection Systems for Community Health Improvement Planning”
+Graduate Student Position
+• Graduate Assistant – College of Community Innovation and Education, University of Central
+Florida, 2019 - 2020.
+Professional Certification
+• Business Incubation Management Certificate, iNBIA (September 11th, 2015), Colorado, USA
+
+PROJECTS OF SIGNIFICANCE
+COMMUNITY HEALTH
+4. Utilization of American Community Survey (ACS), Social Vulnerability Index (SVI) and
+Behavioral Risk Factor Surveillance System (BRFSS) data to develop geospatial models that
+evaluate impact of health interventions. Code implementation in Jupyter Notebooks.
+
+Chaithanya Renduchintala, Ph.D.
+of 5
+
+Updated January-18-2023
+
+Page 2
+
+3. Implementation of data integration between Community Health Survey System (Redcap) and
+Electronic Data Vault (EDV). Advanced SQL querying of TeraData warehouse (EDV), EPIC
+EHR clinical records to evaluate, hospital utilization, Meal’s program. Code implementation
+in Jupyter Notebooks and TeraData Sql.
+2. Community Health Planning and Implementation conceptualization using Machine
+Learning, Graph Data Models, Evidence Based Methods such as Structural Equation
+Modelling, survey implementation using ArcGIS Survey123 and Geospatial analytic
+techniques. Code implementation using ML python packages scikit learn, tensorflow,
+keras, pandas, AMOS, SPSS and SAS.
+1. Built and led a coalition of 60+ regional community health related organizations including
+hospitals, not-for-profits provider engagement based on the Mobilizing Action through
+Planning and Partnerships defined by NACCHO. Development of the Community Health
+Improvement Plan in compliance with the PHAB requirements. Developed the “Community
+Health Improvement Plan for Orange County 2021 – 2025”, Florida Department of
+Health, Orange County on behalf of the Health Officer for Orange County.
+INCUBATOR AND TECHNOLGY TRANSFER
+3. Counseled faculty, staff and students in matters relating to intellectual property, licensing,
+and conflicts of interest, in addition to active participation in faculty outreach programs.
+2. Coached over 100+ technology startups on growth strategy, SBIR grant applications and
+market research. Resulted more than $10 million in funding. Project valuation, Business
+Model Canvas (BMC) and Value Proposition Canvas (VPC) development, Small
+Business Innovation Research (SBIR) grants, Go-To-Market Strategy development,
+quantitative/ primary and secondary market research.
+1. Facilitated investor pitch presentation to the Emerging Technology Fund for a neural
+network-based image analysis system to detect viability of Cryptosporidium and Giardia
+in water. Successfully help Incubator company apply for SBIR phase 1 and phase 2
+grants that resulting in the development of a water resource management product.
+SOFTWARE IMPLEMENTATION AND DEVELOPMENT
+1. Renduchintala, C., (2017), Collaborative Concept Modeling Tool for Healthcare, Social
+and Business Modeling, The StartUpLink
+PATENTS
+2. Renduchintala, C., (2017), Interactive exercise devices and systems (#US20170274268A1)
+US20170274268A1 - Interactive exercise devices and systems - Google Patents
+1. Jayan Thomas, Chao Li, Renduchintala, C., (2018). An integrated energy harvesting and
+storage device, WO2017139258A1 - An integrated energy harvesting and storage device Google Patents.
+
+Chaithanya Renduchintala, Ph.D.
+of 5
+
+Updated January-18-2023
+
+Page 3
+
+PUBLICATIONS
+Dissertation
+1. “A Transdisciplinary Emergent Approach for Systems and Interventions (EASI™),”
+Modelling and Simulation, College of Engineering and Computer Science, University of
+Central Florida Fall 2022. Committee Chair: Dr. Varadraj Gurupur
+Thesis
+1. “Relationship between the processing parameters and tensile properties of air textured Kevlar
+yarns,” Textile and Apparel, Technology and Management, North Carolina State University,
+Fall 2002. Committee Chair: Dr. William Oxenham.
+Refereed Journal Articles Under Review
+1. Velasco, E. Huang, A. Renduchintala, C., (2024). Exploring Instructional Strategies in
+Tourism and Hospitality Education: A Comprehensive Review of Literature
+, Journal of Hospitality & Tourism Education.
+2. Croes, R., Renduchintala, C., Badu-Baiden., F, (2024). Reimagining indigenous tourism: the
+RISE framework, Tourism Planning & Development
+Peer-Reviewed Articles Published in Conference Proceedings
+3. Renduchintala, C., Gurupur, V., Wan, T.T.H., (2020). Data Architecture for Motivation
+Measurement in a Game-based Rehabilitation System, Proceedings of the IEEE Southeast
+Conference 2020, March 12 -15, Raleigh, NC.
+4. Renduchintala, C., Ramasamy, H., Karwowski, W., (2018) Child-Centric Interactive
+Exercise Devices (CCIED) and System for Conductive Education Therapy.
+1. Renduchintala, C., Matthews, S., (2017) Intelligent Tutor System for Laboratory Testing for
+Febrile Rash Illness, Proceedings of the 5th Annual GIFT Users Symposium.
+Proposed Journal Articles in 2025 - 2026
+4. Renduchintala, C., Croes, R., (2024). “TrEASE™ - Travel Enterprise Architecture for
+Social Equity”, Annals of Tourism Research Empirical Insights,
+5. Renduchintala, C., (2024). "An emergent approach to design systems and interventions for
+community health improvement planning and implementation", Journal of Integrated Design
+and Process Science
+2. Renduchintala, C., Croes, R., (2025), “Language Models to predict regional trends and
+priorities in tourism” Spring.
+3. Renduchintala, C., Gurupur, V., (2025), “Community Health Improvement data model as a
+Chaithanya Renduchintala, Ph.D.
+of 5
+
+Updated January-18-2023
+
+Page 4
+
+communication channel” Journal of Integrated Design and Process Science summer/ fall
+1. Renduchintala, C., Hadley, D., (2025), “Fine-Tuning large language models to match
+patients to precision oncology clinical trials”. Summer / fall
+PRESENTATIONS
+Invited Talks
+1. Renduchintala, C., (2021), Ideation and Problem-Solving Techniques, December 24th, 2021,
+Guru Nanak Institutions Technical Campus, Telangana, India (Presented Online due to
+COVID 19 outbreak).
+Peer Reviewed Presentations
+2. Renduchintala, C., (2020). Data Architecture for Motivation Measurement in a Game-based
+Rehabilitation System, March 27, 2020 (Presented Online due to COVID 19 outbreak)
+1. Renduchintala, C., (2018), Child-Centric Interactive Exercise Devices (CCIED) and System
+for Conductive Education Therapy, April 24-26, 2018, Norfolk, VA.
+Workshops
+3. Renduchintala, C., (2022), “Coding Lab for Federated Transfer Learning”, UCF
+WEALTH Symposium at Lake Nona, University of Central Florida with Technology
+sponsored by Google.
+2. Renduchintala, C., (2021), “Community Health Improvement Plan Annual Workshop”,
+Florida Department of Health, Orange County, Florida.
+1. Renduchinta, C., (2016,2017,2018), “Go-To-Market-Strategy Presentation”, University
+of Central Florida Business Incubation Program
+PROFESSIONAL and COMMUNITY SERVICE
+3. Served as a reviewer for IEEE Southeast Conference 2023
+2. Served as a coach and mentor to military veteran entrepreneurs (2017 -2018) Veterans
+Entrepreneurship Initiative (VEI), University of Central Florida Business Incubation Program
+1. Served in the COVID-19 Vaccination Drive Effort, (December 2019 to April 2020), Orange
+County Convention Center, Florida Department of Health, Orange County
+
+Chaithanya Renduchintala, Ph.D.
+of 5
+
+Updated January-18-2023
+
+Page 5
+
+1
+
+Allana N.R. Roach, PhD, MSB
+Madison, AL
+allana.roach@gmail.com
+Dedicated human geneticist with over 16 years of experience in research, teaching and higher education
+administration. I have a strong track record of implementing activities that integrate evidence-based practices
+with contextual insights to enhance ethical, inclusive research practices and promote equitable health
+outcomes. My strengths include facilitating complex interdisciplinary collaborations and fostering innovation
+across organizational, national, and international boundaries.
+
+EDUCATION
+DEGREES
+2019
+
+2008
+2003
+
+Masters in Bioethics, Clarkson University, New York (Fogarty Fellowship)
+“Attitudes of members of Institutional Review Boards located in the Caribbean regarding the review of
+genetics research proposals”.
+PhD Genetics and Human Genetics. Howard University, Washington DC.
+“Racial identity attitudes and coping strategies in African Americans with sickle cell disease”.
+BS Biology. Howard University, Washington DC
+
+POSTGRADUATE CERTIFICATES
+2016
+2011
+2010
+
+Research Ethics, Clarkson University, New York (Fogarty Fellowship)
+External Evaluator, Accreditation Council of Trinidad and Tobago
+Monitoring and Evaluation, MEASURE Evaluation, University of North Carolina
+
+CURRENT APPOINTMENT
+2023- Pres: Liaison, Health & Training Initiatives, Trinidad and Tobago Red Cross Society
+Overview:
+The Trinidad and Tobago Red Cross Society (TTRCS) is a vital member of the International Federation of
+Red Cross and Red Crescent Societies. As a non-profit humanitarian organization and auxiliary to the
+Government of Trinidad and Tobago, TTRCS is dedicated to supporting vulnerable communities through
+disaster preparedness initiatives and delivering high-quality health programs.
+Significant Accomplishments:
+•
+Secured Funding: Partnered with the leadership team to obtain essential funding within six months for
+critical capital projects, directly advancing the strategic plan. Funding agencies include: European
+Development Fund, Global Support and Development, International Federation of the Red Cross, Pan
+American Development Fund and Government of the Republic of Trinidad and Tobago. Key initiatives
+include:
+- Constructing and renovating facilities to establish a state-of-the-art training academy.
+- Enhancing community health services through health fairs and mobile clinics, benefiting both
+migrant and host communities.
+- Procuring advanced imaging equipment, to elevate diagnostic capabilities at an existing clinic.
+•
+Policy Development: Spearheaded the creation of comprehensive policies and procedures for the TTRCS
+health unit and humanitarian training academy. Serve as TTRCS Liaison to influence national public
+health policies and strategies, including participation in the Mental Health and Psychosocial Support
+Working Group, which developed a national intervention to coordinate all MHPSS support efforts.
+•
+Project Management: Led and executed health outreach initiatives, research project, and training
+programs driving impactful outcomes. Coordinate transdisciplinary teams ranging from 3 to 30 persons
+per public health activity.
+
+2
+
+ACADEMIC APPOINTMENTS
+St. George’s University, Grenada
+2021 – Pres, Research Fellow, WINDREF Research Institute
+2022 – 2023, Associate Professor, Department of Biochemistry, School of Medicine
+2020 – 2022, Associate Professor, Department of Educational Services
+2016 – 2019, Assistant Professor & Learning Strategist, Department of Educational Services
+Administrative:
+• 2021 – 2022: Division Director, Academic Student Success Initiatives, Supports and Training
+• 2019 – 2021: Director, Academic Support Administration and Innovation Unit
+• 2018 – 2019: Associate Director, Student Academic Support & Development
+• 2017 – 2019: Coordinator, Graduate & Year 1 SOM Learning Strategies Programs
+• 2017 – 2019: Coordinator, Master of Education Program
+• 2016 – 2017: Interim Coordinator, Master of Education Program
+Accomplishments:
+• Provided oversight for student and faculty research initiatives within the department.
+• Course Director and lecturer across multiple subject areas including genetics, biochemistry, molecular
+biology, qualitative and quantitative research methods, and research ethics.
+• Oversight for 4 Unit Directors, 35 faculty, 5 administrative staff, and over 500 peer facilitators.
+• Collaborated across institutional and international boundaries to design relevant programs and policies.
+• Led transition of services from in-person to online then to hybrid due to COVID-19 pandemic.
+• Served on several university committees including University Policy Working Group, Committee for
+Technology-based Teaching & Learning, Values in Action and Institutional Review Board.
+• Awarded Bursary, from Nuffield, Department of Population Health, University of Oxford, UK
+The University of the West Indies (UWI), Trinidad
+2023 – PRES, PBL Tutor (Adjunct), Pre-Clinical and Para-Clinical Sciences, Faculty of Medical Sciences
+2014 – 2015, Lecturer, Public Health & Primary Care, Faculty of Medical Sciences
+2013 – 2014, Consultant, National Eye Survey of Trinidad and Tobago, The UWI
+Administrative:
+• 2014 – 2015: Acting Coordinator, Master of Public Health
+Accomplishments:
+• Course Director and lecturer across multiple subject areas including Health Communication and Health
+Promotion, Public Health Research Methods, Bioethics, Research Ethics, Medical Ethics, Genetic Counseling,
+and the Psychosocial Aspects of Medicine. Problem Based Learning Tutor.
+• Led a multidisciplinary translational genomics research team focused on cancer genomics.
+• Member of leadership core for the National Eye Survey of Trinidad and Tobago, led Genetics Substudy.
+• Collaborated with Centre for Medical Science Education to develop curriculum for courses in
+Professionalism, Ethics and Communication.
+• Founding Member, Campus Research Ethics Committee (2015) & member of the Faculty of Medical Sciences
+Research Ethics Committee (2014-2015).
+• Received Campus Research & Publication Award (2015)
+The University of Trinidad and Tobago (UTT), Trinidad
+2013 – 2015. Lecturer (Adjunct), Health Sciences Unit
+Accomplishments:
+• Course Director and lecturer on ethics for multiple graduate programs, including masters programs in
+Health Administration and Industrial Innovation, Entrepreneurship & Management.
+• Member of the Institutional Review Board and the sub-committee responsible for developing the
+institutional policy on ethics in research.
+
+3
+College of Science, Technology and Applied Arts of Trinidad and Tobago, Trinidad
+2011 – 2011, Lecturer, Organic and Biochemistry, Department of Health Science Technologies
+Accomplishments:
+• Course Director for the Survey of Organic and Biochemistry in the Bachelor of Medical Laboratory
+Technology program.
+• Develop departmental protocols for the procurement of DNA Assays.
+Howard University, Washington, DC
+2008 – 2011, Assistant Professor, Community and Family Medicine, School of Medicine
+2008 – 2011, Lecturer, Genetics and Human Genetics, Graduate School of Arts & Sciences (GSAS)
+2005 – 2007, Teaching Assistant, Genetics and Human Genetics, GSAS
+Administrative:
+• 2008 – 2011: Program Director, Program for Transdisciplinary Genomics at the National Human Genome
+Center.
+Accomplishments:
+• Led Transdisciplinary Genomics Program, which served as a platform for collaborative research.
+• Lecturer across several graduate level programs including Masters in Genetic Counseling, and Graduate
+Studies in Human Genetics as well as interdisciplinary ethics courses across multiple disciplines. Lecture on
+Cancer Genomics, in the Howard University-John Hopkins University Cancer Center Partnership summer
+course for graduate students in molecular genetics.
+• Served on conceptualization team and provided consultation on “Ethics Section” of multimillion dollar
+institutional CTSA grant, which was later awarded.
+• Received Travel Award, 13th Genetics & Ethics in the 21st Century Conference (2009)
+• 50th Year Anniversary Fellow, the Howard University Graduate School, Washington DC (2008)
+
+RESEARCH EXPERIENCE
+PUBLICATIONS
+PEER REVIEWED
+• Abrahim S.C., Bansraj D., Edwards R., Thompson R., Rambaran R., Roach A., Warner W.A., Rao A.V.C., Unakal
+C., and Haraksingh, R.R. Genetic screening of FFPE biopsy samples reveals no evidence of the BRCA1185delAG mutation in Breast Cancer patients in Trinidad and Tobago (2024, In Progress)
+• Warner, W., Lee, T. Y., Badal, K., Williams, T. M., Bajracharya, S., Syndaram, V., Bascombe, N. A., Maharaj, R.,
+Lamont Greene, M., Roach, A., Bondy, M., Ellis, M. J., Rebbeck, T. R., Slovacek, S., Luo, J., Toriola, A. T., &
+Llanos, A. A. M. (2018). Cancer incidence and mortality rates and trends in Trinidad and Tobago. BMC
+Cancer, 18, 712. https://doi.org/10.1186/s12885-018-4763-1
+• Braithwaite, T., Verlander, N., Bartholomew, D., Bridgemohan, P., McNally, K., Roach, A., Sharma, S., Singh,
+D., Pesudovs, K., Teelucksingh, S., Carrington, C., Ramsewak, S., & Bourne, R. (2017). The National Eye
+Survey of Trinidad and Tobago (NESTT): Rationale, objectives and methodology. Ophthalmic Epidemiology,
+24(2), 116-129. https://doi.org/10.1080/09286586.2016.1259639
+• Roach, A., Badal, K., & Sookar, N. (2016). Perspectives in bioethics: Precision medicine a threat to health
+equity. West Indian Medical Journal. https://doi.org/10.7727/wimj.2016.074
+• Roach, A., Braithwaite, T., Carrington, C., Marcellin, E., Sharma, S., Hingorani, A., Casas, J. P., Hauser, M. A.,
+Allingham, R. R., Ramsewak, S. S., & Bourne, R. (2016). Addressing ethical challenges in the genetics
+substudy of the National Eye Survey of Trinidad and Tobago (GSNESTT). Journal of Applied and Translational
+Genomics, 9, 6-14. https://doi.org/10.1016/j.jatg.2016.06.001
+• Roach, A., Warner, W. A., & Llanos, A. A. M. (2015). Building capacity for human genetics and genomics
+research in Trinidad and Tobago. Revista Panamericana de Salud Pública, 38(5), 425-430.
+https://doi.org/10.26633/RPSP.2015.183
+• Warner, W. A., Lee, Y. L., Williams, T. M., Ramnarine, S., Roach, A., Slovacek, S., Maharaj, R., Bascombe, N.,
+Bondy, M., Ellis, M. J., Toriola, A. T., & Llanos, A. M. (2015). Associations among race/ethnicity, geography,
+and breast cancer incidence and mortality in Trinidad and Tobago. Cancer Medicine, 4(11), 1742-1753.
+
+4
+•
+•
+
+https://doi.org/10.1002/cam4.517
+Ohi, S., Roach, A.-N., Ramsahai, S., Kim, B. C., Fitzgerald, W., Riley, D. A., & Gonda, S. R. (2004). The
+hematopoietic stem cell therapy for exploration of deep space. In M. S. El-Genk (Ed.), Space Technology and
+Applications International Forum (pp. 938-950). American Institute of Physics.
+Ohi, S., Roach, A.-N., Fitzgerald, W., Riley, D. A., & Gonda, S. R. (2004). The hematopoietic stem cell therapy
+for exploration of deep space. Journal of Gravitational Physiology, 10, 63-64.
+
+CONFERENCE PROCEEDINGS
+• Ricks-Santi, L; Roach, AN (2009). White paper. Awareness of Direct-to-Consumer (DTC) genomic scans
+among minorities. American Public Health Association. 20th Meeting. Secretary’s Advisory Committee on
+Genetics, Health, and Society. (selected for presentation)
+• Ohi, Seigo; Roach, Allana-Nicole; Kim, B. C.; Ohi, S., Riley, D. (2006). Differential effects of haematopoietic
+stem cells on cancer (gliosarcoma spheroids) and normal tissues: towards developing haematopoietic stem
+cell therapy for astronauts’ cancer. Proc Amer Assoc Cancer Res, Volume 47
+• Ohi, S; Roach, A.N.; Fitzgerald, W.; Riley, D.A.; Gonda, S.R. (2003). The Haematopoietic Stem Cell Therapy for
+Exploration of Deep Space. In 24th International Gravitational Physiology Meeting, p.41, Santa Monica, CA,
+May 2003.
+• Roach, A. N.; Kim, B. C.; Ohi, S. (2003). The Haematopoietic Stem Cell Therapy for Astronauts’
+Immunodeficiency in Space. In NASA Revolutionary Aerospace Concepts-Academic Linkage, Universities
+Space Research Association, Houston, TX, USA. May, 2003.
+
+ORAL PRESENTATIONS
+CONFERENCES
+• Roach, A. (2019). Attitudes of members of Institutional Review Boards located in the Caribbean regarding
+the review of human genetic research [Speaker]. Oxford Global Health and International Bioethics
+Conference.
+• Roach, A. (2019). Learning strategies curriculum development [Invited speaker]. The Generalists in Medical
+Education.
+• Roach, A., Buckland, J., Rabie, S., Alvis, A., Lewis-Roberts, R., George, M., Tupper, K., & Nicholson-Ramdeen,
+M. (2019). The development of a learning strategies curriculum: A collaborative process. Council for
+Education in the Commonwealth Annual Conference, Grenada, West Indies.
+• Buckland, J., Roach, A., & Rabie, S. (2019). What’s the Rx? How to promote effective use of retrieval practice
+[Small group discussions]. Medical Education Learning Specialists Meeting, Phoenix, Arizona.
+• Blackett, P., Richardson, L., Orlando, L., Roach, A., & Alvis, A. (2019). Teaching matters: The predictive value
+of the MCT. Council for Education in the Commonwealth Annual Conference, Grenada, West Indies.
+• Orlando, L., Nicholson-Ramdeen, M., Alexander, B., & Roach, A. (2018). A collaborative model of student
+support. International Education Association Conference, Sydney, Australia.
+• Roach, A. (2018). Addressing ethical challenges in genetics research. World Ophthalmology Congress,
+Barcelona, Spain.
+• Roach, A., & MacPherson, C. (2017). What constitutes research benefits in international research conducted
+in LMICs? [Co-presenter]. Oxford Global Health and International Bioethics Conference.
+• Roach, A. (2017). Vulnerability of participants in international genomics research. Bioethics Webinar,
+Clarkson University Icahn School of Medicine, February.
+• Roach, A. (2016). Are we vulnerable? - Potential sources of vulnerability associated with international
+collaborative genomics research conducted in CARICOM member states. International Association of
+Bioethics Satellite Symposium on Socio-Ethical and Legal (ELSI) Implications of Genome Editing Technologies.
+• Roach, A. (2009). The 1000 Genomes Project: On the Frontier of Personalized Medicine [Moderator]. Howard
+University 1-day Symposium, with support from the National Institutes of Health.
+• Roach, A. (2009). Genomic medicine: It’s personal [Moderator]. Howard University – John Hopkins University
+Cancer Center Partnership Longview Series.
+
+•
+
+•
+
+•
+•
+•
+
+5
+Roach, A. (2009). Awareness of direct-to-consumer (DTC) genomic scans among minorities [Co-authored
+white paper]. American Public Health Association, Secretary’s Advisory Committee on Genetics, Health, and
+Society (20th Meeting).
+Roach, A. (2009). 1000 Genomes Project: On the Frontiers of Personalized Medicine & Look before you leap:
+Ethical implications of genomic research [Invited speaker]. 13th Genetics & Ethics in the 21st Century
+Conference, University of Colorado, Denver.
+Roach, A. (2007). Racial identity attitudes in African Americans with sickle cell disease. Case Western
+University: Center for Research, Ethics, and Law.
+Roach, A. (2003). The haematopoietic stem cell therapy for exploration of space. American Society for
+Gravitational & Space Biology Meeting.
+Roach, A. (2003). The haematopoietic stem cell therapy to countermeasure astronauts’ immunodeficiency in
+space [Featured speaker]. NASA Revolutionary Aerospace Concepts-Academic Linkage, USRA.
+
+SEMINARS AND INVITED TALKS (Selected)
+• Roach, A. (2018, June). International collaborative HGGR studies: Addressing ethical challenges experienced
+in resource-poor and research-naïve settings [Guest speaker]. Cambridge University Hospital, London, UK.
+• Roach, A. (2018, June). Building capacity for genetics and genomics research in the Caribbean community
+[Guest speaker]. Anglia Ruskin University at Cambridge, London, UK.
+• Roach, A. (2016, March). Genetic research in vulnerable populations & The need for oversight & ongoing
+monitoring of research [Delivered 2 talks]. Caribbean Network of Research Ethics Committees, Barbados.
+• Roach, A. (2016, March). More than conquerors: Step it up for gender equality [Invited speaker]. UNESCO
+Club, St. Joseph Convent, Port of Spain, Trinidad.
+• Roach, A. (2016, January). Genetic research in vulnerable populations, Scientific reasoning: Ethical issues
+surrounding stem cell research, & Oversight & ongoing monitoring of research [Delivered 3 talks]. Caribbean
+Public Health Agency Research Ethics Training Workshop, Trinidad & Tobago.
+• Roach, A. (2015, December). Inducement versus compensation; Genetic research in vulnerable populations;
+Scientific reasoning: Ethical issues surrounding stem cell research; Standards for ethical review: Fair selection
+of research participants; Oversight & ongoing monitoring of research. [Delivered 6 topics]. CARPHA Research
+Ethics Training Workshop, Jamaica.
+• Roach, A. (2015, November). What is research ethics? Why is it important? [Speaker & panelist]. Enhancing
+the Culture of Research Ethics in UTT, University of Trinidad and Tobago.
+• Roach, A. (2015, October). Genomics & breast cancer [Speaker]. Trinidad and Tobago Medical Association.
+• Roach, A. (2015, October). Informed consent and preparation of informed consent documents, Scientific
+reasoning: Ethical issues surrounding stem cell research, & Oversight & ongoing monitoring of research
+[Delivered 3 topics]. CARPHA & UNESCO Regional Bioethics Programme, Antigua.
+• Roach, A. (2015, July). BRCA positive: Understanding the familial and clinical implications [Lecture].
+Women’s Health Unit, National Radiotherapy Center, Trinidad & Tobago.
+• Roach, A. (2014). Ethical, social, and clinical implications of genetic testing for breast cancer [Public lecture].
+University of the West Indies.
+• Roach, A. (2011). The role of research in building the organizational capacity [Invited]. Multiple Sclerosis –
+You Are Not Alone (MS YANA), Washington, DC.
+
+PROJECTS/RESEARCH COLLABORATIONS
+•
+
+Harvard University. (2024 - current). Proposal in development for NIH RO1 submission: Building Capacity for
+Genomics Research in the Caribbean - Exploring Foundational Ethical, Legal and Social Issues.
+https://youtu.be/LrX5WKYR0TI
+
+•
+•
+•
+
+University of Illinois Chicago (2024, submitted). Team member for MacArthur 100M and change submission:
+National Healthcare Equity and Innovation Consortium for All.
+The Trinidad and Tobago Red Cross Society (2023, funded). Developed proposal for Training Academy.
+University of Illinois Chicago (2022, not funded). Member of leadership core for Ethical and
+Trustworthy Artificial Intelligence Section of NIH Bridge to Artificial Intelligence (B2AI) proposal.
+
+•
+•
+
+•
+
+•
+
+•
+•
+•
+
+•
+•
+•
+
+6
+FZero Genomics (2019). Developed ethical framework for consumer genomics company.
+The University of the West Indies, Duke University, Anglia Ruskin University. (2013-2014). Research
+collaboration to conduct an epidemiological survey of eye diseases in Trinidad and Tobago. Developed
+ethical framework for study and spearheaded the development of a community engagement and
+sensitization strategy. Led genetics sub-study including the collection of research samples.
+Centers for Disease Control (CDC) Global AIDS Program, United States Embassy in Trinidad & Tobago. (2010)
+Assist in the conceptualization of a Program Implementation Development Model for “Integrated HIV
+Counseling and Testing” in Developing Countries. Also hold regular discussions with the In-Country Liaison
+regarding the development culturally-relevant and culturally-sensitive tools and approaches.
+General Research Laboratory, Inc, Gaithersburg, Maryland. (2010) Work with PI and US Department of Defense
+personnel to identify multiple stakeholders and conduct partnership meetings aimed at developing mutually
+beneficial terms of project collaborations.
+Community Outreach Association. (2009) Assisted in the development and implementation of this community
+health education non-profit organization.
+Community Genetics Education Network, Department of Community & Family Medicine, Howard University,
+Washington, DC. (2009-2010) Assisted the Program Coordinator in the development of a research agenda.
+Multiple Sclerosis – You Are Not Alone (MS YANA), Washington, DC. (2009) Assisted this community
+empowerment group in the development of their research agenda. Also lead discussions about the role of
+research in building the organization’s capacity.
+Institute for Genome Sciences & Policy, Duke University, North Carolina. (2009) Provided phone/email
+consultations with PI on revising research study methodology for grant resubmission.
+Sickle Cell Disease Association of America, Baltimore, MD. (2007) Part of original Task Force which discussed
+the development of a national database for individuals diagnosed with sickle cell disease in the USA.
+The FACES Project, Washington, DC. (2002 – 2003) Assisted in the development and implementation of this
+community-based prostate cancer non- profit organization.
+
+STUDENT ADVISING AND MENTORSHIP
+•
+•
+
+Advising Experience: From 2009 to the present, conducted over 1,200 learning strategies appointments
+and served as faculty advisor for more than 90 at-risk medical students.
+Research Supervision: Mentored and supervised research for 1 postdoctoral student, 5 master’s level
+students, and 14 medical students.
+
+SERVICE (Select)
+2024 – Pres
+2024 – Pres
+2024 – Pres
+2011 – Pres
+2015 – 2020
+2013 – 2018
+2012 – 2013
+
+Co-Chair, ELSI Working Group, Human Hereditary, Health & Environment Caribbean Initiative
+Chair, Programs Development and Implementation Committee, CAGMHI-TT
+Board Member, Country Action Group Mental Health Initiatives (CAGMHI-TT), Rotary Int’l
+External Evaluator, Accreditation Council of Trinidad and Tobago
+Topic Expert, Research Ethics Committee, Caribbean Public Health Agency
+Selection Officer, United World Colleges (Trinidad and Tobago) Trust
+Journal Medical Ethics, British Medical Journals, Manuscript reviewer
+
+PROFESSIONAL SOCIETIES AND AFFILIATIONS
+•
+•
+•
+•
+•
+•
+•
+•
+
+Rotary International, District 7030
+Bioethics Society of the English-Speaking Caribbean
+American Public Health Association
+American Society for Gravitational and Space Biology
+American Institute of Biological Sciences
+Golden Key Honor Society, Member
+Sigma Xi, The Scientific Research Society
+Beta Kappa Chi
+
+Figure 1.
+
+Figure 2. MammoChat.com. This figure is a screen shot of the current IRB approved recruitment page
+at MammoChat.com
+
+Figure 3. HL7/FHIR Research Platform. This figure is a screen shot of the current HIPAA-compliant
+platform based on AidBox implementation of HL7/FHIR storage for clinical data. The platform allows for
+interoperability with any health care provider including AdventHealth, our clinical partner.
+
+Figure 4. Social Wellness Platform. This figure is a screen shot of the current HIPAA-compliant
+communication platform based on Discourse implementation. The platform allows users to share their
+clinical data from AidBox’s HL7/FHIR implementation including mammography to engage communication.
+
+Figure 5. Breast Cancer AI Imaging Study. This figure is a screen shot of the current clinical trial
+testing introducing the social health platform called MammoChat (https://MammoChat.com) that allows
+patients to share their real-world patient data to a trusted network for development of clinical intelligence
+to improve patient outcomes. For the first study we are testing the effects of MammoChat on screening
+anxiety.
+
+CovidImaging.US
+
+Figure 6. CovidImaging.US Study. This figure is a screen shot of our last study collecting Covid
+Imaging (https://CovidImaging.US) that allows patients to share their real-world patient data to a trusted
+network for development of clinical intelligence to improve patient outcomes.
+6
+
+Facebook Ads Campaign
+
+Figure 7. CovidImaging.US Study Social Marketing. We developed a social media campaign on
+FaceBook to recruit patients willing to share their COVID imaging with us.
+
+N = 48 imaging sites
+
+Figure 8. CovidImaging.US Study Results. We identified 48 patients across the US willing to share
+COVID imaging for our research.
+
+Number of subjects
+
+Total FB Cost = $7K
+$919.17$893.7
+
+200
+$679.4
+
+150
+100
+
+$899.79$920.24$919.83
+$764.12
+
+1 0 0
+
+9 0
+
+8 0
+
+$572.87
+
+7 0
+
+$480.53
+
+6 0
+
+5 0
+
+4 0
+
+50
+
+3 0
+
+2 0
+
+1 0
+
+0
+
+0
+
+Mar
+
+Apr
+
+1. Enrollment
+
+May
+2. IC
+
+Jun
+3. HIPAA
+
+Jul
+
+Aug
+
+4. Imaging
+
+Sep
+
+Oct
+
+Nov
+
+5. Facebook ($)
+
+Hadley D, et al. Leveraging Technology in response to the COVID-19 Pandemic. How COVID-19 catalyzed Community-driven AI. In Press
+
+Figure 9. CovidImaging.US Study Results. We spent over $7K in Facebook Advertising to identify 48
+patients across the US willing to share COVID imaging for our research. The graph shows the forms filled
+by patients (Enrollment, Informed Consnet, HIPAA release, and Imaging Sites) as well as the cost of FB
+advertising from Marh to November 2021.
+
+N = 66 with self-reported ethnicity
+60
+white
+native
+latino
+black
+
+40
+20
+0
+female
+
+male
+
+Hadley D, et al. Leveraging Technology in response to the COVID-19 Pandemic. How COVID-19 catalyzed Community-driven AI. In Press
+
+Figure 10. CovidImaging.US Study Results. We found white women dominated the results from
+FaceBook which motivated our interest in developing our own Dicourse network for mammography
+research.
+
+Estimated ethno-specific FB
+recruitment costs for women. 9x
+higher for men.
+$182.96
+$8,965.00
+$2,241.25
+
+.0 0
+$1
+
+0 ,0
+
+00
+
+0
+,0 0
+$8
+
+0 .0
+
+0
+,0 0
+$6
+
+0 .0
+
+0
+,0 0
+$4
+
+0 .0
+
+,0 0
+
+0 .0
+
+0
+
+$8,965.00
+
+$2
+
+$-
+
+white
+native
+latino
+black
+
+Hadley D, et al. Leveraging Technology in response to the COVID-19 Pandemic. How COVID-19 catalyzed Community-driven AI. In Press
+
+Figure 11. CovidImaging.US Study Results. We found it was 9 times more expensive to recruit nonwhite patients on FaceBook which motivated our interest in developing our own Dicourse network for our
+mammography research.
+
+FRISCH PP. LEVERAGING TECHNOLOGY AS A RESPONSE
+TO THE COVID PANDEMIC : adapting diverse
+technologies,... workflow, and processes to optimize
+integrated cli. [Internet]. CRC PRESS; 2022
+Chapter 10: How COVID-19 Catalyzed Community-Driven AI in the
+Metaverse of Medical Data. Hadley D, et al.
+
+Figure 12. CovidImaging.US Study Results. We published out results in a special Covid-19 book.
+12
+
+Amoy Fraser, PhD, CCRP, PMP
+Director- Clinical & Aerospace Health Research
+University of Central Florida- College of Medicine
+6900 Lake Nona Blvd, Suite 101S
+Orlando, FL 32827-7408
+Amoy.Fraser@UCF.edu
+407 COM TRIALS
+COMTrials@UCF.edu
+11 December 2024
+Dr. Dexter Hadley, PhD, MD
+Professor of Medicine
+University of Central Florida College of Medicine
+RE: MammoChat
+Dr. Hadley,
+It is with great enthusiasm that I write this letter of support for your MammoChat initiative and grant
+proposal to the Florida Cancer Innovation Fund. I am thrilled to be a part of this groundbreaking project,
+which has the potential to transform breast cancer care through innovative AI-driven support systems. As
+the Director of Clinical Research at the University of Central Florida College of Medicine, I lead a team
+of clinical research nurses and clinical research coordinators to support clinical research at the UCF
+College of Medicine. In my role, I oversee clinical trial operations and ensure the smooth execution of
+studies at UCF. I am pleased to highlight that we already have an active IRB approval and the
+infrastructure in place to expedite this work. Specifically, under the umbrella of our approved study
+(NCT06604078) on ClinicalTrials.gov, we are well-positioned to leverage existing resources and
+protocols to support MammoChat’s objectives. This approval enables us to immediately begin recruiting
+participants and executing this critical research without delay.
+My team and I are committed to supporting MammoChat by facilitating participant recruitment, ensuring
+adherence to ethical research practices, and overseeing data collection and analysis. With this foundation,
+we can execute the study quickly and efficiently, enabling timely results that will advance the platform’s
+development and impact. Additionally, our collaboration ensures that this project will meet the rigorous
+standards necessary for dissemination and potential expansion to broader populations.
+We are can readily assist with the needs of this project as described in your application and, for
+specificity, as follows:
+1. provide guidance and assistance through the regulatory steps with the UCF IRB and other
+internal regulatory boards to meet the requirements and gain initial and continuing approvals;
+2. review and optimize the study protocol and procedures to protect the privacy and confidentiality
+of human subjects;
+3. listing the new studies and initiatives on ClinicalTrials.gov;
+4. extensive marketing of the study;
+5. obtain informed consent (including reviewing the any associated risks); enroll participants;
+Page 1 of 2
+
+6. collect, temporarily store, and transfer participant images and participant data according to the
+IRB-approved protocol while ensuring that we are meeting meet all federal, state, and
+institutional guidelines and meeting Good Clinical Practices and Human Subjects Protection;
+7. facilitating a patient advisory board, if desired;
+8. providing Data Safety Management Board support if required.
+For these services, you have budgeted effort and costs associated with operationalizing your study. This
+budget is agreeable.
+Our existing infrastructure at UCF College of Medicine ensures the highest standards of compliance,
+patient safety, and data integrity. This includes access to robust recruitment channels, established
+workflows for managing human subjects research, and a dedicated team of professionals experienced in
+conducting clinical trials. These capabilities align perfectly with MammoChat’s goals to assess the
+platform’s impact on patient outcomes, including emotional well-being, treatment adherence, and
+satisfaction with care.
+Dr. Hadley, your innovative approach to leveraging AI and digital health to improve patient outcomes is
+both inspiring and essential. I am confident that MammoChat will set a new benchmark for patientcentered cancer care, and I am honored to contribute to its success.
+Please do not hesitate to reach out if there is an additional way that I can support this important initiative.
+We look forward to collaborating with you on this transformative work.
+Sincerely,
+
+Dr. Amoy Fraser,
+PhD, CCRP, PMP
+
+Name: Dr. Amoy Fraser, PhD, CCRP, PMP
+Email: amoy.fraser@ucf.edu
+Reason: Agreed
+Time: 11/Dec/2024 15:44:02 -0500
+d8de3ef9-e034-46a3-9600-c44e4cde0729
+
+Amoy Fraser, PhD, CCRP, PMP
+Director- Clinical & Aerospace Health Research
+
+Page 2 of 2
+
+Institute for Simulation and Training
+
+David Metcalf, Ph.D.
+
+3100 Technology Pkwy, Orlando, FL 32826
+Orlando, FL 32826
+
+Associate Professor
+School of Modeling, Simulation, and Training
+
+Dear Dr. Hadley,
+I am pleased to provide my full support for the MammoChat initiative and to contribute as
+a Co-Investigator on this transformative project. As the Director of the Mixed Emerging
+Technology Integration Lab (METIL) at UCF’s Institute for Simulation & Training, I bring
+extensive experience in integrating cutting-edge technologies, including blockchain, AI,
+and digital simulations, into innovative healthcare solutions. MammoChat’s vision of
+leveraging AI and digital health tools to create a personalized and inclusive platform for
+breast cancer patients aligns perfectly with my expertise and professional mission.
+My role in this project will focus on ensuring the technical scalability, security, and usercentric design of the MammoChat platform. Specifically, I will lead efforts to integrate
+blockchain technology to enhance data transparency and trust while ensuring compliance
+with healthcare data privacy standards. In addition, I will contribute to the development of
+interactive features that improve patient engagement and education, drawing on my
+extensive background in creating impactful digital health applications. As a recognized
+expert in technical integration and a Co-Investigator on UCF’s I-Corps program, I bring
+significant experience in commercializing translational research and driving patientcentered innovations to tangible impact.
+At METIL, my team and I have successfully implemented emerging technologies in
+diverse healthcare projects, ranging from simulation training to patient-centered digital
+platforms. These experiences will directly inform our approach to designing MammoChat
+as a secure, scalable, and user-friendly system that meets the needs of breast cancer
+patients and healthcare providers alike. Furthermore, we will leverage our expertise in
+immersive technologies and user experience design to ensure that MammoChat fosters
+meaningful connections and empowers patients with actionable insights.
+In addition to my contributions, I am honored to collaborate with Dr. Hadley, with whom I
+have coauthored impactful works in the fields of AI and healthcare. Together, our
+complementary expertise in science, engineering, and translational research strengthens
+the MammoChat initiative and enhances its potential for success. I am confident that
+MammoChat will set a new standard in digital health by combining innovative technology
+with a compassionate, patient-focused approach. I look forward to collaborating with this
+exceptional team to bring this vision to life and to contribute to advancing breast cancer
+
+Phone: 407.882.1496 • Fax: 407.823.5252 • Web: ist.ucf.edu | Partnership II, Main Campus
+
+care through technology-driven solutions. Please do not hesitate to reach out if there are
+additional ways I can support this important work.
+Sincerely,
+
+David Metcalf
+David Metcalf, PhD
+Director, Mixed Emerging Technology Integration Lab
+Institute for Simulation & Training, UCF
+
+Phone: 407.882.1496 • Fax: 407.823.5252 • Web: ist.ucf.edu | Partnership II, Main Campus
+
+Rosen College of Hospitality Management
+3100 Technology Pkwy, Orlando, FL 32826
+Orlando, FL 32826
+
+Chaithanya Renduchintala, Ph.D.
+Assistant Professor
+Department of Tourism, Events and Attractions
+
+Dear Dr. Hadley,
+I am pleased to express my full support for the MammoChat initiative and to contribute as a Co-Investigator on this
+groundbreaking project. As an Assistant Professor at UCF’s Rosen College of Hospitality Management with extensive
+expertise in community health data modeling, AI applications, and health outcome resilience, I am excited to
+collaborate on this transformative effort to improve breast cancer care.
+My role in the MammoChat project will focus on leveraging advanced data modeling and analytics to ensure the
+platform provides personalized, actionable insights tailored to diverse patient populations. I will lead efforts to
+integrate community health data into the platform, enabling MammoChat to address social determinants of health and
+provide a more inclusive, equity-focused experience. By analyzing trends in patient engagement, treatment
+adherence, and emotional well-being, I will contribute to optimizing the platform’s ability to empower users and
+improve outcomes.
+With a strong background in leveraging AI-driven solutions for community and travel health outcomes, I bring a
+unique perspective to the project. My prior experience as a senior community health data analyst at the Cleveland
+Clinic and as a strategist for over 100 tech startups has equipped me with the skills needed to translate complex data
+into meaningful strategies that enhance user engagement and impact. My expertise aligns with MammoChat’s
+mission to create an accessible, personalized, and data-driven digital health tool for breast cancer patients.
+I am confident that MammoChat will revolutionize breast cancer care by combining cutting-edge technology with
+patient-centered design. This project represents an unparalleled opportunity to advance digital health innovation while
+addressing critical gaps in support and resources for breast cancer patients. I look forward to contributing to the
+success of MammoChat and working alongside this exceptional team to drive meaningful change in cancer care.
+Please do not hesitate to contact me if additional information is required or if there are further ways I can support this
+important work.
+Sincerely,
+
+Chaithanya Renduchintala
+Chaithanya Renduchintala, PhD
+Assistant Professor
+Rosen College of Hospitality Management, UCF
+
+Phone: 407.903.8021 • Fax: 407.823.5252 • Web: hospitality.ucf.edu | Rosen Campus
+
+Allana N.R. Roach, PhD, MSB
+Madison, Al
+allana.roach@gmail.com
+
+December 12, 2024
+
+Dr. Dexter Hadley, MD/PhD
+Principal Investigator, MammoChat
+University of Central Florida
+
+Dear Dr. Hadley,
+I am writing to express my enthusiastic support for the MammoChat initiative, a pivotal step toward
+improving outcomes for breast cancer patients. As a geneticist and bioethicist with over 16 years of
+experience in research, teaching, and administration, I am honored to contribute to this transformative
+project, which I view as a groundbreaking opportunity to harness innovative AI technologies in creating
+personalized, patient-centered digital health solutions.
+For the MammoChat initiative, I will draw on my expertise in creating community engagement strategies
+to serve as both a moderator of the MammoChat forums and a content creator. I will leverage my
+technical background as a Ph.D. geneticist and a Master's in Bioethics to develop accessible, culturally
+sensitive materials and tailored resources that meet the unique needs of its users. Additionally, building
+on my proven success in creating interactive learning environments in higher education, I will ensure
+that the platform fosters a safe, inclusive, and engaging environment for all users.
+The MammoChat initiative resonates deeply with my professional passion for harnessing innovative
+solutions to enhance health outcomes and improve patient experiences. I am excited about the
+opportunity to collaborate with this exceptional team to create a platform that will not only
+revolutionize breast cancer care but also serve as a model for inclusive, AI-driven health innovation.
+
+Please do not hesitate to reach out to me if further information is needed.
+
+Sincerely,
+
+Dr. Allana N.R. Roach, PhD, MSB
+
+12/9/2024
+Dexter Hadley, MD/PhD
+UCF College of Medicine
+6850 Lake Nona Blvd
+Orlando, FL 32827
+Dear Dr. Hadley,
+It is my distinct pleasure to provide this letter of support for your grant proposal to the FL Cancer
+Innovation Fund for the development of MammoChat. At AdventHealth, where we are deeply committed
+to advancing patient-centered care through innovative technologies, your vision for this transformative
+platform aligns perfectly with our mission to extend the healing ministry of Christ and to improve health
+outcomes in our communities.
+As Vice President of Clinical Analytics and Performance Improvement at AdventHealth, I have
+witnessed the profound impact that technology can have on improving patient care, especially when it is
+designed with empathy, transparency, and accessibility at its core. MammoChat’s use of advanced AI
+technologies to provide personalized, explainable guidance to breast cancer patients represents a
+pioneering step forward in digital health innovation. The platform’s integration of patient-centered features
+like tailored recommendations and community-driven support will undoubtedly bridge critical gaps in the
+continuum of care for breast cancer patients.
+Breast cancer patients often face overwhelming challenges in navigating their treatment journey,
+from understanding complex medical information to finding emotional and social support. MammoChat’s
+approach to leveraging AI to deliver clear, actionable insights—while simultaneously fostering a
+supportive community—is a model for how we can combine cutting-edge technology with human
+connection to improve patient outcomes.
+AdventHealth has a strong history of leveraging AI responsibly to enhance diagnostic accuracy,
+optimize workflows, and improve patient safety. We recognize the potential of MammoChat to extend
+these principles by empowering patients with the information and resources they need to take an active
+role in their care. Importantly, the platform’s focus on transparency and personalized care aligns with our
+commitment to building trust and ensuring that every patient feels seen, heard, and supported throughout
+their journey.
+In addition to endorsing this groundbreaking initiative, I am eager to explore opportunities for
+collaboration. AdventHealth is uniquely positioned to contribute to the success of MammoChat through
+our extensive clinical expertise, data resources, and commitment to fostering innovations that benefit our
+patients and the broader healthcare community. Whether through sharing insights from our Clinical AI
+Advisory Board, participating in pilot testing, or contributing to the refinement of the platform, we stand
+ready to support your efforts.
+Furthermore, AdventHealth was proud to sponsor the UCF AI in Medicine Summit (UCF AIMS)
+conference this past November, where we explored the transformative impact of AI on local communities.
+Your leadership at the summit was inspiring, and we look forward to continuing our support for your
+groundbreaking work at next year’s event.
+Dr. Hadley, your leadership in advancing AI-driven solutions for patient care is truly inspiring. I am
+confident that MammoChat will not only transform the landscape of breast cancer support but also serve
+as a blueprint for how digital health tools can enhance care for patients across all disease states.
+AdventHealth is proud to stand with you in this important work. Please do not hesitate to reach out if
+there are additional ways that AdventHealth can support this endeavor. I look forward to the remarkable
+impact that MammoChat will have on the lives of breast cancer patients and their families.
+Warm regards,
+Rob Purinton
+
+Rob Puriton
+Vice President, Clinical Analytics and Performance Improvement
+AdventHealth
+robert.purintonslone@adventhealth.com
+https://www.adventhealth.com
+
+12/9/2024
+Dexter Hadley, MD/PhD
+UCF College of Medicine
+6850 Lake Nona Blvd
+Orlando, FL 32827
+Dear Dr. Hadley,
+Thank you for being a member of the WholeLife Church congregation. It is with great enthusiasm
+that I write to express my wholehearted support for your MammoChat initiative and your grant proposal to
+the FL Cancer Innovation Fund. As Lead Pastor of WholeLife Church, I am privileged to lead a
+congregation deeply committed to fostering both spiritual and physical well-being, and your vision for
+using MammoChat to build small communities around breast cancer, AI, and digital health aligns
+seamlessly with our mission.
+WholeLife Church is a vibrant Seventh-day Adventist (SDA) congregation and proud to be part of
+the AdventHealth family. Our partnership with AdventHealth places us at the intersection of faith and
+health, empowering us to serve as a hub for innovative health initiatives that improve lives. As a church,
+we embrace opportunities to integrate cutting-edge technologies and compassionate care, and we see
+MammoChat as a groundbreaking project that has the potential to enhance health outcomes within our
+community and beyond.
+The creation of small communities around breast cancer and digital health is a natural extension
+of our existing emphasis on connection and holistic care. At WholeLife Church, our Small Communities
+program serve as the foundation for meaningful relationships, spiritual growth, and shared learning.
+MammoChat’s ability to leverage AI to provide personalized, explainable guidance to breast cancer
+patients, while fostering peer support and collective learning, perfectly reflects our belief that healing
+happens best in community. This platform can become a powerful tool for empowering individuals with the
+information and support they need to navigate complex health journeys with dignity and hope.
+WholeLife Church is uniquely positioned to pilot initiatives like MammoChat. With our strong ties
+to AdventHealth and a congregation that values innovation and compassion, we offer an ideal
+environment to explore how AI and digital health solutions can be used to build trust, improve access to
+care, and ultimately enhance health outcomes. I believe that MammoChat’s emphasis on transparency,
+accessibility, and community aligns perfectly with the AdventHealth mission to extend the healing ministry
+of Christ.
+In addition to my personal support for this initiative, I would like to offer WholeLife Church as a
+potential pilot site for MammoChat. Our congregation includes individuals and families who are navigating
+the challenges of breast cancer, as well as healthcare professionals who could provide valuable insights
+into the development and implementation of this platform. Together, we can help ensure that MammoChat
+fulfills its promise to create life-changing impacts for those who need it most.
+Dr. Hadley, your dedication to using AI and digital health to advance patient care is truly inspiring.
+Your work exemplifies the kind of forward-thinking leadership that not only transforms lives but also brings
+communities together in meaningful ways. WholeLife Church is honored to support your efforts, and we
+look forward to witnessing the extraordinary impact of MammoChat in our congregation and beyond.
+Please do not hesitate to reach out if there are additional ways we can support this project. May
+God continue to bless you as you use your gifts to serve others.
+With gratitude and blessings,
+
+Ken Wetmore
+Pastor Ken Wetmore
+Lead Pastor
+WholeLife Church
+ken@wholelife.church
+https://wholelife.church
+
+Dr. Dexter Hadley, MD/PhD
+Principal Investigator
+6850 Lake Nona Blvd
+Orlando, FL 32827, USA
+December 9th, 2024
+
+Dear Dr. Hadley,
+On behalf of the American Board of Precision Medicine (ABOPM), I am writing to express our
+enthusiastic support for your grant application to the FL Cancer Innovation Fund for
+MammoChat, an AI-guided platform designed to empower breast cancer patients through
+personalized care networks. This innovative project addresses a critical need for
+patient-centered tools that simplify the complexities of cancer care, transforming what can
+often be an overwhelming journey into one that is empowering and informed.
+
+Your vision for MammoChat is both inspiring and essential. By combining cutting-edge
+technology with a human-centered approach, the platform offers patients clear, personalized
+guidance while fostering a supportive community. Breast cancer patients frequently face not
+only medical challenges but also signiﬁcant emotional and practical barriers. MammoChat
+provides a lifeline, enabling patients to navigate their care with conﬁdence, clarity, and
+connection—key components of improved health outcomes.
+
+What truly sets MammoChat apart is its ability to seamlessly integrate advanced AI with
+holistic care. By addressing the medical, emotional, and logistical aspects of a breast cancer
+diagnosis, this platform exempliﬁes the future of patient-centered precision medicine. At
+ABOPM, we have long advocated for solutions that empower patients and improve engagement
+with their care plans, and MammoChat aligns perfectly with this mission.
+
+We are conﬁdent that MammoChat has the potential to redeﬁne how breast cancer care is
+delivered, making it more accessible, personalized, and impactful. Its innovative approach
+American Board of Precision Medicine, Inc. | 2810 N Church St., PMB 364141 Wilmington, Delaware 19802
+info@theabopm.org | www.theabopm.org
+1
+
+aligns with ABOPM’s vision of a healthcare system that is predictive, preventive, and
+participatory.In addition to fully endorsing your grant application, ABOPM stands ready to
+support MammoChat in any way we can. Whether through collaboration, sharing our expertise
+in precision medicine, or connecting you with key stakeholders in the ﬁeld, we are committed
+to contributing to the success of this transformative initiative.
+
+Dr. Hadley, your dedication to improving patient care through innovation is truly
+commendable. We are excited to see MammoChat come to fruition and witness the positive
+impact it will have on so many lives. Please do not hesitate to reach out if there is any way we
+can further assist in bringing this important work to life.
+
+With warm regards,
+
+info@theabom.org
+American Board of Precision Medicine, Inc.
+
+American Board of Precision Medicine, Inc. | 2810 N Church St., PMB 364141 Wilmington, Delaware 19802
+info@theabopm.org | www.theabopm.org
+2
+
+December 8, 2024
+Dr. Dexter Hadley, MD/PhD
+Principal Investigator
+
+Dear Dr. Hadley,
+On behalf of Handzin, Inc., I am honored to provide this letter of support for your grant
+proposal to the FL Cancer Innovation Fund for the development of MammoChat. As a
+company dedicated to secure collaboration and innovative solutions, we recognize the
+transformative potential of MammoChat in addressing the challenges faced by breast
+cancer patients and their families.
+MammoChat’s vision of creating small, focused communities around breast cancer, AI,
+and digital health perfectly aligns with Handzin’s mission of fostering meaningful
+connections while maintaining privacy and security. By providing personalized, explainable
+AI-driven guidance, MammoChat empowers patients with actionable information and a
+supportive network—a crucial combination for improving health outcomes and quality of
+life.
+At Handzin, we have seen the impact of secure and collaborative platforms in bridging gaps
+across industries, including healthcare. MammoChat’s innovative approach to combining
+cutting-edge technology with community-driven support offers a unique opportunity to
+create scalable, sustainable solutions that address some of the most pressing challenges
+in healthcare today. This initiative not only serves individual patients but also paves the way
+for more inclusive and transparent healthcare practices.
+As a secure collaboration platform provider, Handzin is particularly excited about
+MammoChat’s focus on transparency and privacy—key pillars that resonate deeply with
+our values. We believe that empowering patients with safe, secure access to information
+and community support is essential to fostering trust and improving engagement,
+especially in the sensitive context of breast cancer care.
+In addition, MammoChat’s emphasis on piloting digital health innovations in communityfocused settings makes WholeLife Church an ideal partner for this initiative. The
+opportunity to demonstrate the effectiveness of this platform in a real-world, supportive
+environment will be instrumental in refining its features and showcasing its impact.
+Handzin stands ready to support these efforts, offering our expertise in secure
+
+collaboration and data integration to enhance MammoChat’s implementation and
+scalability.
+Dr. Hadley, your dedication to advancing AI-driven solutions in healthcare is truly inspiring.
+MammoChat represents a bold step forward in patient-centered innovation, and I am
+confident it will set a new standard for how we approach support and engagement in breast
+cancer care. Please know that you have my full support and that of Handzin in bringing this
+vision to life.
+Should there be additional ways we can assist in the development and deployment of
+MammoChat, please do not hesitate to reach out. We are excited to see the positive
+impact this platform will have on the lives of patients and their communities.
+With warm regards,
+
+Brian Isaac
+Co-Founder, Handzin, Inc.
+415-999-4640
+brian.isaac@handzin.com
+www.handzin.com
+
+     
+
+  
+
+December 10, 2024
+
+Dr. Dexter Hadley, MD/PhD
+Principal Investigator
+UCF, College of Medicine
+6850 Lake Nona Blvd.
+Orlando, FL 32827
+
+RE: Proposal to Florida Cancer Innovation Fund – MammoChat: An AI-Driven Platform
+for Personalized Breast Cancer Patient Support
+Dear Dr. Hadley,
+The Data Institute is pleased to support your efforts, and University of Central Florida’s
+(UCF’s), for a grant proposal to the Florida Cancer Innovation Fund for the development of
+MammoChat. This groundbreaking innovative, secure platform focused on improving
+breast cancer care by integrating mCODE, AI-driven tools, and blockchain technologies
+aligns with our mission to advance digital transformation, data transparency, and equitable
+technology use. By fostering trust and transparency through blockchain and NFTs, your
+initiative sets new standards for data integrity and patient engagement, while addressing
+critical health challenges with advanced tools.
+As part of our commitment to developing responsible data governance frameworks to
+advance innovation and connect communities, The Data Institute is eager to support
+MammoChat’s potential to build personalized AI-powered communities, reduce patient
+isolation, and improve treatment adherence. This initiative reflects our shared vision of
+using technology to empower communities and enhance well-being.
+The Data Institute looks forward to collaborating with you on MammoChat’s development,
+whether through insights on data governance, infrastructure, or strategic partnerships.
+Sincerely,
+
+Melyssa Barrett
+President, The Data Institute
+mbarrett@TheDataInstituteUS.org
+www.TheDataInstituteUS.org
+
+Dear Dr. Hadley,
+I am writing to express my enthusiastic support for your grant proposal to the FL Cancer Innovation Fund for the
+development of MammoChat. Your initiative to leverage advanced AI technologies to create personalized,
+community-driven support networks for breast cancer patients is a profound step toward addressing critical gaps in
+patient care and engagement. As a physician and advocate for global health equity, I see the immense potential
+MammoChat holds in transforming health outcomes and fostering empowerment within underserved communities.
+MammoChat’s innovative approach to integrating digital health solutions with patient-centered support exemplifies the
+future of healthcare delivery. By providing personalized, explainable AI-driven guidance, MammoChat addresses two
+of the most pressing challenges in healthcare today: access to reliable information and the need for emotional and
+social support. Your vision to build small, focused communities around breast cancer, AI, and digital health aligns
+perfectly with the work I’ve dedicated my career to—creating sustainable, equitable solutions that improve lives and
+foster collaboration.
+In my roles as Global Partnerships & Business Development Lead at the Global Health Impact Network, and CEO at
+Tanka Lanka Labs LLC, I have seen firsthand how innovations like MammoChat can dismantle barriers to care and
+accelerate cross-sector cooperation. This project represents the kind of strategic, forward-thinking solution that not
+only addresses immediate patient needs but also has the potential to inform and improve broader health system
+practices. Its scalability and emphasis on transparency ensure that it can be a model for healthcare innovation across
+diverse populations.
+Moreover, MammoChat’s ability to empower patients while fostering connections between medical professionals,
+patients, and community members is groundbreaking. In my experience working with underserved populations and
+marginalized communities, I have witnessed the transformative power of tools that provide both actionable insights
+and a sense of belonging. MammoChat’s focus on creating inclusive, supportive environments will undoubtedly yield
+long-term benefits for patients and caregivers alike.
+I am particularly excited about the opportunity for MammoChat to serve as a platform for piloting and scaling digital
+health innovations within community-focused settings. As someone who deeply values collaboration over
+competition, I believe this initiative exemplifies the kind of partnership-driven solution that is necessary to achieve
+meaningful change in healthcare.
+Dr. Hadley, your leadership in advancing AI applications for patient care is nothing short of inspiring. I am confident
+that MammoChat will set a new standard for how we approach patient support and engagement, particularly for those
+facing the complexities of breast cancer. Please know that I am fully committed to supporting your efforts and would
+welcome any opportunity to contribute my expertise and network to the success of this initiative.
+Thank you for your dedication to improving the lives of patients and for leading the way in reimagining the future of
+healthcare. Please do not hesitate to reach out if there are additional ways I can support this vital work.
+With warm regards,
+
+Dr. Val Torres MD, MBA
+Global Partnerships & Business Development Lead, Global Health Impact Network
+Chief Executive Officer, Tanka Lanka Labs LLC
+Email: vtorres@globalhealthimpactnetwork.net and vtorres@tankalankalabs.com
+Phone: (352) 206.7130
+LinkedIn: https://www.linkedin.com/in/drvaltorres/
+Website 1: https://globalhealthimpactnetwork.net/
+Website 2: https://tankalankalabs.com/
+
+
