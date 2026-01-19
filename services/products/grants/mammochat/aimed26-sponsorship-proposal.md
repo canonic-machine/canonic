@@ -15,6 +15,20 @@ Proposal for AdventHealth to serve as **Lead CANONIC Sponsor** for AIMed 2026 in
 
 ## Background
 
+### Provenance: Public Record (2017-Present)
+
+| Date | Event | Evidence | IP Status |
+|------|-------|----------|-----------|
+| Nov 8, 2017 | Bloomberg "The Year Ahead" Summit, NYC | [UCSF Press Release](https://bakarinstitute.ucsf.edu/news/dexter-hadley-featured-bloombergs-year-ahead-summit) | Public |
+| 2017 | **Breast We Can!** crowdsourcing launched | [Bloomberg Video](https://www.bloomberg.com/news/videos/2017-11-08/unlocking-the-power-of-big-data-video) | Public |
+| 2017-2019 | UCSF/NIH $5M+ AI research | [Western Digital Blog](https://blog.westerndigital.com/ai-enters-the-fight-to-end-breast-cancer-2/) | Federal/Public |
+| 2019 | Western Digital partnership | Corporate sponsorship | Public |
+| 2024 | Dr. Hadley separates from UCF | 2 weeks before award | No employment IP |
+| 2024 | FDOH FCIF Grant 354 awarded | $1,998,935 to UCF | Public domain per grant |
+| 2025 | MammoChat clinical trials | NCT06604078, NCT07214883 | Public domain |
+
+**All provenance evidence ledgered on CANONIC blockchain as public assets.**
+
 ### Established Partnership
 
 | Event | Date | Location | AdventHealth Role | Dr. Hadley |
@@ -151,13 +165,21 @@ de163002@ucf.edu | 215-681-0268
 
 ---
 
-## Evidence Sources
+## Evidence Sources (Ledgered on CANONIC)
 
-- [AIMed24 AdventHealth Partnership](https://www.adventhealth.com/news/aimed24-welcomes-adventhealth-presenting-partner)
-- [UCF AI in Medicine Summit](https://med.ucf.edu/news/worldwide-experts-physicians-gather-at-ucf-ai-in-medicine-summit/)
+### Provenance Evidence
+- [Bloomberg Video: Unlocking the Power of Big Data (Nov 2017)](https://www.bloomberg.com/news/videos/2017-11-08/unlocking-the-power-of-big-data-video)
+- [UCSF Bakar Institute: Hadley at Bloomberg Summit](https://bakarinstitute.ucsf.edu/news/dexter-hadley-featured-bloombergs-year-ahead-summit)
+- [Western Digital: AI Enters the Fight to End Breast Cancer](https://blog.westerndigital.com/ai-enters-the-fight-to-end-breast-cancer-2/)
+
+### Grant Evidence
 - [FDOH Award Letter](2-grant-354-fcif-rd-2-award-letter.txt)
 - [AdventHealth Subaward](4-subaward_adventhealth_not-fully-executed-os1178_redacted-per-119.0713.txt)
 - [Grant Proposal - Letters of Support](1-proposal_florida-cancer-innovation-fund-fp10550_redacted-per-119.0713.txt)
+
+### Partnership Evidence
+- [AIMed24 AdventHealth Partnership](https://www.adventhealth.com/news/aimed24-welcomes-adventhealth-presenting-partner)
+- [UCF AI in Medicine Summit](https://med.ucf.edu/news/worldwide-experts-physicians-gather-at-ucf-ai-in-medicine-summit/)
 
 ---
 
