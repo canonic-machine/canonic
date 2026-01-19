@@ -108,6 +108,16 @@ All work product derived from funded grants **MUST** be released to public domai
 | Public Results | Shared to further FL cancer research | [Award Letter](services/products/grants/mammochat/2-grant-354-fcif-rd-2-award-letter.txt) |
 | AdventHealth Subaward | Same terms flow to subcontractor | [Subaward](services/products/grants/mammochat/4-subaward_adventhealth_not-fully-executed-os1178_redacted-per-119.0713.txt) |
 
+### IP Separation
+
+| Asset | Owner | License |
+|-------|-------|---------|
+| MammoChat™ | Foundation | Trademark retained |
+| MammoChat Development | UCF | Public domain per grant |
+| MammoChat Code | Open Source | Per FDOH terms |
+
+UCF executes grant-funded development. Foundation retains MammoChat™ trademark.
+
 **Future Claims:** All grant-funded IP flows to open source under this ledger.
 
 ---
