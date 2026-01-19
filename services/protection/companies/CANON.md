@@ -54,3 +54,20 @@ Rob Purinton, VP Clinical Analytics and Performance Improvement, AdventHealth:
 SOURCE: [Grant Proposal - Letters of Support](../../products/grants/mammochat/1-proposal_florida-cancer-innovation-fund-fp10550_redacted-per-119.0713.txt)
 
 ---
+
+### AdventHealth - AIMed Conference Sponsorship
+
+AdventHealth is Presenting Partner for AIMed conferences. Dr. Dexter Hadley spoke at both events.
+
+| Event | Date | Location | AdventHealth Role |
+|-------|------|----------|-------------------|
+| UCF AI in Medicine Summit | Nov 2024 | Lake Nona, FL | Sponsor |
+| AIMed24 | Nov 17-19, 2024 | Caribe Royale, Orlando | Presenting Partner |
+| AIMed25 | 2025 | San Diego, CA | Presenting Partner |
+
+> "AdventHealth is honored to be part of a select group of organizations leading the national conversation on the responsible use of AI in health care." — Dr. Victor Herrera, Chief Clinical Officer, AdventHealth Central Florida
+
+SOURCE: [AIMed24 AdventHealth Partnership](https://www.adventhealth.com/news/aimed24-welcomes-adventhealth-presenting-partner)
+SOURCE: [UCF AI in Medicine Summit](https://med.ucf.edu/news/worldwide-experts-physicians-gather-at-ucf-ai-in-medicine-summit/)
+
+---
