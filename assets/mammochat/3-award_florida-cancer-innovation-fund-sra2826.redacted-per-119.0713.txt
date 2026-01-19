@@ -1,0 +1,3060 @@
+    
+
+
+
+CONTRACT SUMMARY
+Division/CHD/Office:
+Provider Name:
+Contract Number:
+Original Contract Amount:
+Total Contract Amount (executed actions):
+Original Contract Start Date:
+Contract End Date (executed actions):
+
+Public Health Statistics and Performance Management
+University of Central Florida Board of Trustees
+25C35
+$1,998,935.00
+
+9/1/2025
+
+DESCRIPTION OF CONTRACTUAL SERVICES:
+The Florida Cancer Innovation Fund provides grant support for innovative cancer-related research efforts, including emerging
+trends and promising practices, which can serve as a catalyst for further exploration. TITLE: MammoChat: An AI-Driven Platform
+for Personalized Breast Cancer Patient Support; Principal Investigator: Jane S. Gibson, PhD
+
+CONTRACT ACTION:
+AMENDMENT(Y/N): N
+
+AMENDMENT AMOUNT:
+
+CHANGE TO TERM(Y/N):
+
+START DATE:
+
+RENEWAL: N
+
+RENEWAL AMOUNT:
+
+START DATE:
+
+END DATE:
+
+END DATE:
+
+DESCRIPTION OF CONTRACT AMENDMENT ACTION:
+
+DOH REVIEWERS: The following reviewers have reviewed and approved this action for execution prior
+to electronic routing. These individuals will receive a copy of the executed action.
+LAST NAME
+
+FIRST INITIAL
+
+APPROVAL ROLE
+
+1.
+
+Morton
+
+B.
+
+Contract Manager
+
+2.
+
+Morton
+
+B.
+
+Contract Manager Supervisor
+
+3.
+
+Brooks
+
+R.
+
+Bureau Chief/CHD Program Administrator
+
+4.
+
+Spencer
+
+E.
+
+Division Director/CHD Health Officer
+
+This contract complies with all of the requirements, below, and each contract action has been reviewed and
+approved by DOH General Counsel.
+x
+
+x
+x
+x
+x
+
+A statement of work, quantifiable and measurable deliverables, performance measures, and financial consequences for
+non-performance.
+Terms and conditions which protect the interest of the state.
+All requirements of law have been met regarding the contract.
+Documentation in the contract file is sufficient to support the contract and the attestation (examples: business case;
+directive to establish contract; subject research and analysis, etc.)
+If the contract is established by way of a competitive solicitation as identified in section 287.057(1), Florida Statutes,
+the costs of the contract are the most advantageous to the state or offer the best value.
+
+STATE HEALTH OFFICE – $1MILLION + CONTRACT SUMMARY
+
+REVISED: 4/2024
+
+    
+
+CFDA No.
+CSFA No. 64.130
+
+
+
+STATE OF FLORIDA
+DEPARTMENT OF HEALTH
+STANDARD CONTRACT
+
+Client
+
+Non-Client
+Multi-County
+
+THIS CONTRACT, which includes Attachment I and the accompanying attachments and exhibits, is entered into
+between the State of Florida, Department of Health, hereinafter referred to as the Department”, and University of
+Central Florida Board of Trustees, hereinafter referred to as the “Provider”, each a “party” and jointly referred to as
+the “parties.”
+THE PARTIES AGREE:
+I. PROVIDER AGREES:
+A. To provide services in accordance with the terms specified in Attachment I attached hereto and ensure any deliverables
+under the Contract, which may include “commodities” and “contractual services”, as each is defined in section 287.012, F.S.
+does not include, and no State funding under the Contract is being provided for, promoting, advocating for, or providing
+training or education on “Diversity, Equity, and Inclusion” (“DEI”). DEI is any program, activity, or policy that classifies
+individuals on the basis of race, color, sex, national origin, gender identity, or sexual orientation and promotes differential or
+preferential treatment of individuals on the basis of such classification or promotes the position that a group or an individual’s
+action is inherently, unconsciously, or implicitly biased on the basis of such classification.
+B. To the Following Governing Law
+1. State of Florida Law: This Contract is executed and entered into in the state of Florida, and will be construed,
+performed, and enforced in all respects in accordance with the laws, rules, and regulations of the state of Florida
+(State). Each party will perform its obligations in accordance with the terms and conditions of this Contract.
+2. Federal Law:
+a. If this Contract contains federal funds, Provider must comply with the provisions of 2 C.F.R. part 200, appendix II
+as revised, and other applicable regulations as specified in the Contract.
+b. If this Contract includes federal funds that will be used for construction or repairs, Provider must comply with the
+provisions of the Copeland “Anti-Kickback” Act (18 U.S.C. section 874), as supplemented by the U.S.
+Department of Labor regulations (29 C.F.R. part 3, “Contractors and Subcontractors on Public Building or Public
+Work Financed in Whole or in Part by Loans or Grants from the United States”). The act prohibits providers from
+inducing, by any means, any person employed in the construction, completion, or repair of public work, to give up
+any part of the compensation to which he or she is otherwise entitled. All suspected violations must be reported to
+the Department.
+c. If this Contract includes federal funds that will be used for the performance of experimental, developmental, or
+research work, Provider must comply with 37 C.F.R., part 401, “Rights to Inventions Made by Nonprofit
+Organizations and Small Business Firms under Governmental Grants, Contracts, and Cooperative Agreements.”
+d. If this Contract contains federal funds and is over $100,000, Provider must comply with all applicable standards,
+orders, or regulations of the Clean Air Act, as amended (42 U.S.C. chapter 85) and the Clean Water Act, as
+amended (33 U.S.C. chapter 26), President’s Executive Order 11738, and Environmental Protection Agency
+regulations codified in Title 40 of the Code of Federal Regulations. Provider must report any violations of the
+above to the Department.
+e. If this Contract contains federal funding exceeding $100,000, Provider must, prior to Contract execution,
+complete the Certification Regarding Lobbying form, Attachment N/A. If a Disclosure of Lobbying Activities
+form, Standard Form LLL, is required, it may be obtained from the Contract Manager and must be completed
+prior to Contract execution. All disclosure forms as required by the Certification Regarding Lobbying form must
+be completed and returned to the Contract Manager.
+f. If this Contract contains federal funds, Provider must comply with President’s Executive Order 11246, Equal
+Employment Opportunity (30 Fed. Reg. 12935), as amended by President’s Executive Order 11375, (32 Fed. Reg.
+14303), and as supplemented by regulations at 41 C.F.R. chapter 60, as revised.
+g. If this Contract contains federal funds, Provider must comply with the Pro-Children Act of 1994, 20 U.S.C.
+sections 6081-6084, which requires that smoking not be permitted in any portion of any indoor facility used for
+the provision of federally funded services including health, daycare, early childhood development, education, or
+library services on a routine or regular basis, to children up to age 18. Provider’s failure to comply with the
+provisions of the law may result in the imposition of a civil monetary penalty of up to $1,000 for each violation
+and the imposition of an administrative compliance order on the responsible entity. Provider must include a
+similar provision in any subcontracts it enters under this Contract.
+h. Health Insurance Portability and Accountability Act of 1996 (HIPAA): When applicable, Provider must
+comply with Federal Privacy and Security Regulations developed by the U.S. Department of Health and Human
+Services as specified in 45 C.F.R. parts 160 and 164 promulgated pursuant to HIPAA, Pub. L. No. 104-191, and
+Form Revised February 2025
+
+1
+
+Contract # 25C35
+
+    
+
+i.
+
+
+
+the Health Information Technology for Economic and Clinical Health Act, Title XIII of Division A, Title IV of
+Division B, Pub. L. No 111-5, as revised, collectively referred to as “HIPAA.”
+Use and Disclosure of Confidential Women, Infant and Children (WIC) Information: When applicable,
+Provider must restrict the use and disclosure of the United States Department of Agriculture (USDA), WIC
+confidential applicant and participant information as specified in 7 CFR § 246.26(d)(1)(i) in accordance with 7
+CFR § 246.26(d)(1)(ii). If Provider is determined to be a sub-recipient of federal funds, Provider must comply
+with the requirements of the American Recovery and Reinvestment Act and the Federal Funding Accountability
+and Transparency Act, by obtaining a Data Universal Numbering System (D-U-N-S) number and registering with
+the federal System for Award Management (SAM). No payments will be issued until Provider has submitted a
+valid D-U-N-S number and evidence of registration (i.e., a printed copy of the completed SAM registration) in
+SAM to the Contract Manager. To request a D-U-N-S number visit https://fedgov.dnb.com/webform and to
+obtain registration and instructions for SAM, visit https://sam.gov/.
+
+C. Audits, Records (including electronic storage media), and Records Retention
+1. To establish and maintain books, records, and documents in accordance with generally accepted accounting
+procedures and practices, which sufficiently and properly reflect all revenues and expenditures of funds provided by
+the Department under this Contract.
+2. To retain financial records, supporting documents, statistical records, and any other documents pertinent to this
+Contract for a period of six years after termination of the Contract, or if an audit has been initiated and audit findings
+have not been resolved at the end of six years, the records must be retained until resolution of the audit findings or any
+litigation which may be based on the terms of this Contract.
+3. Upon completion or termination of this Contract and at the request of the Department, Provider must, at its expense,
+cooperate with the Department in the duplication and transfer of any said records or documents during the required
+retention period as specified in Section I, paragraph C.2., above.
+4. Persons duly authorized by the Department and federal auditors, pursuant to 2 C.F.R. section 200.337, as revised, will
+have full access to and the right to examine any of Provider’s records and documents related to this Contract,
+regardless of the form in which kept, at all reasonable times for as long as records are retained.
+5. To ensure these audit and record-keeping requirements are included in all subcontracts and assignments. Provider
+agrees to provide such records, papers, and documents, outlined in paragraphs 1 through 4 above, to the Department
+within 10 business days after the request is made in accordance with section 216.1366, Florida Statutes.
+6. If Provider is a recipient or subrecipient as specified in Attachment IV, Provider will perform the required financial
+and compliance audits in accordance with the Uniform Administrative Requirements, Cost Principles, and Audit
+Requirements for Federal Awards, 2 C.F.R. Part 200 as revised, subpart F and section 215.97, Florida Statutes, as
+applicable and conform to the following requirements:
+a. Documentation: Maintain separate accounting of revenues and expenditures of funds under this Contract and
+each Catalog of State Financial Assistance (CSFA) or Catalog of Federal Domestic Assistance (CFDA) number
+identified on the attached Exhibit 1, in accordance with generally accepted accounting practices and procedures.
+Expenditures that support Provider’s activities not solely authorized under this Contract must be allocated in
+accordance with applicable laws, rules, and regulations and the allocation methodology must be documented and
+supported by competent evidence.
+b. Maintain sufficient documentation of all expenditures incurred (e.g., invoices, canceled checks, payroll detail,
+bank statements, etc.) under this Contract which evidences that expenditures are:
+1) Allowable under the Contract and applicable laws, rules, and regulations;
+2) Reasonable; and
+3) Necessary for Provider to fulfill its obligations under this Contract.
+All documentation required by this section is subject to review by the Department and the State’s Chief Financial
+Officer. Provider must timely comply with any requests for documentation.
+c. Annual Financial Report: Submit to the Department an annual financial report stating, by line item, all
+expenditures made as a direct result of services provided through this Contract within 45 days from the end of
+each Contract year, but no later than submission of the final invoice for that year. Each report must include a
+statement signed by an individual with legal authority to bind Provider, certifying that these expenditures are true,
+accurate, and directly related to this Contract.
+d. Ensure that funding received under this Contract in excess of expenditures is remitted to the Department within 45
+days of the end of each Contract year and the Contract end date.
+e. Annual Compensation Report: If applicable, Provider must submit Attachment N/A, Annual Compensation
+Report, including the most recent Internal Revenue Services (IRS) Form 990, detailing the total compensation for
+Form Revised February 2025
+
+2
+
+Contract # 25C35
+
+    
+
+
+
+the Providers’ executive leadership teams, to the Contract Manager no later than January 31 of each Contract
+year. Total compensation must include salary, bonuses, cashed-in leave, cash equivalents, severance pay,
+retirement benefits, deferred compensation, real-property gifts, and any other payout. If Provider is exempt from
+filing IRS Form 990, submit Attachment N/A without including the IRS Form 990, to the Department. All Annual
+Compensation Reports must indicate what percent of compensation comes directly from State or Federal funding
+allocations given to Provider. In addition, Provider, by executing this Contract, which includes any subsequent
+amendments, agrees to inform the Department of any changes in total executive compensation specified in
+Provider’s submitted Annual Compensation Reports.
+7. Public Records: Keep and maintain public records, as defined by Chapter 119, Florida Statutes that are required by
+the Department to perform the services required by the Contract. Upon request from the Department’s custodian of
+public records, provide the Department with a copy of the requested public records or allow the records to be
+inspected or copied within a reasonable time at a cost that does not exceed that provided in Chapter 119, Florida
+Statutes, or as otherwise provided by law. Ensure that public records that are exempt or that are confidential and
+exempt from public record disclosure are not disclosed, except as authorized by law for the duration of the Contract
+term and following completion of the Contract if Provider does not transfer the public records to the Department.
+Upon completion of the Contract, transfer to the Department at no cost, all public records in possession of Provider
+or keep and maintain public records required by the Department to perform the Contract services. If Provider
+transfers all public records to the Department upon completion of the Contract, Provider will destroy any duplicate
+public records that are exempt or confidential and exempt. If Provider keeps and maintains public records upon
+completion of the Contract, Provider will meet all applicable requirements for retaining public records. All records
+stored electronically must be provided to the Department, upon request of the Department’s custodian of public
+records, in a format that is compatible with the information technology systems of the Department. The Department
+may unilaterally terminate this Contract if Provider refuses to allow access to all public records made or maintained
+by Provider in conjunction with this Contract, unless the records are exempt from section 24(a) of Art. I of the State
+Constitution and section 119.07(1), Florida Statutes.
+
+If the Provider has questions regarding the application of Chapter 119, Florida Statutes,
+to the Provider’s duty to provide public records relating to this Contract, contact the
+custodian of public records at (850)245-4005, PublicRecordsRequest@flhealth.gov or
+4052 Bald Cypress Way, Bin A02, Tallahassee, FL 32399.
+Coordination of Contracted Services: Pursuant to section 287.0575(2), Florida Statutes, if Provider has more than
+one Contract with one or more of the five Florida health and human services agencies (the Department of Children
+and Families, the Agency for Persons with Disabilities, the Department of Health, the Department of Elderly Affairs,
+and the Department of Veterans’ Affairs), a comprehensive list of the Provider’s health and human services
+Contracts must be submitted to the respective agencies Contract Manager(s). The list must include the following
+information: a) The name of each Contracting state agency and the applicable office or program issuing the Contract;
+b) the identifying name and number of each Contract; c) the starting and ending date of each Contract; d) the amount
+of each Contract; e) a brief description of the purpose of the Contract and the types of services provided under each
+Contract; f) the name and contact information of the contract manager.
+9. Cooperation with Inspectors General: To the extent applicable, Provider acknowledges and understands it has a
+duty to and will cooperate with the inspector general in any investigation, audit, inspection, review, or hearing
+pursuant to section 20.055(5), Florida Statutes.
+10. Cooperation with the Florida Senate and the Florida House of Representatives: Pursuant to section 287.058(7),
+Florida Statutes, Provider agrees to disclose any requested information, relevant to the performance of this Contract,
+to members or staff of the Florida Senate or the Florida House of Representatives, as requested. Provider is strictly
+prohibited from enforcing any nondisclosure clauses that conflict with this requirement.
+11. Exit Transition Services: If applicable, Provider must provide to the Department, or its designee, all reasonable
+services necessary for the transfer of knowledge regarding the services and deliverables provided under the Contract
+to facilitate the orderly transfer of such services to the Department or its designee. If the Department determines that
+Exit Transition Services are necessary, such services may continue for up to six months after termination, expiration,
+or cancellation of the Contract, at no cost to the Department, or as agreed upon by the Parties in writing.
+8.
+
+D. Monitoring by the Department and Dispute Resolution:
+1. Monitoring by the Department: To permit persons duly authorized by the Department to inspect any records, papers,
+documents, facilities, goods, and services of Provider, which are relevant to this Contract and interview any clients or
+employees of Provider to assure the Department of satisfactory performance of the terms and conditions of this Contract.
+The Provider must provide the requested records, papers, and documents to the Department within 10 business days after
+Form Revised February 2025
+
+3
+
+Contract # 25C35
+
+    
+
+
+
+the request is made. Following the Department’s monitoring, the Department may provide the Provider with a written
+report specifying the noncompliance and request a Corrective Action Plan to be carried out by the Provider. At the sole and
+exclusive discretion of the Department, the Department may take any of the following actions including the assessment of
+financial consequences pursuant to section 287.058(1)(h), Florida Statutes, termination of this Contract for cause, demand
+the recoupment of funds from subsequent invoices under this Contract, or demand repayment pursuant to the terms set forth
+in this Contract.
+2. Dispute Resolution: Any dispute concerning the performance of this Contract or payment hereunder shall be decided
+by the Department in writing and submitted to the Provider for review. The decision is final unless Provider submits a
+written objection to the Department within 10 calendar days from receipt of the decision. Upon receiving an
+objection, the Department shall provide an opportunity to resolve the dispute by mutual agreement between the parties
+using a negotiation process to be completed within 7 calendar days from the Department’s receipt of the objection.
+Completion of the negotiation process is a condition precedent to any legal action by Provider or the Department
+concerning this Contract. Nothing contained in this section is construed to limit the parties’ rights of termination
+specified in this Contract.
+E. Indemnification and Limitation of Liability
+1. Indemnification:
+a. This section is not applicable to contracts executed with State agencies or subdivisions, as defined in section
+768.28, Florida Statutes.
+b. Provider is liable for and will indemnify, defend, and hold harmless the Department and all of its officers, agents,
+and employees from all claims, suits, judgments, or damages, consequential or otherwise and including attorneys’
+fees and costs, arising out of any act, actions, neglect, or omissions by Provider, its agents, or employees during
+the performance or operation of this Contract or any subsequent modifications thereof, whether direct or indirect,
+and whether to any person or tangible or intangible property.
+c. Provider’s inability to evaluate liability or its evaluation of no liability will not excuse Provider’s duty to defend
+and indemnify the Department. Only adjudication or judgment after the highest appeal is exhausted specifically
+finding Provider not liable will excuse the performance of this provision. Provider will pay all costs and fees
+related to this obligation and its enforcement by the Department. The Department’s failure to notify Provider of a
+claim will not release Provider of the above duty to indemnify.
+d. Nothing in this Contract shall be construed as the Department agreeing to indemnify the Provider.
+2. Limitation of Liability: For all claims against the Provider under the Contract, and regardless of the basis on which
+the claim is made, the Provider’s liability under the Contract for direct damages will be limited to the greater of
+$500,000.00, the dollar amount of the Contract, or two times the charges rendered by the Provider under the Contract.
+This limitation will not apply to claims arising under the Indemnification paragraph contained in section E.1. above.
+Unless otherwise specifically enumerated in the Contract, or where such limitation is unconscionable under law, no
+party will be liable to another for special, indirect, punitive, or consequential damages, including lost data or records
+(unless the Contract requires the Provider to back-up data or records), even if the party has been advised that such
+damages are possible. No party will be liable for lost profits, lost revenue, or lost institutional operating savings. The
+Department and the State may, in addition to other remedies available to them at law or equity and upon notice to the
+Provider, retain such monies from amounts due Provider as may be necessary to satisfy any claim for damages,
+penalties, costs, and the like asserted by or against them. The Department and the State may set off any liability or
+other obligation of the Provider or its affiliates to the Department or the State against any payments due to the
+Provider under the Contract. Nothing contained herein negates the sovereign immunity protections provided to State
+agencies or subdivisions, as defined in section 768.28, Florida Statutes.
+F. Insurance: To maintain insurance sufficient to adequately protect the Department from all liability and property damage
+and hazards that may result from Provider’s performance under this contract. Provider must always hold such insurance
+during the existence of this Contract and any renewal(s) and extension(s) of it. Upon execution of this Contract, unless it is
+a state agency or subdivision as defined in section 768.28, Florida Statutes, Provider accepts full responsibility for
+identifying and determining the type(s) and extent of liability, workers compensation, and property damage insurance
+necessary to provide reasonable financial protections for Provider and the clients to be served under this Contract. The
+limits of coverage under each policy maintained by Provider do not limit Provider’s liability and obligations under this
+Contract. Upon the execution of this Contract, Provider must furnish the Department written verification supporting both
+the determination and existence of such insurance coverage. Such coverage may be provided by a self-insurance program
+established and operating under the laws of the State. The Department reserves the right to require additional insurance as
+specified in Attachment I.
+
+Form Revised February 2025
+
+4
+
+Contract # 25C35
+
+    
+
+
+
+G. Safeguarding Information: Provider will not use or disclose any information concerning a recipient of services under this
+Contract for any purpose not in conformity with State and federal law except upon written consent of the recipient or the
+responsible parent or guardian when authorized by law.
+H. Assignments and Subcontracts
+1. Assignment: Provider will not assign the responsibility of this Contract to another party without the prior written
+approval of the Department, which will not be unreasonably withheld. Any assignment or transfer otherwise occurring
+without the Department’s approval will be null and void and the Provider will not be paid for such assigned services.
+This Contract will bind the successors, assigns, and legal representatives of Provider and any legal entity that succeeds to
+perform the Provider’s obligations. The Department will be entitled to assign or transfer, in whole or part, its rights, duties,
+or obligations under this Contract to another governmental entity or as required under Florida law upon prior written notice
+to Provider.
+2. Subcontracts:
+a. Provider will be responsible for all work performed and all expenses incurred for this Contract. Provider will not
+subcontract any work contemplated under this Contract without the prior written approval of the Department. If
+the Department permits Provider to subcontract under this Contract, the Department will not be liable to the
+subcontractor for any expenses or liabilities incurred under the subcontract and Provider will be solely liable to
+the subcontractor for all expenses and liabilities incurred under the subcontract. If the Department permits the
+Provider to subcontract, such permission will be indicated in Attachment I. If Provider subcontracts any of the
+services performed under the Contract without obtaining the Department’s prior written approval, such action will
+be null and void and Provider will not be paid for such subcontracted services.
+b. Unless otherwise stated in the Provider’s Contract with the subcontractor, payments must be made within seven
+working days after receipt of full or partial payments from the Department in accordance with section 287.0585,
+Florida Statutes. Failure to pay within seven working days will result in a penalty charged against the Provider to be paid
+by the Provider to the subcontractor in the amount of one-half of one percent of the amount due per day from the
+expiration of the period allowed herein for payment. The penalty will be in addition to actual payments owed and will not
+exceed 15 percent of the outstanding balance due.
+I.
+
+Return of Funds: Return to the Department any overpayments due to unearned funds or funds disallowed and any interest
+attributable to such funds pursuant to the terms of this Contract that were paid to Provider by the Department. If Provider or
+its independent auditor discovers that an overpayment has been made, Provider will repay the overpayment within 40
+calendar days without prior notification from the Department. If the Department first discovers an overpayment has been
+made, the Department will notify Provider in writing of such a finding. Should repayment not be made in the time
+specified by the Department, Provider will pay interest of one percent per month compounded on the outstanding balance
+after 40 calendar days after the date of notification or discovery. The Department reserves the right, in its sole and exclusive
+discretion, to recoup Provider’s unearned funds from any invoice submitted under this Contract or through collection
+proceedings.
+
+J. Transportation Disadvantaged: If clients are to be transported under this Contract, Provider must comply with the
+provisions of Chapter 427, Florida Statutes, and Florida Administrative Code, Chapter 41-2 and submit reports as directed
+by the Department.
+K. Purchasing
+1. Prison Rehabilitative Industries and Diversified Enterprises, Inc. (PRIDE): Pursuant to section 946.515(2),
+Florida Statutes, it is expressly understood and agreed that any articles which are the subject of, or required to
+carry out, this Contract shall be purchased from the corporation identified under Chapter 946, Florida Statutes, in
+the same manner and under the same procedures set forth in section 946.515(2) and (4), Florida Statutes; and for
+purposes of this Contract the person, firm, or other business entity carrying out the provisions of this contract
+shall be deemed to be substituted for the Department insofar as dealings with such corporation are concerned. An
+abbreviated list of products and services available from PRIDE may be obtained by contacting PRIDE at 1-800-643-8459
+or visiting http://www.pride-enterprises.org.
+2. Procurement of Materials with Recycled Content: Any products or materials which are the subject of or are required to
+carry out this Contract will be procured in accordance with the provisions of section 403.7065, Florida Statutes.
+3. MyFloridaMarketPlace Vendor Registration: Each Provider doing business with the State for the sale of commodities
+or contractual services as defined in section 287.012, Florida Statutes, must register in the MyFloridaMarketPlace system,
+unless exempted under Florida Administrative Code, Rule 60A-1.033.
+4. MyFloridaMarketPlace Transaction Fee:
+
+Form Revised February 2025
+
+5
+
+Contract # 25C35
+
+    
+
+
+
+a.
+
+The state of Florida, through its Department of Management Services (DMS), has instituted MyFloridaMarketPlace, a
+statewide procurement system. Pursuant to section 287.057(24), Florida Statutes, all payments will be assessed a
+Transaction Fee of one percent, which Provider will pay to the State.
+b. For payments within the State accounting system (FLAIR or its successor), the Transaction Fee will, when possible, be
+automatically deducted from payments to the Provider. If automatic deduction is not possible, Provider will pay the
+Transaction Fee pursuant to Florida Administrative Code, Rule 60A-1.031(2).
+c. Provider will receive a credit for any Transaction Fee paid by the Provider for the purchase of any item, if such item is
+returned to Provider through no fault, act, or omission of Provider. Notwithstanding the foregoing, a Transaction Fee is
+non-refundable when an item is rejected or returned, or declined, due to the Provider’s failure to perform or comply with
+the specifications or requirements of this Contract. Failure to comply with these requirements will constitute grounds for
+declaring the Provider in default and recovering reprocurement costs from the Provider in addition to all outstanding fees.
+A Provider delinquent in paying transaction fees may be excluded from conducting future business with the State.
+5. Alternative Contract Source: This Contract may be used as an alternative contract source, subject to approval from
+DMS, pursuant to section 287.042(16), Florida Statutes and Florida Administrative Code, Rule 60A-1.045.
+6. Registered to do Business with the State: All limited liability companies, corporations, corporations not for profit, and
+partnerships seeking to do business with the State must be registered with the Florida Department of State in accordance
+with the provisions of Chapters 605, 607, 617, and 620, Florida Statutes, respectively prior to Contract execution.
+7. Taxes: The Department is generally exempt from all federal, state, and local taxes and no such taxes must be included in
+the price of the Contract. The Department will have no responsibility for the payment of taxes that become payable by
+Provider or its subcontractors in the performance of the Contract.
+L. Background Screening Requirements and Drug Screening Requirements:
+1. Background Screening Requirements: In the Department’s sole and exclusive discretion, it may determine that
+background screening of some or all the Provider’s officers, agents, employees, subcontractors, or assignees is
+necessary (collectively individuals). In the event background screenings are required under this contract, the
+Provider agrees to the following:
+a.
+Conduct background screenings in accordance with Chapter 435, Florida Statutes, using level 2 screening
+standards.
+b.
+Provide the Department with a written attestation confirming that the individual has completed and cleared
+the level 2 background screening.
+c.
+Not allow the individual to begin work under this contract until that individual has been cleared by the
+Department.
+d.
+Be responsible for any costs incurred in meeting this screening requirement.
+2. Drug Screening Requirements:
+a.
+If the Provider’s officers, agents, employees, subcontractors, or assignees (collectively “individuals”) are
+assigned to work in a Department designated Safety-Sensitive Class and/or Position, under this Contract,
+then a drug test must be performed prior to the individual being allowed to start work under this Contract. If
+an individual has already been screened by the Provider, then a written attestation confirming that the
+individual has completed and cleared the drug screening must be submitted to the Department prior to
+contract execution. If an individual has not been drug screened, notify the Department immediately. No
+individual can begin work under this Contract until they have been cleared by the Department.
+b.
+If at any time while performing services under this Contract reasonable suspicion exists to believe that the
+Provider’s staff, which includes, but is not limited to, Provider’s officers, agents, employees, subcontractors, or
+assignees, are under the influence of or impaired by drugs, the Department reserves the right to require the
+individual to undergo drug testing. The Department may require the individual to cease performing services
+pending drug test results. In the event of a positive drug test, the Provider must notify the Department in writing
+and at which time the Department may request a replacement of equal or superior skills and qualifications of the
+prior individual.
+c.
+The Provider is responsible for any costs associated with meeting this screening requirement.
+M. Civil Rights Requirements:
+1. Provider, including its officers, agents, employees, subcontractors, or assignees must review the following
+policies and procedures as directed by the Department: Policy for Access to Programs and Activities; Procedure
+for Access to Programs and Activities; Language and Disability Access Plan; and the Civil Rights Training for
+Access to Programs and Activities.
+2. Upon contract execution and each subsequent year thereafter, the Provider must complete the Department’s Civil
+Rights Compliance Checklist and submit it as directed by the Department.
+Form Revised February 2025
+
+6
+
+Contract # 25C35
+
+    
+
+
+
+N. Independent Capacity of the Provider
+1. Provider is an independent contractor and is solely liable for the performance of all tasks and deliverables contemplated
+by this Contract.
+2. Except where Provider is a state agency, Provider, its officers, agents, employees, subcontractor, or assignees, in
+performance of this Contract, will act in the capacity of an independent contractor and not as an officer, employee, or
+agent of the State. Provider will not represent to others that it has the authority to bind the Department unless
+specifically authorized to do so.
+3. Provider, its officers, agents, employees, subcontractor, or assignees are not entitled to state retirement or state leave
+benefits, or to any other compensation of state employment as a result of performing the duties and obligations of this
+Contract.
+4. Provider agrees to take such actions as may be necessary to ensure that each subcontractor of Provider understand they
+are independent contractor and will not be considered or permitted to be an agent, servant, joint venturer, or partner of
+the state of Florida.
+5. Unless justified by Provider and agreed to by the Department in the Attachment I, the Department will not furnish
+services of support (e.g., office space, office supplies, telephone service, secretarial, or clerical support) to Provider or
+its subcontractor or assignee.
+6. All deductions for social security, withholding taxes, income taxes, contributions to unemployment compensation
+funds, and all necessary insurance for Provider, Provider’s officers, employees, agents, subcontractors, or assignees
+will be the responsibility of Provider.
+O. Sponsorship: As required by section 286.25, Florida Statutes, if Provider is a non-governmental organization that sponsors
+a program financed wholly or in part by state funds, including any funds obtained through this Contract, it will, in
+publicizing, advertising, or describing the sponsorship of the program, state: “Sponsored by (Provider's name) and the State
+of Florida, Department of Health.” If the sponsorship reference is in written material, the words “State of Florida,
+Department of Health” will appear in at least the same size letters or type as Provider’s name.
+P. Final Invoice: To submit the final invoice for payment to the Department as specified in Attachment I or is terminated. If
+Provider fails to do so, all right to payment is forfeited and the Department will not honor any requests submitted after the
+aforesaid time period. Any payment due under the terms of this Contract may be withheld until all deliverables and any
+necessary adjustments have been approved by the Department.
+Q. Use of Funds for Lobbying Prohibited: Comply with the provisions of sections 11.062 and 216.347, Florida Statutes,
+which prohibit the expenditure of Contract funds for the purpose of lobbying the Legislature, judicial branch, or a state agency.
+R. Public Entity Crime, Discriminatory Vendor, Antitrust Violator Vendor List, and Scrutinized Companies
+1. Public Entity Crime: Pursuant to section 287.133, Florida Statutes, the following restrictions are placed on the ability
+of persons convicted of public entity crimes to transact business with the Department: When a person or affiliate has
+been placed on the convicted vendor list following a conviction for a public entity crime, he or she may not submit a
+bid on a contract to provide any goods or services to a public entity, may not submit a bid on a contract with a public
+entity for the construction or repair of a public building or public work, may not submit bids on leases of real property
+to a public entity, may not be awarded or perform work as a Provider, supplier, subcontractor, or consultant under a
+contract with any public entity, and may not transact business with any public entity in excess of the threshold amount
+provided in section 287.017, Florida Statutes, for CATEGORY TWO for a period of 36 months from the date of being
+placed on the convicted vendor list.
+2. Discriminatory Vendor: Pursuant to section 287.134, Florida Statutes, the following restrictions are placed on the
+ability of persons convicted of discrimination to transact business with the Department: When a person or affiliate has
+been placed on the discriminatory vendor list following a conviction for discrimination, he or she may not submit a bid
+on a contract to provide any goods or services to a public entity, may not submit a bid on a contract with a public entity
+for the construction or repair of a public building or public work, may not submit bids on leases of real property to a
+public entity, may not be awarded or perform work as a Provider, supplier, subcontractor, or consultant under a contract
+with any public entity, and may not transact business with any public entity in excess of the threshold amount provided
+in section 287.017, Florida Statutes, for CATEGORY TWO for a period of 36 months from the date of being placed on
+the discriminatory vendor list.
+3. Scrutinized Companies:
+a. The following paragraph applies regardless of the dollar value of the good or services provided: In
+accordance with the requirements of section 287.135, Florida Statutes, the Provider certifies that it is not
+participating in a boycott of Israel. At the Department’s option, the Contract may be terminated if the
+Contractor is placed on the Quarterly List of Scrutinized Companies that Boycott Israel (referred to in
+Form Revised February 2025
+
+7
+
+Contract # 25C35
+
+    
+
+
+
+statute as the “Scrutinized Companies that Boycott Israel List”) or becomes engaged in a boycott of Israel.
+The following paragraph applies only when goods or services to be provided are $1 million or more: In
+accordance with the requirements of section 287.135, Florida Statutes, the Provider certifies that it is not on
+the Scrutinized List of Prohibited Companies (referred to in statute as the “Scrutinized Companies with
+Activities in Sudan List” and the “Scrutinized Companies with Activities in the Iran Petroleum Energy
+Sector List”) and, to the extent not preempted by Federal law, that it has not been engaged in business
+operations in Cuba or Syria. At the Department’s option, the Contract may be terminated if such
+certification (or the certification regarding a boycott of Israel) is false, if the Contractor is placed on the
+Scrutinized List of Prohibited Companies, or, to the extent not preempted by Federal law, if the Contractor
+engages in business operations in Cuba or Syria.
+4. Antitrust Violator Vendor List: Pursuant to section 287.137(2)(a), “[a] person or affiliate who has been placed on the
+antitrust violator vendor list following a conviction or being held civilly liable for an antitrust violation may not submit
+a bid, proposal, or reply for a new contract with a public entity for the construction or repair of a public building or
+public work; may not submit a bid, proposal, or reply on new leases of real property to a public entity; may not be
+awarded or perform work as a contractor, supplier, subcontractor, or consultant under a new contract with a public
+entity; and may not transact new business with a public entity.”
+5. Department Notification Requirements: Provider must notify the Department in writing if it or any of its
+suppliers, subcontractors, or consultants have been placed on the convicted vendor list, the discriminatory
+vendor list, or the antitrust violator vendor list during the term of the Contract.
+b.
+
+S.
+
+Patents, Copyrights, Royalties, and Ownership of Property
+1. Provider shall not assert any rights to: a) intellectual property created or otherwise developed specifically for the
+Department under this Contract or any prior agreement between the parties (which includes any deliverables); b)
+intellectual property furnished by the Department; and c) any data collected or created for the Department. Provider
+shall transfer all such intellectual property or data to the Department upon completion, termination, or cancellation of
+the Contract and prior to payment of the final invoice. If the Department or State has the authority to assert a right in
+any of the intellectual property or data, Provider shall assist, if necessary, in the assertion of such right. Provider must
+inform the Department of any inventions or discoveries developed in connection with this Contract and will be referred
+to the Department of State for a determination on whether patent protection will be sought for the invention or
+discovery. The state of Florida will be the sole owner of all patents resulting from any invention or discovery made in
+connection with this Contract.
+2. Provider must notify the Department of State of any books, manuals, films, or other copyrightable works developed in
+connection with this Contract. All copyrights accruing under or in connection with the performance of the Contract are
+the sole property of the state of Florida.
+3. Provider, without exception, will indemnify and save harmless the state of Florida and its employees from liability of
+any nature or kind, including cost and expenses for or on account of any copyrighted, patented, or unpatented
+invention, process, or article manufactured by Provider. Provider has no liability when such claim is solely and
+exclusively due to the Department of State’s alteration of the article. The state of Florida will provide prompt written
+notification of claim of copyright or patent infringement. Further, if such claim is made or is pending, Provider may, at
+its option and expense, procure for the Department of State, the right to continue use of, replace, or modify the article to
+render it non-infringing. If Provider uses any design, device, or materials covered by letters, patent, or copyright, it is
+mutually agreed and understood without exception that the bid prices will include all royalties or cost arising from the
+use of such design, device, or materials in any way involved in the work.
+4. Proceeds derived from the sale, licensing, marketing, or other authorization related to any such Department-controlled
+intellectual property rights shall belong to the Department, unless otherwise specified by applicable State law.
+5. Notwithstanding the foregoing, and unless otherwise specified in the Attachment I, Provider’s intellectual property
+rights that preexist this Contract will remain with Provider unless such preexisting software or work was developed
+under a previous Contract with the Department.
+6. The following is only applicable to contracts executed with State universities, as defined in section 1001.705, Florida
+Statutes:
+a. Provider will retain ownership of all intellectual property developed as part of this contract in accordance with
+section 1004.23, Florida Statutes. Intellectual property includes all copyrights, trademarks, and patentable
+developments.
+b. Provider must notify the Florida Department of State of any intellectual property developed as part of this contract
+in accordance with section 1004.23, Florida Statutes. Provider grants the state of Florida an irrevocable,
+
+Form Revised February 2025
+
+8
+
+Contract # 25C35
+
+    
+
+c.
+
+
+
+nonexclusive, and royalty-free license to use all intellectual property developed under this contract for the
+complete lifetime of the intellectual property rights.
+If this contract is paid for with federal funds, Provider will grant the awarding federal agency an irrevocable,
+nonexclusive, and royalty-free license to use all intellectual property developed under this contract for the
+complete lifetime of the intellectual property rights.
+
+T. Construction or Renovation of Facilities Using State Funds: Any state funds provided for the purchase of or
+
+improvements to real property are contingent upon Provider granting to the state a security interest in the property at least to
+the amount of the state funds provided for at least five years from the date of purchase or the completion of the
+improvements or as further required by law. As a condition of a receipt of state funding for this purpose, Provider agrees
+that, if it disposes of the property before the state’s interest is vacated, Provider will refund the proportionate share of the
+state’s initial investment, as adjusted by depreciation or appreciation.
+U. Electronic Fund Transfer: Provider agrees to enroll in Electronic Fund Transfer (EFT) provided by DFS. Questions
+
+should be directed to DFS’s EFT Section at (850) 410-9466. The previous sentence is for notice purposes only. Copies of
+the authorization form and sample bank letter are available from DFS.
+V. Information Security and Confidentiality of Data, Files, and Records:
+1. Information Security: The State requires that all data generated, used, or stored by Provider pursuant to this Contract
+
+reside and remain in the United States and not be transferred outside of the United States. The State also requires that
+all services provided under the Contract, including call center or other help services, will be performed by persons
+located in the United States.
+2. Confidentiality of Data, Files, and Records: Provider must maintain confidentiality of all data, files, and records,
+including client records, related to the services or commodities provided pursuant to this Contract in accordance with
+applicable state and federal laws, rules, and regulations and any Department program-specific supplemental protocols,
+which are incorporated herein by reference and the receipt of which is acknowledged by Provider upon execution of
+this Contract, including any amendments. The Department will provide any Department program-specific
+supplemental protocols to Provider and reserves the right to update such protocols throughout the term of the Contract.
+The Provider agrees that it will continue to comply with all protocols, as updated and supplemented, throughout the
+duration of this Contract. Provider agrees to restrict the use and disclosure of confidential United States Department of
+Agriculture (USDA), WIC applicant, and participant information as specified in 7 CFR § 246.26(d)(1)(i) in accordance
+with 7 CFR § 246.26(d)(1)(ii), as applicable. Provider is required to have written policies and procedures ensuring the
+protection and confidentiality of Protected Health Information as defined in 45 CFR § 160.103. Provider must comply
+with any applicable professional standards of practice with respect to t he confidentiality of information.
+3. Business Associate Agreement: If applicable, Provider must execute Attachment N/A, Business Associates
+Agreement prior to receiving any Protected Health Information, as defined in 45 CFR § 160.103, from the
+Department.
+4. Data Security and Confidentiality: If applicable, and Provider requires access to the Department’s network
+under the Contract, Provider must execute Attachment N/A, Data Security and Confidentiality Attachment prior
+to accessing the network.
+W. Venue and Remedies for Default:
+
+1. Venue: Venue for any legal actions arising from this Contract must be in Leon County, Florida, to the exclusion of any
+other jurisdiction unless the Contract is entered into by one of the Department’s County Health Departments, in which
+case, venue for any legal actions will be in the county in which the county health department is located. Each party
+hereby consents to the jurisdiction of such court and irrevocably waives, to the maximum extent permitted by law, any
+objection or defense of lack of jurisdiction or inconvenient forum. In the event of a dispute, each party is responsible
+for their own attorney fees and costs unless otherwise prohibited by law.
+2. Remedies for Default: Provider’s failure to adhere to the Contract terms and conditions will subject Provider to
+the remedies set forth in Section III., paragraph B. 3., below.
+X. Force Majeure: Provider may be excused from liability for the failure or delay in performance of any obligation under this
+
+Contract for any event beyond Provider’s reasonable control, including but not limited to, Acts of God, fire, flood,
+explosion, earthquake, or other natural forces, war, civil unrest, any strike, or labor disturbance. Such excuse from liability
+is effective only to the extent and duration of the event(s) causing the failure or delay in performance and provided that
+Provider or its employees, including any subcontracted providers, have not caused such event(s) to occur. If Provider
+believes an excusable delay has occurred, Provider must notify the Department in writing of the delay or potential delay
+within five business days after its occurrence for review and approval (which will not be unreasonably withheld) and
+include at a minimum, a description of the delay, date the force majeure event occurred including the duration, and the tasks
+Form Revised February 2025
+
+9
+
+Contract # 25C35
+
+    
+
+
+
+and deliverables affected by the delay. Provider will not be entitled to an increase in the Contract price or payment of any
+kind from the Department for direct, indirect, consequential, impact or other costs, expenses or damages, including but not
+limited to costs of acceleration or inefficiency, arising because of delay, disruption, interference, or hindrance from any
+cause whatsoever. All delivery dates under this Contract that have been affected by the force majeure event is tolled for the
+duration of such force majeure event. If the Contract is tolled for any reason, Provider is not entitled to payment for the days
+services were not rendered and no financial consequences will be assessed by the Department for that affected task(s) or
+deliverable.
+Y. Employment Eligibility Verification: Provider is required to use the U.S. Department of Homeland Security’s E-Verify
+
+system, located at https://www.e-verify.gov to verify the employment eligibility of all newly hired employees used by
+Provider under this Contract. Provider must also include in related subcontractors, if authorized under this Contract, a
+requirement that subcontractors performing work under this Contract use the E-Verify system to verify employment
+eligibility of all newly hired employees. Failure to comply with the requirements of section 448.095, Florida Statutes, will
+result in the Contract being terminated.
+Z. USDA WIC Services: Provider agrees to abide by the following requirements if the Contract is related to services or
+
+commodities being provided to WIC applicants or participants: Assurance of Civil Rights Compliance: Provider hereby
+agrees that it will comply with Title VI of the Civil Rights Act of 1964 (42 U.S.C. 2000d et seq.); Title IX of the Education
+Amendments of 1972 (20 U.S.C. 1681 et seq.); Section 504 of the Rehabilitation Act of 1973 (29 U.S.C. 794); the Age
+Discrimination Act of 1975 (42 U.S.C. 6101 et seq.); Title II and Title III of the Americans with Disabilities Act (ADA) of
+1990, as amended by the ADA Amendment Act of 2008 (42 U.S.C. 12131-12189) and as implemented by Department of
+Justice regulations at 28 CFR Parts 35 and 36; Executive Order 13166, “Improving Access to Services for Persons with
+Limited English Proficiency” (August 11, 2000); all provisions required by the implementing regulations of the U.S.
+Department of Agriculture (7 CFR Part 15 et seq.); and FNS directives and guidelines to the effect that no person shall, on
+the ground of race, color, national origin, age, sex, or disability, be excluded from participation in, be denied the benefits of,
+or otherwise be subjected to discrimination under any program or activity for which the agency receives Federal financial
+assistance from FNS; and hereby gives assurance that it will immediately take measures necessary to effectuate this
+agreement.
+By providing this assurance, the Provider agrees to compile data, maintain records, and submit records and reports as
+required to permit effective enforcement of the nondiscrimination laws, and to permit Department personnel during
+normal working hours to review and copy such records, books, and accounts, access such facilities, and interview
+such personnel as needed to ascertain compliance with the non-discrimination laws. If there are any violations of this
+assurance, the USDA shall have the right to seek judicial enforcement of this assurance. This assurance is given in
+consideration of and for the purpose of obtaining any and all Federal financial assistance, grants, and loans of
+Federal funds, reimbursable expenditures, grant or donation of Federal property and interest in property, the detail of
+Federal personnel, the sale and lease of, and the permission to use Federal property or interest in such property or the
+furnishing of services without consideration or at a nominal consideration, or at a consideration that is reduced for
+the purpose of assisting the recipient, or in recognition of the public interest to be served by such sale, lease, or
+furnishing of services to the recipient, or any improvements made with Federal financial assistance extended to the
+Program applicant by USDA. This includes any Federal agreement, arrangement, or other Contract that has as one of
+its purposes the provision of cash assistance for the purchase of food, and cash assistance for purchase or rental of
+food service equipment or any other financial assistance extended in reliance on the representations and agreements
+made in this assurance.
+This assurance is binding on the Provider, its successors, transferees, and assignees if it receives or retains
+possession of any assistance from the Department. The person or persons whose signatures appear below are
+authorized to agree to abide by these assurances on behalf of the Provider.
+AA. Replacement of Provider staff: The Department may request the removal or replacement of Provider staff, which
+
+includes, but is not limited to, Provider’s officers, agents, employees, subcontractors, or assignees, from performing
+services under this Contract. The Provider’s offered replacement must have equal or superior skills and qualifications of the
+prior individual.
+BB. Purchase of Motor Vehicles: Pursuant to section 287.14(3), Florida Statutes, funds received under this Contract cannot be
+
+used to purchase or allow for the continuous lease of any motor vehicle unless funds were appropriated by the Legislature.
+This requirement does not apply to motor vehicles needed to meet unforeseen or emergency situations if approved by the
+Executive Office of the Governor after consultation with the legislative appropriations committees.
+
+Form Revised February 2025
+
+10
+
+Contract # 25C35
+
+    
+
+
+
+CC. Pharmacy Benefit Manager Services: Pursuant to Fla. Exec. Order No. 22-164, if this Contract is for the provision of
+
+Pharmacy Benefit Manager Services (PBM), Provider’s PBM is prohibited from the use of spread pricing and financial
+claw backs. Provider agrees to have data reporting measures, including, but not limited to, data regarding rebates and
+payments from drug manufacturers, insurers, and pharmacies, if applicable, available to the Department for review. Any
+information provided by the Provider may only be collected, shared, or disclosed in accordance with federal and state law,
+including any relevant privacy laws related to proprietary or confidential information.
+DD. Notice Requirements: Any notices provided under this Contract must be delivered by certified mail, return receipt
+
+requested, in person with proof of delivery, or by email to the email address of the respective party identified in Section
+III.D., below.
+II. METHOD OF PAYMENT
+$ Contract Amount: The Department agrees to pay the Provider for the completion of the deliverables as specified in
+Attachment I, in an amount not to exceed $, subject to the availability of funds. The state of Florida's
+performance and obligation to pay under this Contract is contingent upon an annual appropriation by the Legislature.
+The costs of services paid under any other contract or from any other source are not eligible for reimbursement under
+this Contract.
+% Contract Payment:
+ Provider must submit bills for fees or other compensation for services or expenses in sufficient detail for a properpreaudit and post-audit thereof.
+ Where reimbursement of travel expenses is allowable as specified in Attachment I, bills for any travel expenses mustbe
+submitted in accordance with section 112.061, Florida Statutes. The Department may, if specified in Attachment I,
+establish rates lower than the maximum provided in section 112.061, Florida Statutes.
+ Pursuant to section 215.422, Florida Statutes, the Department has five working days to inspect and approve goods and
+services, unless this Contract specifies otherwise. Except for payments to health care providers for hospital, medical, or
+other health care services, if payment is not available within 40 days, measured from the latter of the date the invoice is
+received or the goods or services are received, inspected, and approved, a separate interest penalty set by the State’s
+Chief Financial Officer pursuant to section 55.03, Florida Statutes, will be due and payable in addition to the invoice
+amount. To obtain the applicable interest rate, contact the Department’s fiscal office or Contract administrator.
+Payments to health care providers for hospitals, medical, or other health care services, will be made not more than 35
+days from the date eligibility for payment is determined, at the daily interest rate of 0.03333 percent. Invoices returnedto
+the Provider due to preparation errors will result in a payment delay. Interest penalties of less than one dollar will notbe
+enforced unless the Provider requests payment. Invoice payment requirements do not start until a properlycompleted
+invoice is provided to the Department.
+ Bonuses: Pursuant to section 215.425, Florida statutes, any bonus scheme implemented by Provider must: 1) base
+the award of a bonus on work performance; 2) describe the performance standards and evaluation process by
+which a bonus will be awarded; 3) notify all employees of the policy, ordinance, rule, or resolution before the
+beginning of the evaluation period on which a bonus will be based; and 4) consider all employees for the bonus. A
+copy of the Provider’s policy, ordinance, rule, or resolution must be submitted to the Contract Manager for review
+prior to Contract funds being allocated for such payment. The Department reserves the right to refuse Provider’s
+request to allocate any Contract funds for the payment of bonuses.
+ Florida Substitute Form W-9: Provider is required to submit a substitute W-9 form to the Department of
+Financial Services (DFS) electronically prior to doing business with the state of Florida via the Vendor Website at
+https://flvendor.myfloridacfo.com. Any subsequent changes to Provider’s W-9 must be made on this website;
+however, if the Provider needs to change its Federal Employer Identification Number (FEID), it must contact the
+DFS Vendor Ombudsman Section at (850) 413-5516.
+C. Vendor Ombudsman: A Vendor Ombudsman has been established within DFS whose duties include acting as an
+advocate for providers who may be experiencing problems in obtaining timely payment from a state agency. The Vendor
+Ombudsman may be contacted at (850) 413-5516 or by calling the DFS Consumer Hotline at 1-(800)-342-2762.
+D. Counterparts; Electronic Signatures: This Contract may be executed in one or more counterparts, each of which
+shall be deemed an original but all of which shall constitute one and the same instrument. For purposes of this
+Contract, use of a facsimile, e-mail, or another electronic medium shall have the same force and effect as an original
+signature.
+
+Form Revised February 2025
+
+11
+
+Contract # 25C35
+
+    
+
+
+
+III. PROVIDER CONTRACT TERM
+$ Effective and Ending Dates: This Contract will begin on 6HSWHPEHU 1, 2025 or on the date on which the Contract has been
+signed by both parties, whichever is later. It will end on $XJXVW 3, 2026.
+% Termination
+ Termination at Will: This Contract may be terminated by either party upon no less than 30 calendar days’ written
+notice to the other party, without cause, unless a lesser time is mutually agreed upon in writing by both parties. Provider
+will be compensated for any work completed prior to the effective date of the termination.
+ Termination Because of Lack of Funds: In the event funds to finance this Contract become unavailable, the
+Department may terminate the Contract upon no less than 24 hours’ written notice to Provider. The Department will be
+the final authority as to the availability and adequacy of funds. Provider will be compensated for any work completed
+prior to the effective date of the termination.
+ Termination for Breach: This Contract may be terminated for material breach upon no less than 24 hours’ written
+notice to Provider. Waiver of breach of any provisions of this Contract will not be deemed to be a waiver of any other
+breach and will not be construed to be a modification of the terms of this Contract. In the event of default, in addition to
+the Department’s right to terminate the Contract, the Department may pursue any of its remedies at law or in equity,
+including but not limited to, any losses or expenditures of the Department in obtaining replacement services or
+commodities, investigating, monitoring, or auditing, including legal fees, professional fees, consulting fees, and witness
+fees. These remedies shall include offsetting any sums due to Provider under the Contract, and any other remedies at law
+or in equity.
+& Modification: Any modifications to this Contract must be in writing and executed by the parties.
+' Contract Representatives Contact Information:
+1. The name, mailing address, email address, and telephone number 3. The name, mailing address, email address, and
+telephone number of the Department’s Contract
+of Provider’s official payee to whom the payment will be made
+Manager is:
+is:
+Bridgette Morton
+University of Central Florida Board of Trustees
+4052
+Bald
+Cypress Way, Bin A-24
+7HFKQRORJ\3DUNZD\6XLWH
+Tallahassee,
+Florida 32399-1720
+Orlando, Florida 32826
+Bridgette.Morton@flhealth.gov 850-558-9620
+2. The name of the contact person and street address where
+Provider’s financial and administrative records are maintained is:
+Aaron Davis-'
+7HFKQRORJ\3DUNZD\6XLWH
+Orlando, Florida 32826
+
+4.The name, mailing address, email address, and telephone
+number of Provider’s representative responsible for
+administration of the program under this Contract is:
+$DURQ'DYLV-'
+7HFKQRORJ\3DUNZD\6XLWH
+Orlando, Florida 32826
+
+5. Provide written notice to the other party of any changes in the above Contract representative’s contact information. Any
+such changes will not require a formal amendment to this Contract.
+E. All Terms and Conditions Included: This Contract and its attachments and exhibits as referenced, I, II, III, IV, V, VI, and
+VII contain all the terms and conditions agreed upon by the parties. There are no provisions, terms, conditions, or
+obligations other than those contained herein, and this Contract will supersede all previous communications,
+representations, or agreements, either verbal or written between the parties. If any term or provision of this Contract is
+found to be illegal or unenforceable, the remainder of the Contract will remain in full force and effect and such term or
+provision will be stricken.
+
+END OF TEXT
+
+Form Revised February 2025
+
+12
+
+Contract # 25C35
+
+    
+
+
+
+IN WITNESS THEREOF, the parties hereto have caused this  page Contract to be executed by their undersigned,
+duly authorized, officials, and attest to have read the above Contract and agree to the terms contained within it.
+PROVIDER: UNIVERSITY OF CENTRAL FLORIDA BOARD
+OF TRUSTEES
+
+STATE OF FLORIDA, DEPARTMENT OF HEALTH
+
+SIGNATURE:
+
+SIGNATURE:
+
+PRINT/TYPE NAME: $$521'$9,6-'
+TITLE: &2175$&762)),&(5,,,
+DATE:  
+
+PRINT/TYPE NAME: MIKE MASON
+TITLE: ASSISTANT DEPUTY SECRETARY)25+($/7+
+ 
+DATE:
+BY SIGNING THIS CONTRACT, THE ABOVE
+ATTESTS THERE IS EVIDENCE IN THE CONTRACT
+FILE DEMONSTRATING THIS CONTRACT WAS
+REVIEWED BY THE DEPARTMENT’S OFFICE OF
+THE GENERAL COUNSEL.
+
+STATE AGENCY 29-DIGIT FLAIR CODE: N/A
+FEID# (PLUS 3-DIGIT SEQ.) (OR SSN): 59-2924021(082)
+PROVIDER FISCAL YEAR ENDING DATE: 6/30
+
+Form Revised February 2025
+
+13
+
+Contract # 25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+ATTACHMENT I
+A.
+
+Services to be Provided:
+1.
+
+General Description:
+General Statement: This agreement is for the research as part of the
+William G. “Bill” Bankhead, Jr. and David Coley Cancer Research
+Program, The James and Esther King Biomedical Research Program,
+The Live Like Bella Pediatric Cancer Research Initiative, The Ed and
+Ethel Moore Alzheimer’s Disease Research Program, the Andrew John
+Anderson Pediatric Rare Diseases Research Program, or the Cancer
+Innovation Fund. The purpose of the William G. “Bill” Bankhead, Jr. and
+David Coley Cancer Research Program is to advance progress toward
+cures for cancer through grants awarded through a peer-reviewed,
+competitive process. The purpose of the James and Esther King
+Biomedical Research Program is to support research initiatives that
+address the health care problems of Floridians in the areas of tobaccorelated cancer, cardiovascular disease, stroke, and pulmonary disease.
+The purpose of the Live Like Bella Pediatric Cancer Research Initiative is
+to advance progress toward curing pediatric cancer through grants
+awarded through a peer-reviewed, competitive process. The purpose of
+the Ed and Ethel Moore Alzheimer’s Disease Research Program is to
+fund research leading to prevention of, or a cure for, Alzheimer’s disease.
+The Andrew John Anderson Rare Pediatric Disease Research Grant
+Program is to advance the progress of research and cures for pediatric
+rare disease by awarding grants through a competitive, peer-reviewed
+process.
+a.
+
+2.
+
+Authority: Pursuant to Section(s) 215.5602, 381.82, 381,915, 381.922,
+and 381.991, Florida Statutes, the Department of Health has the authority
+to enter this agreement.
+
+Definition of Terms:
+a.
+
+Collaborator: An individual involves with the corresponding principal
+investigator in the scientific development or execution of the project.
+These individuals typically devote a specific percent of effort to the project
+and are identified as key personnel. The collaborator may be employed
+by, or affiliated with, either the Grantee institution or an institution
+participating in the project under a consortium or other agreement.
+
+b.
+
+Corresponding Principal Investigator (PI): The one individual designated
+by the applicant organization to direct the project to be supported by the
+grant. The Co-PI is responsible and accountable to applicant organization
+officials for the proper conduct of the project.
+
+c.
+
+Department: Florida Department of Health.
+
+14
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+
+3.
+
+d.
+
+Institutional Animal Care and Use Committee (IACUC): A committee that
+oversees the care and use of animals at institutions that conduct
+research.
+
+e.
+
+Institutional Biosafety Committee (IBC): A committee that reviews and
+approves research that involves potentially hazardous biological agents.
+
+f.
+
+Institutional Review Board (IRB): A committee that reviews research
+involving human subjects to determine if research complies with law,
+including but not limited to 45 CFR 46, and 21 CFR 50, 56, 312, and 812
+as applicable.
+
+g.
+
+Grantee: Research institution to which this grant is awarded.
+
+h.
+
+Key Personnel: Project key personnel include the corresponding principal
+investigator and all other principal investigators and co-principal
+investigators, project director, and mentor (in the case of directed
+research projects involving post-doctoral researchers). These personnel
+contribute to the scientific development or execution of the project in a
+substantive way, whether salaries are requested or not.
+
+i.
+
+Overlap, Commitment: Occurs when any project staff has time
+commitments exceeding 100 percent.
+
+j.
+
+Overlap, Financial: Occurs when duplicate or equivalent budget items are
+requested in an application but are already funded or provided for by
+another source.
+
+k.
+
+Overlap, Scientific: Occurs when substantially the same research is
+funded by two or more different funding sources, or when a specific
+research objective and the research design for accomplishing that
+objective are the same or closely related in two or more awards,
+regardless of the funding source.
+
+l.
+
+Quarter: A three-month period of the grant. The quarters for this grant
+are July through September (first quarter); October through December
+(second quarter); January through March (third quarter); April through
+June (fourth quarter). For the quarter in which the is executed only, the
+start of the quarter is defined as the execution date of this agreement.
+
+m.
+
+Radiation Safety Committee (RSC): A group established within a
+research organization to oversee and enforce policies regarding the safe
+use of radioactive materials and radiation-producing equipment.
+
+Clients to be Served: Non-client Services.
+
+15
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+B.
+
+Manner of Service Provision:
+1. Scope of Work: Initiate research under this grant within three months of the
+execution date. Provide reports to the Department describing the impact of the
+research on health outcomes, scientific impact, and patents.
+a.
+
+Task List: The Grantee will perform the following tasks:
+1)
+
+Grantee, which must obtain and submit all approvals necessary to
+the Department, must start research under this grant no later than
+three months after the execution date of the grant. Starting
+research means that all supplies, personnel, and other items are
+in place to begin experiments or conduct trials or analyses within
+three months of grant execution date.
+a. Grantee must submit to the Department the approval(s), and
+any applicable protocol(s) and consent form(s), within 5 days
+from execution of this Agreement, for all institutional
+authorizations including, but not limited to, an IRB, an
+IACUC, and an IBC approval, and a Radiation Safety
+Review, if the grant project requires the use of human
+subjects or vertebrate animals, recombinant DNA, stem
+cells, or radiation. Any institutional authorization must
+include the grant title exactly as it appears in Section 2.
+Grant Period and Awards, of this Agreement. For additional
+details, review subsections below regarding the use of
+human subjects, vertebrate animals, recombinant nucleic
+acid, stem cells, and radiation safety reviews. Any changes
+or modifications to institutional authorizations, protocols, or
+consent forms must be submitted to the Department no later
+than 10 working days after the approved change or
+modification.
+i. Human Subjects: The following provisions apply if
+the project involves human subjects:
+1. Grantee must comply with all applicable
+federal and state laws and regulations,
+including 45 CFR 46, 45 CFR 160 and 164,
+and 21 CFR 50, 56, 312, 812, and other
+applicable regulations, when research is
+covered by regulations, or the organization
+has committed to applying federal regulations
+or equivalent protections to all research.
+2. Grantee must obtain, maintain, and provide to
+the Department an active Institutional Review
+Board (IRB) approval letter before project
+work can begin. The approval letter must
+include Corresponding Principal Investigator’s
+name, grant title exactly as it appears in these
+16
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+Terms and Conditions, approval date,
+expiration date, and the signature of the
+approving authority chairperson.
+3. Grantee is responsible for safeguarding the
+rights and welfare of human subjects in
+Department-supported projects. Grantees
+proposing to involve human subjects in
+nonexempt research must provide, upon
+request, a copy of the organization’s
+Assurance of Compliance with the Office of
+Human Research Protections (OHRP) and
+must establish and maintain appropriate
+policies and procedures for the protection of
+human subjects.
+4. Grantees are required to obtain and maintain
+approval from an IRB accredited by the
+Association for Accreditation of Human
+Research Protection Programs (AAHRPP), or
+an IRB acceptable to the Department, within
+two months of notice of award. Grantees are
+required to follow Department policies for
+reporting unanticipated problems and noncompliance involving the research to the
+Department.
+5. When appropriate, Grantee agrees to define
+the arrangements for medical care for
+research-related injury before the research
+starts and communicate it to prospective
+research subjects. This does not require any
+particular party to be responsible for such
+care; it requires that it be made clear to
+subjects through the informed consent
+document/process who will provide medical
+care and who will be responsible to pay for it,
+should a subject experience a researchrelated injury.
+6. Grantee agrees to report to the Department
+within 2 state working days, any expiration of
+IRB approval, serious or continuing noncompliance, unanticipated problems involving
+risks to subjects or others, and any
+suspension or termination of IRB approval.
+Grantee’s IRB must report to the Department
+when reporting to federal officials any serious
+or continuing non-compliance or
+unanticipated problem involving risks to
+subjects or others.
+17
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+
+7. During the time that one or more IRB
+approval(s) is expired, all activities covered by
+the expired IRB approval(s) must stop until
+approval is obtained, and expenses for those
+activities during the expired period will be
+disallowed.
+8. Grantee must comply with NOT-OD-18-014:
+“NIH Policy and Guidelines on the Inclusion of
+Women and Minorities as Subjects in Clinical
+Research.”
+9. Research subjects can receive participation
+payments. Grantees must provide the page of
+the approved IRB protocol that indicates the
+research participant payment form and
+amount. Participant payment distribution logs
+with all personal information redacted will be
+required with each invoice. The logs will serve
+as an accounting of incentives given to
+research subjects each quarter. A summary of
+the log must be included with each invoice
+that provides the total number of participant
+visits for the quarter, the unit cost for
+participant payments, visit type, and the total
+cost for participant payments for each quarter.
+An example of this required documentation
+can be found at:
+http://www.floridahealth.gov/provider-andpartner-resources/research/grant-programsresources/forms-library.html.
+ii. Vertebrate Animals: If this project involves the use of
+vertebrate animals, the following terms apply:
+1. Grantee is responsible for the humane care
+and use of animals in Department-supported
+research activities. Grantee must abide by the
+Animal Welfare Act as amended (7 USC,
+2131-2159) and other Federal statutes and
+regulations relating to animals.
+2. Grantee must obtain, maintain, and provide to
+the Department active verification or
+certification of Institutional Animal Care and
+Use Committee (IACUC) approval before
+project work can begin. The verification must
+include Corresponding Principal Investigator
+name, the exact grant title, approval and
+
+18
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+expiration dates, and signature of the
+approving authority chairperson.
+3. Grantee must report within two state business
+days to the Department, any expiration of
+IACUC approval, serious or continuing noncompliance, and any suspension or
+termination of IACUC approval.
+4. During the time that the IACUC approval is
+expired, all activities covered by the expired
+IACUC approval must discontinue until a
+renewal is obtained, and expenses for those
+activities during the expired period will be
+disallowed.
+iii. Recombinant Nucleic Acid: All research involving
+Recombinant Nucleic Acid techniques must meet the
+requirements of the “NIH Guidelines for Research
+Involving Recombinant or Synthetic Nucleic Acid
+Molecules.” The Corresponding Principal
+Investigator is responsible for verifying if IBC
+approval is warranted.
+iv. Stem Cells: All research involving human stem cells
+must meet the requirements of the “National
+Institutes of Health Guidelines for Human Stem Cell
+Research.” The Corresponding Principal Investigator
+is responsible for verifying if IBC approval is
+warranted.
+v. Radiation Safety Review: All research involving
+radiation must meet the requirements of the “NIH
+Human Research Protection Program,” in addition to
+any grantee radiation safety requirements. The
+Corresponding Principal Investigator is responsible
+for verifying if a Radiation Safety Review is
+warranted.
+b. Prior to starting research under this grant, Grantee must
+provide the Department with a conflict of interest form signed
+by the Principal Investigator, a budget approved by the
+Department, and the following documents, as applicable: an
+approved management plan; an Institutional Review Board
+(IRB) approval(s); an Institutional Animal Care and Use
+Committee (IACUC) approval(s); an Institutional Biosafety
+
+19
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+Committee (IBC) approval(s); and a Radiation Safety
+Review(s).
+i. Financial Conflict of Interest: The Grantee must
+report to the Department any reportable interests,
+regardless of any conflict-of-interest procedures at
+Grantee’s institution, at the time of the application
+and before the grant starts. Grantee must have in
+place an administrative process to identify and
+resolve financial conflicts of interest that may affect
+the objectivity of the proposed research. Grantee
+must inform the Department of any conflict-of-interest
+management plan required by Grantee’s institution
+prior to starting research. The Department may
+require an additional management plan if the plan
+developed by Grantee’s institution is not acceptable
+to the Department. If a reportable interest as defined
+by the Department arises after the grant starts,
+Grantee must notify the Department within 48 hours.
+c. Grantee must update the Department via email each month
+regarding the status of all applicable regulatory applications
+prior to receiving institutional authorization. Once all
+applicable institutional authorizations are received, and the
+Department has been sent a final update stating that all
+applications have been approved, the Grantee will no longer
+need to provide the Department with monthly updates.
+d. The Grantee must request, in writing, from the Department’s
+Grant Manager, authority to begin a portion of the grant
+project that does not deal with human subjects, vertebrate
+animals, recombinant DNA, stem cells, or radiation pending
+institutional authorization(s). This request must be submitted
+after execution of the grant, but no later than three months
+after execution.
+2)
+
+Grantee must provide reports to the Department describing the
+impact of the research on health outcomes; scientific impact such
+as publications in peer-review journals, presentations,
+collaborations, or patents; and any subsequent additional grant
+funding related to the research subject.
+a. Grantee must prepare quarterly financial and expenditure
+reports and narrative progress reports, which include a
+description of the impact of the research on health outcomes
+and other deliverables as outlined in Attachment III. Reports
+must be submitted to the Department no later than close of
+business 5:00 p.m., Eastern Time on the dates outlined in
+Attachment III. Reports must be prepared in the format
+specified by the Department.
+b. Grantee must prepare annual and final Florida Legislative
+Progress Reports to be used in the preparation of the
+statutorily required annual report to the Florida Legislature
+and Governor. Grantee will make all reasonable efforts to
+20
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+assist the Department in gathering data required for
+reporting to the Florida Legislature and Governor pursuant to
+section 381.922(6) or 215.5602(10), Florida Statutes, and
+other laws, as applicable, both during and after the grant
+period. Upon request, Grantee agrees to report to the
+Department a description of all outcomes resulting from this
+grant, including but not limited to a description of the impact
+of the research on health outcomes, publications,
+presentations, peer-reviewed journal articles, databases,
+additional grants and monies received, postsecondary
+educational institutional involvement, patents, inventions
+disclosures, collaborations, and copyrights. The narrative
+report is intended for a general audience and should be
+limited to 500 words. The report is due annually by July 31.
+A final legislative report is due before the grant close out in
+accordance with the schedule of deliverables in Attachment
+III.
+i. Publications, Presentations, Patents, or Printing of
+Reports: Any publications, presentations, patents,
+printed reports, materials designed for use by the
+general public (e.g., educational pamphlets), or
+resulting research findings related to this grant must
+acknowledge the appropriate funding source: Florida
+Department of Health, Public Health Research,
+Biomedical Research Program. Grantee must notify
+the Department of all publications, presentations,
+patents, printed reports, materials designed for use
+by the general public, and research findings as a
+result of this grant both during the grant period and
+for a period of six years after the grant ends. Return
+on Investment surveys will be sent to prior grantees
+for completion which measures the long-term impact
+of the research grant funds. The Grantee is to
+provide the Department a copy of each peerreviewed journal article that is published. Further, if
+research is presented at a conference, the
+presentation, poster, and abstract should be
+submitted to the Department. If the presentation was
+scientific, a summary should be developed and
+submitted that can be understood by and provided to
+the public.
+ii. Best Practices, Innovative Therapies, and Protocols
+Developed: Grantee must provide, any best
+practices, innovative therapies, and protocols
+developed with grant funds and how they will be
+shared with the public.
+
+21
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+
+b.
+
+Deliverables: The Grantee must perform the following deliverables in the
+time and manner specified:
+1)
+
+c.
+
+2.
+
+3.
+
+Quarterly: Provision of research as specified in Tasks B.1.a.1)
+through B.1.a.2).
+
+Performance Measures: Deliverables must be met at the following
+minimum level of performance:
+1)
+
+Submit appropriate IRB, IACUC, IBC, or Radiation Safety Review
+approval within 5 days of execution of this agreement as specified.
+
+2)
+
+Initiate research within three months of grant execution as
+specified.
+
+3)
+
+Submit to the Department all updates and changes to the IRB,
+IACUC, IBC, or Radiation Safety Review, and any applicable
+protocol(s) and consent form(s), as specified.
+
+4)
+
+Provide progress reports according to Attachment III as specified.
+
+Financial Consequences: Failure of Grantee to complete or submit a deliverable
+in the time and manner specified will result in a reduction in payment for that
+deliverable as follows:
+a.
+
+Failure to provide to the Department IRB, IACUC, IBC, or Radiation
+Safety Review approval(s) within 5 days of execution of this agreement
+will result in a reduction of 20 percent to the quarterly invoice.
+
+b.
+
+Failure to start research no later than three months following the
+execution of this agreement as specified will result in a reduction of 10
+percent to the quarterly invoice.
+
+c.
+
+Failure to provide to the Department all updates and changes to IRB,
+IACUC, IBC, or Radiation Safety Review as specified, will result in a
+reduction of 10 percent to the quarterly invoice.
+
+d.
+
+Failure to submit progress reports as specified will result in a reduction of
+10 percent to the quarterly invoice.
+
+Service Location, Times, and Equipment:
+a.
+
+Service Delivery Location: Services under this grant must be provided at
+the Grantee’s institution:
+7HFKQRORJ\3DUNZD\6XLWH
+Orlando, Florida 32826
+
+22
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+b.
+
+4.
+
+C.
+
+Changes in Location: Grantee must obtain written Grant Manager or
+designee approval for all location changes prior to the effective date of
+the location change.
+
+Staffing Requirement:
+a.
+
+Staffing Level: Grantee must maintain an adequate administrative and
+organizational structure sufficient to complete the deliverables under the
+grant.
+
+b.
+
+Professional Qualifications: Grantee will be responsible for the staff
+affiliated with this program, ensuring they have the education, experience
+and training necessary to successfully carry out their duties, including any
+professional licensure or certification, which may be required by law.
+
+c.
+
+Staffing Changes: Grantee must notify the Grant Manager in writing prior
+to any changes in Key Personnel or staffing. Grantee must establish a
+system to track work effort commitments of all key personnel.
+Commitment of any individual’s effort greater than 100 percent is not
+permitted. Effort certification documentation must indicate the committed
+or actual work effort expended on the grant during the grant period and
+the percentage of effort performed for all deliverables. All effort assigned
+to this grant must be for work directly related to the project. Replacement
+of or reduction in the effort of the Project Director or Co-PI(s) are not
+allowed within the first year and may not be decreased more than ten
+percent within any one year of the grant period. The amount of effort of
+the Project Director or Co-PI(s) must remain consistent with the approved
+budget and any approved changes.
+
+Method of Payment:
+1.
+
+Payment: This is a fixed-price, fixed-fee grant. The Department will pay the
+Grantee for satisfactory completion of the deliverables as specified in section
+B.1.b.1 of this grant, a total dollar amount not to exceed $1,998,935.00 for the
+grant term. Payments will be made in accordance with Attachment III of this
+grant.
+
+2.
+
+Unit of Service: A unit of service will consist of one quarter of completed required
+deliverables, as specified in Section B.1.b. A quarter of deliverables will include
+all deliverables due in that quarter, including any monthly or annual deliverables
+scheduled for delivery in a particular quarter.
+
+3.
+
+Invoice Requirements: Grantee must submit a properly completed invoice to the
+Grant Manager in accordance with Attachment III of this grant. At a minimum,
+each invoice must contain a list of all completed deliverables for the invoice
+period, the invoice date, invoice number, a statement certifying the accuracy of
+the invoice, and the signature of an individual with the authority to bind Grantee.
+
+4.
+
+Supporting Documentation Requirements
+23
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+
+D.
+
+a.
+
+Budget: Department approved budget is Attachment V of this grant. Any
+revisions to an approved budget or budget justification must be submitted
+to the Grant Manager for review and approval prior to implementation.
+Revisions to the budget will become effective upon approval by the
+Department.
+
+b.
+
+Quarterly Financial and Expenditure Report: Grantee must submit a
+Quarterly Financial and Expenditure Report in the quarter specified by the
+Grant Manager. Each Quarterly Financial Report must state, by line item,
+all grant fund expenditures made by the Grantee to complete the
+deliverables under this grant. All Quarterly Financial Reports must be
+submitted to the Grant Manager as specified in Attachment III. For the
+fourth quarter of each grant year, submit the Annual Financial Report in
+accordance with section I.C.6.c. of the Department’s Standard Contract.
+
+c.
+
+Quarterly Progress Report: Grantee must submit a Quarterly Progress
+Report as specified in Attachment III. The Quarterly Progress Report will
+be submitted using a Department approved form. For the fourth quarter of
+each fiscal year of the grant, Grantee must also submit an Annual
+Legislative Progress Report as specified in Attachment III. In addition, a
+Cumulative Progress Report must be submitted with the final invoice as
+specified in Attachment III.
+
+Special Provisions:
+1.
+
+No-Cost Extension: No-Cost Extensions are granted at the sole discretion of the
+Department. Requests for No-Cost Extension must meet the following
+requirements:
+a. Grantee must submit the Department’s Request for No-Cost Extension
+form, including the completed Cumulative Grant Progress Report, to the
+Department’s Grant Manager no later than the date specified in
+Attachment III. Any No-Cost Extension request received after this date
+will not be considered by the Department.
+b. Grantee will not be eligible for more than one, six-month no-cost
+extension. Grants awarded for 54 month terms are not eligible for no-cost
+extensions. The end date of a 54-month agreement may be adjusted by
+the Department to meet internal payment requirements for the fifth and
+final year of funding.
+c. No additional grant funding will be provided to the Grantee if the No-Cost
+Extension request is approved by the Department.
+2. Data Requests and Project Updates: Upon request by the Department, grantee
+will respond appropriately to all requests for data and project status updates
+within two business days of the date the Department makes such request.
+3. To accept these funds and by signing the contract, all research funded under this
+opportunity must be conducted in Florida.
+
+24
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+4. In accepting grant funds, the awardee and awardee’s institution agree that any
+work, invention, discovery, or development resulting from the grant-funded
+project shall be subject to public domain, and not be subject to patents,
+trademarks, and/or copyrights that could result in financial gain to the awardee or
+awardee’s institution without prior approval from the Department.
+5. Grantees agree that by accepting funds, any results or outcomes are shared
+publicly to further Florida’s research agenda.
+6.
+
+Other Provisions:
+a.
+
+Order of Precedence:
+(1)
+
+b.
+
+This grant, its exhibits, and attachments, the Funding Opportunity
+Announcement, and Grantee’s response to the Funding
+Opportunity Announcement, contain all the terms and conditions
+agreed upon by the parties. In the event of any conflict among
+these documents, the order of precedence will be this grant, the
+Funding Opportunity Announcement, and then Grantee’s
+response.
+
+Non-Expendable Property Requirements: Non-expendable property is
+defined as tangible personal property with a value or cost of $5,000.00 or
+more and having a projected useful life of one year or more, any
+hardback book with a value or cost of $25.00 or more and having an
+expected useful life of at least one year or more that is circulated to
+students or the general public, and any hardback book with the value or
+cost of $250.00 or more that is not circulated to students or the general
+public. Hardback books with a value or cost of $250.00 or more should be
+classified as OCO (Other Capital Outlay) expenditures.
+All such property purchased with funds from this grant must be listed on
+the property records of Grantee. The listing shall include a description of
+the property, model number, manufacturer’s serial number, funding
+source, information needed to calculate the federal or state share, date of
+acquisition, unit cost, property inventory number, and information on the
+location, use and condition, transfer, replacement, or disposition of the
+property.
+Title (ownership) to all non-expendable property acquired with funds from
+the grant shall remain with the Grantee upon completion or termination of
+the grant.
+During the term of the grant, Grantee shall not dispose of non-expendable
+property purchased with funds from this grant except with the permission
+of the Department in accordance with their instructions.
+
+c.
+
+University Language:
+1)
+
+Standard Contract, Section I, Paragraph D.1, Monitoring by the
+Department, is deleted in its entirety and replaced with the
+25
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+following:
+Monitoring by the Department: To permit persons duly authorized
+by the Department to inspect any records, papers, documents,
+facilities, goods, and services of Grantee, which are relevant to
+this grant, and interview any clients and employees of Grantee to
+assure the Department of satisfactory performance of the terms
+and conditions of this grant. The Department must be permitted
+access to such records only as authorized or permitted by federal
+law and the laws of the state of Florida. Following such inspection,
+the Department will deliver to Grantee a list of its comments
+regarding the way said goods or services are being provided.
+Grantee will rectify all noted deficiencies within the specified
+period set forth in the comments or provide the Department with a
+reasonable and acceptable justification, as determined by the
+Department, for not correcting the noted shortcomings. Grantee’s
+failure to correct or justify within the time specified will result in the
+withholding of payments, being deemed in breach or default, or
+termination of this grant.
+2)
+
+Standard Contract, Section I, Paragraph I., Return of Funds, is
+deleted in its entirety and replaced with the following:
+Return of Funds: The final invoice is based on a reconciliation of
+all costs associated with the project, not to exceed the total award
+amount, Life of the Grant, indicated in Attachment III. The
+Grantee must return to the Department any overpayment of grant
+funds related to disallowed expenditures, funds unaccounted for
+due to non-submission of required deliverables, or other unused
+grant funds at the end of the grant period. If the Grantee or its
+independent auditor identifies that overpayment has been made;
+the Grantee must repay the overpayment within 45 days of grant
+end date. In the event the Department first discovers an
+overpayment has been made, the Department will notify the
+Grantee of such a finding. Should repayment not be made in a
+timely manner, the Department may withhold the amount of the
+overpayment from any future payments under this or any other
+agreement. This provision will not be a limitation on any remedies
+at law or equity available to the Department.
+
+3)
+
+Standard Contract, Section I, Paragraph S., Patents, Copyrights
+and Royalties, is deleted in its entirety and replaced as follows:
+Patents, Copyrights, and Royalties:
+a.
+
+Grantee will retain ownership of all intellectual property
+developed as part of this grant. Intellectual property
+includes all copyrights, trademarks, and patentable
+developments.
+
+26
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+
+4)
+
+b.
+
+Grantee must notify the Florida Department of State of any
+intellectual property developed or being developed as part
+of this grant by the end of the grant term. Grantee grants
+the state of Florida an irrevocable, nonexclusive, and
+royalty-free license to use all intellectual property
+developed under this grant for the complete lifetime of the
+intellectual property rights.
+
+c.
+
+If this grant is paid for with federal funds, Grantee will grant
+the awarding federal agency an irrevocable, nonexclusive,
+and royalty-free license to use all intellectual property
+developed under this grant for the complete lifetime of the
+intellectual property rights.
+
+Standard Contract, Section III, Paragraph B.1., Termination at
+Will, is deleted in its entirety and replaced as follows:
+Termination at Will: This grant may be terminated by either party
+upon no less than 90 calendar days’ written notice to the other
+party, without cause, unless a lesser time is mutually agreed upon
+in writing by both parties. The notice must be delivered by certified
+mail, return receipt requested, or in person with proof of delivery.
+In the event this grant is terminated, Grantee will be compensated
+for any deliverables completed prior to the Department’s
+notification to Grantee of grant termination.
+
+7.
+
+Background Screening Requirement: At the Department’s sole discretion, it may
+determine that background screening of some or all of Grantee’s officers, agents,
+employees, subgrantees, or assignees is necessary. If the Department
+determines background screening is required, Grantee shall conduct background
+screenings or submit an attestation as specified in section L.1., of the
+Department’s Standard Contract for staff hired or maintained during the grant
+term. Grantee will incur all costs associated with the background screenings,
+unless otherwise specified by the Department in writing.
+8. Drug Screenings: Grantee agrees to the following:
+a. If the Grantee’s officers, agents, employees, subgrantees, or assignees
+(collectively “individuals”) are assigned to work in a department
+designated Safety-Sensitive Class and/or Position, under this Agreement,
+then a drug test must be performed prior to the individual being allowed to
+start work under this Agreement. If an individual has already been
+screened by the Grantee, then a written attestation confirming that the
+individual has completed and cleared the drug screening must be
+submitted to the Department prior to grant execution. If an individual has
+not been drug screened, notify the Department immediately. No
+individual can begin work under this grant until they have been cleared by
+the Department.
+b. If at any time while performing services under this grant reasonable
+suspicion exists to believe that the Grantee’s staff, which includes, but is
+not limited to, Grantee’s officers, agents, employees, subgrantees, or
+27
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+assignees, are under the influence of or impaired by drugs, the
+Department reserves the right to require the individual to undergo drug
+testing. The Department may require the individual to cease performing
+services pending drug test results. In the event of a positive drug test, the
+Grantee must notify the Department in writing and at which time the
+Department may request a replacement of equal or superior skills and
+qualifications of the prior individual.
+c. Be responsible for any costs associated with meeting this screening
+requirement, unless otherwise specified in writing by the Department.
+9. Reimbursement for allowed travel must be at or below the current State of
+Florida travel rates, per section 112.061. In order to implement appropriations in
+the General Appropriations Act for State travel and notwithstanding section
+112.061, Florida Statutes, costs for lodging associated with a meeting,
+conference, or convention organized or sponsored in whole or in part by a state
+agency or the judicial branch may not exceed the current State of Florida
+conference travel rates. For all other travel, the lodging travel rate cannot exceed
+the rate specified in the Reference Guide for State Expenditures, which is
+incorporated into this grant agreement by reference. The Grantee will not be
+reimbursed for reservations made through third party travel sites (e.g.,
+Booking.com, Expedia, Orbitz). Grantees must submit a travel voucher form in
+every quarter in which they charged travel to their grant budgets. Travel is only
+approved within the United States, including its territories. The State of Florida
+Voucher for Reimbursement of Travel Expenses, Exhibit A, should be used for all
+travel-related expenses unless the Grantee’s institutional travel voucher or
+expenditure form has received prior approval from the DFS. Support
+documentation for all travel-related expenses is needed, included receipts for
+flight, hotel, parking, rental car, fuel, ground transportation, and registration,
+meeting agenda or schedule, and copy of any presentation made. Do not use
+acronyms or abbreviations on travel forms or documentation.
+10. Financial Overlap: Other Support is defined as all financial resources, whether
+federal, state or private, commercial or institutional, available in direct support of
+an individual’s research endeavors, including but not limited to research grants,
+cooperative agreements, contracts, and institutional awards (not included are
+training awards, prizes, or gifts). Financial overlap is defined as accepting
+financial compensation from one or more other support sources for the same or
+substantially similar scientific aims/projects that are funded by the Department.
+Financial overlap is not permitted. Grantee is responsible for monitoring changes
+in other support for project key personnel to avoid financial overlap. Grantee is
+responsible for notifying the Department of such changes and for resolving
+overlap or requesting an amendment to prevent overlap. If financial overlap is
+due to receipt of an award from another funding source during the grant period,
+Grantee must notify the Department within 48 hours and resolve the overlap by:
+a) modifying the start date or project aims of the new award to eliminate the
+overlap or b) relinquishing one of the awards. Updated information on other
+support may be requested by and must be provided to the Department at any
+time during the grant period.
+
+28
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+11. Policy Regarding Scientific Misconduct: The following provisions must apply to
+ensure research integrity and manage scientific misconduct:
+a. Applicants for, and recipients of, grants must promptly inform the
+Department of any notices of scientific misconduct or suspensions. If an
+administrative action for scientific misconduct is imposed by the
+Department of Health and Human Services (HHS), by his/her own
+institution, or by any other regulatory agency, Grantee must notify the
+Department within 48 hours. Grantee must provide a copy of the final
+notice of the administrative action (i.e., after the disposition of any appeal)
+to the Department either at the time of application or within 1-month of the
+imposition of the administrative action.
+b. Each eligible institution that receives or applies for a grant must certify
+establishment of administrative policies consistent with 42 CFR 50,
+Subpart A, “Responsibility of PHS Awardee and Applicant Institutions for
+Dealing with and Reporting Possible Misconduct in Science,” and 42 CFR
+94, “Public Health Service Standards for the Protection of Research
+Misconduct Whistleblowers.”
+END OF TEXT
+
+29
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+
+Attachment II
+Grant Information
+
+Florida Biomedical Research Programs
+Terms and Conditions
+Program: Florida Cancer Innovation Fund
+Program CSFA #: 64.130
+Grant Number: 25C35
+Vendor Identification
+59-2924021(082)
+Number:
+Grant Category: 3LORW
+Grantee: University of Central Florida Board of Trustees
+Principal Investigator: -DQH6*LEVRQ3K'
+Grant Title: MammoChat: An AI-Driven Platform for Personalized Breast Cancer
+Patient Support
+
+Grant Abstract:
+
+30
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+
+.
+
+Grant Period: 6HSWHPEHU 1, 2025 to $XJXVW, 2026
+
+31
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+Grant Term: Four quarters
+Total Grant Award: $1,998,935.00
+
+32
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+Attachment III
+Schedule of Deliverables and Payments
+Florida Biomedical Research Programs
+Terms and Conditions
+Florida Cancer Innovation Fund Grant Title: MammoChat: An AI-Driven Platform for
+Personalized Breast Cancer Patient Support
+Due Dates by
+
+Del.
+#
+
+Deliverable
+
+Period Covered
+
+COB 5:00 p.m.,
+E.S.T.
+
+FISCAL YEAR 2025-2026
+
+1
+
+2
+
+x
+x
+x
+x
+x
+
+x
+x
+x
+x
+
+1st Quarter Invoice for $499,733.75
+1st Quarter Financial Report
+1st Quarter Expenditure Report
+1st Quarter Progress Report
+Proof of Liability Insurance
+
+nd
+
+2 Quarter Invoice for $499,733.75
+2nd Quarter Financial Report
+2nd Quarter Expenditure Report
+2nd Quarter Progress Report
+
+IF REQUESTING A 6-MONTH NO-COST
+EXTENSION SUBMIT THE FOLLOWING:
+
+3
+
+4
+
+x
+x
+
+No-Cost Extension Request Form
+Cumulative Grant Progress Report
+
+x
+x
+x
+x
+
+3rd Quarter Invoice for $499,733.75
+3rd Quarter Financial Report
+3rd Quarter Expenditure Report
+3rd Quarter Progress Report
+
+x
+
+Final Invoice is based on a
+reconciliation of all costs associated
+with the project not to exceed
+$499,733.75
+33
+
+July 1, 2025 –
+September 30, 2025
+
+October 31, 2025
+
+October 1, 2025 –
+December 31, 2025
+
+January 31, 2026
+
+Life of the Grant
+
+December 31,
+2025
+
+January 1, 2026 –
+March 31, 2026
+
+April 30, 2026
+
+Life of the Grant
+
+July 31, 2026
+
+Contract #25C35
+
+    
+
+
+
+University of Central Florida Board of Trustees
+x
+x
+x
+x
+
+Final Financial Report
+Final Expenditure Report
+Final Cumulative Grant Progress
+Report
+Final Legislative Report
+
+34
+
+Contract #25C35
+
+    
+
+
+
+ATTACHMENT IV
+AUDIT REQUIREMENTS FOR AWARDS OF STATE AND FEDERAL FINANCIAL ASSISTANCE
+The administration of resources awarded by the Department of Health to recipient organization may be federal or
+state financial assistance as defined by 2 CFR § 200.40 and/or section 215.97, Florida Statutes, and may be subject
+to audits and/or monitoring by the Department of Health, as described in this section. For this agreement, the
+Department of Health has determined the following relationship exist:
+1. ________ Vendor/Contractor (215.97(z), F.S.) and (2 CFR § 200.23). Funds used for goods and services for
+the Department of Health’s own use and creates a procurement relationship with Recipient which is not subject
+to single audit act compliance requirements for the Federal/State program as a result of this contract agreement.
+A vendor/contractor agreement may also be used with an established Service Organization (SO) that is serving
+as a Third-Party Administrator and in this case, is subject to SSAE18 audit reporting requirements (see Part III.
+Other Audit Requirements).
+2. ____X____ Recipient/Subrecipient of state financial assistance (215.97(o)(y), F.S.). Funds may be
+expended only for allowable costs resulting from obligations incurred during the specified contract period. In
+addition, any balance of unobligated funds which has been advanced or paid must be refunded to the
+Department of Health as the state awarding agency. As well as funds paid in excess of the amount to which
+the recipient/subrecipient is entitled under the terms and conditions of the contract must be refunded to the
+Department of Health.
+3. ________ Recipient/Subrecipient of federal financial assistance (2 CFR § 200.40) . Funds paid in excess
+of the amount to which the recipient/subrecipient is entitled under the terms and conditions of the contract must
+be refunded to the Department of Health as the Pass-Through state awarding agency. In addition, the
+recipient/subrecipient may not earn or keep any profit resulting from Federal financial assistance, unless
+explicitly authorized by the terms and conditions of the Federal award or this agreement.
+Note: A vendor/contractor vs. recipient/subrecipient determination must conclude with the completion of Exhibit 2
+to identify the recipient’s audit’s relationship with the department.
+
+MONITORING
+In addition to reviews of audits conducted in accordance with 2 CFR Part 200, Subpart F (formerly A-133) - Audit
+Requirements, and section 215.97, Florida Statutes (F.S.), as revised (see AUDITS below), monitoring procedures
+may include, but not be limited to, on-site visits by Department of Health staff, limited scope audits as defined by 2
+CFR §200.425, or other procedures. By entering into this agreement, the recipient agrees to comply and cooperate
+with any monitoring procedures or processes deemed appropriate by the Department of Health. In the event the
+Department of Health determines that a limited scope audit of the recipient is appropriate, the recipient agrees to
+comply with any additional instructions provided by Department of Health staff to the recipient regarding such audit.
+The recipient further agrees to comply and cooperate with any inspections, reviews, investigations, or audits
+deemed necessary by the Chief Financial Officer (CFO) or Auditor General.
+
+Revised 10.2024
+
+
+
+FDOH, Contracts and Grants Management Unit - Federal Compliance and Audit Management Section
+
+Contract # 25C
+
+    
+
+
+
+AUDIT GUIDANCE
+PART I:
+
+FEDERALLY FUNDED
+
+This part is applicable if Recipient is a State or local government or a non-profit organization as defined in 2 CFR
+§200.90, §200.64, and §200.70.
+1.
+
+If a recipient expends $1,000,000 or more in Federal awards during its fiscal year, the recipient must have a
+single or program-specific audit conducted in accordance with the provisions of 2 CFR 200, Subpart F - Audit
+Requirements. EXHIBIT 1 to this form lists the federal resources awarded through the Department of Health by this
+agreement. In determining the federal awards expended in its fiscal year, the recipient shall consider all sources of
+federal awards, including federal resources received from the Department of Health. The determination of amounts
+of federal awards expended should be in accordance with the guidelines established in 2 CFR §§200.502-503. An
+audit of the recipient conducted by the Auditor General in accordance with the provisions of 2 CFR §200.514 will
+meet the requirements of this Part.
+
+2.
+
+In connection with the audit requirements addressed in Part I, paragraph 1, Recipient shall fulfill the
+requirements relative to auditee responsibilities as provided in 2 CFR §§ 200.508-.512.
+
+3.
+
+If a recipient expends less than $1,000,000 in Federal awards in its fiscal year, the recipient is not required
+to have an audit conducted in accordance with the provisions of 2 CFR 200, Subpart F - Audit Requirements. If the
+recipient expends less than $1,000,000 in federal awards in its fiscal year and elects to have an audit conducted in
+accordance with the provisions of 2 CFR 200, Subpart F - Audit Requirements, the cost of the audit must be paid from
+non-federal resources (i.e., the cost of such an audit must be paid from recipient resources obtained from other than
+federal entities).
+
+Note: Audits conducted in accordance with this part shall cover the entire organization for the organization’s fiscal year.
+Compliance findings related to contracts with the Department of Health shall be based on the contract agreement’s
+requirements, including any rules, regulations, or statutes referenced in the contract. The financial statements shall disclose
+whether the matching requirement was met for each applicable contract. All questioned costs and liabilities due to the
+Department of Health shall be fully disclosed in the audit report with reference to the Department of Health contract
+involved. If not otherwise disclosed as required by 2 CFR § 200.510, the schedule of expenditures of Federal awards shall
+identify expenditures by funding source and contract number for each contract with the Department of Health in effect during
+the audit period.
+Financial reporting packages required under this part must be submitted within the earlier of 30 days after receipt of the audit
+report or 9 months after the end of Recipient’s fiscal year end.
+
+Revised 10.2024
+FDOH, Contracts and Grants Management Unit - Federal Compliance and Audit Management Section
+3
+
+Contract # 25C
+
+    
+
+PART II:
+
+
+
+STATE FUNDED
+
+This part is applicable if the recipient is a nonstate entity as defined by section 215.97(1)(n), Florida Statutes.
+1.
+
+If a recipient expends a total amount of state financial assistance equal to or in excess of $750,000 in any
+fiscal year of such recipient (for fiscal years ending June 30, 2017 or thereafter), recipient must have a
+State single or project-specific audit for such fiscal year in accordance with section 215.97, Florida Statutes;
+applicable rules of the Department of Financial Services; Chapter 10.550 (local governmental entities) or
+Chapter 10.650 (nonprofit and for-profit organizations), Rules of the Auditor General. EXHIBIT I to this
+contract indicates state financial assistance awarded through the Department of Health by this contract. In
+determining the state financial assistance expended in its fiscal year, recipient shall consider all sources of
+state financial assistance, including state financial assistance received from the Department of Health, other
+state agencies, and other nonstate entities. State financial assistance does not include Federal direct or
+pass-through awards and resources received by a nonstate entity for Federal program matching
+requirements.
+
+2.
+
+In connection with the audit requirements addressed in Part II, paragraph 1, recipient shall ensure that the
+audit complies with the requirements of section 215.97(8), Florida Statutes. This includes submission of a
+financial reporting package as defined by section 215.97(2), Florida Statutes, and Chapter 10.550 (local
+governmental entities) or Chapter 10.650 (nonprofit and for-profit organizations), Rules of the Auditor
+General.
+
+3.
+
+If a recipient expends less than $750,000 in state financial assistance in its fiscal year (for fiscal years
+ending June 30, ,2017 or thereafter), an audit conducted in accordance with the provisions of section
+215.97, Florida Statutes, is not required. In the event that a recipient expends less than $750,000 in state
+financial assistance in its fiscal year and elects to have an audit conducted in accordance with the provisions
+of section 215.97, Florida Statutes, the cost of the audit must be paid from the nonstate entity’s resources
+(i.e., the cost of such an audit must be paid from recipient resources obtained from other than state funds).
+
+Note: An audit conducted in accordance with this part shall cover the entire organization for the organization’s fiscal year.
+Compliance findings related to contracts with the Department of Health shall be based on the contract’s requirements,
+including any applicable rules, regulations, or statutes. The financial statements shall disclose whether the matching
+requirement was met for each applicable contract. All questioned costs and liabilities due to the Department of Health shall
+be fully disclosed in the audit report with reference to the Department of Health contract involved. If not otherwise disclosed
+as required by Florida Administrative Code Rule 69I-5.003, the schedule of expenditures of state financial assistance shall
+identify expenditures by contract number for each contract with the Department of Health in effect during the audit period.
+Financial reporting packages required under this part must be submitted within 45 days after delivery of the audit report, but
+no later than 9 months after recipient’s fiscal year end for local governmental entities. Non-profit or for-profit organizations
+are required to be submitted within 45 days after delivery of the audit report, but no later than 9 months after recipient’s fiscal
+year end. Notwithstanding the applicability of this portion, the Department of Health retains all right and obligation to
+monitor and oversee the performance of this contract as outlined throughout this document and pursuant to law.
+
+Revised 10.2024
+FDOH, Contracts and Grants Management Unit - Federal Compliance and Audit Management Section
+3
+
+Contract # 25C
+
+    
+
+PART III:
+
+
+
+OTHER AUDIT REQUIREMENTS
+
+This part is applicable to a contractor, vendor and/or provider organization serving as a third-party administrator on
+behalf of FDOH programs and is classified or determined in the FDOH contract agreement to be a Service
+Organization (SO).
+If the contracted entity is determined to be a Service Organization (SO), the entity must perform an attestation to
+the System Organization Controls (SOC) and submit to FDOH a “Statement on Standards for Attestation
+Engagements (SSAE18) audit report within the assigned timeframe as agreed upon in the SO’s contract agreement.
+The hired Auditor must make an evaluation consistent with the FDOH contract terms and conditions to determine
+which SSAE18 report types to perform for the required SOC types. Below are the options available for the SSAE18
+reports;
+
+TYPES:
+1.
+
+SOC 1 – A report on controls over financial reporting.
+¾
+
+Type 1 Report - Report on the fairness of the presentation of management’s description of the
+service organization’s system and the suitability of the design of the controls to achieve the
+related control objectives included in the description as of a specified date.
+
+¾
+
+Type 2 Report - Report on the fairness of the presentation of management’s description
+of the service organization’s system and the suitability of the design and operating
+effectiveness of the controls to achieve the related control objectives included in the description
+throughout a specified period. (Auditor conducts testing)
+
+2.
+
+SOC 2 – A report on controls that may be relevant to security, availability, processing Integrity,
+confidentiality or privacy. These reports are intended to meet the needs of a broad range of users that
+need detailed information and assurance about the controls at a service organization relevant to security,
+availability, and processing integrity of the systems the service organization uses to process users’ data
+and the confidentiality and privacy of the information processed by these systems. These reports can play
+an important role in:
+x
+x
+x
+x
+
+Oversight of the organization
+Vendor management programs
+Internal corporate governance and risk management processes
+Regulatory oversight
+¾
+
+Type 1 Report - Report on the fairness of the presentation of management’s description of the
+service organization’s system and the suitability of the design of the controls to achieve the
+related control objectives included in the description as of a specified date.
+
+¾ Type 2 Report - Report on the fairness of the presentation of management’s description of the
+service organization’s system and the suitability of the design and operating effectiveness of
+the controls to achieve the related control objectives included in the description throughout a
+specified period. (Auditor conducts testing)
+
+Revised October 1, 2024
+FDOH, Contracts and Grants Management - Federal Compliance and Audit Management (FCAM) SectionContract # 25C
+3
+
+    
+
+PART IV:
+1.
+
+
+
+REPORT SUBMISSION
+
+Copies of single audit reporting packages for state financial assistance (CSFA) and federal financial assistance
+(CFDA) conducted in accordance with 2 CFR § 200.512 and section 215.97(2), Florida Statutes, shall be
+submitted by or on behalf of recipient electronically to the Federal and the FDOH Single Audit Clearinghouse
+website addresses below:
+A. The Department of Health, Single Audit Clearinghouse (SAC) website portal:
+
+SAC Submission (https://fdohsac.azurewebsites.net/)
+Pursuant to 2 CFR § 200.521, and section 215.97(2), Florida Statutes, recipient shall submit a complete
+audit report package and any management letter issued by an auditor electronically to the Department.
+Audits must be submitted in accordance with the instructions set forth in Exhibit 3 hereto and
+accompanied by the “Single Audit Data Collection Form, Exhibit 4.” Absent of electronic submission
+capability or during system maintenance or downtime, prior approval can be obtained to submit report
+package via email to SingleAudits@flhealth.gov or on an approved electronic storage medium via mail
+to:
+Florida Department of Health
+Contracts and Grants Management Unit
+Attention: FCAM, Single Audit Review
+4052 Bald Cypress Way, Bin B01
+Tallahassee, FL 32399-1701.
+B. The Federal Audit Clearinghouse (FAC), the Internet Data Entry System (IDES) is the place to submit the
+Federal single audit reporting package, including form SF-SAC, for Federal programs. Single audit submission
+is required under the Single Audit Act of 1984 (amended in 1996) and 2 CFR § 200.36 and § 200.512. The
+Federal Audit Clearinghouse requires electronic submissions as the only accepted method for report
+compliances. FAC’s website address is:
+https://harvester.census.gov/facweb/
+C. The Florida Auditor General’s Office:
+One electronic copy email by or on behalf of recipient directly to the Auditor General’s Office at:
+flaudgen_localgovt@aud.state.fl.us.
+2.
+
+In addition to item 1, electronic copies of reporting packages for federal financial assistance (ALN formerly, CFDA)
+conducted in accordance with 2 CFR § 200.512 shall also be submitted by or on behalf of recipient directly to each
+funded passed through entity:
+A. When applicable, and/or other Federal agencies in accordance with 2 CFR §200.331 and § 200.517.
+
+3.
+
+Copies of SSAE18 reports and supporting documents shall be submitted by or on behalf of SO/Third Party
+Administrator directly to the FDOH designated Contract Manager (CM) as outlined in each SO contract agreement.
+
+Note: Any reports, management letter, or other information required to be submitted to the Department of Health pursuant to this
+contract shall be submitted timely in accordance with 2 CFR § 200.512 and Florida Statutes, Chapter 10.550 (local governmental
+entities) or Chapter 10.650 (nonprofit and for-profit organizations), Rules of the Auditor General, as applicable.
+Recipients, when submitting financial reporting packages to the Department of Health for audits done in accordance with 2 CFR §
+500.512 or Chapter 10.550 (local governmental entities) or Chapter 10.650 (nonprofit and for-profit organizations), Rules of the
+Auditor General, should indicate the date that the reporting package was delivered to recipient in correspondence accompanying the
+reporting package.
+
+Revised October 1, 2024
+FDOH, Contracts and Grants Management - Federal Compliance and Audit Management (FCAM) Section
+3
+
+Contract # 25C
+
+    
+
+PART V:
+
+
+
+RECORD RETENTION
+
+Recipient shall retain sufficient records demonstrating its compliance with the terms of this contract for a period of six years
+from the date the audit report is issued and shall allow the Department of Health or its designee, the CFO, or the Auditor
+General access to such records upon request. Recipient shall ensure that audit working papers are made available to the
+Department of Health, or its designee, CFO, or Auditor General upon request for a period of six years from the date the
+audit report is issued, unless extended in writing by the Department of Health.
+End of Text
+
+Revised October 1, 2024
+FDOH, Contracts and Grants Management - Federal Compliance and Audit Management (FCAM) Section Contract # 25&
+
+
+    
+
+
+
+EXHIBIT 1
+Contract #: _______________
+Federal Award Identification #:_______________________________________________________
+1.
+
+FEDERAL RESOURCES AWARDED TO THE SUBRECIPIENT PURSUANT TO THIS AGREEMENT CONSIST OF THE
+FOLLOWING:
+
+Federal Agency 1______________________ ALN# ________Title_________________________$______________
+Federal Agency 2 ______________________ALN# ________Title_________________________$______________
+TOTAL FEDERAL AWARDS
+
+$_____________
+
+COMPLIANCE REQUIREMENTS APPLICABLE TO THE FEDERAL RESOURCES AWARDED PURSUANT TO THIS AGREEMENT
+ARE AS FOLLOWS:
+___________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
+___________________________________________________________________________________________________________
+2.
+
+STATE RESOURCES AWARDED TO THE RECIPIENT PURSUANT TO THIS AGREEMENT CONSIST OF THE
+FOLLOWING:
+
+State financial assistance subject to section 215.97, Florida Statutes: CSFA# _64130_____Title_Endowed Chair for Cancer Research
+_____________________
+$729,391.00
+COMPLIANCE REQUIREMENTS APPLICABLE TO STATE RESOURCES AWARDED PURSUANT TO THIS AGREEMENT ARE AS
+FOLLOWS:
+All direct costs must be specifically and directly related to the project, necessary for the project’s completion, adequately justified, and
+made during the active grant period. Any other costs are disallowed. Additionally, the following items shall NOT be paid for with grant
+funds: Florida Department of Health personnel salary, construction, renovation, or remodeling, international travel (including Canada),
+vehicles, entertainment, employment subsidies, dues/membership fees, lobbying, meals/food (other than as part of travel costs),
+malpractice insurance premiums.
+State financial assistance not subject (exempt) to section 215.97, Florida Statutes:
+
+$______________
+
+$______________
+State financial assistance not subject (exempt) to section 215.97, Florida Statutes:
+_______________________________________________________________________________________________________
+Matching and Maintenance of Effort *
+State Matching resources for federal award(s):
+Agency: _________________________ALN#_________Title___________________________________
+
+$______________
+
+State Maintenance of Effort (MOE) for federal program(s):
+Agency: _________________________ALN#_________Title___________________________________
+
+$______________
+
+*Matching Resources are subject to Federal single audit and shall be included by recipient when computing the threshold for Federal
+single audit requirements totals. These amounts shall also be included under notes in the financial audit or footnoted in the Schedule of
+Expenditures of Federal Awards. **Whereas MOE Resources awarded as state financial assistance are subject to Florida single audit
+and shall be included by recipient when computing the threshold for Florida single audit requirements totals under section 215.97, Florida
+Statutes and included in the Schedule of Expenditures of State Awards (SESA).
+
+Revised October 1, 2024
+FDOH, Contracts and Grants Management - Federal Compliance and Audit Management (FCAM) Section
+4
+
+Contract # 25C
+
+    
+
+
+
+EXHIBIT 2
+PART I:
+
+AUDIT RELATIONSHIP DETERMINATION
+
+Recipients who receive state or federal resources may or may not be subject to the audit requirements of 2 CFR § 200.500, and/or section
+215.97, Florida Statutes, recipients who are determined to be recipients or subrecipients of federal awards and/or state financial
+assistance may be subject to the audit requirements if the audit threshold requirements set forth in Part I and/or Part II of Exhibit 1 is met.
+Recipients who have been determined to be vendors are not subject to the audit requirements of 2 CFR § 200.501, and/or section 215.97,
+Florida Statutes. Recipients who are “higher education entities” as defined in Section 215.97(2)(h), Florida Statutes, and are recipients
+or subrecipients of state financial assistance, are also exempt from the audit requirements of Section 215.97(2)(a), Florida Statutes.
+Regardless of whether the audit requirements are met, recipients who have been determined to be recipients or subrecipients of Federal
+awards and/or state financial assistance must comply with applicable programmatic and fiscal compliance requirements.
+For the purpose of single audit compliance requirements, the Recipient has been determined to be:
+
+_____Vendor/Contractor not subject to 2 CFR § 200.501 and/or section 215.97, Florida Statutes
+_____ Recipient/subrecipient subject to 2 CFR § 200.501and/or section 215.97, Florida Statutes
+_____ Exempt organization not subject to 2 CFR § 200.501; For Federal awards for-profit subrecipient organizations are exempt as
+specified in 2 CFR § 200.501(h).
+__X___ Exempt organization not subject to section 215.97, Florida Statutes, for state financial assistance projects, public universities,
+community colleges, district school boards, branches of state (Florida) government, and charter schools are exempt. Exempt
+organizations must comply with all compliance requirements set forth within the contract.
+For other audit requirements, the Recipient has been determined to be:
+
+_____ Service Organization (SO) subject to SSAE18 reporting requirements
+NOTE: If a recipient is determined to be a recipient/subrecipient of federal and/or state financial assistance and has been approved by
+the department to subcontract, it must comply with section 215.97(7), Florida Statutes, and Florida Administrative Code Rule 69I-.5006,
+[state financial assistance] and 2 CFR § 200.330 [federal awards].
+PART II:
+
+FISCAL COMPLIANCE REQUIREMENTS
+
+FEDERAL AWARDS OR STATE MATCHING FUNDS ON FEDERAL AWARDS. Recipients who receive Federal awards, state
+maintenance of effort funds, or state matching funds on Federal awards and who are determined to be a subrecipient must comply with
+the following fiscal laws, rules and regulations:
+
+1.
+2.
+3.
+
+2 CFR Part 200- Uniform Administrative Requirements, Cost Principles, and Audit Requirements for Federal Awards
+Reference Guide for State Expenditures
+Other fiscal requirements set forth in program laws, rules, and regulations.
+
+*Some Federal programs may be exempted from compliance with the Cost Principles Circulars as noted in the 2 CFR § 200.401(5)
+(c). In all instances, Recipients are required to follow the FDOH agreement terms and conditions, and the Federal passed through
+agency’s grant guidance under 2 CFR, Subtitle B for additional citations.
+STATE FINANCIAL ASSISTANCE. Recipients who receive state financial assistance and who are determined to be a
+recipient/subrecipient must comply with the following fiscal laws, rules and regulations:
+
+1.
+2.
+3.
+4.
+5.
+
+Section 215.97, Florida Statutes
+Florida Administrative Code Chapter 69I-5,
+State Projects Compliance Supplement
+Reference Guide for State Expenditures
+Other fiscal requirements set forth in program laws, rules and regulations.
+
+This document and other FDOH instructions may be obtained online through the FL Health website under Audit Guidance. *Enumeration
+of laws, rules and regulations herein is not exhaustive or exclusive. Funding to recipients will be held to applicable legal requirements
+whether or not outlined herein.
+
+End of Text
+
+Revised October 1, 2024
+FDOH, Contracts and Grants Management - Federal Compliance and Audit Management (FCAM) Section
+4
+
+Contract # 25C
+
+    
+
+
+
+EXHIBIT 3
+INSTRUCTIONS FOR ELECTRONIC SUBMISSION
+OF SINGLE AUDIT REPORTS
+
+Part I:
+
+Submission to FDOH
+
+Single Audit reporting packages (“SARP”) must be submitted to the Department in an electronic format. This change will eliminate the
+need to submit multiple copies of the reporting package to the Contract Managers and various sections within the Department and will
+result in efficiencies and cost savings to recipient and the Department. Upon receipt, the SARP’s will be posted to a secure server and
+accessible to Department staff.
+The electronic copy of the SARP should:
+¾
+
+Be in a Portable Document Format (PDF).
+
+¾
+
+Include the appropriate letterhead and signatures in the reports and management letters.
+Be a single document. However, if the financial audit is issued separately from the Single Audit reports, the
+financial audit reporting package may be submitted as a single document and the Single Audit reports may be
+submitted electronically as a single document to the FDOH SAC website address: fdohsac.azurewebsites.net
+
+¾
+
+Be an exact copy of the final, signed SARP provided by the Independent Audit firm.
+
+¾
+
+Not have security settings applied to the electronic file.
+
+¾
+
+Be named using the following convention under the CPA’s issued license number: [fiscal year] [name of the audited entity exactly
+as stated within the audit report].pdf. For example, if the SARP is for the 2016-17 fiscal year for the City of Gainesville, the
+document should be entitled 2016 City of Gainesville.pdf.
+
+¾
+
+Be accompanied by the attached “Single Audit Data Collection Form.” This document is necessary to ensure that
+communications related to SARP issues are directed to the appropriate individual(s) and that compliance with Single Audit
+requirements is properly captured.
+
+Questions regarding electronic submissions may be submitted via e-mail to SingleAudits@flhealth.gov or by telephone to the
+Single Audit Review Section at (850) 245-4520.
+
+Part II:
+
+Submission to Federal Audit Clearinghouse
+
+Click Here for instructions and guidance to submit the completed SF-SAC report to the Federal Audit Clearinghouse website or click Here
+to access the SF-SAC Worksheet & Single Audit Component Checklist Form.
+
+Part III:
+
+Submission to Florida Auditor General
+
+Click Here for questions and other instructions for submitting Single SAC reports to the State of Florida, Auditor General’s Office
+
+Revised October 1, 2024
+FDOH, Contracts and Grants Management - Federal Compliance and Audit Management (FCAM) Section
+4
+
+Contract # 25C
+
+    
+
+
+
+EXHIBIT 4
+
+Single Audit Data Collection Form
+Part 1: GENERAL INFORMATION
+1. Fiscal period ending date for the Single Audit.
+Month
+
+Day
+/
+
+2. Auditee Identification Number
+a. Primary Employer Identification Number (EIN)
+
+Year
+/
+
+-b. Are multiple EINs covered in this report Yes No
+c. If “yes”, complete No. 3.
+
+3.
+
+ADDITIONAL ENTITIES COVERED IN THIS REPORT
+
+Name of Entity
+
+Employer Identification #
+-----
+
+___________________________________________________
+___________________________________________________
+___________________________________________________
+________________________________________________________________
+
+4. AUDITEE INFORMATON
+
+5. PRIMARY AUDITOR INFORMATION
+
+a. Auditee name:
+Auditee Primary DUNS#:
+b. Auditee address (number and street)
+
+a. Primary auditor name:
+
+City
+State
+
+City
+State
+
+b. Primary auditor address (number and street)
+
+Zip Code
+
+Zip Code
+
+c. Auditee contact
+Name:
+_________________________________________________
+Title:
+_________________________________________________
+d. Auditee contact telephone
+(
+)
+_________________________________________________
+e. Auditee contact FAX
+(
+)
+_________________________________________________
+
+c. Primary auditor contact
+Name:
+_____________________________________________________
+Title:
+_____________________________________________________
+d. Primary auditor contact telephone
+(
+)
+_____________________________________________________
+e. Primary auditor E-mail
+(
+)
+_____________________________________________________
+
+f. Auditee contact E-mail
+_________________________________________________
+
+f. Audit Firm License Number
+_____________________________________________________
+
+6. AUDITEE CERTIFICATION STATEMENT – This is to certify that, to the best of
+my knowledge and belief, the auditee has: (1) engaged an auditor to perform
+an audit in accordance with the provisions of 2 CFR § 200. 512 and/or section
+215.97, Florida Statutes, for the period described in Item 1; (2) the auditor has
+completed such audit and presented a signed audit report which states that the
+audit was conducted in accordance with the aforementioned Circular and/or
+Statute; (3) the attached audit is a true and accurate copy of the final audit
+report issued by the auditor for the period described in Item 1; and (4) the
+information included in this data collection form is accurate and complete. I
+declare the foregoing is true and correct.
+
+AUDITEE CERTIFICATION
+
+Date _____/_____/______
+
+Date Audit Received from Auditor: _______/ _______/ ________
+Name of Certifying Official: ______________________________________
+(Please print clearly)
+Title of Certifying Official: ________________________________________
+(Please print clearly)
+Signature of Certifying Official: __________________________
+
+Revised October 1, 2024
+FDOH, Contracts and Grants Management - Federal Compliance and Audit Management (FCAM) Section
+4
+
+Contract # 2&
+
+$
+
+-
+
+$
+
+35,000.00
+
+$
+
+35,000.00
+
+port
+$
+COST
+OTAL: $
+
+-
+
+$
+
+988,322.00
+
+$
+
+988,322.00
+
+-
+
+$
+
+1,738,204.00
+
+$
+
+1,738,204.00
+
+nt:
+
+$
+
+-
+
+$
+
+260,731.00
+
+$
+
+260,731.00
+
+OTAL: $
+
+-
+
+$
+
+1,998,935.00
+
+$
+
+1,998,935.00
+
+FLORIDA DEPARTMENT OF HEALTH
+Signature of
+Authorized Official
+
+ecialist III
+
+Name:
+
+Bridgette Morton
+
+Title:
+
+Deputy Director, Public Health Resea
+Biomedical Research Section
+
+Date:
+
+re proposed project cost broken down by category and state fiscal year (July 1–June 3
+
+r of columns above as appropriate for the term of your grant award.
+the award amount and should be rounded to the nearest whole dollar amount.
+
+lowable on Fiscal Year Two and forward, not to exceed 3%. Please note, a standard st
+ive.
+ered, combined, or revised.
+
+ect Cost (MTDC): Hard enter the total for each fiscal year. Formulas will calculate the in
+unt. Excluded costs should be clearly identified on the Budget Narrative.
+
+ore than 15% of the direct costs or MTDC requested. Indirect cost should be reflected a
+ry not to exceed 15 % of the direct cost.
+e, include a description of the items or types of items to be purchased. Do not include c
+
+Department
+
+
+
+$WWDFKPHQW9,
+
+Airline
+
+Motel
+
+Dep. Flight
+
+Confirm
+
+Time
+
+Ret. Flight
+
+Rate
+
+Division
+
+Time
+
+Nights
+
+Official Headquarters
+
+Signed:
+
+Approved by Supervisor:
+
+4
+
+I hereby certify that travel as shown above is to be incurred in connection with official business of the State
+
+Comments:
+
+TOTAL ESTIMATED COST FOR TRIP
+
+Airline
+
+Motel
+
+Total Estimated Per Diem:
+Registration Fee:
+Car
+
+Conference or convention travel: Explanation of benefits accruing to the State of Florida
+
+Destination:
+
+Purpose of Trip:
+
+Authorization to Incur Travel Expenses
+
+State of Florida
+
+Name
+
+    
+
+Date
+
+Cost
+
+Cost
+
+Departure Time
+
+Departure Date
+
+&RQWUDFW&
+
+Approved- Agency Head
+
+Return Time
+
+Return Date
+
+Date
+
+Date
+
+Trip
+Number
+
+Total Days
+
+-
+
+$
+
+-
+
+Total
+
+Total
+
+Agency Voucher No.
+
+med by me, and that this voucher conforms in every respect with the requirements of
+
+Pursuant to Section 112.061 (3) (a), Florida Statutes, I hereby certify or affirm
+the travel was on official business of the State of Florida and was for the purp
+
+NET AMOUNT DUE THE STATE
+
+NET AMOUNT DUE TRAVELER
+
+-
+
+Statewide Doc. No.
+
+$
+
+LESS NON-REIMBURSABLE ITEMS INCLUDED ON PURCHASING
+
+-
+
+Mi.
+44.5 ¢ Mi.
+
+0
+
+Warrant Date
+
+$
+
+Total
+
+Column
+
+LESS CLASS C MEALS (Officers/Employees Only)
+
+LESS ADVANCE RECEIVED
+
+$
+
+Column
+
+Column
+
+Warrant No.
+
+Advance:
+
+bursement is true and correct in every material matter; that the travel expenses were actually
+duties; that per diem claimed has been appropriately reduced by any meals or lodging included
+
+nvention)
+
+GENERAL INSTRUCTIONS
+Breakfast --- when travel begins before 6 a.m. and extends beyond 8 a
+Lunch -------- when travel begins before 12 Noon and extends beyond
+Dinner ------- when travel begins before 6 p.m. and extends beyond 8 p
+occurs during night-time hours due to special assignment
+
+Description of Item Acquired
+
+n Purchasing Card" and the above "Non-reimbursable Items" section of "State of Florida Purchasing Card Charges" section above must be completed.
+ized rate for each quarter or fraction thereof. Travel over a period of 24 hours or more will be calculated on the basis of 6-hour cycles,
+be calculated on the basis of 6-hour cycles, beginning at the hour of departure from official headquarters. Hour of depature and hour of return should be shown for
+ce columns should not be used. Claims for actual lodging at single occupancy rate plus meal allowances should be put in the "Per Diem
+e appropriate meal allowances in the "Meals for Class A & B Travel" column. Claims for meals allowance involving travel that did not require the traveler to be away
+he "Class C Meals" column. Vicinity travel must appear in the separate column. When travel is by common carrier and billed directly to the traveler, the amount and
+es" column. A copy of the ticket or invoice should be attached to this form. If travel is by common carrier and billed directly to the State agency, then the "Travel
+tion above should be completed. If travel is by common carrier and the carrier is paid by the use of the State of Florida Purchasing Card, then the "State of Florida
+completed. The name of the common carrier should be inserted in the "Map Mileage Claimed" column in these instances. Justification must be provided for use of
+rates than the contract airline) or rental car (or one having lower net rate) when contract carriers are available. Additionally, justification must be provided for use of a
+formed by the use of a State-owned vehicle, the word "State" should be inserted in the "Map Mileage Claimed" column on the reverse side of this form, and the
+ommon Carrier or State Vehicle" should be completed. If lodging is paid by the use of the State of Florida Purchasing Card, the words "Purchasing Card" should
+
+State of Florida Purchasing Card. Inadvertent non-reimbursable charges are to be deducted from the travel reimbursement claimed on the reverse side of this form
+
+travel is confined to the city or town of official headquarters or immediate vicinity except assignments of official business outside the traveler's regular place of
+d and such special approval is noted on the travel voucher. Rate of Per Diem and Meals shall be those prescribed by Section 112.061, Florida Statutes.
+
+re away from official headquarters.
+ours which involves overnight absence from official headquarters.
+he traveler is not away from his official headquarters overnight.
+
+ar on the line "Less Non-Reimbursable Items Included on Purchasing Card" on the reverse side of this form.)
+
+Merchant/Vendor
+
+THIS SECTION REQUIRED TO BE COMPLETED ONLY WHEN NON-REIMBURSEABLE ITEMS WERE PURCHASED USING THE STATE OF FLORIDA PURCHASING CARD
+
+STATE OF FLORIDA PURCHASING CARD CHARGES
+THIS SECTION REQUIRED TO BE COMPLETED ONLY WHEN TRAVEL RELATED EXPENSES ARE PAID BY USING THE STATE OF FLORIDA PURCHASING CARD
+Merchant/Vendor
+Description of Item Acquired
+
+
