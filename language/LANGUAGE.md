@@ -1370,11 +1370,178 @@ def validate_scope(path: Path) -> Result:
 
 ---
 
-## 8. Version History
+## 8. Workflows
+
+### 8.1 Archive Workflow `[v0.1]`
+
+```
+Rule: ARCHIVE_PATTERN
+Non-compliant artifacts MUST be archived, not deleted.
+
+.archive/
+├── {noncompliant-repo}/    ← moved, not deleted
+├── {deprecated-scope}/     ← preserved for history
+└── ...
+
+Archive provides:
+  1. LEDGER immutability (history preserved)
+  2. Evidence trail (provenance)
+  3. Recovery option (if needed)
+  4. Audit compliance (nothing disappears)
+```
+
+```
+Rule: ARCHIVE_LOCATION
+Archives MUST be stored in .archive/ directory.
+
+Location: CANONBASE/.archive/   (multi-repo archives)
+Location: {repo}/.archive/      (intra-repo archives)
+
+The dot prefix excludes archives from:
+  - Validation (VaaS ignores .archive/)
+  - Scope discovery (find_scopes skips .archive/)
+  - Active governance (archived = inactive)
+
+Archived content is still in LEDGER. It is not governed.
+```
+
+```
+Rule: ARCHIVE_WORKFLOW
+To archive a non-compliant artifact:
+
+1. Move (do not copy): mv {artifact} .archive/
+2. Commit the move: git commit -m "Archive: {reason}"
+3. The artifact remains in LEDGER history
+4. The artifact is excluded from active validation
+
+NEVER delete non-compliant artifacts. Archive them.
+Deletion erases evidence. Archiving preserves it.
+```
+
+### 8.2 Regeneration Workflow `[v0.1]`
+
+```
+Rule: REGEN_FROM_CANON
+CANON is the source of truth. Regenerate from CANON, not from artifacts.
+
+Workflow:
+  1. Read CANON.md (governance)
+  2. Read VOCAB.md (semantics)
+  3. Generate compliant artifacts
+  4. Validate against LANGUAGE.md
+  5. Commit to LEDGER
+
+If artifacts diverge from CANON, regenerate artifacts.
+NEVER modify CANON to match non-compliant artifacts.
+```
+
+```
+Rule: CANON_FIRST
+CANON precedes implementation.
+
+Order:
+  1. Write CANON.md (what MUST be)
+  2. Write VOCAB.md (what words mean)
+  3. Write README.md (what this is)
+  4. Implement code/artifacts
+  5. Validate compliance
+
+Implementation follows governance, not the reverse.
+```
+
+### 8.3 Canonification Workflow `[v0.1]`
+
+```
+Rule: CANONIFICATION
+Proto-CANONIC work is canonified through inheritance.
+
+Workflow:
+  1. Identify proto-CANONIC artifact (exhibits patterns but violates LANGUAGE.md)
+  2. Archive original if name violates (e.g., contains hyphen)
+  3. Create new scope with compliant name
+  4. Add triad (CANON.md, VOCAB.md, README.md)
+  5. Declare inheritance: inherits: {template}
+  6. Add provenance link to proto-CANONIC
+  7. Push to LEDGER
+
+Example:
+  mammochat_paper/  → archived (underscore violation)
+  mammochat/        → created (compliant, inherits PAPER)
+  mammochat/CANON.md contains provenance link
+```
+
+```
+Rule: PROVENANCE_LINK
+Canonified artifacts MUST link to their proto-CANONIC ancestors.
+
+Format in CANON.md:
+  ## Provenance
+
+  **Proto-CANONIC ancestor:** [org/repo](https://github.com/org/repo)
+
+  The proto-CANONIC repo remains in LEDGER as historical evidence
+  of pattern emergence before LANGUAGE.md formalization.
+
+Provenance provides:
+  - Attribution (credit to original work)
+  - Evidence (pattern emergence documentation)
+  - Continuity (history chain)
+```
+
+### 8.4 Compilation Workflow `[v0.1]`
+
+```
+Rule: LEDGER_COMPILATION
+Changes compile to LEDGER through push.
+
+LOCAL (draft)        REMOTE (record)
+     │                     │
+     ├─── git add ────────►│ (stage)
+     ├─── git commit ─────►│ (local record)
+     ├─── git push ───────►│ (LEDGER record) ← IMMUTABLE
+     │                     │
+
+Compilation = push to remote
+Before compilation, changes are draft (mutable)
+After compilation, changes are record (immutable)
+```
+
+```
+Rule: VALIDATE_BEFORE_COMPILE
+VaaS MUST validate before compilation.
+
+Enforcement:
+  pre-commit hook   → validates LANGUAGE.md compliance
+  pre-push hook     → validates LEDGER immutability
+
+If validation fails, compilation is blocked.
+This is gated compilation: LANGUAGE.md gates LEDGER.
+```
+
+### 8.5 Stack Compilation `[v0.1]`
+
+```
+Rule: FULL_STACK_COMPILE
+Multi-repo changes compile atomically across the stack.
+
+Workflow:
+  1. Validate each repo: VaaS
+  2. Commit each repo: git commit
+  3. Push all repos: git push (ordered or parallel)
+  4. Verify: all remotes updated
+
+Stack compilation is not transactional.
+If one repo fails, others may have pushed.
+Recovery: fix and push the failed repo.
+```
+
+---
+
+## 9. Version History
 
 | Version | Date | Tag | Status | Changes |
 |---------|------|-----|--------|---------|
-| v0.1 | 2026-01-19 | `lang-v0.1` | Draft | Initial specification |
+| v0.1 | 2026-01-19 | `lang-v0.1` | Draft | Initial specification, Workflows |
 | v0.2 | — | — | Planned | Domain extensions (MED, LAW, FIN) |
 | v0.3 | — | — | Planned | Token economics (TOKEN, COIN) |
 | v1.0 | — | — | Planned | Stable release |
