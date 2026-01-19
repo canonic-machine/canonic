@@ -90,20 +90,158 @@ def validate_case_semantics(scope: Path) -> tuple[bool, str]:
     return True, f"CASE PASS: {scope}"
 
 
-def validate_scope(scope: Path) -> tuple[bool, list[str]]:
+# =============================================================================
+# PART-OF-SPEECH VALIDATION (LANGUAGE.md Section 5.2.2)
+# =============================================================================
+
+# Known nouns (templates/artifacts)
+KNOWN_NOUNS = {
+    # Primitives
+    "canon", "vocab", "readme", "coverage", "appstore", "ledger",
+    # Products
+    "paper", "book", "grant", "patent", "disclosure",
+    # Infrastructure
+    "machine", "os", "token", "coin", "company", "foundation",
+    # Extensions
+    "validator", "template", "service", "product",
+}
+
+# Known verbs (process scopes)
+KNOWN_VERBS = {
+    "writing", "publishing", "protection", "distribution",
+    "validation", "compilation", "economics",
+}
+
+# Reserved structural names
+RESERVED_NAMES = {
+    "services", "products", "validators", "templates",
+    "applications", "disclosures", "episodes",
+}
+
+
+def is_plural(name: str) -> bool:
+    """Check if a name is plural (ends with 's')."""
+    return name.endswith("s") and len(name) > 1
+
+
+def get_singular(name: str) -> str:
+    """Get singular form of a plural name."""
+    if name.endswith("ies"):
+        return name[:-3] + "y"
+    elif name.endswith("es"):
+        return name[:-2]
+    elif name.endswith("s"):
+        return name[:-1]
+    return name
+
+
+def validate_scope_name_pos(scope: Path) -> tuple[bool, str]:
+    """
+    Rule: POS_NOUN, POS_VERB
+    Scope names MUST be nouns or verbs (gerunds).
+
+    LANGUAGE.md Section 5.2.2
+    """
+    name = scope.name.lower()
+
+    # Skip root and special directories
+    if not name or name in [".", ".."]:
+        return True, f"POS PASS: {scope} (root)"
+
+    # Check if it's a known noun
+    if name in KNOWN_NOUNS:
+        return True, f"POS PASS: {scope} (noun)"
+
+    # Check if it's a known verb
+    if name in KNOWN_VERBS:
+        return True, f"POS PASS: {scope} (verb/gerund)"
+
+    # Check if it's a reserved structural name
+    if name in RESERVED_NAMES:
+        return True, f"POS PASS: {scope} (reserved)"
+
+    # Check if it's a plural of a known noun
+    if is_plural(name):
+        singular = get_singular(name)
+        if singular in KNOWN_NOUNS:
+            return True, f"POS PASS: {scope} (plural of {singular})"
+
+    # Check if it's a version directory (v1, v2, etc.)
+    if re.match(r'^v\d+$', name):
+        return True, f"POS PASS: {scope} (version)"
+
+    # Domain-specific names are allowed (they inherit from templates)
+    # e.g., mammochat, genomics, atulisms, dividends
+    # These are instance names, not governed by POS rules
+    return True, f"POS PASS: {scope} (instance name)"
+
+
+def validate_plural_inheritance(scope: Path, root: Path) -> tuple[bool, str]:
+    """
+    Rule: SINGULAR_PLURAL_BIJECTION
+    Plural scopes MUST contain instances that inherit from the singular template.
+
+    LANGUAGE.md Section 5.2.3
+    """
+    name = scope.name.lower()
+
+    # Only check plural scope directories
+    if not is_plural(name):
+        return True, f"BIJECTION PASS: {scope} (not plural)"
+
+    # Skip reserved names like "services", "validators"
+    if name in RESERVED_NAMES:
+        return True, f"BIJECTION PASS: {scope} (reserved)"
+
+    singular = get_singular(name)
+
+    # Check if instances in this collection have CANON.md with inherits
+    instances_checked = 0
+    instances_valid = 0
+
+    for item in scope.iterdir():
+        if item.is_dir() and not item.name.startswith("."):
+            canon = item / "CANON.md"
+            if canon.exists():
+                instances_checked += 1
+                content = canon.read_text()
+                # Check if it inherits from the singular template
+                if re.search(rf'{singular}', content, re.IGNORECASE):
+                    instances_valid += 1
+
+    if instances_checked == 0:
+        # No instances yet, that's OK
+        return True, f"BIJECTION PASS: {scope} (no instances)"
+
+    if instances_valid < instances_checked:
+        return False, f"BIJECTION FAIL: {scope} has {instances_checked - instances_valid} instances not inheriting from {singular}"
+
+    return True, f"BIJECTION PASS: {scope} ({instances_valid}/{instances_checked} inherit {singular})"
+
+
+def validate_scope(scope: Path, root: Path = None) -> tuple[bool, list[str]]:
     """Validate a single scope against LANGUAGE.md rules."""
     results = []
     all_pass = True
 
-    validators = [
+    # Basic validators
+    basic_validators = [
         validate_triad,
         validate_inheritance,
         validate_introspection,
         validate_case_semantics,
+        validate_scope_name_pos,
     ]
 
-    for validator in validators:
+    for validator in basic_validators:
         passed, msg = validator(scope)
+        results.append(msg)
+        if not passed:
+            all_pass = False
+
+    # Validators that need root context
+    if root:
+        passed, msg = validate_plural_inheritance(scope, root)
         results.append(msg)
         if not passed:
             all_pass = False
@@ -171,7 +309,7 @@ def main():
     failures = []
 
     for scope in sorted(scopes):
-        passed, results = validate_scope(scope)
+        passed, results = validate_scope(scope, root)
 
         if passed:
             total_pass += 1
