@@ -868,6 +868,67 @@ Products GOVERN production (UPPERCASE).
 Outputs ARE GOVERNED (lowercase).
 ```
 
+#### 4.6.4.1 APPSTORE Instantiation `[v0.1]`
+
+```
+Rule: APPSTORE_INSTANTIATION
+Products in APPSTORE are instantiated as independent scopes (repos).
+
+Template     ::= /canonic/services/products/{product}/
+Instance     ::= /{instance}/
+Inheritance  ::= Instance inherits Template
+
+Example:
+  Template: /canonic/services/products/paper/     (PAPER governance)
+  Instance: /mammochat/                           (company repo)
+  Relation: mammochat inherits paper
+
+The instance:
+  1. MUST have triad (CANON.md, VOCAB.md, README.md)
+  2. MUST declare `inherits: /canonic/services/products/{product}/`
+  3. MUST comply with product's axioms
+  4. MAY extend with domain-specific axioms
+```
+
+```
+Rule: APPSTORE_COMPANY
+A CANONIC FOUNDATION company is an APPSTORE instance with:
+
+Company ::= Instance + { domain, incorporation, governance }
+
+Requirements:
+  - inherits: /canonic/services/products/{product}/
+  - Domain namespace (e.g., CANONIC.MED.ONCO.MAMMO)
+  - CANONIC-compliant governance (triad + inheritance)
+
+Example:
+  mammochat/CANON.md:
+    inherits: /canonic/services/products/paper/
+    domain: CANONIC.MED.ONCO.MAMMO
+
+The company inherits PAPER's axioms for manuscript production
+while adding domain-specific governance for healthcare AI.
+```
+
+```
+Rule: APPSTORE_PROTO_CANONIC
+Proto-CANONIC work predates formal governance but exhibits patterns.
+
+ProtoCANONIC ::= historical artifact demonstrating CANONIC patterns
+                 before LANGUAGE.md formalization
+
+Handling:
+  1. Proto-CANONIC repos remain in LEDGER (immutability)
+  2. CANONIC-compliant version created with proper inheritance
+  3. Proto repo serves as historical evidence of pattern emergence
+
+Example:
+  mammochat_paper/  → proto-CANONIC (historical, violates naming)
+  mammochat/        → CANONIC (compliant, inherits PAPER)
+
+Both exist. The underscore violation is evidence, not error.
+```
+
 #### 4.6.2 Primitive Roles
 
 ```
