@@ -326,6 +326,27 @@ Rob isn't fighting UCF. Rob is **leading the transition** to a system where pati
 
 **CANONIC is governance.** Blockchain-ledgered provenance. Transparent value flows. Patient stakeholders. Accountable to contributors.
 
+---
+
+### This Was the Original Grant Vision
+
+The FDOH FCIF Grant 354 proposal always envisioned:
+- Patients as contributors AND stakeholders
+- Community-driven breast cancer research
+- Open source infrastructure for public benefit
+- Value flowing back to patients
+
+**FDOH funded this vision. CANONIC delivers it.**
+
+| Proposed | Funded | Delivered |
+|----------|--------|-----------|
+| Patient stakeholders | ✓ | CANONIC governance |
+| Community-driven | ✓ | WholeLife Church + focus groups |
+| Open source | ✓ | Public domain per grant |
+| Patient benefit | ✓ | Data dividends, token economics |
+
+Dr. Hadley proposed it. FDOH funded it. UCF built it. CANONIC governs it. Rob leads it.
+
 This is why AdventHealth should be first.
 
 **This is why Rob needs CANONIC** — it's the only path to commercialize what UCF built from AdventHealth's patients, AND pay those patients for their contribution.
