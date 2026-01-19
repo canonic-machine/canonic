@@ -9,7 +9,41 @@
 
 ## Executive Summary
 
-Proposal for AdventHealth to serve as **Lead CANONIC Sponsor** for AIMed 2026 in Orlando, Florida, building on the successful partnership established through AIMed24 (Orlando) and AIMed25 (San Diego).
+**AdventHealth leads open source AI in healthcare.**
+
+This proposal positions AdventHealth as the **first Lead CANONIC Sponsor** — the healthcare organization that proves patients can be stakeholders, not just data sources.
+
+Rob Purinton, Chief AI Officer, becomes the executive who:
+- Led the first open source AI governance initiative in healthcare
+- Demonstrated that not-for-profits can pay patients for their data
+- Showed that mission-aligned partnerships outperform proprietary solutions
+- Made AdventHealth the model for responsible AI in medicine
+
+**This is impact. This is leadership. This is AdventHealth first.**
+
+---
+
+### Buying AIMed Sponsorship Isn't Enough
+
+| Sponsorship Type | What You Get | Impact |
+|------------------|--------------|--------|
+| Presenting Partner | Logo, booth, breakout session | **Brand visibility** |
+| **Lead CANONIC Sponsor** | Governance seat, patient payments, open source leadership | **Industry transformation** |
+
+AdventHealth has been Presenting Partner at AIMed24 and AIMed25. Logo on the wall. Breakout sessions. Brand visibility.
+
+**That's table stakes. That's not leadership.**
+
+Lead CANONIC Sponsor means:
+- **Governance seat**: Shape the rules for AI in healthcare
+- **Patient payments**: First to pay patients for their data contributions
+- **Open source leadership**: Model for responsible AI that others follow
+- **MammoChat showcase**: Platform built from AdventHealth's 20K patients goes public
+- **Industry recognition**: "AdventHealth led this" — not just "AdventHealth sponsored this"
+
+Rob doesn't want another logo on a conference banner. Rob wants to **lead something that matters.**
+
+**CANONIC is that something.**
 
 ---
 
