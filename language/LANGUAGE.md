@@ -1086,7 +1086,148 @@ VALID:   services
 VALID:   canonicservices   (if necessary, but discouraged)
 ```
 
-#### 5.2.2 Case Convention `[v0.1]`
+#### 5.2.2 Part-of-Speech Rules `[v0.1]`
+
+```
+Rule: POS_ADJECTIVE
+CANONIC is the ONLY adjective in the language.
+
+Adjective ::= 'CANONIC'
+
+CANONIC modifies:
+  - Governance artifacts: CANONIC FOUNDATION
+  - Compliance state: CANONIC-compliant
+  - The language itself: CANONIC language
+
+No other adjectives are permitted in identifiers.
+INVALID: GOOD.PAPER, NEW.SERVICES, FAST.MACHINE
+```
+
+```
+Rule: POS_NOUN
+Nouns denote concrete artifacts or domains.
+
+Noun ::= SingularNoun | PluralNoun
+
+SingularNoun ::= MACHINE | OS | PAPER | BOOK | GRANT | PATENT
+               | LEDGER | CANON | VOCAB | README | COVERAGE
+               | APPSTORE | TOKEN | COIN | COMPANY
+               | (domain-specific extensions)
+
+Nouns are:
+  - UPPERCASE as governance artifacts (templates)
+  - lowercase as governed instances (scopes)
+
+Examples:
+  PAPER    = the governance template (what a paper MUST be)
+  paper/   = a governed scope (this paper, inheriting PAPER)
+```
+
+```
+Rule: POS_VERB
+Verbs (as gerunds) denote process scopes.
+
+Verb ::= WRITING | PUBLISHING | PROTECTION | DISTRIBUTION
+       | VALIDATION | COMPILATION | (process extensions)
+
+Verbs describe ongoing activities, not static artifacts.
+Process scopes contain the outputs of the activity.
+
+Examples:
+  writing/     = the process of writing (contains manuscripts)
+  publishing/  = the process of publishing (contains publications)
+  protection/  = the process of IP protection (contains patents, companies)
+```
+
+#### 5.2.3 Singular vs Plural Semantics `[v0.1]`
+
+```
+Rule: SINGULAR_TEMPLATE
+Singular nouns denote governance templates.
+
+Singular ::= Noun (no 's' suffix)
+
+Singular artifacts:
+  - Define what MUST be (governance)
+  - Are UPPERCASE (governor)
+  - Exist in APPSTORE as products
+  - Are inherited by instances
+
+Examples:
+  PAPER   = the archetype (what all papers must satisfy)
+  BOOK    = the archetype (what all books must satisfy)
+  GRANT   = the archetype (what all grants must satisfy)
+```
+
+```
+Rule: PLURAL_SERIES
+Plural nouns denote instance collections (series).
+
+Plural ::= Noun + 's'
+
+Plural scopes:
+  - Contain governed instances
+  - Are lowercase (governed)
+  - Each instance inherits the singular template
+  - Generate series of artifacts
+
+Examples:
+  papers/       = my papers (each inherits PAPER)
+  books/        = my books (each inherits BOOK)
+  grants/       = my grants (each inherits GRANT)
+  disclosures/  = my disclosures (each inherits DISCLOSURE)
+
+Structure:
+  products/           ← UPPERCASE (governance)
+  └── paper/          ← template scope
+      └── CANON.md    ← defines what papers MUST be
+
+  papers/             ← lowercase plural (governed series)
+  ├── mammochat/      ← instance inherits paper/
+  ├── canonic/        ← instance inherits paper/
+  └── ...
+```
+
+```
+Rule: SINGULAR_PLURAL_BIJECTION
+Singular and plural form a governance bijection.
+
+Bijection:
+  Template(plural)  = Remove 's', UPPERCASE
+  Instance(singular) = Add 's', lowercase
+
+  papers → PAPER    (what my papers must satisfy)
+  PAPER  → papers   (where my papers live)
+
+Constraint:
+  ∀ plural scope 'Xs':
+    ∃ singular template 'X' such that
+    ∀ instance ∈ Xs: inherits(instance, X)
+
+This ensures all instances are governed by their template.
+```
+
+```
+Rule: COLLECTION_INHERITANCE
+Collections inherit from their singular template.
+
+Collection ::= Plural scope containing instances
+
+Each instance in a collection:
+  1. MUST have triad (CANON.md, VOCAB.md, README.md)
+  2. MUST declare: inherits: /path/to/{singular}/
+  3. MUST satisfy singular's axioms
+  4. MAY extend with domain-specific axioms
+
+Example:
+  papers/mammochat/CANON.md:
+    inherits: /canonic/services/products/paper/
+
+The collection scope itself (papers/) does NOT need a CANON.md.
+The collection is governed by its parent scope, not self-governed.
+```
+
+#### 5.2.4 Case Convention `[v0.1]`
 
 ```
 Rule: CASE_SEMANTICS
@@ -1131,7 +1272,7 @@ CANON.md        ← UPPERCASE: governs the scope
         └── CANON.md ← UPPERCASE: governs this subscope
 ```
 
-#### 5.2.3 Composition Operator
+#### 5.2.5 Composition Operator
 
 ```
 Rule: DOT_COMPOSITION
