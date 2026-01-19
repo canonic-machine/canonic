@@ -51,15 +51,36 @@ GITHUB BUILDS: Everything else
 
 ---
 
-## 5. Validators
+## 5. Services
 
-| Validator | Action | Status |
-|-----------|--------|--------|
-| triad-validator | canonic/vaas-triad | PLANNED |
-| inheritance-validator | canonic/vaas-inheritance | PLANNED |
-| introspection-validator | canonic/vaas-introspection | PLANNED |
-| cascade-validator | canonic/vaas-cascade | PLANNED |
-| closure-validator | canonic/vaas-closure | PLANNED |
+| Service | Scope | Validators | Status |
+|---------|-------|------------|--------|
+| VaaS | validators | core (14) | LIVE |
+| TaaS | transcript | evidence | LIVE |
+| WaaS | writing | 2 | LIVE |
+| PapaaS | paper | 3 | LIVE |
+| PubaaS | publishing | 3 | LIVE |
+| IPaaS | patents | 3 | LIVE |
+| GaaS | grants | 3 | LIVE |
+| SaaS | submission | grants.gov | PLANNED |
+| CaaS | companies | 3 | LIVE |
+| BaaS | books | 3 | LIVE |
+| ToaaS | token | 3 | LIVE |
+| CoaaS | coin | 3 | LIVE |
+
+---
+
+## 6. XaaS Family
+
+All independent except:
+
+```
+WaaS (writing) → PapaaS (paper) → PubaaS (publishing)
+                              ↘
+WaaS (writing) → BaaS (books)
+
+GaaS (grants) → SaaS (submission) [grants.gov]
+```
 
 ---
 

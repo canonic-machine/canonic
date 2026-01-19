@@ -272,6 +272,12 @@ The patents scope for IP production and disclosure.
 
 ---
 
+### DISCLOSURES
+
+The invention disclosure registry scope within patents; the destination for IDF filings during cascade.
+
+---
+
 ### publishing
 
 The publishing scope for release management.
