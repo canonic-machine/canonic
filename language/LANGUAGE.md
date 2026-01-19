@@ -745,9 +745,40 @@ APPSTORE → distribution (products spread)
 Rule: LEDGER_FOUNDATION
 LEDGER is the foundation upon which all other primitives rest.
 
-LEDGER = git (instantiation)
-LEDGER = blockchain (alternative instantiation)
-LEDGER = any immutable, cryptographically-verified state machine
+LEDGER ::= GIT | PUBLISHING | PATENT
+
+GIT        = code immutability (commits)
+PUBLISHING = paper immutability (arxiv, journals)
+PATENT     = IP immutability (USPTO filings)
+
+LEDGER provides immutability. Non-LEDGER channels do not.
+```
+
+```
+Rule: ADVERTISING_NOT_LEDGER
+ADVERTISING is ephemeral distribution. It is NOT ledgered.
+
+ADVERTISING ::= LINKEDIN | MEDIUM | TWITTER | SUBSTACK | ...
+
+ADVERTISING:
+  - Editable after posting
+  - Deletable
+  - No immutability
+  - Not governed
+
+LEDGER is persistent. ADVERTISING is ephemeral.
+LEDGER is the record. ADVERTISING points to the record.
+
+Flow:
+  LEDGER (persistent)  →  ADVERTISING (ephemeral)
+  arxiv paper          →  LinkedIn post
+  GitHub repo          →  Twitter thread
+  USPTO filing         →  Medium article
+
+Each LEDGER type provides:
+  - Immutable state (once committed, permanent)
+  - Cryptographic/legal verification
+  - Audit trail (history preserved)
 
 Without LEDGER, no persistence. Without persistence, no governance.
 ```
@@ -758,14 +789,21 @@ Without LEDGER, no persistence. Without persistence, no governance.
 Rule: LEDGER_IMMUTABILITY
 Once state is committed to LEDGER, it MUST NOT be rewritten.
 
-LEDGER has two zones:
+ALL LEDGER types have two zones:
   LOCAL  = working draft (mutable until push)
   REMOTE = canonical state (immutable after push)
 
-LocalState   = mutable    (squash, amend, rebase allowed)
-RemoteState  = immutable  (force-push forbidden)
+LocalState   = mutable    (edit, revise, rebuild allowed)
+RemoteState  = immutable  (rewrite forbidden)
 
-The immutability guarantee applies to PUSHED state, not local working state.
+LEDGER Type   LOCAL (mutable)              REMOTE (immutable)
+───────────   ─────────────────            ──────────────────
+GIT           uncommitted/unpushed         pushed commits
+PUBLISHING    unpublished drafts           arxiv/journal submissions
+PATENT        unfiled applications         USPTO filings
+
+The immutability guarantee applies to REMOTE state, not local working state.
+You can rebuild v0 until you publish. Once published, it's permanent.
 ```
 
 ```
@@ -796,6 +834,21 @@ All governance decisions MUST be preserved in LEDGER history.
 ∀ decision: ∃ commit that records decision
 
 LEDGER is the court record. Tampering is contempt.
+```
+
+```
+Rule: LEDGER_IP_GATING
+Version Vn+1 is published only after Vn IP is secured.
+
+Publication Flow:
+  1. Draft Vn locally (GIT LOCAL)
+  2. Secure Vn IP (PATENT LEDGER)
+  3. Publish Vn (PUBLISHING LEDGER)
+  4. Vn roadmap advertises Vn+1
+  5. Begin draft Vn+1
+
+Each version's roadmap declares what comes next.
+IP protection precedes publication.
 ```
 
 #### 4.6.3.2 LEDGER Access Control `[v0.1]`
@@ -1680,12 +1733,41 @@ Recovery: fix and push the failed repo.
 
 ## 9. Version History
 
+### 9.1 Language Specification Versions
+
 | Version | Date | Tag | Status | Changes |
 |---------|------|-----|--------|---------|
-| v0.1 | 2026-01-19 | `lang-v0.1` | Draft | Initial specification, Workflows |
+| v0.1 | 2026-01-19 | `lang-v0.1` | Draft | Initial specification, Workflows, LEDGER types |
 | v0.2 | — | — | Planned | Domain extensions (MED, LAW, FIN) |
 | v0.3 | — | — | Planned | Token economics (TOKEN, COIN) |
 | v1.0 | — | — | Planned | Stable release |
+
+### 9.2 Paper Version Mapping `[v0.1]`
+
+```
+Rule: PAPER_VERSION_BIJECTION
+Paper versions biject to language specification versions.
+
+Paper   Language   Content                    Status
+─────   ────────   ───────                    ──────
+v0      v0.1       LANGUAGE.md initial spec   LOCAL (can rebuild)
+v1      v0.2       Domain extensions          LOCAL (planned)
+v2      v0.3       Token economics            LOCAL (planned)
+
+0-based indexing: CANONIC follows programming conventions.
+
+Immutability applies at PUBLISH time:
+  LOCAL  = draft paper (rebuild freely until submission)
+  REMOTE = published paper (arxiv/journal = immutable)
+
+v0 can be rebuilt to match PAPER and LANGUAGE.md because
+it has not been pushed to PUBLISHING LEDGER (arxiv).
+
+Each paper version Vn:
+  1. Documents language spec v0.N+1
+  2. Declares Vn+1 in roadmap (once Vn IP is secured)
+  3. Becomes immutable upon PUBLISHING LEDGER push
+```
 
 ---
 

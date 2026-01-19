@@ -122,9 +122,16 @@ Semantic primitive for external closure. COVERAGE.md tracks completeness against
 
 ---
 
-### APPSTORE
+### DISTRIBUTION
+
+Canonical: DISTRIBUTION
+Aliases: APPSTORE
 
 Semantic primitive for distribution. How CANONIC spreads. The full SCOPE of what CANONIC has to offer. GitHub is the instantiation. CANONIC is the first language specification with distribution embedded in the grammar. No external infrastructure required.
+
+Distribution includes:
+- LEDGER channels (persistent): GIT, PUBLISHING, PATENT
+- ADVERTISING channels (ephemeral): LinkedIn, Medium, Twitter
 
 ---
 
