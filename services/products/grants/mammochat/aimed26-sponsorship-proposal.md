@@ -252,23 +252,83 @@ de163002@ucf.edu | 215-681-0268
 
 **AdventHealth contributed 20,000+ patient mammograms to MammoChat.**
 
-| Entity | Can Commercialize? | Why |
+| Entity | Status | Constraint |
+|--------|--------|------------|
+| UCF | Public university | Bound by FDOH public domain grant terms |
+| AdventHealth | **Not-for-profit** | Cannot commercialize, mission-driven |
+| Canonic Foundation | **Not-for-profit** | Governance + open source infrastructure |
+
+**UCF built a model from AdventHealth images. Neither can commercialize.**
+
+- UCF: Grant requires public domain
+- AdventHealth: Not-for-profit status
+
+**But CANONIC governance enables something better than commercialization:**
+
+Under CANONIC:
+- Open source infrastructure = public domain (per grant) ✓
+- Not-for-profit governance = mission-aligned ✓
+- Patient relationships = AdventHealth's ministry ✓
+- 20,000 mammograms = community contribution, community benefit ✓
+- Value flows to patients, not shareholders
+
+**Rob's position**: AdventHealth serves patients. UCF serves research. CANONIC serves both — and pays the patients.
+
+---
+
+### Pay the Patients
+
+| Entity | Can Pay Patients? | Why |
 |--------|-------------------|-----|
-| UCF | **NO** | Bound by FDOH public domain grant terms |
-| AdventHealth | **YES** | Own the patient relationships + data rights |
-| CANONIC | **YES** | Open source governance enables commercial applications |
+| UCF | **NO** | Grant terms, institutional bureaucracy, IRB constraints |
+| AdventHealth | **YES** | Direct patient relationships, commercial revenue |
+| CANONIC | **YES** | Token economics, data dividends, community ownership |
 
-**UCF built a model from AdventHealth images that UCF cannot commercialize.**
+**20,000 patients contributed their mammograms. Under CANONIC governance, they get paid.**
 
-Under CANONIC governance:
-- Open source infrastructure = public domain (per grant)
-- Commercial applications = protected (AdventHealth can build on top)
-- Patient relationships = AdventHealth's asset
-- 20,000 mammograms = AdventHealth's contribution, AdventHealth's commercial rights
+- **Data dividends**: Patients share in commercial value of their contributions
+- **Token economics**: CANONIC coin rewards data contributors
+- **Community ownership**: Patients are stakeholders, not just subjects
+- **WholeLife Church**: Community distribution channel for patient rewards
 
-**Rob's position**: AdventHealth owns the patient data. UCF can't monetize. CANONIC governance lets AdventHealth build commercial applications on open source infrastructure.
+**This is the AdventHealth mission in action**: Patients aren't data sources to be extracted — they're partners who share in the value they create.
 
-**This is why Rob needs CANONIC** — it's the only path to commercialize what UCF built from AdventHealth's patients.
+**UCF cannot do this. Only CANONIC can.**
+
+---
+
+### UCF Did Nothing Wrong
+
+UCF did exactly what the system allows:
+- Applied for grant ✓
+- Won award ✓
+- Built model from partner images ✓
+- Published research ✓
+- Released to public domain ✓
+
+**The system is the problem, not UCF.**
+
+Traditional academic research:
+- Patients donate data for free
+- Institutions publish papers
+- Commercial value extracted elsewhere
+- Patients get nothing
+
+**CANONIC is the fix:**
+- Patients contribute data
+- Open source infrastructure (grant-compliant)
+- Commercial applications (partner-enabled)
+- **Patients get paid**
+
+Rob isn't fighting UCF. Rob is **leading the transition** to a system where patients share in the value they create.
+
+**The current system has no governance.** Patients sign consent forms. Data flows to institutions. Value is extracted. Nobody is accountable to the patients.
+
+**CANONIC is governance.** Blockchain-ledgered provenance. Transparent value flows. Patient stakeholders. Accountable to contributors.
+
+This is why AdventHealth should be first.
+
+**This is why Rob needs CANONIC** — it's the only path to commercialize what UCF built from AdventHealth's patients, AND pay those patients for their contribution.
 
 ---
 
