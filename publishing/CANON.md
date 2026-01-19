@@ -1,6 +1,6 @@
 # PUBLISHING (/canonic/publishing/)
 
-inherits: /canonic/
+inherits: /
 
 closes: dissemination
 
@@ -10,7 +10,7 @@ closes: dissemination
 
 ### 1. Dissemination Stack
 
-Every paper MUST disseminate through the complete stack:
+Every paper **MUST** disseminate through the complete stack:
 
 | Layer | Platform | Purpose | Evidence |
 |-------|----------|---------|----------|
@@ -40,7 +40,7 @@ Wrong platform = invalid publication.
 
 ### 3. Cross-Registration
 
-Publications MUST cross-register across platforms:
+Publications **MUST** cross-register across platforms:
 
 - **arXiv ↔ medRxiv** — Cross-list for interdisciplinary work
 - **LinkedIn → Twitter** — Synchronized announcement
@@ -52,7 +52,7 @@ Cross-registration creates evidence mesh.
 
 ### 4. Publication Sequence
 
-Publications MUST follow temporal sequence:
+Publications **MUST** follow temporal sequence:
 
 ```
 1. Preprint (timestamp authority)
@@ -92,7 +92,7 @@ Sequence violations break evidence chain.
 | CANONIC.MEDICINE | ○ | ○ | ○ | ○ | ○ |
 | CANONIC.LAW | — | — | ○ | ○ | ○ |
 
-Legend: ○ = required, — = not applicable
+Legend: ○ = **REQUIRED**, — = not applicable
 
 ---
 
