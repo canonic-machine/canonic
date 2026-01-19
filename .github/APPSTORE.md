@@ -84,6 +84,44 @@ GaaS (grants) → SaaS (submission) [grants.gov]
 
 ---
 
+---
+
+## 7. State Dimensions
+
+| Product | LOCALITY | VISIBILITY | ENCRYPTION | Status |
+|---------|----------|------------|------------|--------|
+| TRANSCRIPT | LOCAL | PRIVATE | PLAIN | LIVE |
+| PAPER | REMOTE | PUBLIC | PLAIN | LIVE |
+| PATENT | REMOTE | PUBLIC | PLAIN | LIVE |
+| VALIDATORS | REMOTE | PUBLIC | PLAIN | LIVE |
+| BLOCKCHAIN | REMOTE | PUBLIC | ENCRYPTED | PLANNED |
+
+---
+
+## 8. Roadmap to Closure
+
+### Phase 1: GIT LEDGER (CURRENT)
+- [x] VaaS validation on GitHub Actions
+- [x] Triad enforcement
+- [x] Inheritance validation
+- [x] Services live on GitHub
+
+### Phase 2: BLOCKCHAIN LEDGER (NEXT)
+- [ ] Hash anchoring service
+- [ ] Product registration by hash
+- [ ] Validation proof anchoring
+- [ ] State dimension declarations per product
+
+### Phase 3: FULL CLOSURE
+- [ ] All products declare state dimensions
+- [ ] BLOCKCHAIN notarizes all APPSTORE products
+- [ ] Blackbox verification (hash proves, content private)
+- [ ] APPSTORE closed on BLOCKCHAIN
+
+**Closure criteria:** Every product in APPSTORE is hash-anchored on BLOCKCHAIN with declared state dimensions.
+
+---
+
 **This closes CANON. APPSTORE is CANONICAL.**
 
 ---

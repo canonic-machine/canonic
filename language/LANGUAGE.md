@@ -745,11 +745,12 @@ APPSTORE → distribution (products spread)
 Rule: LEDGER_FOUNDATION
 LEDGER is the foundation upon which all other primitives rest.
 
-LEDGER ::= GIT | PUBLISHING | PATENT
+LEDGER ::= GIT | PUBLISHING | PATENT | BLOCKCHAIN
 
 GIT        = code immutability (commits)
 PUBLISHING = paper immutability (arxiv, journals)
 PATENT     = IP immutability (USPTO filings)
+BLOCKCHAIN = data immutability (hashes, anchors)
 
 LEDGER provides immutability. Non-LEDGER channels do not.
 ```
@@ -801,6 +802,7 @@ LEDGER Type   LOCAL (mutable)              REMOTE (immutable)
 GIT           uncommitted/unpushed         pushed commits
 PUBLISHING    unpublished drafts           arxiv/journal submissions
 PATENT        unfiled applications         USPTO filings
+BLOCKCHAIN    unhashed data                anchored hashes
 
 The immutability guarantee applies to REMOTE state, not local working state.
 You can rebuild v0 until you publish. Once published, it's permanent.
@@ -1767,6 +1769,82 @@ Each paper version Vn:
   1. Documents language spec v0.N+1
   2. Declares Vn+1 in roadmap (once Vn IP is secured)
   3. Becomes immutable upon PUBLISHING LEDGER push
+```
+
+### 9.3 Data State Dimensions `[v0.1]`
+
+```
+Rule: DATA_STATE_DIMENSIONS
+Data state has three orthogonal dimensions.
+
+Dimension    Values              Scope
+─────────    ──────              ─────
+LOCALITY     LOCAL | REMOTE      Where data lives
+VISIBILITY   PUBLIC | PRIVATE    Who can see (REMOTE only)
+ENCRYPTION   PLAIN | ENCRYPTED   How data is stored
+
+These dimensions are orthogonal (independent):
+  - LOCAL + PLAIN         (dev machine, unencrypted)
+  - LOCAL + ENCRYPTED     (dev machine, encrypted at rest)
+  - REMOTE + PUBLIC       (GitHub public repo)
+  - REMOTE + PRIVATE      (GitHub private repo)
+  - REMOTE + ENCRYPTED    (blockchain hash, not plaintext)
+
+Products in APPSTORE MUST declare their state across all dimensions.
+```
+
+```
+Rule: APPSTORE_STATE_DECLARATION
+Each product in APPSTORE declares its data state dimensions.
+
+Declaration format in APPSTORE.md:
+  ## State
+
+  LOCALITY:    LOCAL | REMOTE
+  VISIBILITY:  PUBLIC | PRIVATE
+  ENCRYPTION:  PLAIN | ENCRYPTED
+
+Example (TRANSCRIPT):
+  LOCALITY:    LOCAL (never REMOTE)
+  VISIBILITY:  PRIVATE (always)
+  ENCRYPTION:  PLAIN (currently)
+
+Example (PAPER on arxiv):
+  LOCALITY:    REMOTE
+  VISIBILITY:  PUBLIC
+  ENCRYPTION:  PLAIN
+
+Example (BLOCKCHAIN anchor):
+  LOCALITY:    REMOTE
+  VISIBILITY:  PUBLIC
+  ENCRYPTION:  ENCRYPTED (hash only, not plaintext)
+```
+
+```
+Rule: BLOCKCHAIN_BLACKBOX
+BLOCKCHAIN enforces governance without revealing content.
+
+BLOCKCHAIN stores:
+  - Hash of content (verification)
+  - Timestamp (provenance)
+  - Signature (authority)
+
+BLOCKCHAIN does NOT store:
+  - Content itself (blackbox)
+  - Interpretation (raw evidence)
+
+This enables:
+  - Public verification (anyone can check hash)
+  - Private content (content stays LOCAL or PRIVATE REMOTE)
+  - Immutable proof (timestamp + hash = provenance)
+
+APPSTORE on BLOCKCHAIN:
+  - Products registered by hash
+  - Validation anchored by hash
+  - Distribution verified by hash
+  - Content remains governed by LEDGER (GIT)
+
+BLOCKCHAIN is the notary. GIT is the library.
 ```
 
 ---
