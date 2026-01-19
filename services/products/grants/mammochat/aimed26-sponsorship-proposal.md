@@ -281,8 +281,12 @@ Under CANONIC:
 | Entity | Can Pay Patients? | Why |
 |--------|-------------------|-----|
 | UCF | **NO** | Grant terms, institutional bureaucracy, IRB constraints |
-| AdventHealth | **YES** | Direct patient relationships, commercial revenue |
-| CANONIC | **YES** | Token economics, data dividends, community ownership |
+| AdventHealth | **YES** | Not-for-profit ministry, direct patient relationships |
+| Canonic Foundation | **YES** | Not-for-profit governance, token economics, data dividends |
+
+**Two not-for-profits aligned on patient benefit:**
+- AdventHealth: Ministry + patient care
+- Canonic Foundation: Governance + patient payments
 
 **20,000 patients contributed their mammograms. Under CANONIC governance, they get paid.**
 
