@@ -59,9 +59,45 @@ CANONIC is an open-source governance framework for AI in healthcare that ensures
 
 | Tier | Investment | Benefits |
 |------|------------|----------|
-| **Lead CANONIC Sponsor** | TBD | Naming rights, keynote slot, MammoChat demo, CANONIC governance seat |
-| Presenting Partner | (current level) | Branding, breakout sessions |
-| Supporting Partner | | Exhibition, networking |
+| **Lead CANONIC Sponsor** | **$250,000** | Naming rights, keynote slot, MammoChat demo, CANONIC governance seat |
+| Presenting Partner | $100,000 (current level) | Branding, breakout sessions |
+| Supporting Partner | $25,000 | Exhibition, networking |
+
+---
+
+## The Numbers
+
+### Cost Savings: Open Source vs. Proprietary
+
+| Approach | 5-Year Cost | Risk |
+|----------|-------------|------|
+| Proprietary AI vendor | $2-5M+ | Vendor lock-in, black box, no governance |
+| UCF-only development | $1.5M+ | IP disputes, politics, slow iteration |
+| **CANONIC Open Source** | **$250K sponsor + existing grants** | **Public domain, transparent, community-driven** |
+
+**AdventHealth saves $1.5M+ over 5 years** by leading open source governance instead of building or buying proprietary.
+
+### Contract Value Already Secured
+
+| Source | Amount | Status |
+|--------|--------|--------|
+| FDOH FCIF Grant 354 | $1,998,935 | Awarded (UCF prime) |
+| AdventHealth Subaward | $69,000 | Executed |
+| **Lead CANONIC Sponsor** | **$250,000** | **This proposal** |
+
+**Total ecosystem investment: $2.3M+** — AdventHealth gets governance leadership for 11% of total investment.
+
+### ROI for AdventHealth
+
+| Metric | Value |
+|--------|-------|
+| Brand leadership | First Lead CANONIC Sponsor in AI healthcare |
+| Governance seat | Shape open source AI policy for healthcare |
+| Cost avoidance | $1.5M+ vs. proprietary alternatives |
+| Community goodwill | WholeLife Church + patient focus groups |
+| Research partnership | UCF + CANONIC Foundation |
+
+**$250K investment → $1.5M+ cost avoidance = 6x ROI**
 
 ---
 
