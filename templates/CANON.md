@@ -36,7 +36,7 @@ CANON templates **SHOULD** include:
 
 - Axioms section (normative)
 - Lifecycle section (origin, current state, automation drift)
-- Best Practices section (non-normative, SHOULD-level guidance)
+- Best Practices section (non-normative, **SHOULD**-level guidance)
 - References section (cross-references to episodes, IDFs, related scopes)
 
 ---
