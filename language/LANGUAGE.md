@@ -752,6 +752,52 @@ LEDGER = any immutable, cryptographically-verified state machine
 Without LEDGER, no persistence. Without persistence, no governance.
 ```
 
+#### 4.6.3.1 LEDGER Immutability Semantics `[v0.1]`
+
+```
+Rule: LEDGER_IMMUTABILITY
+Once state is committed to LEDGER, it MUST NOT be rewritten.
+
+LEDGER has two zones:
+  LOCAL  = working draft (mutable until push)
+  REMOTE = canonical state (immutable after push)
+
+LocalState   = mutable    (squash, amend, rebase allowed)
+RemoteState  = immutable  (force-push forbidden)
+
+The immutability guarantee applies to PUSHED state, not local working state.
+```
+
+```
+Rule: LEDGER_REWRITE_FORBIDDEN
+Rewriting REMOTE history is a governance violation.
+
+FORBIDDEN:
+  git push --force (to shared branches)
+  git push --force-with-lease (to shared branches)
+  Rebase of pushed commits
+  Amend of pushed commits
+
+ALLOWED:
+  Local squash before first push
+  Local rebase before first push
+  Local amend before first push
+  Force-push to personal feature branches (not main/master)
+
+Rationale: Local commits are drafts. Pushed commits are records.
+           Editing a draft is writing. Editing a record is fraud.
+```
+
+```
+Rule: LEDGER_AUDIT_TRAIL
+All governance decisions MUST be preserved in LEDGER history.
+
+∀ commit ∈ RemoteHistory: commit is permanent
+∀ decision: ∃ commit that records decision
+
+LEDGER is the court record. Tampering is contempt.
+```
+
 #### 4.6.4 APPSTORE: The Distribution Primitive
 
 ```
