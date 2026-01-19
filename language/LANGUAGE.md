@@ -798,6 +798,43 @@ All governance decisions MUST be preserved in LEDGER history.
 LEDGER is the court record. Tampering is contempt.
 ```
 
+#### 4.6.3.2 LEDGER Access Control `[v0.1]`
+
+```
+Rule: LEDGER_ACCESS_ROLES
+CANONIC defines two access roles with distinct capabilities.
+
+Role     | Read | Clone | Push | Force-Push
+---------|------|-------|------|------------
+USER     | Yes  | Yes   | No   | No
+DEV      | Yes  | Yes   | Yes  | BLOCKED*
+
+*Force-push is blocked by pre-push hook. Override requires:
+  CANONIC_ALLOW_REWRITE=1 (explicit governance exception)
+
+USER = consumer of CANON (read-only)
+DEV  = contributor to CANON (write, but immutability enforced)
+```
+
+```
+Rule: LEDGER_ENFORCEMENT
+Immutability MUST be enforced by LEDGER hooks, not just policy.
+
+Enforcement ::= pre-push hook
+Location    ::= .githooks/pre-push
+
+The hook MUST:
+  1. Detect force-push attempts (local not descendant of remote)
+  2. Block force-push to protected branches (main, master)
+  3. Allow force-push to feature branches (dev workflow)
+  4. Provide emergency override (CANONIC_ALLOW_REWRITE=1)
+  5. Log all override attempts
+
+Policy without enforcement is suggestion.
+Enforcement without policy is tyranny.
+CANONIC has both.
+```
+
 #### 4.6.4 APPSTORE: The Distribution Primitive
 
 ```

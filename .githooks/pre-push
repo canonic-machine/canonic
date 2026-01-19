@@ -1,0 +1,207 @@
+#!/bin/bash
+#
+# CANONIC Pre-Push Gate
+#
+# Git blocks push until:
+#   1. CANONIC validators pass (triad, inheritance, introspection, language)
+#   2. Remote secrets are configured (if GITHUB_TOKEN set)
+#
+# This hook is automatically enabled by CANONIC.
+#
+
+set -e
+
+echo "=== CANONIC Pre-Push Gate ==="
+
+# =============================================================================
+# LEDGER IMMUTABILITY ENFORCEMENT
+# =============================================================================
+# Rule: LEDGER_REWRITE_FORBIDDEN
+# Rewriting REMOTE history is a governance violation.
+# "Editing a draft is writing. Editing a record is fraud."
+# =============================================================================
+
+REMOTE_NAME="$1"
+REMOTE_URL="$2"
+
+# Read stdin for ref information
+while read local_ref local_sha remote_ref remote_sha; do
+    # Skip if this is a new branch (no remote_sha to compare)
+    if [ "$remote_sha" = "0000000000000000000000000000000000000000" ]; then
+        continue
+    fi
+
+    # Check if local_sha is a descendant of remote_sha
+    # If not, this is a force-push (history rewrite)
+    if ! git merge-base --is-ancestor "$remote_sha" "$local_sha" 2>/dev/null; then
+        # Check if pushing to protected branches
+        case "$remote_ref" in
+            refs/heads/main|refs/heads/master)
+                echo ""
+                echo "╔═══════════════════════════════════════════════════════════════╗"
+                echo "║  LEDGER IMMUTABILITY VIOLATION DETECTED                       ║"
+                echo "╠═══════════════════════════════════════════════════════════════╣"
+                echo "║  Rule: LEDGER_REWRITE_FORBIDDEN                               ║"
+                echo "║                                                               ║"
+                echo "║  You are attempting to rewrite REMOTE history.                ║"
+                echo "║  This is FORBIDDEN on protected branches (main/master).       ║"
+                echo "║                                                               ║"
+                echo "║  \"Editing a draft is writing. Editing a record is fraud.\"    ║"
+                echo "║  \"LEDGER is the court record. Tampering is contempt.\"        ║"
+                echo "║                                                               ║"
+                echo "║  Branch: $remote_ref"
+                echo "║  Remote SHA: $remote_sha"
+                echo "║  Local SHA:  $local_sha"
+                echo "╚═══════════════════════════════════════════════════════════════╝"
+                echo ""
+                echo "PUSH BLOCKED: LEDGER immutability enforced."
+                echo ""
+                echo "If you MUST rewrite history (rare, requires governance approval):"
+                echo "  export CANONIC_ALLOW_REWRITE=1"
+                echo "  git push --force"
+                echo ""
+
+                # Emergency escape hatch for devs (requires explicit env var)
+                if [ "$CANONIC_ALLOW_REWRITE" = "1" ]; then
+                    echo "WARNING: CANONIC_ALLOW_REWRITE=1 detected."
+                    echo "Allowing force-push. This action is logged."
+                    echo "You are responsible for this governance violation."
+                    echo ""
+                else
+                    exit 1
+                fi
+                ;;
+            *)
+                # Feature branches can be force-pushed
+                echo "Note: Force-push to feature branch $remote_ref (allowed)"
+                ;;
+        esac
+    fi
+done
+
+# Find validators directory (relative to this repo or in parent Canonic dir)
+REPO_ROOT=$(git rev-parse --show-toplevel)
+VALIDATORS_DIR=""
+
+# Check common locations for validators
+if [ -d "$REPO_ROOT/../validators" ]; then
+    VALIDATORS_DIR="$REPO_ROOT/../validators"
+elif [ -d "$REPO_ROOT/../../validators" ]; then
+    VALIDATORS_DIR="$REPO_ROOT/../../validators"
+elif [ -d "$REPO_ROOT/validators" ]; then
+    VALIDATORS_DIR="$REPO_ROOT/validators"
+fi
+
+# Run CANONIC validators if found
+if [ -n "$VALIDATORS_DIR" ] && [ -d "$VALIDATORS_DIR/canonic" ]; then
+    echo "Running CANONIC validators..."
+
+    # Check if repo has CANON.md (is a CANONIC scope)
+    if [ -f "$REPO_ROOT/CANON.md" ]; then
+        FAILED=0
+
+        # Triad validator
+        if [ -f "$VALIDATORS_DIR/canonic/triad/triad.py" ]; then
+            echo "  triad..."
+            if ! python3 "$VALIDATORS_DIR/canonic/triad/triad.py" "$REPO_ROOT"; then
+                FAILED=1
+            fi
+        fi
+
+        # Inheritance validator
+        if [ -f "$VALIDATORS_DIR/canonic/inheritance/inheritance.py" ]; then
+            echo "  inheritance..."
+            if ! python3 "$VALIDATORS_DIR/canonic/inheritance/inheritance.py" "$REPO_ROOT"; then
+                FAILED=1
+            fi
+        fi
+
+        # Introspection validator
+        if [ -f "$VALIDATORS_DIR/canonic/introspection/introspection.py" ]; then
+            echo "  introspection..."
+            if ! python3 "$VALIDATORS_DIR/canonic/introspection/introspection.py" "$REPO_ROOT"; then
+                FAILED=1
+            fi
+        fi
+
+        # Language validator
+        if [ -f "$VALIDATORS_DIR/canonic/language.py" ]; then
+            echo "  language..."
+            if ! python3 "$VALIDATORS_DIR/canonic/language.py" "$REPO_ROOT"; then
+                FAILED=1
+            fi
+        fi
+
+        if [ $FAILED -ne 0 ]; then
+            echo ""
+            echo "[FAIL] CANONIC validation failed"
+            echo "Push blocked. Fix violations before pushing."
+            exit 1
+        fi
+
+        echo "CANONIC validators: PASS"
+    else
+        echo "No CANON.md found, skipping CANONIC validation"
+    fi
+else
+    echo "Warning: validators not found, skipping CANONIC validation"
+fi
+
+# Get the remote being pushed to
+REMOTE="$1"
+REMOTE_URL=$(git remote get-url "$REMOTE" 2>/dev/null || echo "")
+
+# Extract owner/repo from GitHub URL
+if [[ "$REMOTE_URL" =~ github\.com[:/]([^/]+)/([^/.]+) ]]; then
+    OWNER="${BASH_REMATCH[1]}"
+    REPO="${BASH_REMATCH[2]}"
+
+    echo "Remote: $OWNER/$REPO"
+
+    # Check if required secrets exist via GitHub API
+    # This requires GITHUB_TOKEN to be set
+    if [ -n "$GITHUB_TOKEN" ]; then
+        echo "Checking remote secrets..."
+
+        SECRETS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$OWNER/$REPO/actions/secrets" | \
+            grep -o '"name":"[^"]*"' | sed 's/"name":"//g' | tr -d '"')
+
+        MISSING=""
+        for REQUIRED in GMAIL_USER GMAIL_APP_PASSWORD; do
+            if ! echo "$SECRETS" | grep -q "^$REQUIRED$"; then
+                MISSING="$MISSING $REQUIRED"
+            fi
+        done
+
+        if [ -n "$MISSING" ]; then
+            echo ""
+            echo "[FAIL] Missing GitHub secrets:$MISSING"
+            echo ""
+            echo "Set these in: https://github.com/$OWNER/$REPO/settings/secrets/actions"
+            echo ""
+            echo "Push blocked. Remote gate not configured."
+            exit 1
+        fi
+
+        echo "Remote secrets: OK"
+    else
+        echo "Warning: GITHUB_TOKEN not set, skipping remote check"
+    fi
+fi
+
+# Get list of files being pushed
+FILES=$(git diff --name-only @{push}.. 2>/dev/null || git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+
+# Validate EMAIL-*.md files
+EMAIL_FILES=$(echo "$FILES" | grep 'EMAIL-.*\.md$' || true)
+if [ -n "$EMAIL_FILES" ]; then
+    echo "Validating email files..."
+    for file in $EMAIL_FILES; do
+        if [ -f "$file" ]; then
+            python3 validators/email/validate.py "$file"
+        fi
+    done
+fi
+
+echo "=== Gate PASSED ==="
