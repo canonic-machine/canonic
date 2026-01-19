@@ -50,7 +50,7 @@ Based on UCF AI in Medicine Summit layout:
 - UCF Foundation (grant fulfillment + research showcase)
 - AIMed (Dr. Anthony Chang)
 - WholeLife Church (AdventHealth congregation + MammoChat focus groups)
-- CANONIC Foundation (governance + open source infrastructure)
+- Canonic Foundation (governance + open source infrastructure)
 - Community breast cancer organizations
 
 ---
