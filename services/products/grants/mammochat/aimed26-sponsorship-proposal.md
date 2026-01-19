@@ -310,7 +310,61 @@ UCF did exactly what the system allows:
 - Published research ✓
 - Released to public domain ✓
 
-**The system is the problem, not UCF.**
+**UCF is bound by contradictory canon:**
+
+| Mandate | Requirement | Conflict |
+|---------|-------------|----------|
+| Public university | Open, accessible | vs. commercialize |
+| FDOH grant terms | Public domain | vs. tech transfer |
+| Technology transfer office | Monetize IP | vs. public domain |
+| Faculty requirements | Publish research | vs. protect IP |
+| Institutional overhead | Extract value | vs. patient benefit |
+
+**UCF cannot resolve these contradictions. The system is the problem.**
+
+**The contradictions flow from Tallahassee down:**
+- State legislature mandates public benefit
+- Board of Governors demands commercialization
+- University tech transfer extracts overhead
+- Faculty caught in the middle
+- Patients get nothing
+
+**AdventHealth is bound by their legal canon — mission + cost savings:**
+
+| AdventHealth Mandate | CANONIC Delivery |
+|---------------------|------------------|
+| Not-for-profit mission | Patient-centered governance |
+| Fiduciary duty | Cost savings vs. proprietary ($1.5M+) |
+| Community benefit | WholeLife Church distribution |
+| Ministry extension | Pay the patients |
+
+**Canonic Foundation has no contradiction:**
+
+| | Canonic Foundation |
+|--|-------------------|
+| Status | Not-for-profit |
+| Mission | Patient governance |
+| IP mandate | Open source |
+| Tech transfer | None |
+| Overhead extraction | None |
+
+**UCF does the paperwork. The two not-for-profits do the mission.**
+
+### Cost Savings for AdventHealth Legal
+
+| Alternative | 5-Year Cost | AdventHealth Risk |
+|-------------|-------------|-------------------|
+| Build proprietary AI | $2-5M+ | Full development burden, liability |
+| Buy vendor solution | $1-3M+ | Vendor lock-in, no governance |
+| UCF partnership only | $1.5M+ | IP disputes, politics, no commercialization |
+| **CANONIC governance** | **$250K sponsor** | **Open source, mission-aligned, patients paid** |
+
+**AdventHealth legal sees:**
+- $250K investment → $1.5M+ cost avoidance = **6x ROI**
+- No IP liability (public domain)
+- Mission-aligned (not-for-profit to not-for-profit)
+- Community benefit documented (WholeLife Church)
+- Patient benefit demonstrated (data dividends)
 
 Traditional academic research:
 - Patients donate data for free
