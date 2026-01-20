@@ -279,11 +279,166 @@ def validate_repo_name(root: Path) -> tuple[bool, str]:
     return validate_identifier(repo_name)
 
 
+# =============================================================================
+# GARBAGE COLLECTION (OS = GIT)
+# =============================================================================
+
+# Allowed file patterns in a governed scope
+ALLOWED_PATTERNS = {
+    # Governance primitives (UPPERCASE.md)
+    r'^[A-Z]+\.md$',
+    # Scope spec (lowercase.md matching directory name)
+    r'^[a-z]+\.md$',
+    # License files
+    r'^LICENSE$', r'^NOTICE$',
+    # Git
+    r'^\.git$', r'^\.gitignore$', r'^\.gitattributes$',
+    # Archive (hidden)
+    r'^\.archive$',
+    # Generated artifacts (regenerable from source)
+    r'^.*\.pdf$',
+    # Assets directory
+    r'^assets$',
+    # Build configs
+    r'^Makefile$', r'^\.github$',
+}
+
+# Directories that should not exist (garbage)
+GARBAGE_DIRS = {
+    'output', 'build', 'dist', 'tmp', 'temp', '__pycache__',
+    'node_modules', '.cache', '.vscode', '.idea',
+}
+
+# File patterns that are always garbage
+GARBAGE_PATTERNS = [
+    r'.*\.pyc$',
+    r'.*\.pyo$',
+    r'.*~$',
+    r'^\.DS_Store$',
+    r'^Thumbs\.db$',
+    r'.*\.swp$',
+    r'.*\.swo$',
+]
+
+
+def is_garbage_file(name: str) -> bool:
+    """Check if a file matches garbage patterns."""
+    for pattern in GARBAGE_PATTERNS:
+        if re.match(pattern, name):
+            return True
+    return False
+
+
+def is_allowed_file(name: str, scope_name: str) -> bool:
+    """Check if a file is allowed in a governed scope."""
+    for pattern in ALLOWED_PATTERNS:
+        if re.match(pattern, name):
+            return True
+    # Allow scope-specific spec file (e.g., paper.md in paper/)
+    if name == f"{scope_name.lower()}.md":
+        return True
+    return False
+
+
+def validate_gc(root: Path) -> tuple[bool, list[str]]:
+    """
+    Rule: OS_IS_GIT
+    Everything derives from the ledger. If git can regenerate it, it's garbage.
+
+    Checks:
+    1. No untracked files outside .archive/
+    2. No garbage directories (output/, build/, etc.)
+    3. No garbage files (.DS_Store, *.pyc, etc.)
+    """
+    garbage = []
+
+    # Walk the tree
+    for item in root.rglob("*"):
+        # Skip .git and .archive
+        if ".git" in item.parts or ".archive" in item.parts:
+            continue
+
+        name = item.name
+
+        # Check for garbage directories
+        if item.is_dir() and name in GARBAGE_DIRS:
+            garbage.append(f"GC: {item.relative_to(root)} (garbage directory)")
+            continue
+
+        # Check for garbage files
+        if item.is_file() and is_garbage_file(name):
+            garbage.append(f"GC: {item.relative_to(root)} (garbage file)")
+            continue
+
+    if garbage:
+        return False, garbage
+    return True, ["GC PASS: No garbage detected"]
+
+
+def gc_clean(root: Path, dry_run: bool = True) -> list[str]:
+    """
+    Clean garbage from the repository.
+
+    dry_run=True: Report what would be deleted
+    dry_run=False: Actually delete garbage
+    """
+    import shutil
+
+    cleaned = []
+
+    for item in root.rglob("*"):
+        if ".git" in item.parts or ".archive" in item.parts:
+            continue
+
+        name = item.name
+        should_clean = False
+
+        if item.is_dir() and name in GARBAGE_DIRS:
+            should_clean = True
+        elif item.is_file() and is_garbage_file(name):
+            should_clean = True
+
+        if should_clean:
+            rel_path = item.relative_to(root)
+            if dry_run:
+                cleaned.append(f"Would remove: {rel_path}")
+            else:
+                if item.is_dir():
+                    shutil.rmtree(item)
+                else:
+                    item.unlink()
+                cleaned.append(f"Removed: {rel_path}")
+
+    return cleaned
+
+
 def main():
     """Run VaaS validation on all scopes."""
-    root = Path(os.environ.get("CANONIC_ROOT", "."))
+    import argparse
+
+    parser = argparse.ArgumentParser(description="VaaS - CANONIC Language Enforcement")
+    parser.add_argument("--gc", action="store_true", help="Run garbage collection check")
+    parser.add_argument("--gc-clean", action="store_true", help="Clean garbage (dry-run)")
+    parser.add_argument("--gc-clean-force", action="store_true", help="Clean garbage (actually delete)")
+    parser.add_argument("path", nargs="?", default=".", help="Root path to validate")
+    args = parser.parse_args()
+
+    root = Path(args.path if args.path != "." else os.environ.get("CANONIC_ROOT", "."))
 
     print("=== VaaS - CANONIC Language Enforcement ===\n")
+
+    # GC mode
+    if args.gc_clean or args.gc_clean_force:
+        print("=== Garbage Collection ===\n")
+        dry_run = not args.gc_clean_force
+        cleaned = gc_clean(root, dry_run=dry_run)
+        if cleaned:
+            for item in cleaned:
+                print(f"  {item}")
+            print(f"\n{'Would clean' if dry_run else 'Cleaned'}: {len(cleaned)} items")
+        else:
+            print("  No garbage found")
+        return 0
 
     # First: validate repo name itself
     repo_valid, repo_msg = validate_repo_name(root)
@@ -322,13 +477,28 @@ def main():
                     print(f"  {r}")
                     failures.append(r)
 
+    # GC check (if requested)
+    gc_pass = True
+    gc_failures = []
+    if args.gc:
+        print(f"\n=== Garbage Collection ===")
+        gc_pass, gc_results = validate_gc(root)
+        for r in gc_results:
+            print(f"  {r}")
+            if "GC:" in r:
+                gc_failures.append(r)
+
     print(f"\n=== Summary ===")
     print(f"PASS: {total_pass}")
     print(f"FAIL: {total_fail}")
+    if args.gc:
+        print(f"GC: {'PASS' if gc_pass else 'FAIL'}")
 
-    if total_fail > 0:
+    if total_fail > 0 or not gc_pass:
         print(f"\n=== Failures ===")
         for f in failures:
+            print(f"  {f}")
+        for f in gc_failures:
             print(f"  {f}")
         return 1
 
