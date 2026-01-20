@@ -104,7 +104,7 @@ CANONIC is a formal language. Validators are predicates. Composition is conjunct
 ```
 Atomic:       script.py : Scope → {0, 1}
 Orchestrator: axiom.py  = atomic₁ ∧ atomic₂ ∧ ... ∧ atomicₙ
-VaaS:         vaas.py   = triad.py ∧ inheritance.py ∧ introspection.py
+VALIDATORaaS:         vaas.py   = triad.py ∧ inheritance.py ∧ introspection.py
 ```
 
 Exit code 0 = true (PASS). Exit code non-zero = false (FAIL).
@@ -136,13 +136,13 @@ inheritance.py = declaration.py ∧ termination.py ∧ cycle.py
 introspection.py = canon_concepts.py ∧ vocab_concepts.py ∧ closure.py ∧ locality.py ∧ drift.py ∧ gap.py
 ```
 
-### 6.5 VaaS Execution Layer
+### 6.5 VALIDATORaaS Execution Layer
 
-VaaS (Validators as a Service) is the execution layer for CANONIC.
+VALIDATORaaS (Validators as a Service) is the execution layer for CANONIC.
 
 ```
 CANONIC = Language (specification)
-VaaS    = Runtime (execution)
+VALIDATORaaS    = Runtime (execution)
 ```
 
 ```bash
@@ -151,7 +151,7 @@ python vaas.py <canonbase>
 
 Returns VALIDITY: PASS or VALIDITY: FAIL.
 
-The atomics ARE the mathematical definition of validity. VaaS IS the interpreter.
+The atomics ARE the mathematical definition of validity. VALIDATORaaS IS the interpreter.
 
 ### 6.6 Axiomatic Closure
 

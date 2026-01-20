@@ -1,6 +1,6 @@
 # GRANTS
 
-Grants-as-a-Service (GaaS) — Research funding proposals.
+Grant-as-a-Service (GRANTaaS) — Research funding proposals.
 
 ## Inherited Axioms
 

@@ -1,6 +1,6 @@
 # TOKEN
 
-Token-as-a-Service (ToaaS) — Reputation layer.
+Token-as-a-Service (TOKENaaS) — Reputation layer.
 
 ## Inherited Axioms
 

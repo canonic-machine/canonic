@@ -4,8 +4,8 @@ Economic services for value management.
 
 ## Children
 
-- `/token/` — Reputation layer (ToaaS)
-- `/coin/` — Currency layer (CoaaS)
+- `/token/` — Reputation layer (TOKENaaS)
+- `/coin/` — Currency layer (COINaaS)
 
 ## Shared Axioms
 

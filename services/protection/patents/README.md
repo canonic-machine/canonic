@@ -1,6 +1,6 @@
 # PATENTS
 
-Patents-as-a-Service (IPaaS) — IP registration and protection.
+Patent-as-a-Service (PATENTaaS) — IP registration and protection.
 
 ## Inherited Axioms
 

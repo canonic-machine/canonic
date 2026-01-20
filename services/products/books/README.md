@@ -1,6 +1,6 @@
 # BOOKS
 
-Books-as-a-Service (BaaS) — Long-form creative works.
+Book-as-a-Service (BOOKaaS) — Long-form creative works.
 
 ## Inherited Axioms
 

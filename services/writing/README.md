@@ -1,6 +1,6 @@
 # WRITING
 
-Writing-as-a-Service (WaaS) — Generic production.
+Writing-as-a-Service (WRITINGaaS) — Generic production.
 
 ## Inherited Axioms
 

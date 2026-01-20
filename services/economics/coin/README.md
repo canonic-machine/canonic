@@ -1,6 +1,6 @@
 # COIN
 
-Coin-as-a-Service (CoaaS) — Currency layer.
+Coin-as-a-Service (COINaaS) — Currency layer.
 
 ## Inherited Axioms
 

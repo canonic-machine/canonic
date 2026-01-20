@@ -40,7 +40,7 @@ canonic/             (OS: 5 axioms)
 | 0 | Triad | ∃{CANON.md, VOCAB.md, README.md} ∈ s |
 | 1 | Inheritance | I(s,p) ∧ terminates(/) |
 | 2 | Introspection | ∀c ∈ concepts(s): defined(VOCAB, c) |
-| 3 | Cascade | change → IDF → VaaS → Downstream → Closure |
+| 3 | Cascade | change → IDF → VALIDATORaaS → Downstream → Closure |
 | 4 | Closure | ∃{SCOPE}.md closes CANON(s) |
 
 **Status:** CLOSED
@@ -51,7 +51,7 @@ canonic/             (OS: 5 axioms)
 
 | Service | Function | Status |
 |---------|----------|--------|
-| VaaS | Validation | CLOSED |
+| VALIDATORaaS | Validation | CLOSED |
 | TaaS | Transcript | CLOSED |
 | TOKEN | Reputation | CLOSED |
 | COIN | Currency | CLOSED |

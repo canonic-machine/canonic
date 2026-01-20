@@ -1,6 +1,6 @@
 # VALIDATORS
 
-Validation-as-a-Service (VaaS) — Enforcement layer.
+Validator-as-a-Service (VALIDATORaaS) — Enforcement layer.
 
 ## Structure
 
@@ -29,7 +29,7 @@ VALIDATORS ◄─────────► SERVICES
     └──────────────────────┘
 ```
 
-All SERVICES artifacts must pass VaaS validation.
+All SERVICES artifacts must pass VALIDATORaaS validation.
 
 ## Implementation
 

@@ -923,6 +923,13 @@ Products GOVERN production (UPPERCASE).
 Outputs ARE GOVERNED (lowercase).
 ```
 
+Readability note: if CANON is the code, aaS labels are the products to
+commercialize. The double "aa" encodes validator semantics (VALIDATORaaS); the label is
+descriptive and does not change scope naming. aaSLabel(scope) =
+Singular(UPPERCASE(scope)) + "aaS". Examples: paper -> PAPERaaS, grants ->
+GRANTaaS, books -> BOOKaaS, companies -> COMPANYaaS, patents -> PATENTaaS,
+validators -> VALIDATORaaS, import -> IMPORTaaS (IaaS).
+
 #### 4.6.4.1 APPSTORE Instantiation `[v0.1]`
 
 ```
@@ -1594,7 +1601,7 @@ Location: CANONBASE/.archive/   (multi-repo archives)
 Location: {repo}/.archive/      (intra-repo archives)
 
 The dot prefix excludes archives from:
-  - Validation (VaaS ignores .archive/)
+  - Validation (VALIDATORaaS ignores .archive/)
   - Scope discovery (find_scopes skips .archive/)
   - Active governance (archived = inactive)
 
@@ -1704,7 +1711,7 @@ After compilation, changes are record (immutable)
 
 ```
 Rule: VALIDATE_BEFORE_COMPILE
-VaaS MUST validate before compilation.
+VALIDATORaaS MUST validate before compilation.
 
 Enforcement:
   pre-commit hook   → validates LANGUAGE.md compliance
@@ -1721,7 +1728,7 @@ Rule: FULL_STACK_COMPILE
 Multi-repo changes compile atomically across the stack.
 
 Workflow:
-  1. Validate each repo: VaaS
+  1. Validate each repo: VALIDATORaaS
   2. Commit each repo: git commit
   3. Push all repos: git push (ordered or parallel)
   4. Verify: all remotes updated

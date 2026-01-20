@@ -4,8 +4,8 @@ Protection services for intellectual property.
 
 ## Children
 
-- `/patents/` — IP registration (IPaaS)
-- `/companies/` — Entity governance (CaaS)
+- `/patents/` — IP registration (PATENTaaS)
+- `/companies/` — Entity governance (COMPANYaaS)
 
 ## Shared Axioms
 

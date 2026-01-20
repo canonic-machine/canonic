@@ -4,6 +4,38 @@ inherits: /canonic/
 
 ---
 
+## Axiom Concepts
+
+### Versioned
+
+Semantic versioning required for LANGUAGE releases.
+
+---
+
+### Ledger-Frozen
+
+Each LANGUAGE version must pin to a ledger commit tag.
+
+---
+
+### Complete
+
+Specification must cover lexical, syntactic, semantic, and composition rules.
+
+---
+
+### Self-Describing
+
+LANGUAGE must be expressible in itself.
+
+---
+
+### Validator-Enforced
+
+Each grammar rule must have a corresponding validator.
+
+---
+
 ## Grammar Concepts
 
 ### lexical grammar
@@ -132,6 +164,71 @@ Semantic primitive for distribution. How CANONIC spreads. The full SCOPE of what
 Distribution includes:
 - LEDGER channels (persistent): GIT, PUBLISHING, PATENT
 - ADVERTISING channels (ephemeral): LinkedIn, Medium, Twitter
+
+---
+
+### aaS
+
+Commercial label for APPSTORE products derived from scope names (e.g., PAPERaaS,
+GRANTaaS, BOOKaaS, COMPANYaaS, PATENTaaS, VALIDATORaaS). The double "aa" encodes
+validator semantics (VALIDATORaaS). Labels are descriptive and do not change scope
+naming.
+
+---
+
+### aaS mapping
+
+The rule that maps a scope name to its product label:
+`Singular(UPPERCASE(scope)) + aaS`.
+
+---
+
+### PAPERaaS
+
+Paper-as-a-Service product label for the paper scope.
+
+---
+
+### GRANTaaS
+
+Grant-as-a-Service product label for the grants scope.
+
+---
+
+### COMPANYaaS
+
+Company-as-a-Service product label for the companies scope.
+
+---
+
+### PATENTaaS
+
+Patent-as-a-Service product label for the patents scope.
+
+---
+
+### BOOKaaS
+
+Book-as-a-Service product label for the books scope.
+
+---
+
+### VALIDATORaaS
+
+Validator-as-a-Service product label for the validators scope.
+
+---
+
+### IMPORTaaS
+
+Import-as-a-Service product label. Canonicalized import of protocanonic work
+into a governed CANONIC scope.
+
+---
+
+### IaaS
+
+Shorthand alias for IMPORTaaS.
 
 ---
 

@@ -6,7 +6,7 @@
 
 ### COIN
 
-Currency layer. CoaaS. Transferable value.
+Currency layer. COINaaS. Transferable value.
 
 ### Transferable
 

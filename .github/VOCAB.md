@@ -12,6 +12,12 @@ GitHub as distribution platform; zero infrastructure.
 
 ---
 
+### GitHub IS the App Store
+
+Canonical claim that GitHub provides the APPSTORE distribution surface.
+
+---
+
 ### GitHub Actions
 
 CI/CD platform; VaaS validator runtime.

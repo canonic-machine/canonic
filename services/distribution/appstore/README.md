@@ -25,7 +25,7 @@ From `/services/distribution/`:
 
 ## Local Axioms
 
-- Packaged (VaaS-validated only)
+- Packaged (VALIDATORaaS-validated only)
 - Versioned (freeze-tagged releases)
 - Public (external interface)
 
@@ -37,7 +37,7 @@ From `/services/distribution/`:
 
 GitHub as App Store (IDF-178):
 - Releases = freeze-tagged packages
-- Actions = VaaS validation gate
+- Actions = VALIDATORaaS validation gate
 - Public repo = distribution endpoint
 
 ---

@@ -1,6 +1,6 @@
 # SERVICES
 
-Services-as-a-Service (SaaS) — Composable production scopes.
+Service-as-a-Service (SERVICEaaS) — Composable production scopes.
 
 ## Structure
 

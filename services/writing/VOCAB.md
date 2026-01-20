@@ -6,7 +6,7 @@
 
 ### WRITING
 
-Generic production service. WaaS. Foundation of all PRODUCTS.
+Generic production service. WRITINGaaS. Foundation of all PRODUCTS.
 
 ### Production
 

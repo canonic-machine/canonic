@@ -122,7 +122,7 @@ The scope closes itself. Scoped specifications. (Axiom 6, IDF-163)
 
 ### cascade
 
-The mandatory sequence executed when a CANON axiom changes: IDF → VaaS → Downstream → Closure. The LLM executes the cascade; incomplete cascade renders the axiom change invalid. (IDF-148)
+The mandatory sequence executed when a CANON axiom changes: IDF → VALIDATORaaS → Downstream → Closure. The LLM executes the cascade; incomplete cascade renders the axiom change invalid. (IDF-148)
 
 ---
 
@@ -216,7 +216,7 @@ Pure, axiomatic enforcement implementations that implement the gating of axioms 
 
 ---
 
-### VaaS
+### VALIDATORaaS
 
 Validators as a Service; the CANONIC composition pattern where pure validators are composed into complete enforcement. (IDF-118)
 
@@ -363,7 +363,7 @@ CANONIC uses prefixed identifiers for artifact enumeration. (IDF-091, IDF-093)
 | axiom closure matrix | IDF-156 | Axiom Closure Matrix |
 | innovation multiplier | IDF-157 | Innovation Multiplier Pattern |
 | healthcare distributed ledger | IDF-158 | Healthcare Distributed Ledger Pattern |
-| TokenaaS | IDF-159 | Reputation Gates Currency |
+| TOKENaaS | IDF-159 | Reputation Gates Currency |
 | OncoChat domain closure | IDF-160 | Oncology Domain Closure Pattern |
 | CANONIC sublanguage | IDF-161 | Governance Programming Language |
 | dot notation namespace | IDF-162 | CANONIC Dot Notation Namespace |

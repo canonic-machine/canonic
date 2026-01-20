@@ -6,7 +6,7 @@
 
 ### VALIDATORS
 
-VaaS — Validation-as-a-Service. Enforces CANON axioms.
+VALIDATORaaS — Validator-as-a-Service. Enforces CANON axioms.
 
 ### MACHINE
 
@@ -20,9 +20,9 @@ Packaging layer for MACHINES.
 
 Git as blockchain. Immutable, authoritative, accumulative.
 
-### VaaS
+### VALIDATORaaS
 
-Validation-as-a-Service. 1:1 mapping: axiom → validator.
+Validator-as-a-Service. 1:1 mapping: axiom → validator.
 
 ### Binary outcome
 

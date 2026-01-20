@@ -1,6 +1,6 @@
 # COMPANIES
 
-Companies-as-a-Service (CaaS) — Entity governance.
+Company-as-a-Service (COMPANYaaS) — Entity governance.
 
 ## Inherited Axioms
 

@@ -8,7 +8,7 @@ inherits: /
 
 ### 1. Validator-bound
 
-All SERVICES artifacts **MUST** pass VaaS validation before commit.
+All SERVICES artifacts **MUST** pass VALIDATORaaS validation before commit.
 
 ---
 

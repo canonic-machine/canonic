@@ -15,6 +15,7 @@ Primitives enforced:
 import os
 import sys
 import re
+import subprocess
 from pathlib import Path
 
 
@@ -52,25 +53,86 @@ def validate_inheritance(scope: Path) -> tuple[bool, str]:
     if not match:
         return False, f"INHERITANCE FAIL: {scope}/CANON.md missing 'inherits:'"
 
-    return True, f"INHERITANCE PASS: {scope} inherits {match.group(1)}"
+    inherits = match.group(1).strip()
+    if not inherits.startswith('/'):
+        return False, f"INHERITANCE FAIL: {scope}/CANON.md inherits path must be absolute"
+
+    if inherits != '/' and not inherits.endswith('/'):
+        return False, f"INHERITANCE FAIL: {scope}/CANON.md inherits must terminate with '/'"
+
+    return True, f"INHERITANCE PASS: {scope} inherits {inherits}"
+
+
+TERM_HEADING_RE = re.compile(r'^###\s+(.+)$', re.MULTILINE)
+ALT_HEADING_RE = re.compile(r'^##\s+(.+)$', re.MULTILINE)
+CANON_HEADING_RE = re.compile(r'^###\s+(.+)$', re.MULTILINE)
+BACKTICK_RE = re.compile(r'`([^`]+)`')
+
+SECTION_HEADINGS = {
+    'content concepts', 'terms', 'grammar concepts', 'semantic primitives',
+    'language constructs', 'core concepts', 'test concepts',
+}
+
+
+def _normalize(term: str) -> str:
+    return ' '.join(term.strip().lower().split())
+
+
+def _extract_vocab_terms(path: Path) -> set[str]:
+    if not path.exists():
+        return set()
+    text = path.read_text()
+    terms = {_normalize(m.group(1)) for m in TERM_HEADING_RE.finditer(text)}
+    if terms:
+        return terms
+    # Fallback for legacy VOCAB files using ## headings.
+    terms = set()
+    for match in ALT_HEADING_RE.finditer(text):
+        heading = _normalize(match.group(1))
+        if heading in SECTION_HEADINGS:
+            continue
+        terms.add(heading)
+    return terms
+
+
+def _extract_used_concepts(path: Path) -> set[str]:
+    if not path.exists():
+        return set()
+    text = path.read_text()
+    concepts = set()
+    for match in CANON_HEADING_RE.finditer(text):
+        heading = re.sub(r'^\s*\d+\.\s*', '', match.group(1)).strip()
+        if heading:
+            concepts.add(_normalize(heading))
+    for match in BACKTICK_RE.finditer(text):
+        token = match.group(1).strip()
+        if '/' in token or '{' in token or '}' in token or '|' in token:
+            continue
+        if token.endswith('.md'):
+            token = token[:-3]
+        if re.fullmatch(r'[A-Za-z][A-Za-z0-9_-]*', token):
+            concepts.add(_normalize(token))
+    return concepts
 
 
 def validate_introspection(scope: Path) -> tuple[bool, str]:
     """
     Rule: INTROSPECTION_REQUIRED
     All concepts in CANON.md MUST be defined in VOCAB.md
-
-    Note: Full introspection validation requires parsing.
-    This is a structural check only.
     """
     vocab = scope / "VOCAB.md"
+    canon = scope / "CANON.md"
     if not vocab.exists():
         return False, f"INTROSPECTION FAIL: {scope} missing VOCAB.md"
 
-    content = vocab.read_text()
-    # Check VOCAB has at least one term definition (### heading)
-    if not re.search(r'^###\s+\w+', content, re.MULTILINE):
+    terms = _extract_vocab_terms(vocab)
+    if not terms:
         return False, f"INTROSPECTION FAIL: {scope}/VOCAB.md has no term definitions"
+
+    used = _extract_used_concepts(canon)
+    undefined = used - terms
+    if undefined:
+        return False, f"INTROSPECTION FAIL: {scope} undefined concepts {sorted(undefined)}"
 
     return True, f"INTROSPECTION PASS: {scope}"
 
@@ -257,12 +319,8 @@ def validate_identifier(name: str) -> tuple[bool, str]:
     LANGUAGE.md Section 5.2.1:
     ValidIdentifier ::= Letter (Letter | Digit)*
     """
-    if '-' in name:
-        return False, f"IDENTIFIER FAIL: '{name}' contains hyphen (LANGUAGE.md violation)"
-    if '_' in name:
-        return False, f"IDENTIFIER FAIL: '{name}' contains underscore (LANGUAGE.md violation)"
-    if ' ' in name:
-        return False, f"IDENTIFIER FAIL: '{name}' contains space (LANGUAGE.md violation)"
+    if not re.fullmatch(r'[A-Za-z][A-Za-z0-9]*', name):
+        return False, f"IDENTIFIER FAIL: '{name}' violates ValidIdentifier"
     return True, f"IDENTIFIER PASS: '{name}'"
 
 
@@ -351,6 +409,26 @@ def validate_gc(root: Path) -> tuple[bool, list[str]]:
     3. No garbage files (.DS_Store, *.pyc, etc.)
     """
     garbage = []
+
+    # Check for untracked files when git is available
+    git_dir = root / ".git"
+    if git_dir.exists():
+        try:
+            result = subprocess.run(
+                ["git", "status", "--porcelain", "--untracked-files=normal"],
+                cwd=root,
+                capture_output=True,
+                text=True,
+            )
+            if result.returncode == 0:
+                for line in result.stdout.splitlines():
+                    if line.startswith("?? "):
+                        rel = line[3:]
+                        if rel.startswith(".archive/"):
+                            continue
+                        garbage.append(f"GC: {rel} (untracked)")
+        except FileNotFoundError:
+            pass
 
     # Walk the tree
     for item in root.rglob("*"):

@@ -6,7 +6,7 @@
 
 ### COMPANIES
 
-Entity governance service. CaaS.
+Entity governance service. COMPANYaaS.
 
 ### Foundation-member
 
@@ -23,5 +23,23 @@ Core mission cannot be changed. Constitutional lock.
 ### FRAND
 
 Fair, reasonable, and non-discriminatory licensing.
+
+---
+
+### AdventHealth - AIMED Conference Sponsorship
+
+Corporate sponsorship record for AIMED conference participation.
+
+---
+
+### AdventHealth - Letter of Support (Proposal)
+
+Formal support letter tied to grant or proposal submissions.
+
+---
+
+### AdventHealth Orlando - MammoChat Subaward
+
+Subaward agreement with AdventHealth Orlando for MammoChat.
 
 ---

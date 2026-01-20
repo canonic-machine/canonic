@@ -42,6 +42,12 @@ The complete set of platforms required for valid publication: Preprint → Linke
 
 ---
 
+### publication sequence
+
+Required order for dissemination across platforms.
+
+---
+
 ### timestamp authority
 
 The preprint server's role as the authoritative source for publication date; establishes priority.
@@ -90,8 +96,20 @@ First version papers covering CANONIC core: the platform and APPSTORE.
 
 ---
 
+### v1 papers (canonic core)
+
+Catalogue of papers covering CANONIC core releases.
+
+---
+
 ### v2
 
 Second version papers covering sublanguages: CANONIC.MEDICINE, CANONIC.LAW, etc.
+
+---
+
+### v2 papers (sublanguages)
+
+Catalogue of papers covering CANONIC sublanguage releases.
 
 ---

@@ -6,7 +6,7 @@
 
 ### BOOKS
 
-Long-form creative output service. BaaS.
+Long-form creative output service. BOOKaaS.
 
 ### Private
 

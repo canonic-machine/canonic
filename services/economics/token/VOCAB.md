@@ -6,7 +6,7 @@
 
 ### TOKEN
 
-Reputation layer. ToaaS. Soul-bound.
+Reputation layer. TOKENaaS. Soul-bound.
 
 ### Non-transferable
 

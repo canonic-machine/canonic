@@ -6,11 +6,11 @@
 
 ### SERVICES
 
-Composable production scopes that produce artifacts under VaaS governance.
+Composable production scopes that produce artifacts under VALIDATORaaS governance.
 
-### VaaS
+### VALIDATORaaS
 
-Validation-as-a-Service. Validators enforce CANON axioms.
+Validator-as-a-Service. Validators enforce CANON axioms.
 
 ### Artifact
 

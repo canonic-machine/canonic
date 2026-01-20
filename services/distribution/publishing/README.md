@@ -1,6 +1,6 @@
 # PUBLISHING
 
-Publishing-as-a-Service (PubaaS) — Human-targeted distribution.
+Publishing-as-a-Service (PUBLISHINGaaS) — Human-targeted distribution.
 
 ## Inherited Axioms
 

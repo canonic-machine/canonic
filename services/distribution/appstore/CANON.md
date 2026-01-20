@@ -8,7 +8,7 @@ inherits: /services/distribution/
 
 ### 1. Packaged
 
-APPSTORE distributes only VaaS-validated packages.
+APPSTORE distributes only VALIDATORaaS-validated packages.
 
 ---
 
@@ -38,7 +38,7 @@ Products **SHOULD** be hash-anchored on BLOCKCHAIN for immutable proof.
 
 ## Roadmap
 
-- **v0.1**: GIT LEDGER (current) - VaaS on GitHub
+- **v0.1**: GIT LEDGER (current) - VALIDATORaaS on GitHub
 - **v0.2**: BLOCKCHAIN LEDGER - Hash anchoring service
 - **v0.3**: CLOSURE - All products anchored with state declarations
 

@@ -1,6 +1,6 @@
 # PAPER
 
-Paper-as-a-Service (PapaaS) — Academic epistemic output.
+Paper-as-a-Service (PAPERaaS) — Academic epistemic output.
 
 ## Inherited Axioms
 

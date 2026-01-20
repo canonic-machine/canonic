@@ -25,3 +25,15 @@ Externally accessible distribution endpoint.
 APPSTORE closes the SERVICES loop — the endpoint.
 
 ---
+
+### Hash anchored
+
+Artifacts are anchored to immutable content hashes in the ledger.
+
+---
+
+### State declared
+
+Each release declares its state explicitly and immutably.
+
+---

@@ -6,7 +6,7 @@
 
 ### PUBLISHING
 
-Human-targeted distribution service. PubaaS.
+Human-targeted distribution service. PUBLISHINGaaS.
 
 ### Time-disclosed
 
