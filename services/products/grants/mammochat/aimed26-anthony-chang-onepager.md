@@ -76,4 +76,4 @@ At UCF AI in Medicine Summit 2024, you asked:
 
 — Dex
 
-de163002@ucf.edu | 215-681-0268
+founder@canonic.org | 215-681-0268
