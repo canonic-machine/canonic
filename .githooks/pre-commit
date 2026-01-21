@@ -39,8 +39,27 @@ COMPLIANCE_LEVEL="${CANONIC_COMPLIANCE_LEVEL:-community}"
 export CANONIC_COMPLIANCE_LEVEL="$COMPLIANCE_LEVEL"
 echo "Compliance level: $COMPLIANCE_LEVEL"
 
+# FROZEN repos: canonic, machine, os
+# Only modifications to existing files allowed, no new files
+REPO_NAME="$(basename "$REPO_ROOT")"
+FROZEN_REPOS="canonic machine os"
+
+if echo "$FROZEN_REPOS" | grep -qw "$REPO_NAME"; then
+    echo "Checking FROZEN status..."
+    NEW_FILES=$(git diff --cached --name-only --diff-filter=A)
+    if [ -n "$NEW_FILES" ]; then
+        echo ""
+        echo "[FAIL] $REPO_NAME is FROZEN - no new files allowed"
+        echo "New files detected:"
+        echo "$NEW_FILES" | sed 's/^/  /'
+        echo ""
+        echo "Only modifications to existing files are permitted."
+        exit 1
+    fi
+fi
+
 echo "Checking root purity..."
-if [ "$(basename "$REPO_ROOT")" = "canonic" ] && [ -f "$REPO_ROOT/VOCAB.md" ]; then
+if [ "$REPO_NAME" = "canonic" ] && [ -f "$REPO_ROOT/VOCAB.md" ]; then
     if grep -Eq '(IDF-|PA-|EP-|DISCLOSURE-|APPLICATION-|EPISODE-|Invention Disclosure)' "$REPO_ROOT/VOCAB.md"; then
         echo ""
         echo "[FAIL] IP drift detected in root VOCAB.md"
@@ -48,7 +67,7 @@ if [ "$(basename "$REPO_ROOT")" = "canonic" ] && [ -f "$REPO_ROOT/VOCAB.md" ]; t
         exit 1
     fi
 fi
-if [ "$(basename "$REPO_ROOT")" = "canonic" ]; then
+if [ "$REPO_NAME" = "canonic" ]; then
     for drift_dir in assets services publishing validators plans; do
         if [ -d "$REPO_ROOT/$drift_dir" ]; then
             echo ""
