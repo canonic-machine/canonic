@@ -1,6 +1,7 @@
 # CANONIC (/)
 
 inherits: /
+status: FROZEN
 
 ---
 
