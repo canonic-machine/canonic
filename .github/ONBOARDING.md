@@ -193,7 +193,7 @@ Your scope: `/canonic/` technical stack
 
 Key files:
 - [/.github/](/canonic/.github/) — APPSTORE (GitHub = App Store)
-- [/templates/](/canonic/templates/) — Governance templates
+- [/language/templates/](/canonic/language/templates/) — Governance templates
 - Validators
 
 Your responsibilities:

@@ -5,3 +5,12 @@
 .archive/
 .githooks/
 .transcripts/
+
+.*
+
+# Exceptions (tracked dotpaths)
+!.gitignore
+!.githooks/
+!.githooks/**
+!.github/
+!.github/**
