@@ -12,33 +12,63 @@ A placeholder scaffold for a governance artifact; defines file shape and presenc
 
 ---
 
-### te-0.0-closure-template.md
+### template stub
 
-The template for a closure (TE-0.0); scope closes itself.
-
----
-
-### te-0.1-canon-template.md
-
-The template for a CANON (TE-0.1); governance.
+A placeholder template file used to instantiate a governance artifact.
 
 ---
 
-### te-0.2-vocab-template.md
+### template index
 
-The template for a VOCAB (TE-0.2); semantics.
-
----
-
-### te-0.3-readme-template.md
-
-The template for a README (TE-0.3); description.
+The three-digit number in a template stub filename.
 
 ---
 
-### te-0.4-roadmap-template.md
+### template prefix
 
-The template for a ROADMAP (TE-0.4); implementation phases, milestones, dependencies.
+The leading `TEMPLATE` token in a template stub filename.
+
+---
+
+### template naming
+
+The naming convention for template stubs, including prefix, index, and suffix.
+
+---
+
+### TEMPLATE-000-stub.md
+
+The template for a SPEC; scope closes itself.
+
+---
+
+### TEMPLATE-001-stub.md
+
+The template for a CANON; governance.
+
+---
+
+### TEMPLATE-002-stub.md
+
+The template for a VOCAB; semantics.
+
+---
+
+### TEMPLATE-003-stub.md
+
+The template for a README; description.
+
+---
+
+### TEMPLATE-004-stub.md
+
+The template for a COVERAGE; external closure mapping.
+
+---
+
+### TEMPLATE-005-stub.md
+
+The template for a ROADMAP; implementation phases, milestones, dependencies.
 
 ---
 
@@ -86,7 +116,7 @@ A template section for non-normative SHOULD-level operational guidance.
 
 ### references section
 
-A template section for cross-references to related episodes, IDFs, and scopes.
+A template section for cross-references to related episodes and scopes.
 
 ---
 
@@ -98,7 +128,7 @@ The purpose of templates to bootstrap CANONIC scopes with correct file structure
 
 ### closure precedence
 
-The ordering of template elements by authority: Closure → CANON → VOCAB → README → ROADMAP. TE-0.0 through TE-0.4 reflect this ordering.
+The ordering of template elements by authority: SPEC → CANON → VOCAB → README → ROADMAP. TEMPLATE-000 through TEMPLATE-005 reflect this ordering.
 
 ---
 

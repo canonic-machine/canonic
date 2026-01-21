@@ -37,13 +37,20 @@ CANON templates **SHOULD** include:
 - Axioms section (normative)
 - Lifecycle section (origin, current state, automation drift)
 - Best Practices section (non-normative, **SHOULD**-level guidance)
-- References section (cross-references to episodes, IDFs, related scopes)
+- References section (cross-references to episodes and related scopes)
+
+---
+
+### 5. Template naming
+
+Template stubs **MUST** be named `TEMPLATE-###-stub.md`, where `###` is a
+three-digit template index. The template prefix **MUST** be uppercase.
 
 ---
 
 ## Lifecycle
 
-**Origin:** Templates scope created to canonify documentation patterns and provide structural bootstrapping for new scopes. Formalized through IDF-095 (Structural Bootstrapping Pattern).
+**Origin:** Templates scope created to canonify documentation patterns and provide structural bootstrapping for new scopes.
 
 **Current state:** AI-assisted. Human defines template structure; AI assists with template instantiation and pattern propagation across scopes.
 
@@ -53,10 +60,10 @@ CANON templates **SHOULD** include:
 
 ## References
 
-- IDF-091: Portfolio Coverage Standardization (series artifact nomenclature)
-- IDF-093: Prefix Canonicity Constraint
-- IDF-094: Directory Discriminant Pattern
-- IDF-095: Structural Bootstrapping Pattern
+- Portfolio coverage standardization (series artifact nomenclature)
+- Prefix canonicity constraint
+- Directory discriminant pattern
+- Structural bootstrapping pattern
 
 ---
 

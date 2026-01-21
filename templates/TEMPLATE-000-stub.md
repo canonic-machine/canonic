@@ -5,6 +5,16 @@
 
 ---
 
+## 0. TLDR (Results)
+
+**Result:** <State the closure outcome in one sentence.>
+
+- **Validity:** <State what is valid/invalid.>
+- **Scope:** <State what is closed and what it governs.>
+- **Delta:** <State what changed to reach closure.>
+
+---
+
 ## 1. Purpose
 
 <State the purpose of this scope.>
@@ -55,6 +65,12 @@ The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY** ar
 ```
 VALIDITY = triad(scope) ∧ inheritance(scope) ∧ introspection(scope)
 ```
+
+---
+
+## 7. Lifecycle
+
+<State the lifecycle phases for this scope. Use atomic checklist items.>
 
 ---
 

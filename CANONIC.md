@@ -104,7 +104,7 @@ CANONIC is a formal language. Validators are predicates. Composition is conjunct
 ```
 Atomic:       script.py : Scope → {0, 1}
 Orchestrator: axiom.py  = atomic₁ ∧ atomic₂ ∧ ... ∧ atomicₙ
-VALIDATORaaS:         vaas.py   = triad.py ∧ inheritance.py ∧ introspection.py
+VALIDATORaaS:         validator_as_a_service.py   = triad.py ∧ inheritance.py ∧ introspection.py
 ```
 
 Exit code 0 = true (PASS). Exit code non-zero = false (FAIL).
@@ -146,7 +146,7 @@ VALIDATORaaS    = Runtime (execution)
 ```
 
 ```bash
-python vaas.py <canonbase>
+python validator_as_a_service.py <canonbase>
 ```
 
 Returns VALIDITY: PASS or VALIDITY: FAIL.
@@ -216,7 +216,7 @@ The complete governance stack:
 │  transcript/  ─── TRANSCRIPT (episode records)              │
 │  paper/       ─── PAPER (manuscript production)             │
 │  publishing/  ─── PUBLISHING (release management)           │
-│  patents/     ─── PATENTS (IP production)                   │
+│  patents/     ─── PATENTS (separate scope)                  │
 └─────────────────────────────────────────────────────────────┘
                           │
                           ▼

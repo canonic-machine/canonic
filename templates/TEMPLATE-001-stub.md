@@ -57,7 +57,7 @@ Assumed flat: all ledgers are siblings at CANONBASE root
 <!-- Optional section for cross-references -->
 
 - <Related episodes>
-- <Related IDFs>
+- <Related records>
 - <Related scopes>
 
 ---

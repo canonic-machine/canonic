@@ -1,12 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
-# CANONIC Pre-Push Gate
+# CANONIC Pre-Push Gate (stack-aware)
 #
 # Git blocks push until:
-#   1. CANONIC validators pass (triad, inheritance, introspection, language)
-#   2. Remote secrets are configured (if GITHUB_TOKEN set)
-#
-# This hook is automatically enabled by CANONIC.
+#   1. LEDGER immutability holds
+#   2. CANONIC validators pass (when available)
+#   3. Remote secrets are configured (if GITHUB_TOKEN set)
 #
 
 set -e
@@ -24,17 +23,12 @@ echo "=== CANONIC Pre-Push Gate ==="
 REMOTE_NAME="$1"
 REMOTE_URL="$2"
 
-# Read stdin for ref information
-while read local_ref local_sha remote_ref remote_sha; do
-    # Skip if this is a new branch (no remote_sha to compare)
+while read -r local_ref local_sha remote_ref remote_sha; do
     if [ "$remote_sha" = "0000000000000000000000000000000000000000" ]; then
         continue
     fi
 
-    # Check if local_sha is a descendant of remote_sha
-    # If not, this is a force-push (history rewrite)
     if ! git merge-base --is-ancestor "$remote_sha" "$local_sha" 2>/dev/null; then
-        # Check if pushing to protected branches
         case "$remote_ref" in
             refs/heads/main|refs/heads/master)
                 echo ""
@@ -61,7 +55,6 @@ while read local_ref local_sha remote_ref remote_sha; do
                 echo "  git push --force"
                 echo ""
 
-                # Emergency escape hatch for devs (requires explicit env var)
                 if [ "$CANONIC_ALLOW_REWRITE" = "1" ]; then
                     echo "WARNING: CANONIC_ALLOW_REWRITE=1 detected."
                     echo "Allowing force-push. This action is logged."
@@ -72,100 +65,114 @@ while read local_ref local_sha remote_ref remote_sha; do
                 fi
                 ;;
             *)
-                # Feature branches can be force-pushed
                 echo "Note: Force-push to feature branch $remote_ref (allowed)"
                 ;;
         esac
     fi
 done
 
-# Find validators directory (relative to this repo or in parent Canonic dir)
-REPO_ROOT=$(git rev-parse --show-toplevel)
-VALIDATORS_DIR=""
+# =============================================================================
+# CANONIC VALIDATORS
+# =============================================================================
 
-# Check common locations for validators
-if [ -d "$REPO_ROOT/../validators" ]; then
-    VALIDATORS_DIR="$REPO_ROOT/../validators"
-elif [ -d "$REPO_ROOT/../../validators" ]; then
-    VALIDATORS_DIR="$REPO_ROOT/../../validators"
-elif [ -d "$REPO_ROOT/validators" ]; then
-    VALIDATORS_DIR="$REPO_ROOT/validators"
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+HOOK_DIR="$(git rev-parse --git-path hooks)"
+
+# =============================================================================
+# CANONIC PURITY GUARD (IP DRIFT)
+# =============================================================================
+
+if [ "$(basename "$REPO_ROOT")" = "canonic" ] && [ -f "$REPO_ROOT/VOCAB.md" ]; then
+    if grep -Eq '(IDF-|PA-|EP-|DISCLOSURE-|APPLICATION-|EPISODE-|Invention Disclosure)' "$REPO_ROOT/VOCAB.md"; then
+        echo ""
+        echo "[FAIL] IP drift detected in root VOCAB.md"
+        echo "Move disclosure identifiers to PATENTS."
+        exit 1
+    fi
+    for drift_dir in assets services publishing validators; do
+        if [ -d "$REPO_ROOT/$drift_dir" ]; then
+            echo ""
+            echo "[FAIL] Drift detected: $drift_dir/ belongs outside canonic"
+            exit 1
+        fi
+    done
+    if find "$REPO_ROOT" -type d -name '.archive' -prune | grep -q .; then
+        echo ""
+        echo "[FAIL] Drift detected: .archive directories are forbidden"
+        exit 1
+    fi
 fi
 
-# Run CANONIC validators if found
-if [ -n "$VALIDATORS_DIR" ] && [ -d "$VALIDATORS_DIR/canonic" ]; then
-    echo "Running CANONIC validators..."
-
-    # Check if repo has CANON.md (is a CANONIC scope)
-    if [ -f "$REPO_ROOT/CANON.md" ]; then
-        FAILED=0
-
-        # Triad validator
-        if [ -f "$VALIDATORS_DIR/canonic/triad/triad.py" ]; then
-            echo "  triad..."
-            if ! python3 "$VALIDATORS_DIR/canonic/triad/triad.py" "$REPO_ROOT"; then
-                FAILED=1
-            fi
+find_validators_root() {
+    local search_dir="$REPO_ROOT"
+    while [ "$search_dir" != "/" ]; do
+        if [ -f "$search_dir/canonic/validators/validator_as_a_service.py" ]; then
+            echo "$search_dir/canonic/validators"
+            return 0
         fi
-
-        # Inheritance validator
-        if [ -f "$VALIDATORS_DIR/canonic/inheritance/inheritance.py" ]; then
-            echo "  inheritance..."
-            if ! python3 "$VALIDATORS_DIR/canonic/inheritance/inheritance.py" "$REPO_ROOT"; then
-                FAILED=1
-            fi
+        if [ -f "$search_dir/validators/validator_as_a_service.py" ]; then
+            echo "$search_dir/validators"
+            return 0
         fi
+        search_dir="$(dirname "$search_dir")"
+    done
+    return 1
+}
 
-        # Introspection validator
-        if [ -f "$VALIDATORS_DIR/canonic/introspection/introspection.py" ]; then
-            echo "  introspection..."
-            if ! python3 "$VALIDATORS_DIR/canonic/introspection/introspection.py" "$REPO_ROOT"; then
-                FAILED=1
-            fi
+VALIDATORS_ROOT="${CANONIC_VALIDATORS_ROOT:-$(find_validators_root || true)}"
+
+# Block public validator implementations until PATENTS are filed.
+PUBLIC_VALIDATOR_PATH="validators/validator_as_a_service.py"
+if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+    if git ls-files --error-unmatch "$PUBLIC_VALIDATOR_PATH" >/dev/null 2>&1; then
+        if [ "${CANONIC_ALLOW_PUBLIC_VALIDATORS:-}" != "1" ]; then
+            echo ""
+            echo "[FAIL] Public validator implementation detected: ${PUBLIC_VALIDATOR_PATH}"
+            echo "Push blocked until PATENTS are filed."
+            echo "Remove ${PUBLIC_VALIDATOR_PATH} or set CANONIC_ALLOW_PUBLIC_VALIDATORS=1 to override."
+            exit 1
         fi
+    fi
+fi
 
-        # Language validator
-        if [ -f "$VALIDATORS_DIR/canonic/language.py" ]; then
-            echo "  language..."
-            if ! python3 "$VALIDATORS_DIR/canonic/language.py" "$REPO_ROOT"; then
-                FAILED=1
-            fi
-        fi
-
-        if [ $FAILED -ne 0 ]; then
+if command -v python3 >/dev/null 2>&1; then
+    if [ -n "$VALIDATORS_ROOT" ] && [ -f "$VALIDATORS_ROOT/validator_as_a_service.py" ]; then
+        echo "Running CANONIC validators..."
+        python3 "$VALIDATORS_ROOT/validator_as_a_service.py" "$REPO_ROOT"
+        EXIT_CODE=$?
+        if [ $EXIT_CODE -ne 0 ]; then
             echo ""
             echo "[FAIL] CANONIC validation failed"
             echo "Push blocked. Fix violations before pushing."
             exit 1
         fi
-
         echo "CANONIC validators: PASS"
     else
-        echo "No CANON.md found, skipping CANONIC validation"
+        echo "Warning: validators not found, skipping CANONIC validation"
     fi
 else
-    echo "Warning: validators not found, skipping CANONIC validation"
+    echo "Warning: python3 not found, skipping CANONIC validation"
 fi
 
-# Get the remote being pushed to
+# =============================================================================
+# REMOTE SECRETS CHECK (OPTIONAL)
+# =============================================================================
+
 REMOTE="$1"
 REMOTE_URL=$(git remote get-url "$REMOTE" 2>/dev/null || echo "")
 
-# Extract owner/repo from GitHub URL
 if [[ "$REMOTE_URL" =~ github\.com[:/]([^/]+)/([^/.]+) ]]; then
     OWNER="${BASH_REMATCH[1]}"
     REPO="${BASH_REMATCH[2]}"
 
     echo "Remote: $OWNER/$REPO"
 
-    # Check if required secrets exist via GitHub API
-    # This requires GITHUB_TOKEN to be set
     if [ -n "$GITHUB_TOKEN" ]; then
         echo "Checking remote secrets..."
 
         SECRETS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
             "https://api.github.com/repos/$OWNER/$REPO/actions/secrets" | \
-            grep -o '"name":"[^"]*"' | sed 's/"name":"//g' | tr -d '"')
+            grep -o '\"name\":\"[^\"]*\"' | sed 's/\"name\":\"//g' | tr -d '\"')
 
         MISSING=""
         for REQUIRED in GMAIL_USER GMAIL_APP_PASSWORD; do
@@ -190,18 +197,37 @@ if [[ "$REMOTE_URL" =~ github\.com[:/]([^/]+)/([^/.]+) ]]; then
     fi
 fi
 
-# Get list of files being pushed
-FILES=$(git diff --name-only @{push}.. 2>/dev/null || git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+# =============================================================================
+# EMAIL VALIDATION (OPTIONAL)
+# =============================================================================
 
-# Validate EMAIL-*.md files
-EMAIL_FILES=$(echo "$FILES" | grep 'EMAIL-.*\.md$' || true)
+EMAIL_VALIDATOR=""
+if [ -n "$VALIDATORS_ROOT" ] && [ -f "$VALIDATORS_ROOT/email/validate.py" ]; then
+    EMAIL_VALIDATOR="$VALIDATORS_ROOT/email/validate.py"
+elif [ -f "$REPO_ROOT/validators/email/validate.py" ]; then
+    EMAIL_VALIDATOR="$REPO_ROOT/validators/email/validate.py"
+fi
+
+FILES=$(git diff --name-only @{push}.. 2>/dev/null || git diff --name-only HEAD~1 HEAD 2>/dev/null || echo "")
+EMAIL_FILES=$(echo "$FILES" | grep 'EMAIL-.*\\.md$' || true)
+
 if [ -n "$EMAIL_FILES" ]; then
-    echo "Validating email files..."
-    for file in $EMAIL_FILES; do
-        if [ -f "$file" ]; then
-            python3 validators/email/validate.py "$file"
-        fi
-    done
+    if [ -n "$EMAIL_VALIDATOR" ]; then
+        echo "Validating email files..."
+        for file in $EMAIL_FILES; do
+            if [ -f "$file" ]; then
+                python3 "$EMAIL_VALIDATOR" "$file"
+            fi
+        done
+    else
+        echo "Warning: email validator not found, skipping email checks"
+    fi
+fi
+
+# Chain any local hook if present
+LOCAL_HOOK="$HOOK_DIR/pre-push.local"
+if [ -x "$LOCAL_HOOK" ]; then
+    "$LOCAL_HOOK"
 fi
 
 echo "=== Gate PASSED ==="

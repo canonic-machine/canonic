@@ -41,10 +41,12 @@ TEMPLATES provides structural bootstrapping for new scopes. Templates canonify d
 - `CANON.md`
 - `VOCAB.md`
 - `TEMPLATES.md` (SPEC)
-- `te-000-spec-template.md`
-- `te-001-canon-template.md`
-- `te-002-vocab-template.md`
-- `te-003-readme-template.md`
+- `TEMPLATE-000-stub.md`
+- `TEMPLATE-001-stub.md`
+- `TEMPLATE-002-stub.md`
+- `TEMPLATE-003-stub.md`
+- `TEMPLATE-004-stub.md`
+- `TEMPLATE-005-stub.md`
 
 ---
 

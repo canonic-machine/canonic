@@ -44,14 +44,16 @@ They do not define governance, enforcement, execution semantics, or interpretati
 
 ## 5. Template Ordering
 
-Templates are numbered to reflect **closure precedence**:
+Templates are indexed as `TEMPLATE-###-stub.md` to reflect **closure precedence**:
 
 | Template | Artifact | Role |
 |----------|----------|------|
-| TE-000 | SPEC | Closure — closes governance chain, defines scope boundary |
-| TE-001 | CANON | Governance — defines axioms and validity |
-| TE-002 | VOCAB | Semantics — defines content concepts |
-| TE-003 | README | Description — non-normative documentation |
+| TEMPLATE-000 | SPEC | Closure — closes governance chain, defines scope boundary |
+| TEMPLATE-001 | CANON | Governance — defines axioms and validity |
+| TEMPLATE-002 | VOCAB | Semantics — defines content concepts |
+| TEMPLATE-003 | README | Description — non-normative documentation |
+| TEMPLATE-004 | COVERAGE | Closure tracking — external completeness (optional) |
+| TEMPLATE-005 | ROADMAP | Planning — gap closure plan (optional) |
 
 ### Rationale
 
@@ -66,16 +68,21 @@ The ordering reflects authority:
 2. **CANON** governs VOCAB (governance)
 3. **VOCAB** defines README terms (semantics)
 4. **README** describes the scope (documentation)
+5. **COVERAGE** tracks external completeness (optional)
+6. **ROADMAP** plans gap closure (optional)
 
 ---
 
 ## 6. Constraints
 
 - Templates **MUST** exist for the following artifacts:
-  - `SPEC.md` (TE-000)
-  - `CANON.md` (TE-001)
-  - `VOCAB.md` (TE-002)
-  - `README.md` (TE-003)
+  - `SPEC.md` (TEMPLATE-000)
+  - `CANON.md` (TEMPLATE-001)
+  - `VOCAB.md` (TEMPLATE-002)
+  - `README.md` (TEMPLATE-003)
+- Templates **SHOULD** exist for the following artifacts:
+  - `COVERAGE.md` (TEMPLATE-004)
+  - `ROADMAP.md` (TEMPLATE-005)
 
 - Templates **MUST** be placeholder-only.
 - Templates **MUST NOT** introduce scope-specific governance or behavior.
@@ -87,7 +94,7 @@ The ordering reflects authority:
 
 A TEMPLATES scope is valid if and only if:
 
-- templates exist for SPEC, CANON, VOCAB, and README (TE-000–TE-003), and
+- templates exist for SPEC, CANON, VOCAB, and README (TEMPLATE-000–TEMPLATE-003), and
 - templates contain no enforceable governance or executable behavior.
 
 ---
