@@ -11,10 +11,17 @@ REPO_ROOT="$(git rev-parse --show-toplevel)"
 find_validators_root() {
     local search_dir="$REPO_ROOT"
     while [ "$search_dir" != "/" ]; do
+        # Check for validators/canonic/ structure (CANONBASE layout)
+        if [ -f "$search_dir/validators/canonic/validator_as_a_service.py" ]; then
+            echo "$search_dir/validators/canonic"
+            return 0
+        fi
+        # Check for canonic/validators/ structure (nested layout)
         if [ -f "$search_dir/canonic/validators/validator_as_a_service.py" ]; then
             echo "$search_dir/canonic/validators"
             return 0
         fi
+        # Check for validators/ directly (flat layout)
         if [ -f "$search_dir/validators/validator_as_a_service.py" ]; then
             echo "$search_dir/validators"
             return 0
