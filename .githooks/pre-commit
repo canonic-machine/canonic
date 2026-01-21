@@ -49,7 +49,7 @@ if [ "$(basename "$REPO_ROOT")" = "canonic" ] && [ -f "$REPO_ROOT/VOCAB.md" ]; t
     fi
 fi
 if [ "$(basename "$REPO_ROOT")" = "canonic" ]; then
-    for drift_dir in assets services publishing validators; do
+    for drift_dir in assets services publishing validators plans; do
         if [ -d "$REPO_ROOT/$drift_dir" ]; then
             echo ""
             echo "[FAIL] Drift detected: $drift_dir/ belongs outside canonic"
