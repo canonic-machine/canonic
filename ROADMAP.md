@@ -20,7 +20,7 @@
 
 ## 2. External Integration Roadmap
 
-### v0.3 (Current)
+### v0.3 (Complete)
 
 - [x] Root triad complete (CANON, VOCAB, README)
 - [x] SPEC complete (CANONIC.md)
@@ -28,11 +28,11 @@
 - [x] External closure (ROADMAP.md)
 - [x] ENTERPRISE compliance achieved
 
-### v0.4 (Next)
+### v0.4 (Current)
 
-- [ ] Validators wired to GitHub Actions
-- [ ] APPSTORE distribution live
-- [ ] Pre-commit hooks operational
+- [x] Validators wired to GitHub Actions
+- [x] APPSTORE distribution live
+- [x] Pre-commit hooks operational
 
 ### v1.0 (Stable)
 
@@ -71,7 +71,8 @@ CANONIC is unique in combining governance axioms, inheritance chains, and vocabu
 | Criterion | Target | Status |
 |-----------|--------|--------|
 | Root ENTERPRISE compliance | v0.3 | ✓ Complete |
-| GitHub Action validators | v0.4 | Planned |
+| GitHub Action validators | v0.4 | ✓ Complete |
+| Pre-commit hooks operational | v0.4 | ✓ Complete |
 | Paper publication | v1.0 | Planned |
 | 10+ governed scopes | v1.0 | In progress |
 
@@ -81,6 +82,6 @@ CANONIC is unique in combining governance axioms, inheritance chains, and vocabu
 
 CANONIC root external closure is **on track**.
 
-Current version (v0.3) achieves ENTERPRISE compliance. Next milestones focus on validator distribution and paper publication.
+Current version (v0.4) achieves validator distribution. GitHub Actions workflows operational, pre-commit hooks configured across 18 repos. Next milestone: v1.0 stable release with paper publication.
 
 ---
