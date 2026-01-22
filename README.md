@@ -1,4 +1,4 @@
-# CANONIC
+# CANONIC (/)
 
 The constitutional foundation of the CANONIC paradigm.
 
@@ -8,48 +8,48 @@ The constitutional foundation of the CANONIC paradigm.
 
 Define the minimal structural and semantic laws that govern all downstream scopes.
 
----
-
-## Axioms
-
-| # | Name | Constraint |
-|---|------|------------|
-| 0 | Triad | Scope MUST contain: `CANON.md`, `VOCAB.md`, `README.md` |
-| 1 | Inheritance | Every `CANON.md` MUST declare `inherits:`. Terminates at `/` |
-| 2 | Introspection | `VOCAB.md` MUST define every concept used by CANON and VOCAB |
+CANONIC establishes the root governance layer from which all other scopes inherit.
 
 ---
 
-## Validation
+## Scope
+
+### In Scope
+
+- Triad definition (CANON, VOCAB, README)
+- Inheritance chain termination
+- Introspection requirement
+- Compliance tier definitions
+
+### Out of Scope
+
+- Enforcement mechanics (see MACHINE)
+- Execution semantics (see OS)
+- Ledger operations (see LEDGER)
+- Validator implementation (see VALIDATORS)
+
+---
+
+## Quickstart
 
 ```bash
-python validator_as_a_service.py /path/to/scope
-```
+# Validate a scope
+python validators/vaas.py /path/to/scope
 
-Returns `VALIDITY: PASS` or `VALIDITY: FAIL`.
+# Check triad exists
+ls CANON.md VOCAB.md README.md
 
----
-
-## Structure
-
-```
-canonic/
-├── CANON.md          # Normative governance (3 axioms)
-├── VOCAB.md          # Term definitions
-├── README.md         # This file
-├── CANONIC.md        # Paradigm specification (non-normative)
-├── COVERAGE.md       # External standard coverage
-├── ROADMAP.md        # Development roadmap
-├── .github/          # GitHub integration
-├── .githooks/        # Git hooks (pre-commit validation)
-└── plans/            # Planning documents
+# Check inheritance
+grep "inherits:" CANON.md
 ```
 
 ---
 
-## Governance
+## References
 
-This scope is the root. All other scopes inherit from `/`.
+- [CANON.md](CANON.md) — Normative governance (3 axioms)
+- [VOCAB.md](VOCAB.md) — Term definitions
+- [LANGUAGE](../language/LANGUAGE.md) — Full language specification
 
 ---
 

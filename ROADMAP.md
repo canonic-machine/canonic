@@ -1,96 +1,86 @@
-# CANONIC ROADMAP
+# ROADMAP (/)
 
-**Status:** CANONICAL
-**Created:** 2026-01-18
+**Purpose:** Track external integration milestones and strategic closure.
 
----
-
-## 1. Vision
-
-3 repos. Clean layers. Independent. Interoperable.
+**Data Source:** Internal governance requirements
 
 ---
 
-## 2. Multi-Repo Stack
+## 1. External Reference Survey
 
-```
-canonic-domains/     (inherits: canonic-services/)
-    ↑ instantiates
-canonic-services/    (inherits: canonic/)
-    ↑ implements
-canonic/             (OS: 5 axioms)
-```
-
----
-
-## 3. Repos
-
-| Repo | Layer | Inherits |
-|------|-------|----------|
-| `canonic/` | OS | / (self) |
-| `canonic-services/` | Services | canonic/ |
-| `canonic-domains/` | Domains | canonic-services/ |
+| External System | Integration Point | Priority |
+|-----------------|-------------------|----------|
+| GitHub | APPSTORE distribution | P0 |
+| Git | LEDGER storage | P0 |
+| LLM | Execution layer | P0 |
+| arXiv | Paper publication | P1 |
+| USPTO | Patent filing | P1 |
 
 ---
 
-## 4. OS Layer (canonic/)
+## 2. External Integration Roadmap
 
-| Axiom | Name | Mathematical Statement |
-|-------|------|------------------------|
-| 0 | Triad | ∃{CANON.md, VOCAB.md, README.md} ∈ s |
-| 1 | Inheritance | I(s,p) ∧ terminates(/) |
-| 2 | Introspection | ∀c ∈ concepts(s): defined(VOCAB, c) |
-| 3 | Cascade | change → VALIDATORaaS → Downstream → Closure |
-| 4 | Closure | ∃{SCOPE}.md closes CANON(s) |
+### v0.3 (Current)
 
-**Status:** CLOSED
+- [x] Root triad complete (CANON, VOCAB, README)
+- [x] SPEC complete (CANONIC.md)
+- [x] Internal closure (COVERAGE.md)
+- [x] External closure (ROADMAP.md)
+- [x] ENTERPRISE compliance achieved
 
----
+### v0.4 (Next)
 
-## 5. Services Layer (canonic-services/)
+- [ ] Validators wired to GitHub Actions
+- [ ] APPSTORE distribution live
+- [ ] Pre-commit hooks operational
 
-| Service | Function | Status |
-|---------|----------|--------|
-| VALIDATORaaS | Validation | CLOSED |
-| TaaS | Transcript | CLOSED |
-| TOKEN | Reputation | CLOSED |
-| COIN | Currency | CLOSED |
-| CHAT | Interface | CLOSED |
+### v1.0 (Stable)
 
-**Status:** CLOSED
+- [ ] All scopes validated automatically
+- [ ] Multi-repo stack operational
+- [ ] Paper v1.0 published
 
 ---
 
-## 6. Domains Layer (canonic-domains/)
+## 3. Competitive Analysis
 
-| Domain | Sector | Status |
-|--------|--------|--------|
-| MED | Healthcare | DEFINED |
-| LAW | Legal | DEFINED |
-| GRANTS | Research | DEFINED |
-| FIN | Finance | DEFINED |
-| EDU | Education | DEFINED |
-| GOV | Government | DEFINED |
-| MIL | Military | DEFINED |
+| System | Governance | Inheritance | Validation | CANONIC Advantage |
+|--------|------------|-------------|------------|-------------------|
+| OpenAPI | Schema | No | External | Constitutional hierarchy |
+| JSON Schema | Structure | $ref | External | Introspection closure |
+| Terraform | State | Modules | Plan/Apply | Git-native ledger |
+| Kubernetes | Declarative | No | Controllers | Human-governed axioms |
 
-**Status:** OPEN
+CANONIC is unique in combining governance axioms, inheritance chains, and vocabulary closure in a Git-native system.
 
 ---
 
-## 7. Success Criteria
+## 4. Risks & Mitigation
 
-- [x] 3 repos created
-- [x] Inheritance chain complete
-- [x] All scopes have triad + closure
-- [x] All axioms provable
-- [x] All services composable
-- [x] All domains instantiable
+| Risk | Impact | Mitigation |
+|------|--------|------------|
+| Validator complexity | High | Atomic validators, formal predicates |
+| Adoption friction | Medium | Templates, onboarding docs |
+| Scope creep | Medium | Frozen root axioms |
+| Multi-repo coordination | Medium | Stack composition rules |
 
 ---
 
-**Status:** CLOSED
-**Closed:** 2026-01-18
+## 5. Success Criteria
 
-**This roadmap closes CANONIC.**
+| Criterion | Target | Status |
+|-----------|--------|--------|
+| Root ENTERPRISE compliance | v0.3 | ✓ Complete |
+| GitHub Action validators | v0.4 | Planned |
+| Paper publication | v1.0 | Planned |
+| 10+ governed scopes | v1.0 | In progress |
+
+---
+
+## 6. Conclusion
+
+CANONIC root external closure is **on track**.
+
+Current version (v0.3) achieves ENTERPRISE compliance. Next milestones focus on validator distribution and paper publication.
 
 ---
