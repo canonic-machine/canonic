@@ -27,29 +27,83 @@ CANONIC establishes the minimal structural and semantic laws that govern all dow
 
 ---
 
-## 2. Governance Path
+## 2. CANONBASE Architecture
+
+The CANONBASE defines allowed scope placement. Scopes **MUST NOT** exist outside declared paths.
 
 ```
-/ (ROOT - this scope)
-├── inherits: / (self-terminating)
-│
-├──► /language/     ─── LANGUAGE specification
-├──► /machine/      ─── Execution semantics
-├──► /os/           ─── Operational rules
-├──► /ledger/       ─── Immutable record
-├──► /validators/   ─── Enforcement implementation
-├──► /stack/        ─── Multi-repo composition
-│
-├──► /writing/      ─── Epistemic production
-├──► /paper/        ─── Manuscript production
-├──► /transcript/   ─── Episode records
-│
-└──► [domains]      ─── Application instances
-     ├── /companies/
-     ├── /grants/
-     ├── /patents/
-     └── /mammochat/
+╔═══════════════════════════════════════════════════════════════╗
+║ LAYER 1: GOVERNANCE (Constitutional Core)                     ║
+║  /               ─── Root scope (this)                        ║
+║  /templates/     ─── Template patterns                        ║
+╚═══════════════════════════════════════════════════════════════╝
+                           │
+                           ▼
+╔═══════════════════════════════════════════════════════════════╗
+║ LAYER 2: LANGUAGE (Formal Specification)                      ║
+║  /language/      ─── LANGUAGE specification                   ║
+╚═══════════════════════════════════════════════════════════════╝
+                           │
+                           ▼
+╔═══════════════════════════════════════════════════════════════╗
+║ LAYER 3: MACHINE (Execution Semantics)                        ║
+║  /machine/       ─── MACHINE (Authority, Eval, Decision)      ║
+║  /machine/os/    ─── OS (operational rules)                   ║
+╚═══════════════════════════════════════════════════════════════╝
+                           │
+                           ▼
+╔═══════════════════════════════════════════════════════════════╗
+║ LAYER 4: OPERATIONAL (Infrastructure)                         ║
+║  /ledger/        ─── LEDGER (Git = immutable record)          ║
+║  /validators/    ─── VALIDATORS (VaaS enforcement)            ║
+║  /stack/         ─── STACK (multi-repo composition)           ║
+║  /.github/       ─── APPSTORE (infra only, NO SCOPE)          ║
+╚═══════════════════════════════════════════════════════════════╝
+                           │
+                           ▼
+╔═══════════════════════════════════════════════════════════════╗
+║ LAYER 5: PRODUCTION (Artifact Generation)                     ║
+║  /writing/       ─── WRITING (epistemic layer)                ║
+║  /paper/         ─── PAPER (manuscript production)            ║
+║  /transcript/    ─── TRANSCRIPT (episode records)             ║
+║  /publishing/    ─── PUBLISHING (release management)          ║
+║  /patents/       ─── PATENTS (IP production)                  ║
+╚═══════════════════════════════════════════════════════════════╝
+                           │
+                           ▼
+╔═══════════════════════════════════════════════════════════════╗
+║ LAYER 6: DOMAIN (Application Instances)                       ║
+║  /companies/     ─── Business domain                          ║
+║  /grants/        ─── Funding domain                           ║
+║  /mammochat/     ─── Product domain                           ║
+╚═══════════════════════════════════════════════════════════════╝
 ```
+
+### 2.1 Blocked Paths
+
+The following paths **MUST NOT** contain scopes (CANON.md):
+
+| Path | Reason |
+|------|--------|
+| `/.github/` | Platform reserved (APPSTORE infra only) |
+| `/.git/` | Git internals |
+| `/.archive/` | Archived content (immutable) |
+| `/node_modules/` | Dependencies |
+
+### 2.2 Root Artifact Closure
+
+Root scope artifacts are **closed** by compliance level:
+
+| Artifact | Required By |
+|----------|-------------|
+| CANON.md | TRIAD |
+| VOCAB.md | TRIAD |
+| README.md | TRIAD |
+| CANONIC.md | ENTERPRISE (SPEC) |
+| COVERAGE.md | ENTERPRISE |
+| ROADMAP.md | ENTERPRISE |
+
+New artifacts at root **MUST NOT** be added without CANON amendment.
 
 ---
 
