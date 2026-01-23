@@ -46,9 +46,9 @@ RFC 2119 defines keywords. CANONIC defines a complete governance system.
 
 | Axiom | Defined | Validator | Status |
 |-------|---------|-----------|--------|
-| 1. Triad | ✓ | /validators/triad/ | Active |
-| 2. Inheritance | ✓ | /validators/inheritance/ | Active |
-| 3. Introspection | ✓ | /validators/introspection/ | Active |
+| 1. Triad | ✓ | /APPSTORE/validators/triad/ | Active |
+| 2. Inheritance | ✓ | /APPSTORE/validators/inheritance/ | Active |
+| 3. Introspection | ✓ | /APPSTORE/validators/introspection/ | Active |
 
 ---
 
